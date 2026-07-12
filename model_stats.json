@@ -1,0 +1,111 @@
+{
+  "n_raw": 1074,
+  "n_model": 1060,
+  "n_excluded": 14,
+  "n_unknown_funding": 12,
+  "n_zero_funding": 1,
+  "n_neg_years": 1,
+  "n_train": 848,
+  "n_test": 212,
+  "n_industries": 15,
+  "results": {
+    "Baseline (mean)": {
+      "cv_r2_mean": -0.005698340597389784,
+      "cv_r2_std": 0.007367582148369297,
+      "test_r2": -0.0010391780478433699,
+      "test_mae_ln": 0.6244372133238275,
+      "test_rmse_ln": 0.7750899840773753,
+      "median_ape_pct": 77.09229435822603,
+      "best_params": {}
+    },
+    "Linear (OLS)": {
+      "cv_r2_mean": 0.3597397297770583,
+      "cv_r2_std": 0.040462850390407916,
+      "test_r2": 0.44962172272756906,
+      "test_mae_ln": 0.4545776567664032,
+      "test_rmse_ln": 0.5747212161289191,
+      "median_ape_pct": 38.50516313043727,
+      "best_params": {}
+    },
+    "Ridge": {
+      "cv_r2_mean": 0.37372486861050824,
+      "cv_r2_std": 0.02402490589812766,
+      "test_r2": 0.45489677150725594,
+      "test_mae_ln": 0.45428508692644703,
+      "test_rmse_ln": 0.5719604043240253,
+      "median_ape_pct": 39.80780930915556,
+      "best_params": {
+        "alpha": 30
+      }
+    },
+    "Lasso": {
+      "cv_r2_mean": 0.3755440074904125,
+      "cv_r2_std": 0.028772680188210747,
+      "test_r2": 0.45331411944980093,
+      "test_mae_ln": 0.45398815748418864,
+      "test_rmse_ln": 0.5727901170884896,
+      "median_ape_pct": 39.607893172568154,
+      "best_params": {
+        "alpha": 0.005
+      }
+    },
+    "KNN": {
+      "cv_r2_mean": 0.4050523530757708,
+      "cv_r2_std": 0.04708998662349345,
+      "test_r2": 0.47475597145188797,
+      "test_mae_ln": 0.4582369494684294,
+      "test_rmse_ln": 0.5614449103623753,
+      "median_ape_pct": 40.478722175283664,
+      "best_params": {
+        "n_neighbors": 25,
+        "weights": "uniform"
+      }
+    },
+    "Random Forest": {
+      "cv_r2_mean": 0.441071658572434,
+      "cv_r2_std": 0.05660318212038278,
+      "test_r2": 0.4914003045568026,
+      "test_mae_ln": 0.4414104955885795,
+      "test_rmse_ln": 0.5524775502076351,
+      "median_ape_pct": 35.1715304777521,
+      "best_params": {
+        "max_depth": 4,
+        "min_samples_leaf": 2,
+        "n_estimators": 600
+      }
+    },
+    "Gradient Boosting": {
+      "cv_r2_mean": 0.45781531834567063,
+      "cv_r2_std": 0.05178272123642882,
+      "test_r2": 0.5102686185749034,
+      "test_mae_ln": 0.43708899804771584,
+      "test_rmse_ln": 0.5421326386073481,
+      "median_ape_pct": 37.431039443511324,
+      "best_params": {
+        "learning_rate": 0.03,
+        "max_depth": 2,
+        "n_estimators": 200,
+        "subsample": 0.8
+      }
+    }
+  },
+  "champion": "Gradient Boosting",
+  "boot_ci": [
+    0.3865492075239942,
+    0.6149638848142016
+  ],
+  "sensitivity": {
+    "Excluding 2021 cohort": 0.5083470075321209,
+    "Winsorized valuations": 0.5096855275513043,
+    "Full sample": 0.5102686185749034
+  },
+  "elasticity_ln_funding": 0.5676770305281041,
+  "perm_importance": {
+    "ln_Funding": 1.1614302107928756,
+    "Years_to_Unicorn": -0.0029192295491428802,
+    "Investor_Count": 0.0017329298665051914,
+    "Industry": 0.05640865537159886,
+    "Continent": 0.048767186474201835,
+    "Era": 0.0056426462138184285
+  }
+}
