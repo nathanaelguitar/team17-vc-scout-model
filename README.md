@@ -50,6 +50,27 @@ python model_pipeline.py
 
 Deterministic (seed 17). Regenerates all charts in `charts/` and `model_stats.json`. Runtime is a couple of minutes on a laptop.
 
+## Expanded dataset (75,230 companies)
+
+`data/expanded/startup_master.csv` widens the sample from 1,074 unicorns to 75,230 companies so unicorns can be compared against soonicorns and funded non-unicorn control groups. Built by `build_expanded_dataset.py` from the committed snapshots in `data/raw/` (refresh them with `fetch_raw_data.sh`).
+
+| Tier | Rows | What it is |
+|---|---|---|
+| `unicorn_current` | 1,400 | On the CB Insights live unicorn list, July 2026 valuations (includes 2023-2026 entrants missing from our 2022 file) |
+| `unicorn_exited` | 207 | Former unicorns with exit outcome, date, and exit valuation (IPO / acquired / closed), from Wikipedia (CC BY-SA) |
+| `unicorn_delisted` | 223 | In our 2022 snapshot but no longer listed and no recorded exit |
+| `soonicorn_proxy` | 908 | Operating non-unicorns with $100M+ total funding (funding as valuation proxy, since private valuations are not public) |
+| `control_funded` | 64,150 | Funded non-unicorn startups from the Crunchbase Dec-2015 open export (CC-BY): funding totals, industry, geography, founded dates, and operating/acquired/IPO/closed status |
+| `control_accelerator` | 8,342 | YC (current, daily-updated), Techstars, and 500 Global portfolio companies with outcome labels but no public funding amounts |
+
+Extras:
+- `data/expanded/unicorn_valuation_panel.csv`: 1,672 unicorns tracked across four valuation snapshots (2022, 2024, 2025-07, 2026-07); 838 companies have all four points. Example: Stripe 95 to 70 to 70 to 159 ($B).
+- `data/expanded/formd_2026q2_raises.csv`: 5,728 US operating-company raises filed with the SEC in Q2 2026 (Form D, public domain), including 238 mega-raises of $100M+ sold, a current-quarter soonicorn signal.
+
+Honest notes: valuations exist only for the unicorn tiers (private non-unicorn valuations are not public anywhere); the big control group's funding and status are as of the Dec-2015 snapshot (no free bulk source is fresher); the soonicorn tier uses funding as a proxy for valuation and is labeled accordingly. Every row comes from a verified real source; several candidate datasets were rejected during sourcing for being synthetic.
+
+**Attribution:** unicorn valuations from CB Insights' public Global Unicorn Club list (2024 / 2025 / 2026 snapshots); former-unicorn outcomes from Wikipedia (CC BY-SA 4.0); control group from the Crunchbase 2015 Data Export (CC-BY, via the notpeter/crunchbase-data mirror); accelerator data from the YC public directory (via yc-oss/api, MIT), Techstars' public portfolio index, and 500 Global's public portfolio API; current raises from SEC EDGAR Form D quarterly data sets (public domain). Academic coursework use.
+
 ## Team 17
 
 Mia Murphy, Finn Kliewer, Kayvon Jafarzadeh, Nathanael Gill, Om Patel

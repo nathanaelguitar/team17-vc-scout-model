@@ -1,0 +1,42 @@
+{
+  "master_rows": 75230,
+  "tier_counts": {
+    "control_funded": 64150,
+    "control_accelerator": 8342,
+    "unicorn_current": 1400,
+    "soonicorn_proxy": 908,
+    "unicorn_delisted": 223,
+    "unicorn_exited": 207
+  },
+  "outcome_counts": {
+    "operating": 58620,
+    "closed": 6869,
+    "acquired": 6023,
+    "unknown": 2055,
+    "ipo": 1654,
+    "exited_other": 9
+  },
+  "rows_with_valuation": 1829,
+  "rows_with_funding": 53519,
+  "panel_rows": 1672,
+  "panel_all4": 838,
+  "live_parse_dropped": 0,
+  "skipped_ragged_lines": {
+    "cbinsights_unicorns_2024.csv": 0,
+    "cbinsights_unicorns_2025-07.csv": 0,
+    "wikipedia_former_unicorns.csv": 1
+  },
+  "spot_checks": {
+    "Anthropic": "unicorn_current | val=965.0 | operating",
+    "OpenAI": "unicorn_current | val=840.0 | operating",
+    "Stripe": "unicorn_current | val=159.0 | operating",
+    "Airbnb": "unicorn_exited | val=31.0 | ipo",
+    "SpaceX": "unicorn_exited | val=1250.0 | ipo",
+    "Stripe panel": {
+      "val_2022": 95.0,
+      "val_2024": 70.0,
+      "val_2025": 70.0,
+      "val_2026": 159.0
+    }
+  }
+}
