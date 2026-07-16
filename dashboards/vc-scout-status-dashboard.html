@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The VC Scout: Capstone Dashboard</title>
+<script>
+  (function(){try{var t=localStorage.getItem('vcs:theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.dataset.theme=t;}catch(e){document.documentElement.dataset.theme='light';}})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.44.0/dist/tabler-icons.min.css">
+<style>
+  :root{
+    --bg:#f6f7fb; --surface:#ffffff; --surface-2:#f0f2f8; --text:#11151f; --muted:#5b6472;
+    --border:#e4e7ef; --accent:#4f46e5; --accent-2:#7c6cf0; --cyan:#06b6d4;
+    --positive:#16a34a; --negative:#e11d48; --warning:#f59e0b;
+    --shadow:0 1px 2px rgba(16,21,31,.05),0 8px 24px rgba(16,21,31,.06);
+    --shadow-lift:0 14px 34px rgba(79,70,229,.16);
+    --font-ui:'Inter',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --space-2:.5rem; --space-3:.75rem; --space-4:1rem; --space-6:1.5rem; --space-8:2rem;
+    --radius:16px; --radius-sm:10px;
+  }
+  [data-theme="dark"]{
+    --bg:#0b0e16; --surface:#141826; --surface-2:#1c2233; --text:#eef1f8; --muted:#97a1b5;
+    --border:#262c3d; --accent:#818cf8; --accent-2:#a78bfa; --cyan:#22d3ee;
+    --positive:#34d399; --negative:#fb7185; --warning:#fbbf24;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.5);
+    --shadow-lift:0 16px 40px rgba(0,0,0,.55);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg); color:var(--text); font-family:var(--font-ui);
+    -webkit-font-smoothing:antialiased; line-height:1.55;
+    transition:background-color .3s ease,color .3s ease;
+  }
+  [data-theme="dark"] body{
+    background:
+      radial-gradient(38rem 38rem at 12% 6%, rgba(99,102,241,.18), transparent 60%),
+      radial-gradient(34rem 34rem at 88% 86%, rgba(34,211,238,.14), transparent 60%),
+      var(--bg);
+    background-attachment:fixed;
+  }
+  .num{font-variant-numeric:tabular-nums;font-feature-settings:'tnum' 1;}
+  .wrap{max-width:1280px;margin:0 auto;padding:0 var(--space-6) var(--space-8);}
+  a{color:var(--accent);}
+
+  .topbar{position:sticky;top:0;z-index:50;
+    background:color-mix(in srgb,var(--surface) 78%,transparent);
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--border);}
+  @supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+    .topbar{background:var(--surface);}
+  }
+  .topbar-in{max-width:1280px;margin:0 auto;padding:.7rem var(--space-6);display:flex;align-items:center;gap:var(--space-3);}
+  .brand{display:flex;align-items:center;gap:.65rem;}
+  .logo{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;color:#fff;font-size:20px;
+    background:linear-gradient(135deg,var(--accent),var(--accent-2));box-shadow:var(--shadow-lift);}
+  .brand .name{font-weight:700;font-size:1.02rem;letter-spacing:-.01em;}
+  .brand .sub{font-size:.72rem;color:var(--muted);}
+  .spacer{flex:1;}
+  .pill{display:inline-flex;align-items:center;gap:.4rem;font-size:.74rem;font-weight:600;
+    padding:.34rem .7rem;border-radius:999px;background:var(--surface-2);color:var(--muted);border:1px solid var(--border);}
+  .pill .dot{width:8px;height:8px;border-radius:50%;background:var(--positive);}
+  .iconbtn{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:11px;cursor:pointer;
+    background:var(--surface-2);border:1px solid var(--border);color:var(--text);font-size:19px;
+    transition:transform .15s ease,border-color .15s ease,background .15s ease;}
+  .iconbtn:hover{transform:translateY(-2px);border-color:var(--accent);}
+
+  .hero{margin-top:var(--space-6);border-radius:var(--radius);padding:2.1rem 2rem;color:#fff;position:relative;overflow:hidden;
+    background:linear-gradient(135deg,var(--accent) 0%,var(--accent-2) 55%,var(--cyan) 130%);box-shadow:var(--shadow-lift);}
+  .hero::after{content:"";position:absolute;inset:0;background:radial-gradient(30rem 18rem at 85% -20%,rgba(255,255,255,.22),transparent 60%);pointer-events:none;}
+  .hero h1{margin:0 0 .5rem;font-size:clamp(1.7rem,1.1rem+2.1vw,2.5rem);font-weight:800;letter-spacing:-.02em;}
+  .hero .thesis{margin:0;max-width:62ch;font-size:1rem;color:rgba(255,255,255,.92);}
+  .chips{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.2rem;}
+  .chip{display:inline-flex;align-items:center;gap:.45rem;font-size:.8rem;font-weight:600;
+    padding:.45rem .8rem;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.26);}
+
+  .sec-head{display:flex;align-items:center;gap:.7rem;margin:2.2rem 0 1.1rem;}
+  .sec-head .ic{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;font-size:18px;
+    background:color-mix(in srgb,var(--accent) 16%,transparent);color:var(--accent);}
+  .sec-head h2{margin:0;font-size:1.22rem;font-weight:700;letter-spacing:-.01em;}
+  .sec-head .ssub{font-size:.82rem;color:var(--muted);margin-top:1px;}
+
+  .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--space-6);}
+  .col-12{grid-column:span 12;}.col-8{grid-column:span 8;}.col-7{grid-column:span 7;}
+  .col-6{grid-column:span 6;}.col-5{grid-column:span 5;}.col-4{grid-column:span 4;}
+  @media(max-width:880px){.col-8,.col-7,.col-6,.col-5,.col-4{grid-column:1/-1;}}
+  .kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:var(--space-6);}
+
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:var(--space-6);
+    box-shadow:var(--shadow);transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease;}
+  .card.hoverable:hover{transform:translateY(-4px);box-shadow:var(--shadow-lift);border-color:var(--accent);}
+  .card h3{margin:0 0 .2rem;font-size:.98rem;font-weight:700;}
+  .card .desc{font-size:.78rem;color:var(--muted);margin:0 0 1rem;}
+
+  .kpi .klabel{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600;}
+  .kpi .kval{font-size:2.05rem;font-weight:700;letter-spacing:-.02em;margin:.35rem 0 .15rem;}
+  .kpi .kval small{font-size:.95rem;color:var(--muted);font-weight:600;}
+  .kpi .kmeta{display:flex;align-items:center;gap:.4rem;font-size:.76rem;color:var(--muted);}
+  .delta{display:inline-flex;align-items:center;gap:.2rem;font-weight:600;}
+  .delta.pos{color:var(--positive);}.delta.neg{color:var(--negative);}
+  .kicon{margin-left:auto;width:34px;height:34px;border-radius:10px;display:grid;place-items:center;font-size:18px;
+    background:color-mix(in srgb,var(--accent) 14%,transparent);color:var(--accent);}
+  .kpi-top{display:flex;align-items:flex-start;}
+
+  .stepper{display:flex;gap:.5rem;}
+  .step{flex:1;text-align:center;position:relative;padding-top:34px;}
+  .step .ball{position:absolute;top:0;left:50%;transform:translateX(-50%);width:26px;height:26px;border-radius:50%;
+    display:grid;place-items:center;font-size:13px;font-weight:700;background:var(--surface-2);color:var(--muted);
+    border:2px solid var(--border);z-index:2;}
+  .step .line{position:absolute;top:13px;left:-50%;width:100%;height:3px;background:var(--border);z-index:1;}
+  .step:first-child .line{display:none;}
+  .step.done .ball{background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#fff;border-color:transparent;}
+  .step.done .line{background:linear-gradient(90deg,var(--accent),var(--accent-2));}
+  .step.active .ball{background:var(--surface);color:var(--accent);border-color:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 22%,transparent);}
+  .step .slabel{font-size:.74rem;font-weight:600;}
+  .step .sstate{font-size:.66rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;}
+
+  .ws{margin:.95rem 0;}
+  .ws .wstop{display:flex;justify-content:space-between;font-size:.84rem;font-weight:600;margin-bottom:.35rem;}
+  .ws .wstop .p{color:var(--muted);}
+  .track{height:9px;background:var(--surface-2);border-radius:999px;overflow:hidden;}
+  .ws-fill{height:9px;width:0;border-radius:999px;background:linear-gradient(90deg,var(--accent),var(--accent-2));transition:width .9s cubic-bezier(.2,.7,.3,1);}
+
+  .risk{display:flex;align-items:center;gap:.6rem;padding:.6rem 0;border-bottom:1px solid var(--border);}
+  .risk:last-child{border-bottom:none;}
+  .risk .rtext{flex:1;font-size:.83rem;}
+  .sev{font-size:.68rem;font-weight:700;color:#fff;padding:.2rem .55rem;border-radius:999px;white-space:nowrap;user-select:none;}
+
+  .team{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:var(--space-4);}
+  .member{display:flex;align-items:center;gap:.7rem;padding:.7rem;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--surface-2);}
+  .avatar{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:700;font-size:.9rem;flex:none;
+    background:linear-gradient(135deg,var(--accent),var(--accent-2));}
+  .member .mn{font-weight:600;font-size:.86rem;}
+  .member .mr{font-size:.74rem;color:var(--muted);}
+
+  .chartbox{width:100%;min-height:320px;}
+  .takeaways li{margin:.5rem 0;font-size:.88rem;}
+
+  .foot{margin-top:var(--space-8);padding-top:var(--space-4);border-top:1px solid var(--border);
+    display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-size:.76rem;color:var(--muted);}
+  .foot .cu{color:var(--accent);font-weight:700;}
+
+  [data-edit]{border-radius:4px;transition:box-shadow .15s ease;}
+  .editmode [data-edit]:hover{box-shadow:inset 0 -2px 0 color-mix(in srgb,var(--accent) 55%,transparent);}
+  .editmode [data-edit]:focus{outline:2px solid var(--accent);outline-offset:2px;}
+  .editmode .step{cursor:pointer;}
+  .editmode .sev{cursor:pointer;}
+  .hint{font-size:.72rem;color:var(--muted);margin:.4rem 0 0;display:none;align-items:center;gap:.35rem;}
+  .editmode .hint{display:flex;}
+
+  @keyframes vcsRise{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  [data-aos]{animation:vcsRise .55s ease-out both;}
+  .hero-stagger{animation:vcsRise .6s ease-out both;}
+  .hero .hero-stagger:nth-child(2){animation-delay:.08s;}
+  .hero .hero-stagger:nth-child(3){animation-delay:.16s;}
+
+  @media print{
+    .topbar,.iconbtn,.no-print{display:none !important;}
+    [data-aos],.hero-stagger{opacity:1 !important;transform:none !important;animation:none !important;}
+    [data-theme]{--bg:#fff;--surface:#fff;--surface-2:#f3f4f8;--text:#11151f;--muted:#444;--border:#ccc;}
+    body{background:#fff !important;}
+    .card{box-shadow:none;break-inside:avoid;page-break-inside:avoid;border:1px solid #ddd;}
+    .hero{box-shadow:none;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    *{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .wrap{max-width:none;}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{transition:none !important;animation:none !important;}
+    .ws-fill{transition:none !important;}
+    [data-aos],.hero-stagger{opacity:1 !important;transform:none !important;}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-in">
+    <div class="brand">
+      <div class="logo"><i class="ti ti-sparkles" aria-hidden="true"></i></div>
+      <div>
+        <div class="name">The VC Scout</div>
+        <div class="sub">Cornell Business Analytics Capstone</div>
+      </div>
+    </div>
+    <div class="spacer"></div>
+    <span class="pill"><span class="dot"></span><span data-edit="status">On track</span></span>
+    <button class="iconbtn no-print" id="printBtn" title="Print or save as PDF" aria-label="Print or save as PDF"><i class="ti ti-printer"></i></button>
+    <button class="iconbtn no-print" id="themeBtn" title="Toggle light and dark" aria-label="Toggle theme"><i class="ti ti-moon" id="themeIcon"></i></button>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="hero">
+    <h1 class="hero-stagger" data-edit="heroTitle">The VC Scout: mapping the unicorn boom</h1>
+    <p class="thesis hero-stagger" data-edit="heroThesis">Using 1,074 unicorns and 3.71 trillion dollars of value to map where a venture fund should hunt for the next billion dollar company.</p>
+    <div class="chips hero-stagger">
+      <span class="chip"><i class="ti ti-building-skyscraper"></i> 1,074 unicorns analyzed</span>
+      <span class="chip"><i class="ti ti-flame"></i> Peak year 2021</span>
+      <span class="chip"><i class="ti ti-bolt"></i> 5.2x median efficiency</span>
+    </div>
+  </div>
+
+  <div class="sec-head">
+    <div class="ic"><i class="ti ti-rocket"></i></div>
+    <div>
+      <h2>Project status</h2>
+      <div class="ssub" data-edit="secAsub">Where the team stands this period</div>
+    </div>
+  </div>
+
+  <div class="card hoverable" data-aos="fade-up" style="margin-bottom:var(--space-6);">
+    <div class="stepper" id="stepper">
+      <div class="step done"><span class="line"></span><span class="ball"><i class="ti ti-check"></i></span><div class="slabel">Charter</div><div class="sstate">Done</div></div>
+      <div class="step active"><span class="line"></span><span class="ball">2</span><div class="slabel">Data cleaning</div><div class="sstate">Active</div></div>
+      <div class="step"><span class="line"></span><span class="ball">3</span><div class="slabel">Analysis</div><div class="sstate">Upcoming</div></div>
+      <div class="step"><span class="line"></span><span class="ball">4</span><div class="slabel">Scoring and network</div><div class="sstate">Upcoming</div></div>
+      <div class="step"><span class="line"></span><span class="ball">5</span><div class="slabel">Build deliverables</div><div class="sstate">Upcoming</div></div>
+      <div class="step"><span class="line"></span><span class="ball">6</span><div class="slabel">Review and submit</div><div class="sstate">Upcoming</div></div>
+    </div>
+  </div>
+
+  <div class="kpi-row" style="margin-bottom:var(--space-6);">
+    <div class="card kpi hoverable" data-aos="fade-up">
+      <div class="kpi-top"><span class="klabel">Overall completion</span><span class="kicon"><i class="ti ti-progress"></i></span></div>
+      <div class="kval num"><span class="kpi-num" data-target="22" data-suffix="%">22%</span></div>
+      <div class="kmeta"><span class="delta pos"><i class="ti ti-arrow-up-right"></i> 8%</span> since last period</div>
+    </div>
+    <div class="card kpi hoverable" data-aos="fade-up" data-aos-delay="60">
+      <div class="kpi-top"><span class="klabel">Milestones hit</span><span class="kicon"><i class="ti ti-flag-check"></i></span></div>
+      <div class="kval num"><span class="kpi-num" data-target="2">2</span> <small>of 10</small></div>
+      <div class="kmeta"><span class="delta pos"><i class="ti ti-arrow-up-right"></i> 2</span> this period</div>
+    </div>
+    <div class="card kpi hoverable" data-aos="fade-up" data-aos-delay="120">
+      <div class="kpi-top"><span class="klabel">Open risks</span><span class="kicon"><i class="ti ti-alert-triangle"></i></span></div>
+      <div class="kval num"><span class="kpi-num" data-target="4">4</span></div>
+      <div class="kmeta">2 medium, 2 low</div>
+    </div>
+    <div class="card kpi hoverable" data-aos="fade-up" data-aos-delay="180">
+      <div class="kpi-top"><span class="klabel">Phases complete</span><span class="kicon"><i class="ti ti-checklist"></i></span></div>
+      <div class="kval num"><span class="kpi-num" data-target="1">1</span> <small>of 6</small></div>
+      <div class="kmeta">Data cleaning underway</div>
+    </div>
+  </div>
+
+  <div class="grid" style="margin-bottom:var(--space-6);">
+    <div class="card hoverable col-8" data-aos="fade-up">
+      <h3>Workstream progress</h3>
+      <p class="desc">Percent complete by workstream, colored by health.</p>
+      <div class="ws"><div class="wstop"><span data-edit="ws1">Data cleaning and enrichment</span><span class="p num">40%</span></div><div class="track"><div class="ws-fill" data-pct="40"></div></div></div>
+      <div class="ws"><div class="wstop"><span data-edit="ws2">Exploratory analysis</span><span class="p num">25%</span></div><div class="track"><div class="ws-fill" data-pct="25"></div></div></div>
+      <div class="ws"><div class="wstop"><span data-edit="ws3">Capital efficiency model</span><span class="p num">10%</span></div><div class="track"><div class="ws-fill" data-pct="10"></div></div></div>
+      <div class="ws"><div class="wstop"><span data-edit="ws4">Geographic analysis</span><span class="p num">20%</span></div><div class="track"><div class="ws-fill" data-pct="20"></div></div></div>
+      <div class="ws"><div class="wstop"><span data-edit="ws5">Investor network</span><span class="p num">5%</span></div><div class="track"><div class="ws-fill" data-pct="5"></div></div></div>
+      <div class="ws"><div class="wstop"><span data-edit="ws6">Deck and report</span><span class="p num">15%</span></div><div class="track"><div class="ws-fill" data-pct="15"></div></div></div>
+    </div>
+    <div class="card hoverable col-4" data-aos="fade-up" data-aos-delay="80">
+      <h3>Top risks</h3>
+      <p class="desc">Click a tag to change severity. Hover for the mitigation.</p>
+      <div class="risk" title="Mitigation: frame findings as relative attractiveness, not probability of success"><span class="rtext" data-edit="r1">Survivorship bias, winners only</span><span class="sev" data-i="1" style="background:var(--warning)">Medium</span></div>
+      <div class="risk" title="Mitigation: analyze with and without the 2021 cohort and report both"><span class="rtext" data-edit="r2">2021 bubble distortion</span><span class="sev" data-i="1" style="background:var(--warning)">Medium</span></div>
+      <div class="risk" title="Mitigation: set minimum count thresholds before flagging white space"><span class="rtext" data-edit="r3">Small sample noise in emerging markets</span><span class="sev" data-i="0" style="background:var(--positive)">Low</span></div>
+      <div class="risk" title="Mitigation: resolve and document every step in the data dictionary"><span class="rtext" data-edit="r4">Data quality gaps</span><span class="sev" data-i="0" style="background:var(--positive)">Low</span></div>
+    </div>
+  </div>
+
+  <div class="card hoverable" data-aos="fade-up" style="margin-bottom:var(--space-6);">
+    <h3>Team and roles</h3>
+    <p class="desc">Suggested assignments. Click any name or role to edit.</p>
+    <div class="team">
+      <div class="member"><div class="avatar">KJ</div><div><div class="mn" data-edit="m1n">Kayvon Jafarzadeh</div><div class="mr" data-edit="m1r">Project manager</div></div></div>
+      <div class="member"><div class="avatar">OP</div><div><div class="mn" data-edit="m2n">Om Patel</div><div class="mr" data-edit="m2r">Data analyst and engineer</div></div></div>
+      <div class="member"><div class="avatar">NG</div><div><div class="mn" data-edit="m3n">Nathanael Gill</div><div class="mr" data-edit="m3r">Domain and research lead</div></div></div>
+      <div class="member"><div class="avatar">MM</div><div><div class="mn" data-edit="m4n">Mia Murphy</div><div class="mr" data-edit="m4r">Visualization and dashboard lead</div></div></div>
+      <div class="member"><div class="avatar">FK</div><div><div class="mn" data-edit="m5n">Finn Kliewer</div><div class="mr" data-edit="m5r">Storytelling and presentation lead</div></div></div>
+    </div>
+  </div>
+
+  <div class="sec-head">
+    <div class="ic"><i class="ti ti-chart-histogram"></i></div>
+    <div>
+      <h2>Unicorn analytics</h2>
+      <div class="ssub" data-edit="secBsub">What the data says about where the next unicorn comes from</div>
+    </div>
+  </div>
+
+  <div class="kpi-row" style="margin-bottom:var(--space-6);">
+    <div class="card kpi hoverable" data-aos="fade-up">
+      <div class="kpi-top"><span class="klabel">Unicorns analyzed</span><span class="kicon"><i class="ti ti-building-skyscraper"></i></span></div>
+      <div class="kval num"><span class="kpi-num" data-target="1074">1,074</span></div>
+      <div class="kmeta">across 47 countries</div>
+    </div>
+    <div class="card kpi hoverable" data-aos="fade-up" data-aos-delay="60">
+      <div class="kpi-top"><span class="klabel">Minted in 2021</span><span class="kicon"><i class="ti ti-flame"></i></span></div>
+      <div class="kval num"><span class="kpi-num" data-target="520">520</span></div>
+      <div class="kmeta">48 percent of all unicorns</div>
+    </div>
+    <div class="card kpi hoverable" data-aos="fade-up" data-aos-delay="120">
+      <div class="kpi-top"><span class="klabel">Combined value</span><span class="kicon"><i class="ti ti-coin"></i></span></div>
+      <div class="kval num"><span class="kpi-num" data-target="3.71" data-decimals="2" data-prefix="$" data-suffix="T">$3.71T</span></div>
+      <div class="kmeta">total private valuation</div>
+    </div>
+    <div class="card kpi hoverable" data-aos="fade-up" data-aos-delay="180">
+      <div class="kpi-top"><span class="klabel">Median efficiency</span><span class="kicon"><i class="ti ti-bolt"></i></span></div>
+      <div class="kval num"><span class="kpi-num" data-target="5.2" data-decimals="1" data-suffix="x">5.2x</span></div>
+      <div class="kmeta">valuation per dollar raised</div>
+    </div>
+  </div>
+
+  <div class="card hoverable col-12" data-aos="fade-up" style="margin-bottom:var(--space-6);" aria-label="Area chart of new unicorns minted per year">
+    <h3>The 2021 boom: new unicorns per year</h3>
+    <p class="desc">One year produced more unicorns than the previous seven combined.</p>
+    <div class="chartbox" id="chartBoom"></div>
+  </div>
+
+  <div class="grid" style="margin-bottom:var(--space-6);">
+    <div class="card hoverable col-7" data-aos="fade-up" aria-label="Capital efficiency leaders">
+      <h3>Capital efficiency leaders</h3>
+      <p class="desc">Valuation created per dollar raised (firms that raised at least 50 million dollars).</p>
+      <div class="chartbox" id="chartEff"></div>
+    </div>
+    <div class="card hoverable col-5" data-aos="fade-up" data-aos-delay="80" aria-label="Geographic split of unicorns">
+      <h3>Geographic split</h3>
+      <p class="desc">Share of unicorns by country. Click a slice to focus it.</p>
+      <div class="chartbox" id="chartGeo"></div>
+    </div>
+  </div>
+
+  <div class="grid" style="margin-bottom:var(--space-6);">
+    <div class="card hoverable col-6" data-aos="fade-up" aria-label="Top industries by unicorn count">
+      <h3>Top industries</h3>
+      <p class="desc">Number of unicorns by industry.</p>
+      <div class="chartbox" id="chartInd"></div>
+    </div>
+    <div class="card hoverable col-6" data-aos="fade-up" data-aos-delay="80" aria-label="Most active investors">
+      <h3>Most active investors</h3>
+      <p class="desc">Unicorns backed by the leading venture firms.</p>
+      <div class="chartbox" id="chartInv"></div>
+    </div>
+  </div>
+
+  <div class="card hoverable" data-aos="fade-up">
+    <h3>Key takeaways</h3>
+    <p class="desc">Editable analyst notes for the deck.</p>
+    <ul class="takeaways" data-edit="takeaways">
+      <li>Capital is concentrated: the United States and China hold 68 percent of all unicorns, so the least crowded opportunities sit in fast rising markets like India, Latin America, and Southeast Asia.</li>
+      <li>Efficiency beats hype: software and fintech turn one dollar of funding into roughly six dollars of valuation, while capital heavy sectors like auto and transportation lag under three.</li>
+      <li>Mind the 2021 bubble: 48 percent of every unicorn was minted in a single year of cheap capital, so we weight recent, durable, capital efficient signals over raw 2021 valuations.</li>
+    </ul>
+  </div>
+
+  <div class="hint no-print"><i class="ti ti-pencil"></i> Tip: click almost any text to edit it, click status tags to change them, and use the print button for a clean PDF. Your edits save in this browser.</div>
+
+  <div class="foot">
+    <span>Prepared by the <span data-edit="footTeam">VC Scout team</span> for <span class="cu">Cornell SC Johnson College of Business</span></span>
+    <span>The VC Scout, sourcing the next generation of unicorns</span>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/apexcharts@5.15.0/dist/apexcharts.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/countup.js@2.10.0/dist/countUp.umd.min.js"></script>
+<script>
+(function(){
+  var reduce = matchMedia('(prefers-reduced-motion:reduce)').matches || /[?&]static=1/.test(location.search);
+  var LIGHT=['#4f46e5','#7c6cf0','#06b6d4','#16a34a','#f59e0b','#e11d48','#0ea5e9','#8b5cf6'];
+  var DARK =['#818cf8','#a78bfa','#22d3ee','#34d399','#fbbf24','#fb7185','#38bdf8','#c4b5fd'];
+  function bits(){var m=document.documentElement.dataset.theme==='dark'?'dark':'light';
+    return {m:m,colors:m==='dark'?DARK:LIGHT,fore:m==='dark'?'#97a1b5':'#5b6472',grid:m==='dark'?'#262c3d':'#e4e7ef'};}
+  var charts=[];
+
+  function buildCharts(){
+    if(!window.ApexCharts) return;
+    var b=bits();
+    var base={chart:{fontFamily:'inherit',foreColor:b.fore,toolbar:{show:false},animations:{enabled:!reduce,speed:900}},
+      grid:{borderColor:b.grid,strokeDashArray:4},tooltip:{theme:b.m}};
+
+    var boom=new ApexCharts(document.getElementById('chartBoom'),Object.assign({},base,{
+      chart:Object.assign({},base.chart,{type:'area',height:330}),
+      series:[{name:'New unicorns',data:[13,35,21,44,103,104,108,520,116]}],
+      xaxis:{categories:['2014','2015','2016','2017','2018','2019','2020','2021','2022'],axisBorder:{show:false},axisTicks:{show:false}},
+      stroke:{curve:'smooth',width:3},colors:[b.colors[0]],dataLabels:{enabled:false},
+      fill:{type:'gradient',gradient:{shadeIntensity:1,opacityFrom:.45,opacityTo:.04,stops:[0,92,100]}},
+      annotations:{xaxis:[{x:'2021',borderColor:b.colors[5],strokeDashArray:4,
+        label:{text:'520 new unicorns, a 4.8x jump',orientation:'horizontal',borderColor:b.colors[5],
+          style:{background:b.colors[5],color:'#fff',fontSize:'11px',fontWeight:600,padding:{left:6,right:6,top:3,bottom:3}}}}]}
+    }));
+    boom.render();charts.push({c:boom,area:true});
+
+    var eff=new ApexCharts(document.getElementById('chartEff'),Object.assign({},base,{
+      chart:Object.assign({},base.chart,{type:'bar',height:330}),
+      series:[{name:'Efficiency',data:[127,76,70,50,48,33]}],
+      xaxis:{categories:['Dunamu','DJI','Canva','SHEIN','Stripe','Grammarly']},
+      plotOptions:{bar:{horizontal:true,distributed:true,borderRadius:6,barHeight:'68%'}},
+      colors:b.colors,legend:{show:false},
+      dataLabels:{enabled:true,formatter:function(v){return v+'x';},style:{fontSize:'11px',fontWeight:700,colors:['#fff']},offsetX:6},
+      tooltip:Object.assign({},base.tooltip,{y:{formatter:function(v){return v+'x valuation per dollar';}}})
+    }));
+    eff.render();charts.push({c:eff});
+
+    var geo=new ApexCharts(document.getElementById('chartGeo'),Object.assign({},base,{
+      chart:Object.assign({},base.chart,{type:'donut',height:330}),
+      series:[52,16,6,4,22],labels:['United States','China','India','United Kingdom','Others'],
+      colors:b.colors,legend:{position:'bottom',fontSize:'12px'},
+      dataLabels:{enabled:true,formatter:function(v){return Math.round(v)+'%';},style:{fontSize:'11px'}},
+      stroke:{width:2,colors:[b.m==='dark'?'#141826':'#ffffff']},
+      plotOptions:{pie:{expandOnClick:true,donut:{size:'66%',labels:{show:true,
+        value:{formatter:function(v){return v+'%';}},
+        total:{show:true,label:'Unicorns',formatter:function(){return '1,074';}}}}}},
+      tooltip:Object.assign({},base.tooltip,{y:{formatter:function(v){return v+'%';}}})
+    }));
+    geo.render();charts.push({c:geo});
+
+    var ind=new ApexCharts(document.getElementById('chartInd'),Object.assign({},base,{
+      chart:Object.assign({},base.chart,{type:'bar',height:330}),
+      series:[{name:'Companies',data:[224,205,111,74,73]}],
+      xaxis:{categories:['Fintech','Internet software','E-commerce','Health','AI'],labels:{rotate:-15,style:{fontSize:'11px'}}},
+      plotOptions:{bar:{distributed:true,borderRadius:6,columnWidth:'56%'}},
+      colors:b.colors,legend:{show:false},dataLabels:{enabled:false}
+    }));
+    ind.render();charts.push({c:ind});
+
+    var inv=new ApexCharts(document.getElementById('chartInv'),Object.assign({},base,{
+      chart:Object.assign({},base.chart,{type:'bar',height:330}),
+      series:[{name:'Unicorns backed',data:[60,53,53,48,47]}],
+      xaxis:{categories:['Accel','Tiger Global','a16z','Sequoia China','Sequoia']},
+      plotOptions:{bar:{horizontal:true,distributed:true,borderRadius:6,barHeight:'62%'}},
+      colors:b.colors,legend:{show:false},
+      dataLabels:{enabled:true,style:{fontSize:'11px',fontWeight:700,colors:['#fff']},offsetX:4}
+    }));
+    inv.render();charts.push({c:inv});
+  }
+
+  function setTheme(m){
+    document.documentElement.dataset.theme=m;
+    try{localStorage.setItem('vcs:theme',m);}catch(e){}
+    var ic=document.getElementById('themeIcon');
+    if(ic) ic.className=(m==='dark'?'ti ti-sun':'ti ti-moon');
+    var b=bits();
+    charts.forEach(function(o){try{o.c.updateOptions({theme:{mode:b.m},colors:o.area?[b.colors[0]]:b.colors,
+      tooltip:{theme:b.m},grid:{borderColor:b.grid},chart:{foreColor:b.fore}},false,false);}catch(e){}});
+  }
+
+  document.getElementById('themeBtn').addEventListener('click',function(){
+    setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+  });
+  document.getElementById('printBtn').addEventListener('click',function(){window.print();});
+
+  var EDIT=/[?&]edit=1/.test(location.search);
+  if(EDIT) document.documentElement.classList.add('editmode');
+  var sev=[['Low','var(--positive)'],['Medium','var(--warning)'],['High','var(--negative)']];
+  if(EDIT){
+    document.querySelectorAll('.sev').forEach(function(el){
+      el.addEventListener('click',function(){var i=(parseInt(el.dataset.i||'0',10)+1)%3;el.dataset.i=i;el.textContent=sev[i][0];el.style.background=sev[i][1];});
+    });
+    document.querySelectorAll('#stepper .step').forEach(function(s){
+      s.addEventListener('click',function(){
+        document.querySelectorAll('#stepper .step').forEach(function(x){x.classList.remove('active');});
+        s.classList.add('active');
+      });
+    });
+    document.querySelectorAll('[data-edit]').forEach(function(el){
+      el.setAttribute('contenteditable','true');el.setAttribute('spellcheck','false');
+      var k='vcs:edit:'+el.dataset.edit;var saved=null;try{saved=localStorage.getItem(k);}catch(e){}
+      if(saved!==null) el.innerHTML=saved;
+      var to;el.addEventListener('input',function(){clearTimeout(to);to=setTimeout(function(){try{localStorage.setItem(k,el.innerHTML);}catch(e){}},400);});
+    });
+  }
+
+  var ioNum=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){
+    var el=e.target,t=parseFloat(el.dataset.target),
+      opt={duration:1.6,separator:',',decimalPlaces:parseInt(el.dataset.decimals||'0',10),prefix:el.dataset.prefix||'',suffix:el.dataset.suffix||''};
+    if(window.countUp&&window.countUp.CountUp){var cu=new countUp.CountUp(el,t,opt);if(!cu.error){cu.start();}else{el.textContent=opt.prefix+t+opt.suffix;}}
+    ioNum.unobserve(el);}});},{threshold:.4});
+  document.querySelectorAll('.kpi-num').forEach(function(el){
+    if(reduce){el.textContent=(el.dataset.prefix||'')+el.dataset.target+(el.dataset.suffix||'');}else{ioNum.observe(el);}});
+
+  var ioBar=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){
+    var f=e.target;requestAnimationFrame(function(){f.style.width=f.dataset.pct+'%';});ioBar.unobserve(f);}});},{threshold:.4});
+  document.querySelectorAll('.ws-fill').forEach(function(f){if(reduce){f.style.width=f.dataset.pct+'%';}else{ioBar.observe(f);}});
+  function fillBars(){document.querySelectorAll('.ws-fill').forEach(function(f){f.style.width=f.dataset.pct+'%';});}
+  window.addEventListener('beforeprint',fillBars);
+  setTimeout(fillBars,2200);
+
+  buildCharts();
+})();
+</script>
+</body>
+</html>

@@ -14,6 +14,7 @@ This repo contains Team 17's "Model Definition and Initial Results" deliverable:
 | `model_stats.json` | Every number in the deck, produced by the pipeline (source of truth) |
 | `charts/` | The five deck charts as transparent PNGs |
 | `data/Unicorn_Companies.csv` | The dataset (1,074 unicorn companies, from the Kaggle "Startup Growth and Investment" dataset) |
+| `dashboards/` | The VC Scout interactive dashboard and the project status dashboard (self-contained HTML; open directly in a browser or serve with `python3 -m http.server`) |
 
 ## The task
 
