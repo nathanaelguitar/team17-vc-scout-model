@@ -24,6 +24,8 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 warnings.filterwarnings("ignore")
+import logging
+logging.getLogger("matplotlib.font_manager").setLevel(logging.ERROR)
 RNG = 17
 import os
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "charts")
