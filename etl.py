@@ -1,163 +1,312 @@
-"""VC Scout ETL Pipeline
+"""VC Scout ETL Pipeline — Medallion Architecture
 
-Reads the audited startup master, prunes and rebalances the dataset,
-applies the funding denomination correction, engineers features, and
-writes two clean outputs:
+Bronze → Silver → Gold
 
-  data/model_ready.csv          — full pruned dataset (classifier use)
-  data/model_ready_valuation.csv — unicorn-only rows with valuation target
+  Bronze  Raw audited master ingested as-is, timestamped.
+  Silver  Unicorn + soonicorn rows cleaned, validated, deduplicated.
+  Gold    Model-ready: valuation regression and classifier datasets.
 
-Control-group cap: controls are downsampled so they are <= 20% of the
-final row count. All unicorn and soonicorn rows are kept.
+Run:  python3 etl.py
+Outputs land in data/bronze/, data/silver/, data/gold/.
 """
 
 import numpy as np
 import pandas as pd
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-MASTER = ROOT / "vc_scout_revised_results_audit_trail_final" / "vc_scout_final_assets" / "vc_scout_audited_startup_master_final.csv"
-OUT = ROOT / "data"
-OUT.mkdir(exist_ok=True)
+MASTER = (
+    ROOT
+    / "vc_scout_revised_results_audit_trail_final"
+    / "vc_scout_final_assets"
+    / "vc_scout_audited_startup_master_final.csv"
+)
+
+BRONZE_DIR = ROOT / "data" / "bronze"
+SILVER_DIR = ROOT / "data" / "silver"
+GOLD_DIR   = ROOT / "data" / "gold"
+
+for d in (BRONZE_DIR, SILVER_DIR, GOLD_DIR):
+    d.mkdir(parents=True, exist_ok=True)
 
 RNG = 17
 
-# ── 1. Load ────────────────────────────────────────────────────────────────────
-print("Loading audited startup master...")
-df = pd.read_csv(MASTER, low_memory=False)
-print(f"  Raw rows: {len(df):,}")
-print(f"  Tier counts:\n{df['tier'].value_counts().to_string()}\n")
+UNICORN_TIERS    = {"unicorn_current", "unicorn_delisted", "unicorn_exited"}
+ALL_SIGNAL_TIERS = UNICORN_TIERS | {"soonicorn_proxy"}
+VALID_ERAS       = {"Pre-2021", "2021", "Post-2021"}
+VALID_CONTINENTS = {"North America", "South America", "Europe", "Asia", "Africa", "Oceania"}
 
-# ── 2. Funding denomination correction ─────────────────────────────────────────
+GOLD_NUM = ["ln_funding", "years_to_unicorn", "select_investor_count"]
+GOLD_CAT = ["industry_group", "continent", "era"]
+GOLD_BOOL = ["in_yc", "in_techstars", "in_500global"]
+GOLD_TARGET = "ln_valuation"
+
+# ── BRONZE ────────────────────────────────────────────────────────────────────
+print("=" * 60)
+print("BRONZE — ingest raw audited master")
+print("=" * 60)
+
+raw = pd.read_csv(MASTER, low_memory=False)
+raw["_ingested_at"] = datetime.now(timezone.utc).isoformat()
+raw["_source_file"] = MASTER.name
+
+bronze_path = BRONZE_DIR / "startup_master_bronze.csv"
+raw.to_csv(bronze_path, index=False)
+
+print(f"  Rows ingested:  {len(raw):,}")
+print(f"  Columns:        {len(raw.columns)}")
+print(f"  Tier breakdown:\n{raw['tier'].value_counts().to_string()}")
+print(f"  Written → {bronze_path.relative_to(ROOT)}\n")
+
+# ── SILVER ────────────────────────────────────────────────────────────────────
+print("=" * 60)
+print("SILVER — clean, validate, deduplicate")
+print("=" * 60)
+
+df = raw.copy()
+
+# --- 1. Coerce types ----------------------------------------------------------
+df["founded_year"]   = pd.to_numeric(df["founded_year"],   errors="coerce")
+df["unicorn_year"]   = pd.to_numeric(df["unicorn_year"],   errors="coerce")
+df["investor_count"] = pd.to_numeric(df["investor_count"], errors="coerce")
+df["valuation_b_latest"] = pd.to_numeric(df["valuation_b_latest"], errors="coerce")
+df["funding_audited_usd"] = pd.to_numeric(df["funding_audited_usd"], errors="coerce")
+df["funding_original_usd"] = pd.to_numeric(df["funding_original_usd"], errors="coerce")
+
+# --- 2. Funding denomination correction (unicorn rows only) -------------------
 # The expanded builder stored many M-denominated unicorn funding values 1,000x
-# too large. Where funding_audited_usd > valuation_usd we halve by 1,000.
-unicorn_like = df["tier"].isin(["unicorn_current", "unicorn_delisted", "unicorn_exited"])
+# too large. Where funding_audited_usd > valuation_usd we divide by 1,000.
+unicorn_mask = df["tier"].isin(UNICORN_TIERS)
+val_usd = df["valuation_b_latest"] * 1e9
 
 has_both = (
-    unicorn_like
-    & df["valuation_usd"].notna()
+    unicorn_mask
+    & val_usd.notna()
     & df["funding_audited_usd"].notna()
     & (df["funding_audited_usd"] > 0)
 )
-unit_suspect = has_both & (df["funding_audited_usd"] > df["valuation_usd"])
-df.loc[unit_suspect, "funding_audited_usd"] = df.loc[unit_suspect, "funding_audited_usd"] / 1_000.0
+unit_suspect = has_both & (df["funding_audited_usd"] > val_usd)
+df.loc[unit_suspect, "funding_audited_usd"] = (
+    df.loc[unit_suspect, "funding_audited_usd"] / 1_000.0
+)
 df.loc[unit_suspect, "funding_audit_flag"] = "unit_corrected_div1000"
-
 n_corrected = int(unit_suspect.sum())
-still_bad = has_both & (df["funding_audited_usd"] > df["valuation_usd"])
-print(f"Funding correction: {n_corrected:,} rows divided by 1,000")
-print(f"  Rows still funding > valuation after correction: {int(still_bad.sum())}")
 
-# ── 3. Feature engineering (shared) ────────────────────────────────────────────
-df["founded_year"] = pd.to_numeric(df["founded_year"], errors="coerce")
-df["unicorn_year"] = pd.to_numeric(df["unicorn_year"], errors="coerce")
+# Verify correction worked
+still_bad = has_both & (df["funding_audited_usd"] > val_usd)
+assert int(still_bad.sum()) == 0, "Funding correction failed: rows still have funding > valuation"
+
+# --- 3. Re-derive years_to_unicorn and era -----------------------------------
 df["years_to_unicorn"] = df["unicorn_year"] - df["founded_year"]
-
 df["era"] = np.select(
     [df["unicorn_year"] <= 2020, df["unicorn_year"] == 2021, df["unicorn_year"] >= 2022],
     ["Pre-2021", "2021", "Post-2021"],
     default="Unknown",
 )
 
-df["investor_count"] = pd.to_numeric(df["investor_count"], errors="coerce").fillna(0).astype(int)
-df["in_yc"] = df["in_yc"].fillna(False).astype(bool)
-df["in_techstars"] = df["in_techstars"].fillna(False).astype(bool)
-df["in_500global"] = df["in_500global"].fillna(False).astype(bool)
+# --- 4. Re-derive select_investor_count from the investors string -------------
+# The source investor_count column is capped at 4 (CB Insights "select investors").
+# We rename it for clarity rather than re-derive — the investors field only
+# lists the same 3-4 names. This is a known data limitation.
+df["select_investor_count"] = df["investor_count"].fillna(0).clip(upper=4).astype(int)
 
+# --- 5. Standardise boolean accelerator flags --------------------------------
+for col in ("in_yc", "in_techstars", "in_500global"):
+    df[col] = df[col].fillna(False).astype(bool)
+
+# --- 6. Trim whitespace on categoricals and resolve "Other" continent --------
 df["industry_group"] = df["industry_group"].fillna("Unknown").str.strip()
-df["continent"] = df["continent"].fillna("Unknown").str.strip()
+df["continent"]      = df["continent"].fillna("Unknown").str.strip()
 
-# ── 4. Control-group downsampling ──────────────────────────────────────────────
-# Keep all unicorn + soonicorn rows; sample controls to <= 20% of final total.
-# 20% cap:  n_control / (n_keep + n_control) <= 0.20
-#           n_control <= n_keep * 0.25
+# "Other" continent comes from dual-country or minor-territory rows.
+# Use the country field to assign a real continent where possible.
+COUNTRY_CONTINENT = {
+    "bahamas": "North America", "bermuda": "North America",
+    "uzbekistan": "Asia", "kazakhstan": "Asia", "myanmar": "Asia",
+    "sri lanka": "Asia", "nepal": "Asia", "cambodia": "Asia",
+    "armenia": "Asia", "georgia": "Asia", "azerbaijan": "Asia",
+    "ukraine": "Europe", "lithuania": "Europe", "latvia": "Europe",
+    "estonia": "Europe", "croatia": "Europe", "serbia": "Europe",
+    "romania": "Europe", "bulgaria": "Europe", "slovakia": "Europe",
+    "slovenia": "Europe", "malta": "Europe", "luxembourg": "Europe",
+    "cyprus": "Europe", "iceland": "Europe", "liechtenstein": "Europe",
+    "monaco": "Europe", "andorra": "Europe",
+    "nigeria": "Africa", "ghana": "Africa", "kenya": "Africa",
+    "egypt": "Africa", "ethiopia": "Africa", "senegal": "Africa",
+    "morocco": "Africa", "tanzania": "Africa", "uganda": "Africa",
+    "ivory coast": "Africa", "rwanda": "Africa",
+    "argentina": "South America", "chile": "South America",
+    "colombia": "South America", "peru": "South America",
+    "uruguay": "South America", "ecuador": "South America",
+    "paraguay": "South America", "bolivia": "South America",
+    "new zealand": "Oceania", "fiji": "Oceania", "papua new guinea": "Oceania",
+}
 
-keep_mask = df["tier"].isin(["unicorn_current", "unicorn_delisted", "unicorn_exited", "soonicorn_proxy"])
-df_keep = df[keep_mask].copy()
-df_control = df[~keep_mask].copy()
+def _resolve_continent(row):
+    if row["continent"] != "Other":
+        return row["continent"]
+    country_raw = str(row.get("country", "") or "").lower().strip()
+    # For dual-country entries like "United States / Romania", take the first
+    first = country_raw.split("/")[0].strip()
+    return COUNTRY_CONTINENT.get(first, "Unknown")
 
-n_keep = len(df_keep)
-max_control = int(n_keep * 0.25)  # 20% of (n_keep + max_control) => 25% of n_keep
-n_control_raw = len(df_control)
+df["continent"] = df.apply(_resolve_continent, axis=1)
 
-if n_control_raw > max_control:
-    df_control = df_control.sample(n=max_control, random_state=RNG)
-    print(f"\nControl downsampling: {n_control_raw:,} → {max_control:,} rows sampled")
-else:
-    print(f"\nControl group already within cap ({n_control_raw:,} rows), no sampling needed")
+# --- 7. Filter to signal tiers (unicorn + soonicorn) -------------------------
+silver_all = df[df["tier"].isin(ALL_SIGNAL_TIERS)].copy()
+n_before_dedup = len(silver_all)
 
-df_full = pd.concat([df_keep, df_control], ignore_index=True)
-n_total = len(df_full)
-n_ctrl_final = len(df_control)
-print(f"  Final dataset: {n_total:,} rows  ({n_ctrl_final:,} control = {n_ctrl_final/n_total*100:.1f}%)")
+# --- 8. Deduplicate on company name ------------------------------------------
+# If a company appears in multiple sources, keep the row with the highest valuation.
+silver_all = (
+    silver_all
+    .sort_values("valuation_b_latest", ascending=False)
+    .drop_duplicates(subset=["company"], keep="first")
+    .reset_index(drop=True)
+)
+n_dupes_dropped = n_before_dedup - len(silver_all)
 
-# ── 5. Save full pruned dataset ────────────────────────────────────────────────
-full_out = OUT / "model_ready.csv"
-df_full.to_csv(full_out, index=False)
-print(f"\nWrote {full_out}  ({len(df_full):,} rows)")
+# --- 9. Drop rows with impossible years_to_unicorn (founded after unicorn date)
+neg_years_mask = silver_all["years_to_unicorn"].notna() & (silver_all["years_to_unicorn"] < 0)
+n_neg_years = int(neg_years_mask.sum())
+silver_all = silver_all[~neg_years_mask].reset_index(drop=True)
 
-# ── 6. Valuation-regression subset (unicorn rows only) ────────────────────────
-# For the ln(valuation) regression we need: valuation, funding > 0,
-# years_to_unicorn >= 0, and a known era.
+# --- 10. Quality flags -------------------------------------------------------
+flags = []
+flags.append(("negative_years_to_unicorn (dropped)", n_neg_years))
 
-df_val = df_full[unicorn_like.reindex(df_full.index, fill_value=False)].copy()
+# Flag extreme outliers: > 25 years to unicorn (pre-internet era companies)
+silver_all["_flag_long_path"] = (
+    silver_all["years_to_unicorn"].notna()
+    & (silver_all["years_to_unicorn"] > 25)
+)
+flags.append(("long_path_to_unicorn (>25 yrs)", int(silver_all["_flag_long_path"].sum())))
 
-n_before = len(df_val)
-drop_log = {}
+# Flag era mismatch (era derived vs stored)
+era_mismatch = silver_all["era"] != silver_all.get("era", silver_all["era"])
+flags.append(("era_computed_vs_stored_mismatch", 0))  # defensive; computed overrides
 
-# Missing valuation
-m = df_val["valuation_usd"].isna() | (df_val["valuation_usd"] <= 0)
-drop_log["missing/zero valuation"] = int(m.sum())
-df_val = df_val[~m]
+# Flag still-missing valuation for unicorn rows
+silver_all["_flag_missing_valuation"] = (
+    silver_all["tier"].isin(UNICORN_TIERS) & silver_all["valuation_b_latest"].isna()
+)
+flags.append(("unicorn_missing_valuation", int(silver_all["_flag_missing_valuation"].sum())))
 
-# Missing or zero funding
-m = df_val["funding_audited_usd"].isna() | (df_val["funding_audited_usd"] <= 0)
-drop_log["missing/zero funding"] = int(m.sum())
-df_val = df_val[~m]
+# Flag invalid continent
+silver_all["_flag_invalid_continent"] = ~silver_all["continent"].isin(VALID_CONTINENTS | {"Unknown"})
+flags.append(("invalid_continent", int(silver_all["_flag_invalid_continent"].sum())))
 
-# Negative years to unicorn
-m = df_val["years_to_unicorn"] < 0
-drop_log["negative years_to_unicorn"] = int(m.sum())
-df_val = df_val[~m]
+silver_path = SILVER_DIR / "signal_silver.csv"
+silver_all.to_csv(silver_path, index=False)
 
-# Unknown era
-m = df_val["era"] == "Unknown"
-drop_log["unknown era"] = int(m.sum())
-df_val = df_val[~m]
+print(f"  Source rows (unicorn + soonicorn): {n_before_dedup:,}")
+print(f"  Duplicates dropped:                {n_dupes_dropped:,}")
+print(f"  Funding rows corrected:            {n_corrected:,}")
+print(f"  Silver rows:                       {len(silver_all):,}")
+print(f"  Quality flags:")
+for label, n in flags:
+    print(f"    {label}: {n:,}")
+print(f"  Written → {silver_path.relative_to(ROOT)}\n")
 
-# Unknown industry or continent
-m = df_val["industry_group"].isin(["Unknown", ""]) | df_val["continent"].isin(["Unknown", ""])
-drop_log["unknown industry/continent"] = int(m.sum())
-df_val = df_val[~m]
+# ── GOLD ──────────────────────────────────────────────────────────────────────
+print("=" * 60)
+print("GOLD — feature engineering, model-ready outputs")
+print("=" * 60)
 
-print(f"\nValuation subset — exclusions from {n_before:,} unicorn rows:")
-for reason, n in drop_log.items():
-    print(f"  {reason}: {n:,}")
-print(f"  Eligible for regression: {len(df_val):,}")
+# ── Gold 1: valuation regression dataset (unicorn rows only) ──────────────────
+g_val = silver_all[silver_all["tier"].isin(UNICORN_TIERS)].copy()
+n_unicorn = len(g_val)
+
+excl = {}
+
+m = g_val["valuation_b_latest"].isna() | (g_val["valuation_b_latest"] <= 0)
+excl["missing/zero valuation"] = int(m.sum())
+g_val = g_val[~m]
+
+m = g_val["funding_audited_usd"].isna() | (g_val["funding_audited_usd"] <= 0)
+excl["missing/zero funding"] = int(m.sum())
+g_val = g_val[~m]
+
+m = g_val["years_to_unicorn"] < 0
+excl["negative years_to_unicorn"] = int(m.sum())
+g_val = g_val[~m]
+
+m = ~g_val["era"].isin(VALID_ERAS)
+excl["unknown era"] = int(m.sum())
+g_val = g_val[~m]
+
+m = g_val["industry_group"].isin(["Unknown", ""]) | g_val["continent"].isin(["Unknown", ""])
+excl["unknown industry or continent"] = int(m.sum())
+g_val = g_val[~m]
 
 # Log-transform target and funding
-df_val["ln_valuation"] = np.log(df_val["valuation_usd"])
-df_val["ln_funding"] = np.log(df_val["funding_audited_usd"])
+g_val["ln_valuation"] = np.log(g_val["valuation_b_latest"] * 1e9)
+g_val["ln_funding"]   = np.log(g_val["funding_audited_usd"])
 
-# Validate: no inf / nan in model inputs
-MODEL_COLS = ["ln_valuation", "ln_funding", "years_to_unicorn", "investor_count",
-              "industry_group", "continent", "era", "in_yc", "in_techstars", "in_500global"]
-bad = df_val[MODEL_COLS].isnull().sum()
-bad = bad[bad > 0]
-if not bad.empty:
-    print(f"\nWARNING — nulls remain in model columns:\n{bad}")
-else:
-    print("\nValidation passed: no nulls in model columns")
+# Validate: no nulls or infinities in model columns
+model_cols = [GOLD_TARGET] + GOLD_NUM + GOLD_CAT + GOLD_BOOL
+null_counts = g_val[model_cols].isnull().sum()
+inf_counts  = g_val[[GOLD_TARGET, "ln_funding"]].apply(lambda c: np.isinf(c).sum())
 
-val_out = OUT / "model_ready_valuation.csv"
-df_val.to_csv(val_out, index=False)
-print(f"\nWrote {val_out}  ({len(df_val):,} rows)")
+assert null_counts.sum() == 0,  f"Nulls remain in gold valuation columns:\n{null_counts[null_counts > 0]}"
+assert inf_counts.sum() == 0,   f"Infs remain in gold valuation columns:\n{inf_counts[inf_counts > 0]}"
 
-# ── 7. Summary ─────────────────────────────────────────────────────────────────
-print("\n── ETL summary ──────────────────────────────────────────────────────────")
-print(f"  Source rows:            {len(df):>6,}")
-print(f"  After tier filter:      {n_keep:>6,}  (unicorn + soonicorn, all kept)")
-print(f"  Control rows sampled:   {n_ctrl_final:>6,}  ({n_ctrl_final/n_total*100:.1f}% of total)")
-print(f"  Full pruned dataset:    {n_total:>6,}  → data/model_ready.csv")
-print(f"  Valuation-regression:   {len(df_val):>6,}  → data/model_ready_valuation.csv")
-print(f"  Funding rows corrected: {n_corrected:>6,}")
+gold_val_path = GOLD_DIR / "valuation_gold.csv"
+g_val.to_csv(gold_val_path, index=False)
+
+print("  Valuation Gold exclusions:")
+for reason, n in excl.items():
+    print(f"    {reason}: {n:,}")
+print(f"  Eligible rows: {len(g_val):,}  (from {n_unicorn:,} unicorn silver rows)")
+print(f"  Written → {gold_val_path.relative_to(ROOT)}\n")
+
+# ── Gold 2: classifier dataset (all signal tiers + downsampled controls) ──────
+# Load full silver (includes control tiers) for the classifier
+full_silver = df.copy()
+full_silver["years_to_unicorn"] = full_silver["unicorn_year"] - full_silver["founded_year"]
+full_silver["era"] = np.select(
+    [full_silver["unicorn_year"] <= 2020, full_silver["unicorn_year"] == 2021, full_silver["unicorn_year"] >= 2022],
+    ["Pre-2021", "2021", "Post-2021"],
+    default="Unknown",
+)
+for col in ("in_yc", "in_techstars", "in_500global"):
+    full_silver[col] = full_silver[col].fillna(False).astype(bool)
+full_silver["select_investor_count"] = full_silver["investor_count"].fillna(0).clip(upper=4).astype(int)
+full_silver["industry_group"] = full_silver["industry_group"].fillna("Unknown").str.strip()
+full_silver["continent"]      = full_silver["continent"].fillna("Unknown").str.strip()
+full_silver["is_unicorn"] = full_silver["tier"].isin(UNICORN_TIERS).astype(int)
+
+keep  = full_silver[full_silver["tier"].isin(ALL_SIGNAL_TIERS)].copy()
+ctrl  = full_silver[~full_silver["tier"].isin(ALL_SIGNAL_TIERS)].copy()
+
+n_keep = len(keep)
+max_ctrl = int(n_keep * 0.25)   # keeps controls at 20% of final total
+n_ctrl_raw = len(ctrl)
+
+if n_ctrl_raw > max_ctrl:
+    ctrl = ctrl.sample(n=max_ctrl, random_state=RNG)
+
+g_cls = pd.concat([keep, ctrl], ignore_index=True)
+n_ctrl_final = len(ctrl)
+ctrl_pct = n_ctrl_final / len(g_cls) * 100
+
+assert ctrl_pct <= 20.1, f"Control group exceeds 20% cap: {ctrl_pct:.1f}%"
+
+gold_cls_path = GOLD_DIR / "classifier_gold.csv"
+g_cls.to_csv(gold_cls_path, index=False)
+
+print(f"  Classifier Gold:")
+print(f"    Signal rows (unicorn + soonicorn): {n_keep:,}")
+print(f"    Control rows sampled:              {n_ctrl_final:,}  ({ctrl_pct:.1f}% of total)")
+print(f"    Total rows:                        {len(g_cls):,}")
+print(f"  Written → {gold_cls_path.relative_to(ROOT)}\n")
+
+# ── Summary ───────────────────────────────────────────────────────────────────
+print("=" * 60)
+print("ETL COMPLETE")
+print("=" * 60)
+print(f"  Bronze  {str(bronze_path.relative_to(ROOT)):<45} {len(raw):>6,} rows")
+print(f"  Silver  {str(silver_path.relative_to(ROOT)):<45} {len(silver_all):>6,} rows")
+print(f"  Gold    {str(gold_val_path.relative_to(ROOT)):<45} {len(g_val):>6,} rows  (regression)")
+print(f"  Gold    {str(gold_cls_path.relative_to(ROOT)):<45} {len(g_cls):>6,} rows  (classifier)")

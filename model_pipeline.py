@@ -64,7 +64,7 @@ plt.rcParams.update({
 })
 
 # ---------------------------------------------------------------- load (ETL output)
-model_df = pd.read_csv(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "model_ready_valuation.csv"))
+model_df = pd.read_csv(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "gold", "valuation_gold.csv"))
 n_raw = len(model_df)
 n_model = n_raw
 
