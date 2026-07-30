@@ -310,3 +310,17 @@ print(f"  Bronze  {str(bronze_path.relative_to(ROOT)):<45} {len(raw):>6,} rows")
 print(f"  Silver  {str(silver_path.relative_to(ROOT)):<45} {len(silver_all):>6,} rows")
 print(f"  Gold    {str(gold_val_path.relative_to(ROOT)):<45} {len(g_val):>6,} rows  (regression)")
 print(f"  Gold    {str(gold_cls_path.relative_to(ROOT)):<45} {len(g_cls):>6,} rows  (classifier)")
+
+# ── Gold 3: Capital IQ leakage-safe, time-aware classifier table ─────────────
+# This is deliberately a separate Gold artifact: the original classifier gold
+# is retained for reproducibility, while the Capital IQ table uses round-level
+# history and a strict pre-index feature cutoff.
+from capitaliq_time_etl import run as run_capitaliq_time_etl
+
+if (
+    (ROOT / "data" / "raw" / "capitaliq_unicorn_private_placements.csv").exists()
+    and (ROOT / "data" / "raw" / "capitaliq_control_private_placements_raw10k.csv").exists()
+):
+    run_capitaliq_time_etl()
+else:
+    print("  Capital IQ ETL skipped: proprietary raw exports are not present locally.")

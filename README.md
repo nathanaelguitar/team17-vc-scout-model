@@ -72,6 +72,36 @@ Honest notes: valuations exist only for the unicorn tiers (private non-unicorn v
 
 **Attribution:** unicorn valuations from CB Insights' public Global Unicorn Club list (2024 / 2025 / 2026 snapshots); former-unicorn outcomes from Wikipedia (CC BY-SA 4.0); control group from the Crunchbase 2015 Data Export (CC-BY, via the notpeter/crunchbase-data mirror); accelerator data from the YC public directory (via yc-oss/api, MIT), Techstars' public portfolio index, and 500 Global's public portfolio API; current raises from SEC EDGAR Form D quarterly data sets (public domain). Academic coursework use.
 
+## Capital IQ unicorn classifier
+
+The Capital IQ workflow provides the first runnable success classifier. The
+round-level ETL reads verified date-partitioned private-placement exports from
+2010 through July 2026, matches each positive company to one control, and
+constructs features strictly before the positive company's first observed
+post-money valuation of at least $1B. The current Gold table contains 4,068
+paired rows (2,034 positives and 2,034 controls).
+
+```bash
+python3 etl.py
+python3 classifier_pipeline.py
+pytest -q
+```
+
+The committed Gold/model artifacts run without the licensed Capital IQ source
+exports. `etl.py` will regenerate the Capital IQ Gold table only when those
+exports are supplied locally; the raw and Silver Capital IQ files are excluded
+from GitHub.
+
+The classifier uses only pre-index funding history plus stable industry and
+geography fields. Matching IDs, outcome fields, master tiers, and other label
+construction metadata are excluded. The selected Random Forest reaches
+ROC-AUC 0.997 in five-fold pair-group cross-validation and 0.986 on the
+chronological 2024–2026 forward test. Artifacts are written to
+`models/capitaliq_unicorn_classifier.joblib` and
+`models/capitaliq_classifier_metrics.json`. These are historical screening
+results, not causal probabilities: companies without a recorded $1B round are
+the observed control definition, and future right-censoring remains possible.
+
 ## Team 17
 
 Mia Murphy, Finn Kliewer, Kayvon Jafarzadeh, Nathanael Gill, Om Patel
