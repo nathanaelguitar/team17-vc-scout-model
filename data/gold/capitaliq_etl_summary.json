@@ -1,0 +1,37 @@
+{
+  "positive_round_rows": 3000,
+  "positive_companies": 2034,
+  "raw_control_round_rows": 37868,
+  "control_source_files": [
+    "capitaliq_control_private_placements_raw10k.csv",
+    "capitaliq_control_closed_2010_2014.csv",
+    "capitaliq_control_closed_2015_2016.csv",
+    "capitaliq_control_closed_2017_2018.csv",
+    "capitaliq_control_closed_2019.csv",
+    "capitaliq_control_closed_2020.csv",
+    "capitaliq_control_closed_2021.csv",
+    "capitaliq_control_closed_2022.csv",
+    "capitaliq_control_closed_2023.csv",
+    "capitaliq_control_closed_2024.csv",
+    "capitaliq_control_closed_2025.csv",
+    "capitaliq_control_closed_2026_ytd.csv"
+  ],
+  "eligible_sub_1b_history_round_rows": 37858,
+  "control_candidate_companies": 29283,
+  "known_unicorn_control_rows_excluded": 929,
+  "positive_companies_with_pre_rounds": 787,
+  "matched_control_companies": 2034,
+  "unmatched_positive_companies": 0,
+  "gold_rows": 4068,
+  "gold_positive_rows": 2034,
+  "gold_control_rows": 2034,
+  "gold_controls_are_one_to_one": true,
+  "leakage_check_rows": 0,
+  "outputs": {
+    "rounds_silver": "data/silver/capitaliq_rounds_silver.csv",
+    "match_audit": "data/silver/capitaliq_company_match_audit.csv",
+    "control_matches": "data/silver/capitaliq_control_matches.csv",
+    "unmatched_positives": "data/silver/capitaliq_unmatched_positives.csv",
+    "classifier_gold": "data/gold/capitaliq_classifier_time_safe.csv"
+  }
+}

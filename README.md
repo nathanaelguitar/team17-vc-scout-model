@@ -1,8 +1,11 @@
-# VC Scout: Model Definition and Initial Results (Team 17)
+# VC Scout: Startup Valuation and Unicorn Screening
 
 Cornell Capstone, Project #32: Startup Growth and Investment.
 
-This repo contains Team 17's "Model Definition and Initial Results" deliverable: a fully reproducible modeling pipeline on the Unicorn Companies dataset, the slide deck built from its outputs, and every chart and statistic used in the deck.
+This repository contains Team 17's Cornell capstone work on startup valuation
+and unicorn screening. It includes the original valuation benchmark, the
+round-level Capital IQ classifier, the submitted presentation, and the data
+quality checks used to produce them.
 
 ## Contents
 
@@ -13,10 +16,14 @@ This repo contains Team 17's "Model Definition and Initial Results" deliverable:
 | `model_pipeline.py` | End-to-end pipeline: cleaning, feature engineering, train/test split, cross validation, hyperparameter tuning, model comparison, diagnostics, sensitivity checks, chart rendering |
 | `model_stats.json` | Every number in the deck, produced by the pipeline (source of truth) |
 | `charts/` | The five deck charts as transparent PNGs |
+| `data/gold/` | Clean model inputs and Capital IQ classifier outputs |
+| `models/` | Saved classifier, metrics, and feature importance tables |
+| `docs/` | Data limitations and planned extensions |
+| `analysis/audit_trail/` | Supporting valuation audit tables and presentation inputs |
 | `data/Unicorn_Companies.csv` | The dataset (1,074 unicorn companies, from the Kaggle "Startup Growth and Investment" dataset) |
 | `dashboards/` | The VC Scout interactive dashboard and the project status dashboard (self-contained HTML; open directly in a browser or serve with `python3 -m http.server`) |
 
-## The task
+## Valuation benchmark
 
 Predict `ln(Valuation in $B)` for unicorn companies from publicly listed fields. Because every row already reached unicorn status, this is framed strictly as a conditional-on-unicorn valuation-scale model, never as a startup success predictor (survivorship bias).
 
@@ -45,8 +52,8 @@ Predict `ln(Valuation in $B)` for unicorn companies from publicly listed fields.
 ## Reproduce
 
 ```bash
-pip install pandas scikit-learn matplotlib numpy
-python model_pipeline.py
+python3 -m pip install -r requirements.txt
+python3 model_pipeline.py
 ```
 
 Deterministic (seed 17). Regenerates all charts in `charts/` and `model_stats.json`. Runtime is a couple of minutes on a laptop.
@@ -71,6 +78,36 @@ Extras:
 Honest notes: valuations exist only for the unicorn tiers (private non-unicorn valuations are not public anywhere); the big control group's funding and status are as of the Dec-2015 snapshot (no free bulk source is fresher); the soonicorn tier uses funding as a proxy for valuation and is labeled accordingly. Every row comes from a verified real source; several candidate datasets were rejected during sourcing for being synthetic.
 
 **Attribution:** unicorn valuations from CB Insights' public Global Unicorn Club list (2024 / 2025 / 2026 snapshots); former-unicorn outcomes from Wikipedia (CC BY-SA 4.0); control group from the Crunchbase 2015 Data Export (CC-BY, via the notpeter/crunchbase-data mirror); accelerator data from the YC public directory (via yc-oss/api, MIT), Techstars' public portfolio index, and 500 Global's public portfolio API; current raises from SEC EDGAR Form D quarterly data sets (public domain). Academic coursework use.
+
+## Capital IQ unicorn classifier
+
+The Capital IQ workflow provides the first runnable success classifier. The
+round-level ETL reads verified date-partitioned private-placement exports from
+2010 through July 2026, matches each positive company to one control, and
+constructs features strictly before the positive company's first observed
+post-money valuation of at least $1B. The current Gold table contains 4,068
+paired rows (2,034 positives and 2,034 controls).
+
+```bash
+python3 etl.py
+python3 classifier_pipeline.py
+pytest -q
+```
+
+The committed Gold/model artifacts run without the licensed Capital IQ source
+exports. `etl.py` will regenerate the Capital IQ Gold table only when those
+exports are supplied locally; the raw and Silver Capital IQ files are excluded
+from GitHub.
+
+The classifier uses only pre-index funding history plus stable industry and
+geography fields. Matching IDs, outcome fields, master tiers, and other label
+construction metadata are excluded. The selected Random Forest reaches
+ROC-AUC 0.997 in five-fold pair-group cross-validation and 0.986 on the
+chronological 2024–2026 forward test. Artifacts are written to
+`models/capitaliq_unicorn_classifier.joblib` and
+`models/capitaliq_classifier_metrics.json`. These are historical screening
+results, not causal probabilities: companies without a recorded $1B round are
+the observed control definition, and future right-censoring remains possible.
 
 ## Team 17
 
