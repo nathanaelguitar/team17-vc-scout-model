@@ -1,11 +1,10 @@
 """Team 17 VC Scout: Model Definition and Initial Results pipeline.
 
-Cleans the unicorn dataset, engineers features, runs a tuned model comparison
-(OLS, Ridge, Lasso, KNN, Random Forest, Gradient Boosting) predicting
-ln(Valuation), runs sensitivity checks, and saves charts + a stats JSON.
+Reads the pre-cleaned ETL output (data/model_ready_valuation.csv) and runs a
+tuned model comparison (OLS, Ridge, Lasso, KNN, Random Forest, Gradient
+Boosting) predicting ln(Valuation). Run etl.py first to regenerate the input.
 """
 import json
-import re
 import warnings
 
 import matplotlib
@@ -25,6 +24,8 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 warnings.filterwarnings("ignore")
+import logging
+logging.getLogger("matplotlib.font_manager").setLevel(logging.ERROR)
 RNG = 17
 import os
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "charts")
@@ -64,47 +65,16 @@ plt.rcParams.update({
     "axes.axisbelow": True,
 })
 
-# ---------------------------------------------------------------- load + clean
-df = pd.read_csv(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "Unicorn_Companies.csv"))
-n_raw = len(df)
-
-def parse_money(v):
-    if not isinstance(v, str):
-        return np.nan
-    v = v.strip().replace("$", "")
-    m = re.match(r"^([\d.]+)([MB])$", v)
-    if not m:
-        return np.nan
-    x = float(m.group(1))
-    return x if m.group(2) == "B" else x / 1000.0
-
-df["Valuation_B"] = df["Valuation"].apply(parse_money)
-df["Funding_B"] = df["Funding"].apply(parse_money)
-df["Industry"] = df["Industry"].str.strip().replace(
-    {"Artificial Intelligence": "Artificial intelligence"})
-df["Unicorn_Year"] = pd.to_datetime(df["Date Joined"]).dt.year
-df["Years_to_Unicorn"] = df["Unicorn_Year"] - df["Year Founded"]
-df["Investor_Count"] = df["Select Investors"].fillna("").apply(
-    lambda s: len([x for x in s.split(",") if x.strip()]))
-df["Era"] = np.select(
-    [df["Unicorn_Year"] < 2021, df["Unicorn_Year"] == 2021],
-    ["Pre-2021", "2021"], default="Post-2021")
-
-n_unknown_funding = int(df["Funding_B"].isna().sum())
-n_zero_funding = int((df["Funding_B"] == 0).sum())
-n_neg_years = int((df["Years_to_Unicorn"] < 0).sum())
-
-model_df = df[(df["Funding_B"] > 0) & df["Valuation_B"].notna()
-              & (df["Years_to_Unicorn"] >= 0)].copy()
-n_model = len(model_df)
-model_df["ln_Valuation"] = np.log(model_df["Valuation_B"])
-model_df["ln_Funding"] = np.log(model_df["Funding_B"])
+# ---------------------------------------------------------------- load (ETL output)
+model_df = pd.read_csv(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "gold", "valuation_gold.csv"))
+n_raw = len(model_df)
+n_model = n_raw
 
 # ---------------------------------------------------------------- features
-NUM = ["ln_Funding", "Years_to_Unicorn", "Investor_Count"]
-CAT = ["Industry", "Continent", "Era"]
+NUM = ["ln_funding", "years_to_unicorn", "investor_count"]
+CAT = ["industry_group", "continent", "era"]
 X = model_df[NUM + CAT]
-y = model_df["ln_Valuation"]
+y = model_df["ln_valuation"]
 
 X_tr, X_te, y_tr, y_te = train_test_split(X, y, test_size=0.2, random_state=RNG)
 cv = KFold(n_splits=5, shuffle=True, random_state=RNG)
@@ -174,9 +144,9 @@ pred_te = champ.predict(X_te)
 perm = permutation_importance(champ, X_te, y_te, n_repeats=30,
                               random_state=RNG, scoring="r2")
 perm_order = np.argsort(perm.importances_mean)
-feat_labels = {"ln_Funding": "ln(Funding)", "Years_to_Unicorn": "Years to unicorn",
-               "Investor_Count": "Investor count", "Industry": "Industry",
-               "Continent": "Continent", "Era": "Era (pre/2021/post)"}
+feat_labels = {"ln_funding": "ln(Funding)", "years_to_unicorn": "Years to unicorn",
+               "investor_count": "Investor count", "industry_group": "Industry",
+               "continent": "Continent", "era": "Era (pre/2021/post)"}
 
 # Bootstrap simulation: CI on champion test R2
 rng = np.random.default_rng(RNG)
@@ -189,8 +159,8 @@ boot_ci = (float(np.percentile(boot, 2.5)), float(np.percentile(boot, 97.5)))
 
 # Sensitivity: refit champion configuration on data excluding 2021 cohort
 sens = {}
-mask_tr = X_tr["Era"] != "2021"
-mask_te = X_te["Era"] != "2021"
+mask_tr = X_tr["era"] != "2021"
+mask_te = X_te["era"] != "2021"
 import copy
 champ_no21 = copy.deepcopy(fitted[champ_name])
 champ_no21.fit(X_tr[mask_tr], y_tr[mask_tr])
@@ -266,12 +236,12 @@ fig.savefig(f"{OUT}/chart_importance.png", transparent=True)
 
 # Chart 4: partial dependence of ln_Funding, shown in $B space
 fig, ax = plt.subplots(figsize=(5.6, 4.0), dpi=200)
-grid_vals = np.linspace(X_tr["ln_Funding"].quantile(0.02),
-                        X_tr["ln_Funding"].quantile(0.98), 40)
+grid_vals = np.linspace(X_tr["ln_funding"].quantile(0.02),
+                        X_tr["ln_funding"].quantile(0.98), 40)
 pd_means = []
 Xg = X_tr.copy()
 for g in grid_vals:
-    Xg["ln_Funding"] = g
+    Xg["ln_funding"] = g
     pd_means.append(champ.predict(Xg).mean())
 ax.plot(np.exp(grid_vals), np.exp(pd_means), color=MINT, lw=2.6)
 ax.set_xscale("log")
@@ -304,21 +274,17 @@ enc = ols.named_steps["prep"]
 coefs = ols.named_steps["m"].coef_
 feat_names = list(enc.get_feature_names_out())
 coef_map = dict(zip(feat_names, coefs))
-ln_funding_coef = coef_map.get("num__ln_Funding", np.nan)
-# unstandardize: coef / sd of ln_Funding
-sd_lnf = X_tr["ln_Funding"].std()
+ln_funding_coef = coef_map.get("num__ln_funding", np.nan)
+# unstandardize: coef / sd of ln_funding
+sd_lnf = X_tr["ln_funding"].std()
 elasticity = float(ln_funding_coef / sd_lnf)
 
 stats = {
     "n_raw": n_raw,
     "n_model": n_model,
-    "n_excluded": n_raw - n_model,
-    "n_unknown_funding": n_unknown_funding,
-    "n_zero_funding": n_zero_funding,
-    "n_neg_years": n_neg_years,
     "n_train": len(X_tr),
     "n_test": len(X_te),
-    "n_industries": int(model_df["Industry"].nunique()),
+    "n_industries": int(model_df["industry_group"].nunique()),
     "results": results,
     "champion": champ_name,
     "boot_ci": boot_ci,
