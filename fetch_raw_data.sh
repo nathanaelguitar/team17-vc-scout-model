@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# Re-downloads the raw public sources behind data/raw/ (all verified July 2026).
-# Everything in data/raw/ is already committed; run this only to refresh.
+# Re-downloads the public sources behind data/raw/ (all verified July 2026).
+# Licensed Capital IQ exports are intentionally not part of this script or the
+# repository; supply them locally when rebuilding the Capital IQ Gold table.
 set -euo pipefail
 cd "$(dirname "$0")/data/raw"
 

@@ -17,7 +17,7 @@ from sklearn.inspection import permutation_importance
 warnings.filterwarnings('ignore')
 np.random.seed(17)
 DATA = Path('/mnt/data')
-OUT = Path('/mnt/data/vc_scout_final_assets')
+OUT = Path('/mnt/data/vc_scout_audit_assets')
 OUT.mkdir(exist_ok=True)
 
 sm = pd.read_csv(DATA/'startup_master.csv', low_memory=False)
@@ -53,7 +53,7 @@ df['is_unicorn_history'] = unicorn_like.astype(int)
 
 priority_cols = ['company','tier','primary_source','valuation_b_latest','valuation_usd','funding_original_usd','funding_audited_usd','funding_audit_flag','industry_raw','industry_group','country','continent','city','founded_year','date_joined_unicorn','unicorn_year','era','years_to_unicorn','years_to_unicorn_flag','outcome','investors','investor_count','accelerator','in_yc','in_techstars','in_500global']
 other_cols = [c for c in df.columns if c not in priority_cols]
-df[priority_cols + other_cols].to_csv(OUT/'vc_scout_audited_startup_master_final.csv', index=False)
+df[priority_cols + other_cols].to_csv(OUT/'audited_startup_master.csv', index=False)
 
 # Form D audit
 non_startup_cats = ['Investing','Other Real Estate','REITS and Finance','Insurance','Other Banking and Financial Services','Commercial Banking','Commercial','Residential','Investment Banking']
@@ -428,12 +428,12 @@ source_truth = {
 (OUT/'vc_scout_source_of_truth_final.json').write_text(json.dumps(source_truth, indent=2))
 
 # package audit trail
-zip_path = DATA/'vc_scout_revised_results_audit_trail_final.zip'
+zip_path = DATA/'vc_scout_audit_trail.zip'
 with zipfile.ZipFile(zip_path, 'w', compression=zipfile.ZIP_DEFLATED) as z:
     for file in OUT.glob('*.csv'):
         z.write(file, arcname=file.name)
     z.write(OUT/'vc_scout_source_of_truth_final.json', arcname='vc_scout_source_of_truth_final.json')
-    z.write(Path(__file__), arcname='vc_scout_final_analysis.py')
+    z.write(Path(__file__), arcname='valuation_audit.py')
 
 print(json.dumps({
     'assets_dir': str(OUT),

@@ -7,3 +7,4 @@ __pycache__/
 data/raw/capitaliq_*.csv
 data/raw/capitaliq_*.xls
 data/silver/capitaliq_*.csv
+deliverable/.~lock.*

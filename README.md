@@ -1,8 +1,11 @@
-# VC Scout: Model Definition and Initial Results (Team 17)
+# VC Scout: Startup Valuation and Unicorn Screening
 
 Cornell Capstone, Project #32: Startup Growth and Investment.
 
-This repo contains Team 17's "Model Definition and Initial Results" deliverable: a fully reproducible modeling pipeline on the Unicorn Companies dataset, the slide deck built from its outputs, and every chart and statistic used in the deck.
+This repository contains Team 17's Cornell capstone work on startup valuation
+and unicorn screening. It includes the original valuation benchmark, the
+round-level Capital IQ classifier, the submitted presentation, and the data
+quality checks used to produce them.
 
 ## Contents
 
@@ -13,10 +16,14 @@ This repo contains Team 17's "Model Definition and Initial Results" deliverable:
 | `model_pipeline.py` | End-to-end pipeline: cleaning, feature engineering, train/test split, cross validation, hyperparameter tuning, model comparison, diagnostics, sensitivity checks, chart rendering |
 | `model_stats.json` | Every number in the deck, produced by the pipeline (source of truth) |
 | `charts/` | The five deck charts as transparent PNGs |
+| `data/gold/` | Clean model inputs and Capital IQ classifier outputs |
+| `models/` | Saved classifier, metrics, and feature importance tables |
+| `docs/` | Data limitations and planned extensions |
+| `analysis/audit_trail/` | Supporting valuation audit tables and presentation inputs |
 | `data/Unicorn_Companies.csv` | The dataset (1,074 unicorn companies, from the Kaggle "Startup Growth and Investment" dataset) |
 | `dashboards/` | The VC Scout interactive dashboard and the project status dashboard (self-contained HTML; open directly in a browser or serve with `python3 -m http.server`) |
 
-## The task
+## Valuation benchmark
 
 Predict `ln(Valuation in $B)` for unicorn companies from publicly listed fields. Because every row already reached unicorn status, this is framed strictly as a conditional-on-unicorn valuation-scale model, never as a startup success predictor (survivorship bias).
 
@@ -45,8 +52,8 @@ Predict `ln(Valuation in $B)` for unicorn companies from publicly listed fields.
 ## Reproduce
 
 ```bash
-pip install pandas scikit-learn matplotlib numpy
-python model_pipeline.py
+python3 -m pip install -r requirements.txt
+python3 model_pipeline.py
 ```
 
 Deterministic (seed 17). Regenerates all charts in `charts/` and `model_stats.json`. Runtime is a couple of minutes on a laptop.

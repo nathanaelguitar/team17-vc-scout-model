@@ -18,9 +18,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 MASTER = (
     ROOT
-    / "vc_scout_revised_results_audit_trail_final"
-    / "vc_scout_final_assets"
-    / "vc_scout_audited_startup_master_final.csv"
+    / "analysis"
+    / "audit_trail"
+    / "assets"
+    / "audited_startup_master.csv"
 )
 
 BRONZE_DIR = ROOT / "data" / "bronze"

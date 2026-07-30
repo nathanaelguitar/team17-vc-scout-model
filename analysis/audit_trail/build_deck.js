@@ -15,7 +15,7 @@ pptx.theme = { headFontFace: 'Aptos Display', bodyFontFace: 'Aptos', lang: 'en-U
 pptx.margin = 0;
 
 const W = 13.333, H = 7.5;
-const A = '/mnt/data/vc_scout_final_assets';
+const A = '/mnt/data/vc_scout_audit_assets';
 const C = {
   bg:'0E1320', bg2:'101827', card:'172236', card2:'1D2A42', card3:'121C2E', line:'2A3958',
   ink:'F4F7FB', muted:'A8B3C5', faint:'68758B', cyan:'45D4FF', green:'7EE787', amber:'FFB84D', red:'FF6B6B', purple:'B58CFF', white:'FFFFFF'
@@ -214,4 +214,4 @@ function validateDeck(){
   }
 }
 validateDeck();
-pptx.writeFile({ fileName:'/mnt/data/team17_vc_scout_revised_results_insights_implementation_final.pptx' });
+pptx.writeFile({ fileName:'/mnt/data/team17_vc_scout_results_deck.pptx' });

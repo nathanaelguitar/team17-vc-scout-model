@@ -1,4 +1,4 @@
-# VC Scout — Project Context for Kimi
+# VC Scout — Data Sources and Model Limitations
 
 ## What this project is
 
@@ -12,9 +12,10 @@ The pipeline follows a medallion architecture:
 
 - **Bronze** — raw ingested data from a curated audited startup master (75,230 rows, sourced from CB Insights, Wikipedia, Crunchbase 2015, and SEC Form D filings)
 - **Silver** — cleaned and validated unicorn + soonicorn rows (2,736 rows after deduplication, funding correction, and removal of impossible data)
-- **Gold** — two model-ready outputs:
+- **Gold** — model-ready outputs:
   - `valuation_gold.csv` — 827 unicorn rows with log-transformed valuation and funding, used for the regression model
-  - `classifier_gold.csv` — 3,422 rows with controls capped at 20%, for a future classifier
+  - `classifier_gold.csv` — the original expanded diagnostic classifier table
+  - `capitaliq_classifier_time_safe.csv` — 4,068 paired rows with round-level, pre-index features for the unicorn classifier
 
 The sklearn model (`model_pipeline.py`) runs six algorithms against the gold valuation dataset. The current champion is **Random Forest** (test R² = 0.363, 5-fold CV R² = 0.329).
 
@@ -107,4 +108,4 @@ A Crunchbase Pro export is a reasonable fallback if PitchBook access can't be ob
 
 ---
 
-*Repo state as of 2026-07-29. Champion model: Random Forest, test R² = 0.363, trained on 827 gold-layer rows.*
+*Repo state as of 2026-07-29. The valuation benchmark remains conditional on unicorn status; the Capital IQ classifier is evaluated separately with pair-group and chronological splits.*

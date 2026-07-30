@@ -1,6 +1,6 @@
 """Team 17 VC Scout: Model Definition and Initial Results pipeline.
 
-Reads the pre-cleaned ETL output (data/model_ready_valuation.csv) and runs a
+Reads the pre-cleaned Gold output (data/gold/valuation_gold.csv) and runs a
 tuned model comparison (OLS, Ridge, Lasso, KNN, Random Forest, Gradient
 Boosting) predicting ln(Valuation). Run etl.py first to regenerate the input.
 """
