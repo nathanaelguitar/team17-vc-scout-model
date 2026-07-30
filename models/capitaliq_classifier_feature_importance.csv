@@ -1,0 +1,82 @@
+feature,importance
+numeric__days_since_last_pre_round,0.43330451987959284
+numeric__pre_max_post_money_usd,0.1310159133373731
+numeric__pre_last_post_money_usd,0.1036952044083932
+numeric__years_of_history_pre,0.07698926091484588
+numeric__pre_round_count,0.07520040501955921
+numeric__has_pre_round,0.07514523378050049
+numeric__founded_year,0.035554947033828485
+numeric__ln_pre_funding_max,0.01626083908022775
+numeric__has_founded_year,0.014624460409090016
+categorical__continent_Unknown,0.010131046552254198
+numeric__ln_pre_funding,0.007566705651465415
+categorical__industry_group_Unknown,0.00744337958896392
+numeric__index_year,0.00715734134592897
+numeric__pre_unique_investor_count,0.0016660028160574137
+numeric__pre_investor_count_max,0.001511462849566873
+numeric__pre_rounds_with_amount,0.000609746717347286
+categorical__industry_group_Fintech,0.00047307605897349363
+categorical__country_United States,0.0004373411691703018
+categorical__continent_North America,0.00037650659287913346
+categorical__industry_group_Enterprise Software,0.0002283737265201222
+categorical__industry_group_Other / Unknown,0.00013560344296286787
+categorical__industry_group_AI & Data,0.00010406675815534187
+categorical__industry_group_Hardware & Industrials,9.90391314370551e-05
+categorical__industry_group_Health & Bio,9.390289347935571e-05
+categorical__continent_Other,7.952178092609149e-05
+categorical__continent_Asia,4.941368653600003e-05
+categorical__continent_Europe,2.3778754567980322e-05
+categorical__country_Israel,2.1392845466821862e-05
+categorical__country_United Kingdom,1.5137739304501996e-06
+categorical__country_Turkey,0.0
+categorical__country_Philippines,0.0
+categorical__country_Oceania,0.0
+categorical__country_Netherlands,0.0
+categorical__country_Japan,0.0
+categorical__country_Mexico,0.0
+categorical__country_Ireland,0.0
+categorical__country_India,0.0
+categorical__country_Hong Kong,0.0
+categorical__country_Germany,0.0
+categorical__country_Portugal,0.0
+categorical__country_Saudi Arabia,0.0
+categorical__country_Russia,0.0
+categorical__country_THA,0.0
+categorical__country_Seychelles,0.0
+categorical__country_United Arab Emirates,0.0
+categorical__country_Singapore,0.0
+categorical__country_Ukraine,0.0
+categorical__country_South Korea,0.0
+categorical__country_Spain / United States,0.0
+categorical__country_Sweden,0.0
+categorical__country_France,0.0
+categorical__country_Switzerland,0.0
+categorical__country_GRC,0.0
+categorical__country_Argentina / United States,0.0
+categorical__country_Finland,0.0
+categorical__continent_Oceania,0.0
+categorical__industry_group_Cybersecurity,0.0
+categorical__industry_group_E-commerce & Consumer,0.0
+categorical__industry_group_Education,0.0
+categorical__industry_group_Energy & Climate,0.0
+categorical__industry_group_Food & Agriculture,0.0
+categorical__industry_group_HR & Work,0.0
+categorical__industry_group_Media & Entertainment,0.0
+categorical__industry_group_Real Estate & Construction,0.0
+categorical__industry_group_Transport & Logistics,0.0
+categorical__industry_group_Travel & Hospitality,0.0
+categorical__continent_Africa,0.0
+categorical__continent_South America,0.0
+categorical__country_Estonia,0.0
+categorical__country_Argentina,0.0
+categorical__country_Australia,0.0
+categorical__country_Austria,0.0
+categorical__country_Belgium,0.0
+categorical__country_Bermuda,0.0
+categorical__country_Brazil,0.0
+categorical__country_Canada,0.0
+categorical__country_Chile,0.0
+categorical__country_China,0.0
+categorical__country_Denmark,0.0
+categorical__country_Egypt,0.0
+categorical__country_Uzbekistan,0.0

@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "path": "data/gold/capitaliq_classifier_time_safe.csv",
+    "rows": 4068,
+    "positive_rows": 2034,
+    "control_rows": 2034,
+    "pair_groups": 2034,
+    "index_year_min": 2010,
+    "index_year_max": 2026
+  },
+  "feature_contract": {
+    "numeric": [
+      "index_year",
+      "pre_round_count",
+      "has_pre_round",
+      "pre_rounds_with_amount",
+      "ln_pre_funding",
+      "ln_pre_funding_max",
+      "pre_last_post_money_usd",
+      "pre_max_post_money_usd",
+      "pre_unique_investor_count",
+      "pre_investor_count_max",
+      "years_of_history_pre",
+      "days_since_last_pre_round",
+      "founded_year",
+      "has_founded_year"
+    ],
+    "categorical": [
+      "industry_group",
+      "continent",
+      "country"
+    ],
+    "excluded_label_or_matching_fields": [
+      "label_source",
+      "outcome_date",
+      "match_method",
+      "match_gap_days",
+      "matched_positive_company",
+      "master_tier"
+    ]
+  },
+  "selected_model": "random_forest",
+  "pair_group_holdout": {
+    "logistic_regression": {
+      "roc_auc": 0.9746270729071711,
+      "average_precision": 0.9756072536417691,
+      "accuracy": 0.9152334152334153,
+      "balanced_accuracy": 0.9152334152334152,
+      "precision": 0.916256157635468,
+      "recall": 0.914004914004914,
+      "f1": 0.915129151291513,
+      "brier_score": 0.06495580733471047
+    },
+    "random_forest": {
+      "roc_auc": 0.9978448405966834,
+      "average_precision": 0.9978397726233561,
+      "accuracy": 0.9766584766584766,
+      "balanced_accuracy": 0.9766584766584767,
+      "precision": 0.9685990338164251,
+      "recall": 0.9852579852579852,
+      "f1": 0.976857490864799,
+      "brier_score": 0.019860397532345395
+    }
+  },
+  "pair_group_cv": {
+    "logistic_regression": {
+      "roc_auc": {
+        "mean": 0.9741922000994692,
+        "std": 0.004637382141732016
+      },
+      "average_precision": {
+        "mean": 0.9747648781035757,
+        "std": 0.005923716801268041
+      },
+      "balanced_accuracy": {
+        "mean": 0.9065915445225791,
+        "std": 0.008993347531335466
+      }
+    },
+    "random_forest": {
+      "roc_auc": {
+        "mean": 0.9968310900983941,
+        "std": 0.0008767439481540393
+      },
+      "average_precision": {
+        "mean": 0.9968822338986385,
+        "std": 0.000869352666410063
+      },
+      "balanced_accuracy": {
+        "mean": 0.970989820989821,
+        "std": 0.008892439934624076
+      }
+    }
+  },
+  "forward_test_2024_plus": {
+    "train_rows": 2996,
+    "test_rows": 1072,
+    "test_years": [
+      2024,
+      2025,
+      2026
+    ],
+    "metrics": {
+      "roc_auc": 0.9864878035197149,
+      "average_precision": 0.9874655056710132,
+      "accuracy": 0.9160447761194029,
+      "balanced_accuracy": 0.9160447761194029,
+      "precision": 0.8741610738255033,
+      "recall": 0.9720149253731343,
+      "f1": 0.9204946996466431,
+      "brier_score": 0.05957821525937291
+    }
+  },
+  "outputs": {
+    "model": "models/capitaliq_unicorn_classifier.joblib",
+    "forward_predictions": "data/gold/capitaliq_classifier_forward_predictions.csv",
+    "feature_importance": "models/capitaliq_classifier_feature_importance.csv"
+  }
+}
