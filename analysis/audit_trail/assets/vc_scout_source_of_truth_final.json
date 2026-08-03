@@ -436,5 +436,40 @@
       "avg_residual_ln": -0.10309195073725597,
       "median_outperformance_pct": -0.15980152122422275
     }
-  ]
+  ],
+  "ols_companion": {
+    "note": "Interpretable OLS companion of the audited benchmark: ln(valuation $B) ~ ln(audited funding $B) + industry + continent + era one-hots, fit on the n=1057 audited unicorn rows. The multivariable funding slope differs slightly from the univariate log-log elasticity (0.494) because the categorical offsets absorb part of the funding association. Used verbatim by the deck's live explorer (slide M-11).",
+    "n": 1057,
+    "r2": 0.343,
+    "intercept": 0.4895,
+    "ln_funding": 0.5046,
+    "industries": {
+      "AI & Data": 0.0,
+      "Cybersecurity": 0.1294,
+      "E-commerce & Consumer": -0.1315,
+      "Education": 0.1237,
+      "Enterprise Software": 0.172,
+      "Fintech": 0.1803,
+      "Hardware & Industrials": -0.0094,
+      "Health & Bio": -0.0053,
+      "Other / Unknown": 0.1364,
+      "Transport & Logistics": 0.0679,
+      "Travel & Hospitality": 0.5087
+    },
+    "continents": {
+      "Africa": 0.0,
+      "Asia": 0.5408,
+      "Europe": 0.5912,
+      "North America": 0.7725,
+      "Oceania": 1.0218,
+      "Other": 1.8923,
+      "South America": 0.2459
+    },
+    "eras": {
+      "2021": 0.0,
+      "Post-2021": -0.0792,
+      "Pre-2021": 0.2886,
+      "Unknown": -0.0324
+    }
+  }
 }

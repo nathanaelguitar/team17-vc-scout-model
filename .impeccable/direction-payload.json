@@ -1,0 +1,54 @@
+{
+  "title": "VC Scout — choose the deck's visual world",
+  "question": "The roll assigned The Unicorn Departures Board. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "The Unicorn Departures Board",
+      "kicker": "THE ROLL",
+      "lineage": "Solari di Udine split-flap boards — airports, stations, and the old exchange big boards",
+      "thesis": "The unicorn market as an arrivals-and-departures board: every fact lands with a flip.",
+      "palette": ["#101114", "#e9e6dd", "#ffce33", "#3fbf6e", "#e2483d"],
+      "materials": ["matte split-flaps", "brushed steel bezel", "cut grotesk letterforms"],
+      "viewport": "Full-bleed black board. VC SCOUT flips into place letter by letter across a giant flap row; below, a live departures grid of real unicorns — OpenAI, Anthropic, Stripe — with yellow headers and a STATUS column mid-flip. Arrivals are new unicorns, departures are IPOs, delays are down rounds, cancellations are shutdowns; your audit reveal is rows physically flipping from corrupted to corrected.",
+      "risk": "Flip motion overused on dense chart slides becomes noise — the board grammar must hand off to clean chart canvases inside the bezel.",
+      "sketch": ".impeccable/sketches/assigned.webp"
+    },
+    {
+      "id": "challenger-teletext",
+      "label": "Teletext Service",
+      "lineage": "broadcast teletext magazines (Ceefax / ORACLE)",
+      "thesis": "The capstone as a broadcast data magazine: three-digit pages, block-mosaic charts, answers behind REVEAL.",
+      "case": "Real resonance — teletext literally broadcast share prices, and REVEAL is a born presenter device — but the sacred 40×24 cell grid fights your dense residual scatters and trajectory races.",
+      "sketch": ".impeccable/sketches/challenger-teletext.webp",
+      "hero": "https://impeccable.style/worlds/cards/broadcast-programming-teletext-service-hero.webp"
+    },
+    {
+      "id": "challenger-miura",
+      "label": "Miura-Fold Deployment",
+      "lineage": "deployable Miura-ori aerospace sheets",
+      "thesis": "One pull deploys a linked field: the deck unfolds from a hand-sized packet into the full framework.",
+      "case": "A beautiful metaphor for the two-layer pipeline unfolding from raw data — one control propagating across the whole sheet — but aerospace origami reads farther from a VC audience's world than a market board.",
+      "sketch": ".impeccable/sketches/challenger-miura.webp",
+      "hero": "https://impeccable.style/worlds/cards/paper-folds-pleats-deployable-miura-orbit-sheet-hero.webp"
+    },
+    {
+      "id": "challenger-livery",
+      "label": "Endurance Livery Garage",
+      "lineage": "Gulf and Martini endurance-racing identity systems",
+      "thesis": "The model tournament as a 24-hour race: stripes as wayfinding, roundels as focus, the pit board calling laps.",
+      "case": "Five teammates as five stints is fun and the tournament race fits, but racing identity says speed, not judgment — weaker clarity for a story whose hero is the audit.",
+      "sketch": ".impeccable/sketches/challenger-livery.webp",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-endurance-livery-garage-hero.webp"
+    }
+  ],
+  "reroll": true,
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "The polished dark analytics keynote — navy ground, accent chips, stat tiles, smooth animated charts — executed impeccably.",
+    "viewport": "What your current decks already are, rebuilt at full craft with live animated charts instead of PNGs.",
+    "sketch": ".impeccable/sketches/canon.webp"
+  },
+  "steer": true
+}
