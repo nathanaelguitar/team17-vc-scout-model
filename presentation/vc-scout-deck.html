@@ -1161,8 +1161,8 @@ const deck = {
               <div id="xp-vs" style="font-size:clamp(13px,1.1vw,17px);margin-top:14px;line-height:1.7"></div>
             </div>
             <div class="ledge" data-fold style="margin-top:16px;background:#F5EFD9;border-color:var(--gold-deep)">
-              <div class="k">CLASSIFIER EXAMPLE · A DILIGENCE LEAD</div>
-              <div class="n" style="font-size:clamp(12.5px,1.05vw,16px);line-height:1.7"><b>Changing Environments Inc.</b> · hardware and industrials, North America. $2.5M pre-round funding, $8.77M last post-money. Screening score <b>94.2%</b>, the highest-ranked non-unicorn control of 536 in the forward test. A lead for diligence, not a claim it becomes a unicorn.</div>
+              <div class="k">RANKER LEADS · LIVE</div>
+              <div class="n" style="font-size:clamp(12.5px,1.05vw,16px);line-height:1.7"><b>Coro Cyber Security</b> · <b>Snabbit</b> · top of 1,015 ranked private candidates right now. Leads for diligence, not picks.</div>
             </div>
           </div>
         </div>
@@ -1213,59 +1213,39 @@ const deck = {
     } });
 })();
 
-/* ================= M-10 · classifier ================= */
+/* ================= M-12 · screening ranker ================= */
 (function () {
-  let tw = [];
   const node = boardSlide('m-12', canvas => {
-    const c = DATA.clf;
     canvas.innerHTML += `
-      <h2 data-fold>Round-level data makes the first honest success classifier</h2>
-      <p class="sub" data-fold>Capital IQ private placements, 2010 – mid-2026. Each of 2,034 eventual $1B companies is paired with one matched control; every feature is constructed strictly before the first observed $1B round. Screening, not causality.</p>
-      <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;margin-top:22px;align-items:start">
+      <h2 data-fold>A 0.99 we didn't trust became a 0.80 we do</h2>
+      <p class="sub" data-fold>The screening ranker watches a company's second financing and asks one question: does a $1B event follow within three years?</p>
+      <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(40px,4vw,64px);margin-top:26px;align-items:start">
         <div>
-          <div style="display:flex;gap:34px;align-items:baseline;flex-wrap:wrap" data-fold>
-            <div><div style="font-family:var(--disp);font-weight:700;font-size:clamp(52px,4.4vw,78px)">${c.cv_auc.toFixed(3)}</div><div class="spec">ROC-AUC · 5-FOLD PAIR-GROUP CV</div></div>
-            <div><div style="font-family:var(--disp);font-weight:700;font-size:clamp(36px,3.2vw,56px)" class="gold-t">${c.fwd_auc.toFixed(3)}</div><div class="spec">FORWARD TEST · TRAIN ≤2023, SCORE 2024–26</div></div>
+          <div data-fold>
+            <div style="font-family:var(--disp);font-weight:700;font-size:clamp(72px,7.5vw,130px);line-height:.95" class="gold-t">0.804</div>
+            <div class="spec" style="margin-top:10px"><b>ROC-AUC</b> · TESTED COLD ON 2021–22 · 95% INTERVAL 0.71–0.88</div>
+            <div class="spec" style="margin-top:6px">FINAL HOLDOUT: 113 COMPANIES, 34 HITS</div>
           </div>
-          <div class="spec" data-fold style="margin-top:12px;line-height:1.9">${c.rows.toLocaleString()} PAIRED ROWS · ${c.pairs.toLocaleString()} POSITIVES + ${c.pairs.toLocaleString()} CONTROLS<br>FORWARD: ${c.fwd_train.toLocaleString()} TRAIN / ${c.fwd_test.toLocaleString()} TEST · PRECISION ${c.fwd_prec} · RECALL ${c.fwd_rec}</div>
-          <div id="clf-fi" data-fold style="margin-top:20px"></div>
+          <div class="xp-chips" style="margin-top:24px">
+            <span class="chip" data-fold><span>PR-AUC 0.642</span></span>
+            <span class="chip" data-fold><span>TOP-DECILE PRECISION 75%</span></span>
+            <span class="chip" data-fold><span>2.49× LIFT</span></span>
+            <span class="chip" data-fold><span>1,015 CANDIDATES RANKED</span></span>
+          </div>
         </div>
         <div>
           <div class="ledge" data-fold style="background:#F5EFD9;border-color:var(--gold-deep)">
-            <div class="k">WHY WE SAY IT CAREFULLY</div>
-            <div class="n" style="font-size:clamp(12.5px,1.05vw,16px);line-height:1.75">A plain logistic regression already reaches <b>${c.cv_auc_lr.toFixed(3)}</b> AUC, and the expanded-tier diagnostic hits <b>0.993</b> on mixed sources. When separation is this easy, suspect the data before the model: controls are defined by the absence of a recorded $1B round, and recency features may carry matching artifacts. We report it as a <b>historical screening result</b>, never a probability of success.</div>
+            <div class="k">WHY WE TORE DOWN THE FIRST ONE</div>
+            <div class="n" style="font-size:clamp(12.5px,1.05vw,16px);line-height:1.75">Version one scored <b>0.997</b>, and a far simpler model nearly matched it. Separation that easy means the model was reading our data construction, not startup quality. So we rebuilt it and report the honest number.</div>
           </div>
           <div class="ledge" data-fold style="margin-top:12px">
-            <div class="k">TOP FEATURE · 43% OF IMPORTANCE</div>
-            <div class="n" style="font-size:clamp(12.5px,1.05vw,16px);line-height:1.75"><b>days_since_last_pre_round</b> · how recently the company raised before the index date. Momentum is real signal, but it is also the feature most exposed to matching artifacts. Flagged for scrutiny, on the label.</div>
+            <div class="k">WHAT DRIVES IT</div>
+            <div class="n" style="font-size:clamp(12.5px,1.05vw,16px);line-height:1.75"><b>Funding, not timing.</b> Round size alone reaches 0.84 in validation; timing-only features score 0.49, a coin flip. Scores are <b>rankings, never probabilities</b>. It orders live candidates by where to look first.</div>
           </div>
         </div>
       </div>`;
   });
-  function draw() {
-    tw.forEach(t => t.stop()); tw = [];
-    const host = $('#clf-fi'); host.innerHTML = '';
-    const W = 470, H = 210;
-    const svg = svgEl('svg', { viewBox: `0 0 ${W} ${H}`, style: 'width:100%;max-width:580px;height:auto;display:block' }, host);
-    svgEl('text', { x: 0, y: 12, 'font-size': 10, fill: '#4B4B47' }, svg).textContent = 'RANDOM-FOREST FEATURE IMPORTANCE (TOP 6)';
-    const rows = DATA.clf_fi.slice(0, 6).map(r => ({ f: r.f.replace('numeric__', '').replace('categorical__', ''), v: r.v }));
-    const x0 = 218, span = W - x0 - 52, rh = (H - 22) / rows.length;
-    const bars = [];
-    rows.forEach((r, i) => {
-      const y = 22 + i * rh;
-      svgEl('text', { x: x0 - 8, y: y + rh * 0.5, 'font-size': 9.5, 'text-anchor': 'end' }, svg).textContent = r.f;
-      const p = svgEl('path', { fill: i === 0 ? 'var(--gold)' : '#161511' }, svg);
-      bars.push({ r, p, y, h: rh * 0.45 });
-      svgEl('text', { x: x0 + span * (r.v / 0.5) + 6, y: y + rh * 0.5, 'font-size': 9.5, fill: '#4B4B47' }, svg).textContent = (r.v * 100).toFixed(1) + '%';
-    });
-    tw.push(tween(1000, t => bars.forEach((b, i) => {
-      const local = clamp(t * 1.7 - i * 0.1, 0, 1), w = span * (b.r.v / 0.5) * easeOut(local), sk2 = 5;
-      b.p.setAttribute('d', `M${x0} ${b.y} L${x0 + w + sk2} ${b.y} L${x0 + w} ${b.y + b.h} L${x0} ${b.y + b.h} Z`);
-    })));
-  }
-  slide({ id: 'm-12', name: 'CLASSIFIER', mode: 'board', node,
-    enter() { choreograph(node); draw0(draw, 300); },
-    exit() { tw.forEach(t => t.stop()); tw = []; } });
+  slide({ id: 'm-12', name: 'RANKER', mode: 'board', node, enter() { choreograph(node); } });
 })();
 
 /* ================= M-11 · hypotheses ================= */
@@ -1377,7 +1357,7 @@ const SLIDES_META = [
 /* ================= M-16 · professional relevance ================= */
 (function () {
   const TAKE = [
-    ['When a model looks too good, suspect the data, not a breakthrough.', 'Our headline classifier scored 0.99, and so did a much simpler model. That is a warning, not a win.'],
+    ['When a model looks too good, suspect the data, not a breakthrough.', 'Ours scored 0.99 and so did a much simpler one. We threw it out and rebuilt it at an honest 0.80.'],
     ['Money still moves valuations, but with diminishing returns.', 'Doubling a company\'s funding buys only about 40% more value. Efficiency beats raw check size.'],
     ['The direction is specific, but it is not one profile.', 'North America leads by count (584 rows). On funding-adjusted residuals, South Korea is the top watchlist (+0.348, 12 companies) while the US sits at benchmark (+0.013, 561). Fintech and Enterprise Software beat benchmark; AI and Data sits just below it (\u22120.018).']];
   const node = boardSlide('m-16', canvas => {
@@ -1405,7 +1385,7 @@ const SLIDES_META = [
     'WHY 0.51 → 0.30': `<h3>Why our score dropped</h3><p class="sub">0.51 came from a winners-only file. After we found and fixed corrupted funding and rebuilt on a broader, cleaner sample, the honest number is 0.30. We kept the smaller one because it survives scrutiny.</p>`,
     'DOES MONEY = VALUE?': `<h3>Does more money mean more value?</h3><p class="sub">Only partly. Doubling a company's funding buys about 41% more valuation, not double. Take funding away entirely and the model barely works. Capital matters, with clear diminishing returns.</p>`,
     'WHY IS 2021 SPECIAL?': `<h3>Why 2021 stands apart</h3><p class="sub">2021 minted 441 unicorns, five times the normal rate, at lower valuations and less funding. The shift is statistically real, and companies did not get there any faster. It was a capital regime, not a speed one.</p>`,
-    'IS THE MODEL TOO GOOD?': `<h3>Is 0.99 too good to be true?</h3><p class="sub">Almost. A simple model scores nearly as high, which is a red flag. It is likely reading how companies were matched, not pure quality. We report it as screening, never a prediction of success.</p>`,
+    'IS THE MODEL TOO GOOD?': `<h3>Is 0.99 too good to be true?</h3><p class="sub">Yes. Version one scored 0.997 and a much simpler model nearly matched it, so we didn't trust it. The rebuilt ranker scores 0.804, tested cold on 2021–22, interval 0.71 to 0.88. Rankings, not probabilities.</p>`,
     'WHERE NEXT UNICORNS?': `<h3>Where the next unicorns come from</h3><p class="sub">North America still dominates by count (584 rows in the audited set, vs 303 in Asia and 136 in Europe). South Korea is the strongest small-sample watchlist (+0.348, 12 companies). Fintech and Enterprise Software beat the funding-adjusted benchmark; AI and Data does not (\u22120.018). Two things we won't claim: a team-size trend (no reliable coverage) and a speed trend (median time to unicorn stayed about six years, p = 0.267).</p>`
   };
   const node = stageSlide('m-17', inner => {

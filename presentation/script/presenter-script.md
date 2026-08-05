@@ -73,172 +73,151 @@ Mia, take them to 2021.
 
 ## M-05 · REGIME (variables & relationships I) — Mia · about 2 min
 
-STAGE: Bars extend in a staggered wave, the 2021 bar in gold; era panel and p-value tags fold in. One press moves on.
+STAGE: Bars extend in a wave, 2021 in gold; era panel and p-value tags fold in. One press moves on.
 
-MIA: Thanks, Kayvon. Before we model anything, look at what the market did on its own.
-Each bar is unicorn births per year. The gold one is 2021: 441 companies. For scale, 351 dated rows sit before 2021, and 607 came after.
-Now the right panel. Median valuation walks down across eras. $2.3 billion pre-2021. $1.67 billion in 2021. $1.5 billion after. Median funding does the same slide: $505 million, then $320, then $231.
-Are those differences real? Kruskal-Wallis says yes. p equals 5.1e-12 on valuation. 3.5e-19 on funding. The sector mix shifts too, chi-square p of 1.0e-20.
-But here's the twist we didn't expect. Years-to-unicorn didn't move. The median stayed around six years, p equals 0.267. Not significant. So 2021 changed how much capital and valuation a unicorn carries. It did not change how fast companies got there. It's a capital regime, not a speed regime.
-One caution before anyone writes it down: the data flags the discontinuity. It does not prove COVID caused it. That would take external rate and funding data we don't have.
-What it means downstream is simple. Every benchmark you're about to see carries an era feature, and 2021 gets reported separately, so a hot-year cohort can't distort a comparison.
-Those are the variables. Now, the machine we raced on top of them.
-
+MIA: Thanks, Kayvon. Before any modeling, look at what the market did on its own.
+Each bar is new unicorns per year. The gold one is 2021: 441 companies. A normal year runs about a hundred.
+Right panel. The median unicorn got cheaper every era: 2.3 billion, then 1.67, then 1.5. Funding fell harder, 505 million down to 231.
+Those shifts are statistically real. But time-to-unicorn didn't move. Six years, every era. So 2021 changed how much money a unicorn carries, not how fast it got there.
+That's why every model tonight treats 2021 as its own era. A crazy year can't warp a comparison.
+Now, the machine we raced on top of it.
 ---
 
 ## M-06 · TOURNAMENT (model & tools) — Mia · about 2 min
 
-STAGE: Strips race in sequentially, then the test diamonds drop. Pause and let the race finish before naming the winner. One press moves on.
+STAGE: Strips race in, then the test diamonds drop. Let the race finish before naming the winner. One press moves on.
 
-MIA: Seven models, one fair race. Same folds for everyone, same held-out test set, 99 hyperparameter combinations searched, all of it on seed 17. The tools are on the slide: Python, pandas ETL in a bronze-silver-gold structure, scikit-learn pipelines, GridSearchCV, and a bootstrap with 2,000 resamples.
-*(beat: let the strips race in and the diamonds drop)*
-The baseline scores zero, which is exactly what a baseline should do. The linear models cluster in the mid-forties. And gradient boosting takes it: 0.46 cross-validated, 0.51 on the test set.
-Three things about that race for the technical folks in the room. Every transform was fit inside the training folds, so nothing leaked. The test set got touched exactly once. And we banned funding efficiency as a feature, because it contains the target. Using it would've been cheating.
-Also look at the champion's shape. 200 trees, learning rate 0.03, depth 2, subsample 0.8. It's a third the size of the random forest, with no gap between CV and test. Regularization beat horsepower.
-In dollars: a median miss of 37 percent of valuation, versus 77 percent if you just guessed the average. Half the error, from public fields alone. The bootstrap interval runs 0.39 to 0.61.
-So, 0.51. Nice number. Don't fall in love with it. It was earned on the winners-only file. And you should see what the expanded data looked like when it showed up.
-
+MIA: Seven models, one fair race. Same folds, same held-out test set, seed 17.
+*(beat: strips race, diamonds drop)*
+The baseline scores zero, like it should. The linear models bunch in the middle. Gradient boosting wins: 0.46 cross-validated, 0.51 on test.
+And the race was clean. Nothing leaked across folds, the test set got touched exactly once, and we banned the one feature that contains the answer.
+In dollars, that's a median miss of 37 percent versus 77 if you just guessed the average. Half the error, from public fields alone.
+But that 0.51 was earned on a winners-only file. Wait till you see what the expanded data looked like.
 ---
 
 ## M-07 · AUDIT (challenges & mitigation) — Mia · about 2 min
 
-STAGE: TWO BUILDS on this slide. First press: 950 cells flip red with corruption strikes. Second press: the gold refold wave sweeps through with a live counter to 950/950. Rehearse the pause between presses. This is the deck's signature moment.
+STAGE: TWO BUILDS. First press: 950 cells flip red. Second press: the gold refold wave with a live counter. Rehearse the pause between presses.
 
-MIA: The expanded data arrived broken. Not subtly broken. Broken in a way you can prove.
-Here's how we caught it. 1,058 unicorn rows carried both a funding number and a valuation. That made a sanity check possible, because a company's total funding should not exceed its own valuation.
-*(FIRST PRESS: cells flip red. Pause. Let them look.)*
-Every red cell just failed that check. 950 out of 1,058. Ninety percent of the checkable rows had funding recorded one thousand times too large. Unit corruption. My favorite example is VAST Data: $263 billion of recorded funding against an $80 billion valuation. The real number is $263 million.
-*(SECOND PRESS: gold refold wave. Let the counter run to 950/950 before speaking.)*
-The fix is deliberately boring. Divide the suspect values by a thousand. Keep every raw value in the master, so the correction is reversible. Re-run the check. After correction: zero rows where funding exceeds valuation. 950 out of 950, refolded.
-One more piece of context. We pulled SEC Form D filings for Q2 2026. 238 mega-raises of $100 million or more. 156 of them are likely non-startup vehicles, and they hold 77 percent of the mega-raise dollars. We keep that as market context. It never touches training data.
-The point here isn't that upstream sources are bad. The point is process. Audit before you believe.
-Now watch what the audit did to our favorite number.
-
+MIA: It arrived broken. Provably broken.
+1,058 unicorn rows had both a funding number and a valuation. Funding should never exceed valuation, so that gave us a test.
+*(FIRST PRESS: cells flip red. Pause.)*
+950 of 1,058 just failed it. Ninety percent, with funding recorded a thousand times too large. VAST Data showed 263 billion in funding against an 80 billion valuation. The real number is 263 million.
+*(SECOND PRESS: gold wave. Let the counter finish.)*
+The fix is boring on purpose. Divide by a thousand, keep the raw values, re-run the check. Zero failures left.
+One more thing. In last quarter's SEC filings, 77 percent of the mega-raise dollars weren't even startups. We keep that as context, never as training data.
+Audit before you believe. Now watch what it did to our favorite number.
 ---
 
 ## M-08 · REFOLD (the honest number) — Mia · about 1.5 min
 
-STAGE: The 0.51 bar rises first, then visibly refolds down to 0.303; the stress bar lands tiny; the curve draws. Let the refold finish before the first line. One press moves on.
+STAGE: The 0.51 bar rises, then refolds down to 0.303; the stress bar lands tiny; the curve draws. Let the refold finish first. One press moves on.
 
-MIA: *(beat: watch the bar fold down with the room)*
-It cut it almost in half. The 0.51 you liked two slides ago becomes 0.303 once we rebuild on audited funding across the unicorn-history tiers. Cross-validated 0.397. Mean absolute error, 0.48 log units. Median error, 40 percent of valuation.
-And we lead with the smaller number on purpose. The 0.51 was real, but it was earned on a winners-only file with corrupted units. The 0.303 survives diligence. We know which one our coach would put on a slide.
-Two more things here. The stress test: pull funding out of the model entirely and R² collapses to 0.045. Public fields beyond funding carry very little. That's the humility check.
-And the curve in the middle is the elasticity: 0.494 on a log-log fit. In plain English, doubling a company's capital buys about 41 percent more expected valuation. Not double. Diminishing returns, measured.
-We're not apologizing for any of this. Honest signal from public fields looks exactly like this.
-Om, show them what the market was doing underneath the benchmark.
-
+MIA: *(beat: watch the bar fold down)*
+Almost in half. The 0.51 becomes 0.303 on audited data. And that's the number we lead with, because it's the one that survives questioning.
+Two quick things. Pull funding out of the model and R² collapses to 0.045. Funding is most of the signal.
+And the curve: elasticity 0.494. Doubling a company's money buys about 41 percent more expected value. Not double.
+No apology here. Honest signal from public data looks exactly like this.
+Om, show them what the market was doing underneath.
 ---
 
 ## M-09 · TRAJECTORIES (variables & relationships II) — Om · about 1.5 min
 
-STAGE: ONE BUILD. The field of gray strands draws first. Press the right arrow to light the ten star companies and labels. Then physically hover one gray strand with the mouse so the room sees the live tooltip.
+STAGE: ONE BUILD. Gray strands draw first. Press the right arrow to light the ten stars, then hover one gray strand so the room sees the live tooltip.
 
-OM: Every gray strand on the right is one unicorn's valuation across four snapshots: 2022, 2024, 2025, and 2026. 838 companies carry all four points, and 1,313 strands have at least two.
-*(PRESS the right arrow: the ten names light up)*
-Three stories, and then I'll leave the chart alone. OpenAI: $3 billion to $840 billion across four snapshots. That's 280 times, while Anthropic reached $965 billion. Stripe is the honest middle story: $95 billion down to $70, back up to $159. Dip and recovery. And Klarna: $46 billion down to $6.7, recovering only to $14.5.
-This chart is live, by the way.
-*(hover any gray strand: tooltip shows its company and values)*
-Any strand I hover shows you its company. These are recorded snapshots, not forecasts, so we're not going to editorialize about anyone's future.
-But this is exactly why the project exists. Raw valuations swing by orders of magnitude in both directions. A raw price tag tells you almost nothing.
-So what's the actual signal?
-
+OM: Every gray strand is one unicorn's valuation across four snapshots, 2022 to 2026.
+*(PRESS: names light up)*
+Three stories. OpenAI, 3 billion to 840. Stripe, 95 down to 70 and back to 159. Klarna, 46 down to 6.7, back to only 14.5.
+And it's live.
+*(hover a strand)*
+Any strand shows its company. Recorded prices, not forecasts.
+Here's the point. Raw valuations swing wildly in both directions, so a price tag alone tells you almost nothing. So what's the actual signal?
 ---
 
 ## M-10 · RESIDUALS (insights) — Om · about 1.5 min
 
-STAGE: Bars extend from the axis in both directions; low-confidence rows render part-folded and faded. Hovering any bar shows the full row. One press moves on.
+STAGE: Bars extend both directions; thin samples render part-folded. Hovering a bar shows the full row. One press moves on.
 
-OM: Subtract the benchmark. Actual minus expected log valuation, after controlling for funding, sector, geography, and era. That residual is the scouting signal. Positive means a segment beats a fair benchmark.
-Industries first. Fintech sits at plus 0.045 across 213 companies. That one's robust. Enterprise software, plus 0.022 on 300. Cybersecurity leads at plus 0.082, but that's eight companies, so the deck literally renders the row part-folded. The caveat is built into the picture. You can't miss it.
-Here's the one that lands in 2026: AI and Data is slightly negative. Minus 0.018 across 263 companies, despite all the hype.
-Countries. South Korea leads the world at plus 0.348, on twelve companies. That's a watchlist entry, not a ranking. The US sits at plus 0.013 across 561. China, minus 0.103 across 166.
-And the gold tag: OpenAI sits 90 times above its own benchmark. Residual plus 4.52 in log terms.
-These are watchlists for diligence. They are not rankings to invest by.
-And because a benchmark should be usable, we made it something you can drive.
-
+OM: Subtract the benchmark. Actual minus expected, after controlling for funding, sector, geography, and era. The leftover is the signal.
+Fintech beats it, plus 0.045 across 213 companies. Enterprise software too. Cybersecurity leads, but on eight companies, so the deck literally folds that row down.
+And the 2026 surprise: AI and Data sits slightly below benchmark. All that hype, already priced in.
+Countries. South Korea leads on twelve companies. That's a watchlist, not a ranking. The US sits right at benchmark across 561.
+OpenAI? 90 times above its own benchmark.
+These are watchlists for diligence, not rankings to invest by. And you can drive this thing.
 ---
 
 ## M-11 · EXPLORER (live demo) — Om · about 2 min
 
-STAGE: FULLY LIVE HTML instrument. Rehearsed 30-second demo: (1) drag the funding slider, (2) tap a sector chip, (3) hit the KLARNA preset, (4) optionally hit OPENAI for the crowd-pleaser. R resets nothing; state persists, just drag the slider back.
+STAGE: FULLY LIVE. Demo: (1) drag the slider, (2) tap a sector chip, (3) hit KLARNA, (4) optionally OPENAI. State persists; just drag back.
 
 OM: This is not a screenshot.
-*(drag the funding slider and let the output move)*
-The slider is total disclosed funding, $10 million to $50 billion on a log scale, and the expected valuation is recomputing as I drag. Notice it moves sub-linearly. That's the diminishing returns doing its job.
+*(drag the slider)*
+That's total funding, and the expected valuation recomputes as I drag. Notice it rises slower than the money does. Diminishing returns, live.
 *(tap a sector chip)*
-Every sector changes the estimate, and the output tells you when a profile clears the billion-dollar line.
-*(hit the KLARNA preset)*
-Now a real company. Klarna. Expected valuation comes out around $10.1 billion. Its actual peak snapshot was $46 billion. That's 4.6 times above benchmark, computed in front of you.
-Here's the classifier version of the same idea. Changing Environments Inc. is a non-unicorn control in the forward test: hardware and industrials, North America, with $2.5 million in pre-round funding and an $8.77 million last recorded post-money value. The model gave it a 94.2 percent screening score, the highest-ranked non-unicorn control out of 536. That is a diligence lead, not a claim that the company will become a unicorn. The controls are defined by the absence of a recorded billion-dollar round.
-*(optional: hit OPENAI, give the room a second)*
-And if you want the crowd-pleaser, there's OpenAI.
-One caution, and the subtitle says it too: this is a scouting instrument, not a valuation tool for investing.
-Nathanael, layer two asks a harder question. Not how big. Who gets there.
-
+Sectors shift the estimate, and the output says when a profile clears the billion-dollar line.
+*(hit KLARNA)*
+Real company. Klarna's expected value comes out around 10 billion. Its actual peak was 46. That's 4.6 times above benchmark, computed in front of you.
+*(optional: OPENAI)*
+And there's the crowd-pleaser.
+One more panel: the ranker's live leads. Top of 1,015 private candidates right now, Coro Cyber Security and Snabbit. Leads to research, not picks.
+Nathanael, layer two. Not how big. Who gets there.
 ---
 
 ## M-12 · CLASSIFIER (Layer B) — Nathanael · about 2 min
 
-STAGE: Importance bars extend; both AUC numbers fold in large. One press moves on. Slow down on the warning card. Say the quiet part before any professor does.
+STAGE: The 0.804 and its interval land big; the tear-down card second. Slow down on "we tore it down." One press moves on.
 
-NATHANAEL: Layer B runs on round-level data. Capital IQ private placements, 2010 through mid-2026. It's licensed, so it stays out of the public repo. 2,034 companies that eventually hit a billion dollars, each paired with one matched control. 4,068 rows.
-Construction is the whole game here. Every feature is built strictly before each company's first observed billion-dollar round. Matching metadata and outcome fields are excluded. And cross-validation is pair-grouped, so a company and its control can never split across folds.
-Results. The random forest hits 0.997 ROC-AUC on cross-validation. Hold that thought, because I know exactly what you're thinking.
-We also ran a chronological forward test. Train through 2023 on 2,996 rows, then score 2024 through '26 cold, on 1,072. That comes out at 0.9865. Precision 0.874, recall 0.972.
-Top feature: days since the last pre-round, at 43 percent of importance. Momentum is real signal. It's also the feature most exposed to matching artifacts, and we flag that on the slide itself.
-Now the warning card, and this is the part I want you to remember. A plain logistic regression already reaches 0.974. A mixed-source diagnostic hits 0.993. When separation is that easy, you suspect the data before you celebrate the model.
-So we report this as historical screening. Never as a probability of success. Controls are defined by the absence of a recorded billion-dollar round, and right-censoring is real.
+NATHANAEL: Layer two watches a company at its second financing and asks one question. Does a billion-dollar event show up within three years?
+Our first version scored 0.997. We didn't believe it, and neither should you. A much simpler model scored nearly the same, which means it was reading our data construction, not startup quality. So we tore it down.
+The rebuild: trained through 2019, tested cold on 2021 and '22. ROC-AUC 0.804, interval 0.71 to 0.88, because the final sample is small. 113 companies, 34 hits.
+Here's what matters for a scout. In the top decile, three of four flagged companies actually hit a billion-dollar event. Two and a half times better than chance.
+What drives it is funding, not timing. Round size alone gets most of the way there, and timing features score at a coin flip.
+These are rankings, not probabilities. It orders 1,015 live candidates by where to look first. It doesn't pick winners.
 And we promised you verdicts. The scoreboard.
-
 ---
 
 ## M-13 · HYPOTHESES (learnings) — Nathanael · about 1 min
 
-STAGE: Stamps slam in staggered with a slight rotation. Fast slide. Let the red DISPROVEN stamp do the work. One press moves on.
+STAGE: Stamps slam in staggered. Fast slide. Let the red DISPROVEN stamp do the work. One press moves on.
 
-NATHANAEL: We committed to five hypotheses in advance. Here come the verdicts.
+NATHANAEL: Five hypotheses, committed in advance. The verdicts.
 *(beat: stamps land)*
-Supported: 2021 is its own regime. Supported: funding predicts valuation with diminishing returns. R² 0.30, stress test 0.05, elasticity about 0.49. Partial: sector and geography add real but secondary signal.
-Disproven. Look at the red ink. We built a 75,230-row universe hoping it would solve survivorship bias, and it didn't. Sources mix across time, and valuation coverage is 2.4 percent. We're saying that in ink, on a slide, in front of the graders, because a finding you can't falsify is marketing.
-Not proven: investor count alone carries roughly zero importance. Which, conveniently, tells us what to build next.
-So what should a scout actually do with all this? Finn, the playbook.
-
+2021 is its own regime: supported. Funding has diminishing returns: supported. Sector and geography add signal: partial.
+Now the red one. We built a 75,000-row universe hoping it would fix survivorship bias, and it didn't. We're saying that in ink, in front of the graders, because a claim you can't falsify is marketing.
+Investor count alone: not proven. It carries nothing, which tells us exactly what to build next.
+Finn, the playbook.
 ---
 
 ## M-14 · PLAYBOOK (recommendations) — Finn · about 1 min
 
-STAGE: Rows fold in, run-column then refuse-column. Don't soften the refuse column. Its bluntness is the persuasion. One press moves on.
+STAGE: Rows fold in, run column then refuse column. Don't soften the refuse column. One press moves on.
 
-FINN: Four things to run. Three things to refuse.
-Run this. Rank segments by benchmark residuals, never by raw valuation. Treat 2021 as its own regime. Attach a confidence flag to every ranking, every time. South Korea at twelve companies stays a watchlist entry. And add investor-network features next, because a raw count did nothing.
-Now refuse this, and the refusals matter just as much. Don't sell success probabilities. Don't train on Form D noise; 77 percent of those mega-raise dollars aren't startups. And don't reward raw capital raised. Elasticity 0.49 says the market doesn't either.
-A fund could adopt this Monday morning.
-Let's zoom out once.
-
+FINN: Four to run, three to refuse.
+Run: rank by benchmark residuals, never raw valuation. Treat 2021 as its own era. Put a confidence flag on every ranking. And build investor-network features next.
+Refuse: don't sell success probabilities. Don't train on Form D noise, since 77 percent of those dollars aren't startups. And don't reward raw capital raised. The market doesn't.
+A fund could run this Monday morning. Let's zoom out once.
 ---
 
 ## M-15 · FRAMEWORK (deployment & next steps) — Finn · about 1 min
 
-STAGE: The flow BENCHMARK → RESIDUALS → SCORING → DECISION cascades in. Read the on-the-label disclaimers slowly, on purpose. One press moves on.
+STAGE: The flow BENCHMARK → RESIDUALS → SCORING → DECISION cascades in. Read the label slowly, on purpose. One press moves on.
 
-FINN: Everything you've seen tonight is one connected system. Benchmark, residuals, scoring, decision.
-And the roadmap is specific, not hand-wavy. First, richer deal-level data through PitchBook via Cornell's subscription. Second, investor network features: top-fund flags and co-investor clusters, replacing a count that carried nothing. Third, predicting ranges instead of single numbers. Fourth, tracking companies from day one instead of only studying winners. That last one is the only real attack on survivorship bias.
-And read the label with me, once, slowly. Conditional on unicorn status. Associations, never causal claims. Small samples carry visible flags. Scouting signals, not investment advice.
-Before we close: what this project taught us.
-
+FINN: Everything tonight is one system. Benchmark, residuals, scoring, decision.
+The roadmap has four steps. Richer deal-level data through Cornell's PitchBook access. Investor network features. Ranges instead of single numbers. And tracking companies from day one, the only real fix for survivorship bias.
+Now the label, slowly. Conditional on unicorn status. Associations, not causes. Small samples flagged. Scouting signals, not investment advice.
+Before we close, what this project taught us.
 ---
 
 ## M-16 · CARRY (insights & takeaways) — Finn · about 1 min
 
-STAGE: Takeaway cards fold in on the left, the prediction card lands on the right. One press moves on.
+STAGE: Takeaway cards fold in left, the prediction card lands right. One press moves on.
 
-FINN: Three things this project taught us, and one call.
-One. When a model looks too good, suspect the data, not a breakthrough. Our headline classifier scored 0.99, and so did a much simpler model. That's a warning, not a win.
-Two. Money still moves valuations, but with diminishing returns. Doubling a company's funding buys about 40 percent more value. Efficiency beats raw check size.
-Three. The direction is specific, but not a single “next unicorn” profile. By count, North America still leads the audited set with 584 rows, followed by Asia with 303 and Europe with 136. On the funding-adjusted residual, South Korea is the strongest watchlist at plus 0.348 across twelve companies, while the United States is close to benchmark at plus 0.013 across 561. By industry, Enterprise Software has 300 rows, AI and Data has 263, and Fintech has 213; Fintech and Enterprise Software beat benchmark, while AI and Data is slightly below it at minus 0.018.
-And two answers are deliberately negative. We don't have reliable team-size coverage, so we won't invent a company-size trend. And age did not move: the median time to unicorn stayed around six years before 2021, in 2021, and after 2021, with p equals 0.267. The defensible call is capital-efficient fintech and enterprise software, with South Korea as a watchlist, not a prediction of who wins.
-
+FINN: Three lessons and one call.
+One. When a model looks perfect, suspect the data. Ours scored 0.99 and so did a much simpler one, so we threw it out and rebuilt it at an honest 0.80.
+Two. Money still moves valuations, with diminishing returns. Double the funding, get about 40 percent more value.
+Three. The direction is specific, but it isn't one profile. South Korea is the strongest watchlist. Fintech and enterprise software beat the benchmark. AI and Data doesn't.
+The call, on the gold card: capital-efficient fintech and enterprise software, with South Korea on watch. Not a prediction of who wins.
+And two honest No's. No team-size claim, we don't have the data. No speed claim either. Six years to unicorn, every era.
 ---
 
 ## M-17 · CLOSE — Kayvon · about 30 sec
@@ -256,8 +235,8 @@ Thank you to our coach, Andrew Horrocks. We'll take your questions.
 STAGE: The final slide has five folded cells: WHY 0.51 → 0.30, DOES MONEY = VALUE?, WHY IS 2021 SPECIAL?, IS THE MODEL TOO GOOD?, WHERE NEXT UNICORNS? When a hard question lands, CLICK the matching cell so a plain-English receipt panel slides in from the right, then answer from the artifact instead of from memory. Esc closes it.
 
 NOTE: **Which cell for which question:**
-"Why did R² drop from 0.51 to 0.30?" → WHY 0.51 → 0.30. The model didn't change; the data got honest. We prefer 0.303 because it's defensible.
-"Isn't 0.997 AUC too good to be true?" → IS THE MODEL TOO GOOD? Yes, nearly. A simple model scores almost as high; suspect the data first. Forward test: 0.9865.
-"Why is 2021 special?" → WHY IS 2021 SPECIAL? 441 unicorns, five times normal, at lower valuations and funding, with unchanged time-to-unicorn.
-"Does more money mean more value?" → DOES MONEY = VALUE? Only partly. Doubling funding buys about 41 percent more valuation. Remove funding and the model barely works.
-"Where do the next unicorns come from?" → WHERE NEXT UNICORNS? North America still dominates by count; South Korea is the strongest small-sample watchlist; Fintech and Enterprise Software beat the funding-adjusted benchmark; AI and Data does not. We cannot support a team-size trend, and median time-to-unicorn remains about six years.
+"Why did R² drop from 0.51 to 0.30?" → WHY 0.51 → 0.30. The model didn't change; the data got honest. We keep 0.303 because it survives scrutiny.
+"Isn't 0.99 AUC too good to be true?" → IS THE MODEL TOO GOOD? Yes. A simpler model nearly matched it, so we rebuilt: the honest ranker scores 0.804, tested cold on 2021 and '22, interval 0.71 to 0.88. Rankings, not probabilities.
+"Why is 2021 special?" → WHY IS 2021 SPECIAL? 441 unicorns, five times normal, cheaper and less funded, same six-year speed.
+"Does more money mean more value?" → DOES MONEY = VALUE? Partly. Doubling funding buys about 41 percent more valuation. Remove funding and the model barely works.
+"Where do the next unicorns come from?" → WHERE NEXT UNICORNS? Fintech and enterprise software beat the benchmark; AI and Data doesn't; South Korea is the strongest small-sample watchlist. No team-size or speed claims.
