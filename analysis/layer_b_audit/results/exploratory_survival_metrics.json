@@ -1,0 +1,17 @@
+{
+  "status": "exploratory_only_not_defensible_for_production_without_coverage_and_status_fields",
+  "population": "companies with supplied sub-$1B rounds and a two-year-after-first-round landmark",
+  "rows": 3238,
+  "events": 528,
+  "proxy_censored": 2710,
+  "train_rows": 2995,
+  "test_rows": 243,
+  "test_landmark_years": [
+    2024,
+    2025,
+    2026
+  ],
+  "cox_concordance_index": 0.6778008298755187,
+  "two_year_time_dependent_auc_proxy": 0.6173913043478262,
+  "censoring_warning": "Non-event duration ends at last supplied low-valuation financing, not Capital IQ coverage end; censoring is likely informative."
+}

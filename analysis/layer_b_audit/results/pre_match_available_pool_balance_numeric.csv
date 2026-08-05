@@ -1,0 +1,9 @@
+comparison_scope,variable,positive_n,control_pool_n,positive_mean,control_pool_mean,positive_median,control_pool_median,standardized_mean_difference
+before_matching_available_pool_not_time_aligned,index_year,2034,29438,2021.0137659783677,2020.095420884571,2021.0,2020.0,0.26154861549377106
+before_matching_available_pool_not_time_aligned,pre_round_count,2034,29438,0.7291052114060964,1.234119165704192,0.0,1.0,-0.5442502071297453
+before_matching_available_pool_not_time_aligned,years_of_history_pre,2034,29438,1.5079581407651041,0.48334468679263215,0.0,0.0,0.49513550542104284
+before_matching_available_pool_not_time_aligned,days_since_last_pre_round,2034,29438,367.89970501474926,0.0,-1.0,0.0,0.750758120775956
+before_matching_available_pool_not_time_aligned,pre_funding_total_usd,2034,29438,30835236.971484758,14108895.033630002,0.0,3500000.0,0.32856737813900644
+before_matching_available_pool_not_time_aligned,pre_funding_max_usd,2034,28636,23788292.527040314,12452376.868277693,0.0,3600000.0,0.2792606274752357
+before_matching_available_pool_not_time_aligned,pre_unique_investor_count,2034,29438,1.980825958702065,1.849514233303893,0.0,1.0,0.043623591706677574
+before_matching_available_pool_not_time_aligned,pre_investor_count_max,2034,29438,1.704031465093412,1.849514233303893,0.0,1.0,-0.05455904895197351

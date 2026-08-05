@@ -81,33 +81,36 @@ Honest notes: valuations exist only for the unicorn tiers (private non-unicorn v
 
 ## Capital IQ unicorn classifier
 
-The Capital IQ workflow provides the first runnable success classifier. The
-round-level ETL reads verified date-partitioned private-placement exports from
-2010 through July 2026, matches each positive company to one control, and
-constructs features strictly before the positive company's first observed
-post-money valuation of at least $1B. The current Gold table contains 4,068
-paired rows (2,034 positives and 2,034 controls).
+The original matched-pair classifier remains in the repository for audit
+purposes, but it is not the recommended screening model. Its controls are
+matched at a positive company's outcome date and do not have verified
+three-year outcome coverage; its very high historical AUC is therefore not a
+credible population-probability result. See
+[`docs/layer_b_model_audit.md`](docs/layer_b_model_audit.md).
+
+The runnable replacement available from the existing transaction exports is a
+transaction-observed ranking model. It uses a company’s first two observed
+financings to rank the chance that Capital IQ subsequently records a `$1B+`
+event within three years. It does not emit a unicorn probability.
 
 ```bash
-python3 etl.py
-python3 classifier_pipeline.py
+python3 scripts/layer_b_transaction_observed_ranker.py
 pytest -q
 ```
 
-The committed Gold/model artifacts run without the licensed Capital IQ source
-exports. `etl.py` will regenerate the Capital IQ Gold table only when those
-exports are supplied locally; the raw and Silver Capital IQ files are excluded
-from GitHub.
+The current ranker trains through 2019, selects its model in 2020, and has an
+untouched 2021–2022 test result of ROC-AUC 0.804 (bootstrap 95% interval
+0.710–0.879), PR-AUC 0.642, and 2.49x top-decile lift over its observed-event
+base rate. It writes a fitted artifact to
+`models/capitaliq_transaction_observed_ranker.joblib`, a live candidate list
+to `data/layer_b_v2/transaction_observed/current_candidates_ranked.csv`, and
+an explicit model card alongside it. Details and release limits are in
+[`docs/transaction_observed_ranker.md`](docs/transaction_observed_ranker.md).
 
-The classifier uses only pre-index funding history plus stable industry and
-geography fields. Matching IDs, outcome fields, master tiers, and other label
-construction metadata are excluded. The selected Random Forest reaches
-ROC-AUC 0.997 in five-fold pair-group cross-validation and 0.986 on the
-chronological 2024–2026 forward test. Artifacts are written to
-`models/capitaliq_unicorn_classifier.joblib` and
-`models/capitaliq_classifier_metrics.json`. These are historical screening
-results, not causal probabilities: companies without a recorded $1B round are
-the observed control definition, and future right-censoring remains possible.
+For a calibrated fixed-horizon classifier, use `layer_b_v2_pipeline.py` after
+supplying history-complete Capital IQ company coverage, lifecycle, valuation,
+and transaction exports. It refuses to create negatives until coverage spans
+the full outcome horizon.
 
 ## Team 17
 

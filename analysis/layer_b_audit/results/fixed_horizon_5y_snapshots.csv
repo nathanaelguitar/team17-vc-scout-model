@@ -1,0 +1,712 @@
+company_key,company,first_recorded_round_date,landmark_date,horizon_years,horizon_end_date,first_ge_1b_outcome_date,is_unicorn_within_horizon,label_basis,pre_round_count,pre_rounds_with_amount,pre_funding_total_usd,pre_funding_max_usd,pre_unique_investor_count,pre_investor_count_max,years_of_history_pre,days_since_last_pre_round,max_feature_round_date
+illumio,"Illumio, Inc.",2013-02-08,2015-02-08,5,2020-02-08,2017-06-07,1,first_ge_1b_event_within_horizon,2.0,2.0,42490000.0,34500000.0,4.0,3.0,1.998631074606434,508.0,2013-09-18
+koboldmetals,KoBold Metals Company,2019-03-04,2021-03-03,5,2026-03-03,2025-01-01,1,first_ge_1b_event_within_horizon,1.0,1.0,23220000.0,23220000.0,2.0,2.0,1.998631074606434,730.0,2019-03-04
+supabase,"Supabase, Inc.",2022-05-10,2024-05-09,5,2029-05-09,2025-09-08,1,first_ge_1b_event_within_horizon,1.0,1.0,80000000.0,80000000.0,4.0,4.0,1.998631074606434,730.0,2022-05-10
+opendoornasdaqgsopen,Opendoor Technologies Inc. (NasdaqGS:OPEN),2014-09-05,2016-09-04,5,2021-09-04,2018-09-27,1,first_ge_1b_event_within_horizon,2.0,2.0,87240000.0,77160000.0,5.0,4.0,1.998631074606434,213.0,2016-02-04
+everydaysoftwaresl,"Everyday Software, S.L.",2021-09-05,2023-09-05,5,2028-09-04,2026-06-03,1,first_ge_1b_event_within_horizon,2.0,2.0,199800000.0,119590000.0,10.0,7.0,1.998631074606434,329.0,2022-10-11
+hiveloopprivate,Hiveloop Technology Private Limited,2018-09-03,2020-09-02,5,2025-09-02,2021-01-06,1,first_ge_1b_event_within_horizon,1.0,1.0,223550000.0,223550000.0,2.0,2.0,1.998631074606434,730.0,2018-09-03
+pantheonsystems,"Pantheon Systems, Inc.",2014-05-15,2016-05-14,5,2021-05-14,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,21740000.0,21740000.0,4.0,4.0,1.998631074606434,730.0,2014-05-15
+guangzhousmartmoreinformation,"Guangzhou Smartmore Information Technology Co, Ltd.",2020-01-29,2022-01-28,5,2027-01-28,2024-08-01,1,first_ge_1b_event_within_horizon,1.0,1.0,10000000.0,10000000.0,1.0,1.0,1.998631074606434,730.0,2020-01-29
+domonasdaqgmdomo,"Domo, Inc. (NasdaqGM:DOMO)",2013-03-11,2015-03-11,5,2020-03-10,2017-04-27,1,first_ge_1b_event_within_horizon,2.0,2.0,185000000.0,125000000.0,14.0,11.0,1.998631074606434,399.0,2014-02-05
+fivestarbusinessfinancenseifivestar,Five-Star Business Finance Limited (NSEI:FIVESTAR),2017-08-09,2019-08-09,5,2024-08-08,2021-03-26,1,first_ge_1b_event_within_horizon,2.0,2.0,102140000.0,52110000.0,5.0,4.0,1.998631074606434,18.0,2019-07-22
+panoramaeducation,"Panorama Education, Inc.",2013-10-21,2015-10-21,5,2020-10-20,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,4000000.0,4000000.0,8.0,8.0,1.998631074606434,730.0,2013-10-21
+locusrobotics,Locus Robotics Corporation,2017-11-20,2019-11-20,5,2024-11-19,2022-11-29,1,first_ge_1b_event_within_horizon,3.0,3.0,65680000.0,25210000.0,6.0,5.0,1.998631074606434,223.0,2019-04-11
+stokespace,"Stoke Space Technologies, Inc.",2021-05-10,2023-05-10,5,2028-05-09,2026-02-10,1,first_ge_1b_event_within_horizon,1.0,1.0,9140000.0,9140000.0,4.0,4.0,1.998631074606434,730.0,2021-05-10
+newyorkshippingexchange,"New York Shipping Exchange, Inc.",2015-09-14,2017-09-13,5,2022-09-13,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,506000.0,506000.0,0.0,0.0,1.998631074606434,730.0,2015-09-14
+gobrands,"GoBrands, Inc.",2016-06-01,2018-06-01,5,2023-06-01,2019-12-31,1,first_ge_1b_event_within_horizon,1.0,1.0,8250000.0,8250000.0,1.0,1.0,1.998631074606434,730.0,2016-06-01
+slack,"Slack Technologies, LLC",2010-04-01,2012-03-31,5,2017-03-31,2015-04-16,1,first_ge_1b_event_within_horizon,2.0,2.0,18760000.0,10700000.0,2.0,2.0,1.998631074606434,354.0,2011-04-12
+oysterhr,"Oyster HR, Inc.",2020-04-21,2022-04-21,5,2027-04-21,2024-09-04,1,first_ge_1b_event_within_horizon,4.0,4.0,226920000.0,150000000.0,17.0,13.0,1.998631074606434,1.0,2022-04-20
+retool,"Retool, Inc.",2017-08-23,2019-08-23,5,2024-08-22,2021-12-22,1,first_ge_1b_event_within_horizon,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2017-08-23
+tbctheboring,TBC-The Boring Company,2019-07-25,2021-07-24,5,2026-07-24,2022-05-02,1,first_ge_1b_event_within_horizon,1.0,1.0,120090000.0,120090000.0,6.0,6.0,1.998631074606434,730.0,2019-07-25
+checkr,"Checkr, Inc.",2016-03-23,2018-03-23,5,2023-03-23,2019-09-19,1,first_ge_1b_event_within_horizon,1.0,1.0,40410000.0,40410000.0,3.0,3.0,1.998631074606434,730.0,2016-03-23
+lucidsoftware,Lucid Software Inc.,2011-07-26,2013-07-25,5,2018-07-25,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,530000.0,530000.0,4.0,4.0,1.998631074606434,730.0,2011-07-26
+segmentio,"Segment.io, Inc.",2014-10-08,2016-10-07,5,2021-10-07,2019-04-02,1,first_ge_1b_event_within_horizon,2.0,2.0,41870000.0,27000000.0,4.0,3.0,1.998631074606434,364.0,2015-10-09
+flexport,"Flexport, Inc.",2016-09-26,2018-09-26,5,2023-09-26,2019-09-05,1,first_ge_1b_event_within_horizon,2.0,2.0,175000000.0,110000000.0,9.0,7.0,1.998631074606434,355.0,2017-10-06
+qumulo,"Qumulo, Inc.",2012-03-31,2014-03-31,5,2019-03-31,2021-04-20,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,26800000.0,24500000.0,3.0,3.0,1.998631074606434,496.0,2012-11-20
+pateoconnectshanghaisehk2889,PATEO CONNECT Technology (Shanghai) Corporation (SEHK:2889),2015-11-17,2017-11-16,5,2022-11-16,2022-06-27,1,first_ge_1b_event_within_horizon,1.0,1.0,18840000.0,18840000.0,0.0,0.0,1.998631074606434,730.0,2015-11-17
+moneyview,Moneyview Limited,2018-12-14,2020-12-13,5,2025-12-13,2024-09-12,1,first_ge_1b_event_within_horizon,1.0,1.0,13840000.0,13840000.0,5.0,5.0,1.998631074606434,730.0,2018-12-14
+semitech,Semi-tech,2023-05-05,2025-05-04,5,2030-05-04,2025-12-31,1,first_ge_1b_event_within_horizon,2.0,2.0,93500000.0,72350000.0,16.0,10.0,1.998631074606434,490.0,2023-12-31
+zepto,Zepto Limited,2021-10-31,2023-10-31,5,2028-10-30,2023-11-07,1,first_ge_1b_event_within_horizon,3.0,3.0,359900000.0,200000000.0,8.0,6.0,1.998631074606434,547.0,2022-05-02
+carousellpte,Carousell Pte Ltd.,2019-04-10,2021-04-09,5,2026-04-09,2021-09-15,1,first_ge_1b_event_within_horizon,2.0,2.0,136000000.0,80000000.0,5.0,4.0,1.998631074606434,206.0,2020-09-15
+asananyseasan,"Asana, Inc. (NYSE:ASAN)",2012-07-23,2014-07-23,5,2019-07-23,2018-11-29,1,first_ge_1b_event_within_horizon,1.0,1.0,28000000.0,28000000.0,3.0,3.0,1.998631074606434,730.0,2012-07-23
+shenzhenpindaorestaurantmanagement,"Shenzhen Pindao Restaurant Management Co., Ltd.",2017-12-31,2019-12-31,5,2024-12-30,2020-12-31,1,first_ge_1b_event_within_horizon,1.0,1.0,15200000.0,15200000.0,0.0,0.0,1.998631074606434,730.0,2017-12-31
+employmentheropty,Employment Hero Pty Ltd,2019-07-08,2021-07-07,5,2026-07-07,2023-10-18,1,first_ge_1b_event_within_horizon,2.0,2.0,50330000.0,34990000.0,4.0,4.0,1.998631074606434,128.0,2021-03-01
+coalition,"Coalition, Inc.",2018-02-28,2020-02-28,5,2025-02-27,2021-03-17,1,first_ge_1b_event_within_horizon,2.0,2.0,35000000.0,25000000.0,5.0,3.0,1.998631074606434,295.0,2019-05-09
+cloudbees,"CloudBees, Inc.",2010-11-29,2012-11-28,5,2017-11-28,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,15200000.0,10830000.0,2.0,2.0,1.998631074606434,492.0,2011-07-25
+capitalrx,"Capital Rx, Inc.",2021-02-02,2023-02-02,5,2028-02-02,2024-03-22,1,first_ge_1b_event_within_horizon,2.0,2.0,156000000.0,106000000.0,5.0,5.0,1.998631074606434,234.0,2022-06-13
+cloudwalk,"CloudWalk, Inc.",2019-02-06,2021-02-05,5,2026-02-05,2021-11-17,1,first_ge_1b_event_within_horizon,1.0,1.0,5000000.0,5000000.0,0.0,0.0,1.998631074606434,730.0,2019-02-06
+farmersbusinessnetwork,"Farmer's Business Network, Inc.",2015-05-19,2017-05-18,5,2022-05-18,2020-08-03,1,first_ge_1b_event_within_horizon,3.0,3.0,75240000.0,40130000.0,5.0,5.0,1.998631074606434,72.0,2017-03-07
+freenomenasdaqcmfrnm,"Freenome, Inc. (NasdaqCM:FRNM)",2016-06-07,2018-06-07,5,2023-06-07,2021-12-07,1,first_ge_1b_event_within_horizon,2.0,2.0,77550000.0,72000000.0,14.0,13.0,1.998631074606434,297.0,2017-08-14
+exegerswedenab,Exeger Sweden AB,2016-12-01,2018-12-01,5,2023-12-01,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,5530000.0,5530000.0,1.0,1.0,1.998631074606434,730.0,2016-12-01
+groundfloorfinance,Groundfloor Finance Inc.,2015-12-09,2017-12-08,5,2022-12-08,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,5000000.0,5000000.0,1.0,1.0,1.998631074606434,730.0,2015-12-09
+mixpanel,"Mixpanel, Inc.",2014-12-18,2016-12-17,5,2021-12-17,2021-11-15,1,first_ge_1b_event_within_horizon,1.0,1.0,65000000.0,65000000.0,1.0,1.0,1.998631074606434,730.0,2014-12-18
+cybereason,Cybereason Inc.,2015-05-06,2017-05-05,5,2022-05-05,2021-10-19,1,first_ge_1b_event_within_horizon,2.0,2.0,83750000.0,59000000.0,4.0,3.0,1.998631074606434,583.0,2015-09-30
+shanghaixizhisehk1879,"Shanghai Xizhi Technology Co., Ltd. (SEHK:1879)",2020-07-13,2022-07-13,5,2027-07-13,2025-04-30,1,first_ge_1b_event_within_horizon,1.0,1.0,38160000.0,38160000.0,0.0,0.0,1.998631074606434,730.0,2020-07-13
+reputationcom,"Reputation.com, Inc.",2010-06-20,2012-06-19,5,2017-06-19,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,15000000.0,15000000.0,3.0,3.0,1.998631074606434,730.0,2010-06-20
+tally,"Tally Technologies, Inc.",2015-06-30,2017-06-29,5,2022-06-29,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,17000000.0,15000000.0,5.0,4.0,1.998631074606434,406.0,2016-05-19
+foursquare,"Foursquare Labs, Inc.",2010-06-29,2012-06-28,5,2017-06-28,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,20000000.0,20000000.0,3.0,3.0,1.998631074606434,730.0,2010-06-29
+fin,Fin,2013-06-19,2015-06-19,5,2020-06-18,2018-03-27,1,first_ge_1b_event_within_horizon,2.0,2.0,31270000.0,22750000.0,3.0,2.0,1.998631074606434,513.0,2014-01-22
+nirvanatech,"Nirvana Tech, Inc.",2020-12-31,2022-12-31,5,2027-12-31,2025-12-18,1,first_ge_1b_event_within_horizon,1.0,1.0,3170000.0,3170000.0,2.0,2.0,1.998631074606434,730.0,2020-12-31
+amplitudenasdaqcmampl,"Amplitude, Inc. (NasdaqCM:AMPL)",2018-12-05,2020-12-04,5,2025-12-04,2021-06-09,1,first_ge_1b_event_within_horizon,1.0,1.0,79800000.0,79800000.0,5.0,5.0,1.998631074606434,730.0,2018-12-05
+oravelstays,Oravel Stays Limited,2014-09-30,2016-09-29,5,2021-09-29,2020-03-17,1,first_ge_1b_event_within_horizon,4.0,4.0,190660000.0,100190000.0,6.0,4.0,1.998631074606434,69.0,2016-07-22
+buzzfeednasdaqcmbzfd,"BuzzFeed, Inc. (NasdaqCM:BZFD)",2013-01-03,2015-01-03,5,2020-01-03,2015-08-18,1,first_ge_1b_event_within_horizon,2.0,2.0,69370000.0,50000000.0,6.0,5.0,1.998631074606434,146.0,2014-08-10
+flipkartonlineservicespvt,Flipkart Online Services Pvt. Ltd.,2012-01-30,2014-01-29,5,2019-01-29,2014-08-31,1,first_ge_1b_event_within_horizon,1.0,1.0,150000000.0,150000000.0,4.0,4.0,1.998631074606434,730.0,2012-01-30
+roppentransportationservicesprivate,Roppen Transportation Services Private Limited,2019-08-27,2021-08-26,5,2026-08-26,2025-06-09,1,first_ge_1b_event_within_horizon,1.0,1.0,54650000.0,54650000.0,7.0,7.0,1.998631074606434,730.0,2019-08-27
+shanghaiiluvatarcorexsemiconductorsehk9903,"Shanghai Iluvatar CoreX Semiconductor Co., Ltd. (SEHK:9903)",2016-11-22,2018-11-22,5,2023-11-22,2022-04-22,1,first_ge_1b_event_within_horizon,3.0,3.0,28200000.0,21380000.0,0.0,0.0,1.998631074606434,129.0,2018-07-16
+movable,"Movable, Inc.",2013-05-08,2015-05-08,5,2020-05-07,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,11000000.0,11000000.0,7.0,7.0,1.998631074606434,730.0,2013-05-08
+procorenysepcor,"Procore Technologies, Inc. (NYSE:PCOR)",2014-11-13,2016-11-12,5,2021-11-12,2018-12-13,1,first_ge_1b_event_within_horizon,3.0,3.0,126150000.0,80000000.0,2.0,2.0,1.998631074606434,269.0,2016-02-17
+databricks,"Databricks, Inc.",2016-12-14,2018-12-14,5,2023-12-14,2019-02-05,1,first_ge_1b_event_within_horizon,2.0,2.0,200370000.0,140000000.0,6.0,6.0,1.998631074606434,479.0,2017-08-22
+darktrace,Darktrace Limited,2015-03-17,2017-03-16,5,2022-03-16,2018-09-26,1,first_ge_1b_event_within_horizon,3.0,3.0,105500000.0,65000000.0,9.0,6.0,1.998631074606434,254.0,2016-07-05
+netradyne,"Netradyne, Inc.",2018-09-27,2020-09-26,5,2025-09-26,2025-01-16,1,first_ge_1b_event_within_horizon,1.0,1.0,21000000.0,21000000.0,3.0,3.0,1.998631074606434,730.0,2018-09-27
+mininglampsehk2718,Mininglamp Technology (SEHK:2718),2010-07-16,2012-07-15,5,2017-07-15,2019-05-31,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,10456000.0,9770000.0,4.0,4.0,1.998631074606434,270.0,2011-10-19
+tanium,Tanium Inc.,2010-10-12,2012-10-11,5,2017-10-11,2017-05-25,1,first_ge_1b_event_within_horizon,2.0,2.0,2740000.0,1740000.0,0.0,0.0,1.998631074606434,409.0,2011-08-29
+levisionpictures,Le Vision Pictures Co Ltd,2013-08-09,2015-08-09,5,2020-08-08,2015-10-20,1,first_ge_1b_event_within_horizon,2.0,2.0,88010000.0,55360000.0,3.0,3.0,1.998631074606434,328.0,2014-09-15
+revolutionfoods,"Revolution Foods, PBC",2010-12-12,2012-12-11,5,2017-12-11,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,32750000.0,20000000.0,0.0,0.0,1.998631074606434,288.0,2012-02-27
+dremio,Dremio Corporation,2015-09-25,2017-09-24,5,2022-09-24,2022-01-25,1,first_ge_1b_event_within_horizon,1.0,1.0,12040000.0,12040000.0,2.0,2.0,1.998631074606434,730.0,2015-09-25
+safetyculturepluspty,SafetyCulture Plus Pty Ltd,2015-09-22,2017-09-21,5,2022-09-21,2021-05-03,1,first_ge_1b_event_within_horizon,1.0,1.0,4310000.0,4310000.0,2.0,2.0,1.998631074606434,730.0,2015-09-22
+gingerio,"Ginger.io, Inc.",2011-10-18,2013-10-17,5,2018-10-17,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,7900000.0,6200000.0,7.0,6.0,1.998631074606434,323.0,2012-11-28
+liquiditycapitalmc,Liquidity Capital M.C. Ltd,2020-10-22,2022-10-22,5,2027-10-22,2023-02-20,1,first_ge_1b_event_within_horizon,2.0,1.0,20000000.0,20000000.0,3.0,3.0,1.998631074606434,200.0,2022-04-05
+workboard,WorkBoard Inc.,2014-02-25,2016-02-25,5,2021-02-24,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2840000.0,2840000.0,4.0,4.0,1.998631074606434,730.0,2014-02-25
+skyscanner,Skyscanner Holdings Limited,2013-10-02,2015-10-02,5,2020-10-01,2016-01-11,1,first_ge_1b_event_within_horizon,1.0,0.0,0.0,0.0,1.0,1.0,1.998631074606434,730.0,2013-10-02
+productboard,"ProductBoard, Inc.",2019-02-04,2021-02-03,5,2026-02-03,2022-02-02,1,first_ge_1b_event_within_horizon,2.0,2.0,63000000.0,45000000.0,8.0,5.0,1.998631074606434,385.0,2020-01-15
+lyftnasdaqgslyft,"Lyft, Inc. (NasdaqGS:LYFT)",2010-08-23,2012-08-22,5,2017-08-22,2015-05-15,1,first_ge_1b_event_within_horizon,2.0,2.0,7570000.0,6200000.0,4.0,4.0,1.998631074606434,336.0,2011-09-21
+beijingwelionnewenergy,"Beijing WeLion New Energy Technology Co., Ltd.",2021-11-26,2023-11-26,5,2028-11-25,2025-09-30,1,first_ge_1b_event_within_horizon,1.0,1.0,78220000.0,78220000.0,6.0,6.0,1.998631074606434,730.0,2021-11-26
+postmates,Postmates Inc.,2014-02-18,2016-02-18,5,2021-02-17,2019-01-10,1,first_ge_1b_event_within_horizon,2.0,2.0,36830000.0,20620000.0,5.0,4.0,1.998631074606434,383.0,2015-01-31
+herofincorp,Hero FinCorp Limited,2016-09-15,2018-09-15,5,2023-09-15,2022-02-08,1,first_ge_1b_event_within_horizon,1.0,1.0,149760000.0,149760000.0,3.0,3.0,1.998631074606434,730.0,2016-09-15
+fsnecommerceventuresnseinykaa,FSN E-Commerce Ventures Limited (NSEI:NYKAA),2015-10-05,2017-10-04,5,2022-10-04,2020-03-24,1,first_ge_1b_event_within_horizon,3.0,3.0,36920000.0,15460000.0,3.0,2.0,1.998631074606434,300.0,2016-12-08
+lendbuzzfunding,"Lendbuzz Funding, LLC",2019-07-15,2021-07-14,5,2026-07-14,2023-10-04,1,first_ge_1b_event_within_horizon,1.0,1.0,17370000.0,17370000.0,1.0,1.0,1.998631074606434,730.0,2019-07-15
+proterra,Proterra Inc.,2010-05-27,2012-05-26,5,2017-05-26,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,91960000.0,50890000.0,6.0,5.0,1.998631074606434,339.0,2011-06-22
+adaptivebiotechnologiesnasdaqgsadpt,Adaptive Biotechnologies Corporation (NasdaqGS:ADPT),2011-06-02,2013-06-01,5,2018-06-01,2015-05-06,1,first_ge_1b_event_within_horizon,1.0,1.0,9670000.0,9670000.0,0.0,0.0,1.998631074606434,730.0,2011-06-02
+cyberhaven,"Cyberhaven, Inc.",2016-07-28,2018-07-28,5,2023-07-28,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2120000.0,2120000.0,1.0,1.0,1.998631074606434,730.0,2016-07-28
+pindropsecurity,"Pindrop Security, Inc.",2013-06-19,2015-06-19,5,2020-06-18,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,48050000.0,35150000.0,6.0,6.0,1.998631074606434,121.0,2015-02-18
+discord,Discord Inc.,2014-05-21,2016-05-20,5,2021-05-20,2018-04-19,1,first_ge_1b_event_within_horizon,3.0,3.0,32400000.0,19140000.0,7.0,5.0,1.998631074606434,115.0,2016-01-26
+iorahealth,"Iora Health, Inc.",2016-10-13,2018-10-13,5,2023-10-13,2020-02-10,1,first_ge_1b_event_within_horizon,2.0,2.0,174990000.0,100000000.0,10.0,9.0,1.998631074606434,145.0,2018-05-21
+frontapp,"FrontApp, Inc.",2016-05-26,2018-05-26,5,2023-05-26,2022-06-28,1,first_ge_1b_event_within_horizon,2.0,2.0,76630000.0,66500000.0,3.0,2.0,1.998631074606434,122.0,2018-01-24
+verygoodsecurity,"Very Good Security, Inc.",2018-08-28,2020-08-27,5,2025-08-27,2020-12-18,1,first_ge_1b_event_within_horizon,2.0,2.0,43510000.0,35000000.0,6.0,4.0,1.998631074606434,308.0,2019-10-24
+minieyesehk2431,"Minieye Technology Co., Ltd (SEHK:2431)",2015-03-18,2017-03-17,5,2022-03-17,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,1951000.0,1550000.0,1.0,1.0,1.998631074606434,351.0,2016-03-31
+parafin,"Parafin Technologies, Inc.",2017-10-24,2019-10-24,5,2024-10-23,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,20000.0,20000.0,1.0,1.0,1.998631074606434,730.0,2017-10-24
+therapymatch,"Therapymatch, Inc.",2019-12-31,2021-12-30,5,2026-12-30,2024-07-23,1,first_ge_1b_event_within_horizon,3.0,3.0,102290000.0,70000000.0,6.0,5.0,1.998631074606434,240.0,2021-05-04
+fincoservices,"Finco Services, Inc.",2018-02-27,2020-02-27,5,2025-02-26,2021-04-27,1,first_ge_1b_event_within_horizon,2.0,2.0,30250000.0,20000000.0,8.0,6.0,1.998631074606434,126.0,2019-10-24
+collectivehealth,"CollectiveHealth, Inc.",2014-08-12,2016-08-11,5,2021-08-11,2021-05-04,1,first_ge_1b_event_within_horizon,3.0,3.0,118590000.0,81090000.0,10.0,7.0,1.998631074606434,296.0,2015-10-20
+ably,"ABLY Corp., Inc.",2022-02-03,2024-02-03,5,2029-02-02,2024-12-02,1,first_ge_1b_event_within_horizon,2.0,2.0,94940000.0,55820000.0,7.0,6.0,1.998631074606434,317.0,2023-03-23
+bloomreach,"Bloomreach, Inc.",2010-09-30,2012-09-29,5,2017-09-29,2022-02-23,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,13500000.0,13500000.0,2.0,2.0,1.998631074606434,730.0,2010-09-30
+beijingsiliconflow,"Beijing SiliconFlow Technology Co., Ltd.",2023-12-31,2025-12-30,5,2030-12-30,2026-06-16,1,first_ge_1b_event_within_horizon,1.0,1.0,7050000.0,7050000.0,1.0,1.0,1.998631074606434,730.0,2023-12-31
+mobileyenv,Mobileye N.V.,2010-03-16,2012-03-15,5,2017-03-15,2013-08-22,1,first_ge_1b_event_within_horizon,1.0,1.0,37000000.0,37000000.0,3.0,3.0,1.998631074606434,730.0,2010-03-16
+happymoney,"Happy Money, Inc.",2014-10-23,2016-10-22,5,2021-10-22,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,12000000.0,12000000.0,1.0,1.0,1.998631074606434,730.0,2014-10-23
+luoshirobot,"Luoshi Robot Group Co., Ltd.",2015-05-05,2017-05-04,5,2022-05-04,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,1806000.0,1500000.0,2.0,1.0,1.998631074606434,296.0,2016-07-12
+tulipinterfaces,"Tulip Interfaces, Inc.",2019-10-01,2021-09-30,5,2026-09-30,2025-12-22,1,first_ge_1b_event_within_horizon,2.0,2.0,139900000.0,100000000.0,6.0,6.0,1.998631074606434,51.0,2021-08-10
+eshares,"eShares, Inc.",2013-08-13,2015-08-13,5,2020-08-12,2019-05-06,1,first_ge_1b_event_within_horizon,3.0,3.0,27110000.0,18000000.0,12.0,7.0,1.998631074606434,30.0,2015-07-14
+kareo,"Kareo, Inc.",2010-09-13,2012-09-12,5,2017-09-12,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2510000.0,2510000.0,1.0,1.0,1.998631074606434,730.0,2010-09-13
+seeq,Seeq Corporation,2013-11-06,2015-11-06,5,2020-11-05,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,7740000.0,7740000.0,0.0,0.0,1.998631074606434,730.0,2013-11-06
+basicsemiconductorsehk9971,"BASiC Semiconductor Co., Ltd. (SEHK:9971)",2017-12-31,2019-12-31,5,2024-12-30,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,0.0,0.0,0.0,4.0,3.0,1.998631074606434,365.0,2018-12-31
+cockroach,"Cockroach Labs, Inc.",2015-06-04,2017-06-03,5,2022-06-03,2021-01-12,1,first_ge_1b_event_within_horizon,3.0,3.0,53800000.0,27290000.0,6.0,5.0,1.998631074606434,24.0,2017-05-10
+salsify,Salsify Inc.,2015-07-06,2017-07-05,5,2022-07-05,2022-04-13,1,first_ge_1b_event_within_horizon,2.0,2.0,46660000.0,30000000.0,4.0,4.0,1.998631074606434,168.0,2017-01-18
+lookout,"Lookout, Inc.",2010-05-18,2012-05-17,5,2017-05-17,2016-05-26,1,first_ge_1b_event_within_horizon,2.0,2.0,30500000.0,19500000.0,4.0,3.0,1.998631074606434,512.0,2010-12-22
+rebelfoodsprivate,Rebel Foods Private Limited,2019-07-31,2021-07-30,5,2026-07-30,2021-10-22,1,first_ge_1b_event_within_horizon,2.0,2.0,173500000.0,126090000.0,8.0,8.0,1.998631074606434,477.0,2020-04-09
+cashfreepaymentsindiaprivate,Cashfree Payments India Private Limited,2017-08-21,2019-08-21,5,2024-08-20,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2017-08-21
+supplyingdemand,"Supplying Demand, Inc.",2020-09-25,2022-09-25,5,2027-09-25,2024-03-11,1,first_ge_1b_event_within_horizon,2.0,2.0,97950000.0,75000000.0,7.0,5.0,1.998631074606434,265.0,2022-01-03
+khealth,"K Health, Inc.",2016-11-16,2018-11-16,5,2023-11-16,2020-12-31,1,first_ge_1b_event_within_horizon,3.0,3.0,12350000.0,5820000.0,7.0,7.0,1.998631074606434,122.0,2018-07-17
+scopely,"Scopely, Inc.",2014-11-13,2016-11-12,5,2021-11-12,2020-03-19,1,first_ge_1b_event_within_horizon,2.0,2.0,99340000.0,54420000.0,10.0,8.0,1.998631074606434,109.0,2016-07-26
+sisense,Sisense Inc.,2016-01-07,2018-01-06,5,2023-01-06,2020-01-09,1,first_ge_1b_event_within_horizon,1.0,1.0,50000000.0,50000000.0,5.0,5.0,1.998631074606434,730.0,2016-01-07
+inventurecapital,InVenture Capital Corporation,2011-08-29,2013-08-28,5,2018-08-28,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,318000.0,318000.0,0.0,0.0,1.998631074606434,730.0,2011-08-29
+snowflakenysesnow,Snowflake Inc. (NYSE:SNOW),2013-08-24,2015-08-24,5,2020-08-23,2018-01-25,1,first_ge_1b_event_within_horizon,3.0,3.0,25658000.0,19950000.0,3.0,3.0,1.998631074606434,307.0,2014-10-21
+epicgames,"Epic Games, Inc.",2013-03-21,2015-03-21,5,2020-03-20,2018-10-26,1,first_ge_1b_event_within_horizon,1.0,1.0,330000000.0,330000000.0,1.0,1.0,1.998631074606434,730.0,2013-03-21
+onboardiq,"OnboardIQ, Inc.",2014-10-23,2016-10-22,5,2021-10-22,,0,no_known_event_plus_later_sub_1b_round_proxy,3.0,3.0,5770000.0,4000000.0,6.0,3.0,1.998631074606434,431.0,2015-08-18
+beijinglezitianchengculturaldevelopment,"Beijing Lezi Tiancheng Cultural Development Co., Ltd.",2018-02-12,2020-02-12,5,2025-02-11,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,6320000.0,6320000.0,4.0,4.0,1.998631074606434,730.0,2018-02-12
+evolvevacationrentalnetwork,"Evolve Vacation Rental Network, Inc.",2013-04-18,2015-04-18,5,2020-04-17,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2700000.0,2700000.0,0.0,0.0,1.998631074606434,730.0,2013-04-18
+saildrone,"Saildrone, Inc.",2018-05-15,2020-05-14,5,2025-05-14,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,60000000.0,60000000.0,5.0,5.0,1.998631074606434,730.0,2018-05-15
+cars24servicespvt,CARS24 Services Pvt. Ltd.,2018-07-18,2020-07-17,5,2025-07-17,2021-09-19,1,first_ge_1b_event_within_horizon,2.0,2.0,60610000.0,49610000.0,3.0,2.0,1.998631074606434,474.0,2019-03-31
+ai21,AI21 Labs Ltd.,2021-11-01,2023-11-01,5,2028-10-31,2023-11-21,1,first_ge_1b_event_within_horizon,2.0,2.0,84000000.0,64000000.0,4.0,4.0,1.998631074606434,477.0,2022-07-12
+atombank,Atom Bank plc,2015-11-24,2017-11-23,5,2022-11-23,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,225090000.0,123460000.0,5.0,5.0,1.998631074606434,265.0,2017-03-03
+highspot,"Highspot, Inc.",2017-06-15,2019-06-15,5,2024-06-14,2021-02-22,1,first_ge_1b_event_within_horizon,2.0,2.0,50000000.0,35000000.0,4.0,4.0,1.998631074606434,264.0,2018-09-24
+renttherunwaynasdaqgmrent,"Rent the Runway, Inc. (NasdaqGM:RENT)",2010-02-25,2012-02-25,5,2017-02-24,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,15000000.0,15000000.0,2.0,2.0,1.998631074606434,730.0,2010-02-25
+influxdata,InfluxData Inc.,2014-12-08,2016-12-07,5,2021-12-07,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,9110000.0,9110000.0,2.0,2.0,1.998631074606434,730.0,2014-12-08
+sourcegraph,"Sourcegraph, Inc.",2017-10-06,2019-10-06,5,2024-10-05,2021-07-13,1,first_ge_1b_event_within_horizon,1.0,1.0,20000000.0,20000000.0,2.0,2.0,1.998631074606434,730.0,2017-10-06
+jrsk,"JRSK, Inc.",2015-08-17,2017-08-16,5,2022-08-16,2019-05-14,1,first_ge_1b_event_within_horizon,2.0,2.0,11060000.0,8560000.0,4.0,4.0,1.998631074606434,341.0,2016-09-09
+parabilismedicinesnasdaqgspbls,"Parabilis Medicines, Inc. (NasdaqGS:PBLS)",2017-08-22,2019-08-22,5,2024-08-21,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,76620000.0,65510000.00000001,8.0,8.0,1.998631074606434,463.0,2018-05-16
+delhiverynseidelhivery,Delhivery Limited (NSEI:DELHIVERY),2014-09-08,2016-09-07,5,2021-09-07,2019-03-24,1,first_ge_1b_event_within_horizon,1.0,1.0,35000000.0,35000000.0,3.0,3.0,1.998631074606434,730.0,2014-09-08
+omnianalytics,"Omni Analytics, Inc.",2022-08-16,2024-08-15,5,2029-08-15,2026-04-23,1,first_ge_1b_event_within_horizon,1.0,1.0,9400000.0,9400000.0,6.0,6.0,1.998631074606434,730.0,2022-08-16
+tideplatform,Tide Platform Limited,2021-07-12,2023-07-12,5,2028-07-11,2025-09-22,1,first_ge_1b_event_within_horizon,1.0,1.0,99980000.0,99980000.0,7.0,7.0,1.998631074606434,730.0,2021-07-12
+dispatchhealth,"DispatchHealth Holdings, Inc.",2015-08-12,2017-08-11,5,2022-08-11,2021-03-03,1,first_ge_1b_event_within_horizon,1.0,1.0,3650000.0,3650000.0,1.0,1.0,1.998631074606434,730.0,2015-08-12
+wuxiautolinkworldinformation,"Wuxi Auto-link World Information Technology Co.,Ltd.",2016-03-31,2018-03-31,5,2023-03-31,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,36610000.0,31190000.0,4.0,2.0,1.998631074606434,294.0,2017-06-10
+betanysebeta,"BETA Technologies, Inc. (NYSE:BETA)",2021-05-24,2023-05-24,5,2028-05-23,2025-08-27,1,first_ge_1b_event_within_horizon,1.0,1.0,425620000.0,425620000.0,2.0,2.0,1.998631074606434,730.0,2021-05-24
+stryder,Stryder Corp.,2013-06-05,2015-06-05,5,2020-06-04,2021-05-12,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,4340000.0,4340000.0,5.0,5.0,1.998631074606434,730.0,2013-06-05
+aviatrixsystems,"Aviatrix Systems, Inc.",2015-09-10,2017-09-09,5,2022-09-09,2021-09-08,1,first_ge_1b_event_within_horizon,2.0,2.0,35250000.0,25250000.0,3.0,3.0,1.998631074606434,234.0,2017-01-18
+hackerone,HackerOne Inc.,2014-05-28,2016-05-27,5,2021-05-27,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,33950000.0,25000000.0,2.0,2.0,1.998631074606434,338.0,2015-06-24
+sentinelonenyses,"SentinelOne, Inc. (NYSE:S)",2013-08-07,2015-08-07,5,2020-08-06,2020-02-19,1,first_ge_1b_event_within_horizon,2.0,2.0,12580000.0,10000000.0,5.0,5.0,1.998631074606434,471.0,2014-04-23
+seegrid,Seegrid Corporation,2016-12-31,2018-12-31,5,2023-12-31,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,36230000.0,36230000.0,1.0,1.0,1.998631074606434,730.0,2016-12-31
+garuda,"Garuda Labs, Inc.",2015-08-19,2017-08-18,5,2022-08-18,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2015-08-19
+iterativescopes,"Iterative Scopes, Inc.",2022-01-19,2024-01-19,5,2029-01-18,2026-04-30,1,first_ge_1b_event_within_horizon,1.0,1.0,150000000.0,150000000.0,6.0,6.0,1.998631074606434,730.0,2022-01-19
+project44,"Project44, LLC",2016-09-12,2018-09-12,5,2023-09-12,2021-06-01,1,first_ge_1b_event_within_horizon,2.0,2.0,48800000.0,35000000.0,7.0,6.0,1.998631074606434,148.0,2018-04-17
+thehonestnasdaqgshnst,"The Honest Company, Inc. (NasdaqGS:HNST)",2012-03-23,2014-03-23,5,2019-03-23,2015-08-13,1,first_ge_1b_event_within_horizon,1.0,1.0,27000000.0,27000000.0,3.0,3.0,1.998631074606434,730.0,2012-03-23
+doordashnasdaqgsdash,"DoorDash, Inc. (NasdaqGS:DASH)",2014-05-22,2016-05-21,5,2021-05-21,2018-03-01,1,first_ge_1b_event_within_horizon,2.0,2.0,148340000.0,128500000.0,7.0,5.0,1.998631074606434,60.0,2016-03-22
+crimsonconsulting,Crimson Consulting Limited,2015-08-26,2017-08-25,5,2022-08-25,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,5000000.0,5000000.0,0.0,0.0,1.998631074606434,730.0,2015-08-26
+verseinnovationprivate,VerSe Innovation Private Limited,2015-01-31,2017-01-30,5,2022-01-30,2020-12-22,1,first_ge_1b_event_within_horizon,1.0,1.0,40260000.0,40260000.0,4.0,4.0,1.998631074606434,730.0,2015-01-31
+inrix,"INRIX, Inc.",2011-07-25,2013-07-24,5,2018-07-24,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,37000000.0,37000000.0,2.0,2.0,1.998631074606434,730.0,2011-07-25
+kbiservices,"KBI Services, Inc.",2020-06-25,2022-06-25,5,2027-06-25,2023-03-02,1,first_ge_1b_event_within_horizon,2.0,2.0,94000000.0,62000000.0,10.0,7.0,1.998631074606434,365.0,2021-06-25
+bigid,"BigID, Inc.",2016-03-02,2018-03-02,5,2023-03-02,2021-04-22,1,first_ge_1b_event_within_horizon,2.0,2.0,16160000.0,14060000.0,7.0,5.0,1.998631074606434,32.0,2018-01-29
+thehonestkitchen,"The Honest Kitchen, Inc.",2011-09-12,2013-09-11,5,2018-09-11,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,3080000.0,3080000.0,2.0,2.0,1.998631074606434,730.0,2011-09-12
+abcuro,"Abcuro, Inc.",2016-12-13,2018-12-13,5,2023-12-13,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,10250000.0,8000000.0,3.0,3.0,1.998631074606434,22.0,2018-11-21
+horizonroboticssehk9660,Horizon Robotics (SEHK:9660),2015-10-27,2017-10-26,5,2022-10-26,2020-05-11,1,first_ge_1b_event_within_horizon,3.0,3.0,54250000.0,39300000.0,0.0,0.0,1.998631074606434,498.0,2016-06-15
+finngmbh,FINN GmbH,2022-05-25,2024-05-24,5,2029-05-24,2026-06-09,1,first_ge_1b_event_within_horizon,2.0,2.0,219480000.0,110000000.0,13.0,12.0,1.998631074606434,134.0,2024-01-11
+vedantuinnovationsprivate,Vedantu Innovations Private Limited,2020-07-16,2022-07-16,5,2027-07-16,2024-09-27,1,first_ge_1b_event_within_horizon,2.0,2.0,185890000.0,100100000.0,10.0,9.0,1.998631074606434,631.0,2020-10-23
+andela,Andela Inc.,2016-06-16,2018-06-16,5,2023-06-16,2021-09-29,1,first_ge_1b_event_within_horizon,2.0,2.0,63920000.0,40000000.0,10.0,8.0,1.998631074606434,249.0,2017-10-10
+ursamajor,"Ursa Major Technologies, Inc.",2017-11-28,2019-11-28,5,2024-11-27,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,8029999.999999999,8029999.999999999,1.0,1.0,1.998631074606434,730.0,2017-11-28
+hangzhouqunheinformation,"Hangzhou Qunhe Information Technology Co., Ltd.",2018-03-09,2020-03-08,5,2025-03-08,2020-12-31,1,first_ge_1b_event_within_horizon,1.0,1.0,100000000.0,100000000.0,7.0,7.0,1.998631074606434,730.0,2018-03-09
+saltsecurity,"Salt Security, Inc.",2016-03-22,2018-03-22,5,2023-03-22,2022-09-21,1,first_ge_1b_event_within_horizon,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2016-03-22
+rubriknyserbrk,"Rubrik, Inc. (NYSE:RBRK)",2015-03-24,2017-03-23,5,2022-03-23,2017-04-28,1,first_ge_1b_event_within_horizon,3.0,3.0,112510000.0,61250000.0,3.0,3.0,1.998631074606434,219.0,2016-08-16
+24m,"24M Technologies, Inc.",2018-11-21,2020-11-20,5,2025-11-20,2024-09-05,1,first_ge_1b_event_within_horizon,1.0,1.0,21830000.0,21830000.0,3.0,3.0,1.998631074606434,730.0,2018-11-21
+avidxchange,"AvidXchange Holdings, Inc.",2014-05-13,2016-05-12,5,2021-05-12,2017-06-08,1,first_ge_1b_event_within_horizon,2.0,2.0,186240000.0,176010000.0,6.0,6.0,1.998631074606434,241.0,2015-09-14
+prestoautomationotcpkprst,Presto Automation Inc. (OTCPK:PRST),2014-09-24,2016-09-23,5,2021-09-23,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,35000000.0,35000000.0,3.0,3.0,1.998631074606434,730.0,2014-09-24
+positsoftware,"Posit Software, PBC",2013-12-31,2015-12-31,5,2020-12-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,6110000.0,6110000.0,1.0,1.0,1.998631074606434,730.0,2013-12-31
+cultfit,Cult.Fit Limited,2019-10-29,2021-10-28,5,2026-10-28,2021-12-03,1,first_ge_1b_event_within_horizon,2.0,2.0,229470000.0,117920000.0,17.0,12.0,1.998631074606434,595.0,2020-03-12
+divvypay,"DivvyPay, Inc.",2018-05-04,2020-05-03,5,2025-05-03,2021-01-05,1,first_ge_1b_event_within_horizon,3.0,3.0,245180000.0,200000000.0,3.0,3.0,1.998631074606434,369.0,2019-04-30
+arcadiapower,"Arcadia Power, Inc.",2017-06-01,2019-06-01,5,2024-05-31,2022-05-06,1,first_ge_1b_event_within_horizon,1.0,1.0,6000000.0,6000000.0,3.0,3.0,1.998631074606434,730.0,2017-06-01
+digitalocean,"DigitalOcean, LLC",2015-07-08,2017-07-07,5,2022-07-07,2020-05-14,1,first_ge_1b_event_within_horizon,1.0,1.0,83000000.0,83000000.0,2.0,2.0,1.998631074606434,730.0,2015-07-08
+knowbe4,"KnowBe4, Inc.",2016-01-31,2018-01-30,5,2023-01-30,2019-06-24,1,first_ge_1b_event_within_horizon,2.0,2.0,38000000.0,30000000.0,2.0,2.0,1.998631074606434,98.0,2017-10-24
+rapidsos,"RapidSOS, Inc.",2015-08-13,2017-08-12,5,2022-08-12,,0,no_known_event_plus_later_sub_1b_round_proxy,3.0,3.0,15620000.0,5900000.0,3.0,2.0,1.998631074606434,12.0,2017-07-31
+versanetworks,"Versa Networks, Inc.",2012-09-30,2014-09-30,5,2019-09-30,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,43350000.0,29000000.0,4.0,4.0,1.998631074606434,122.0,2014-05-31
+woanshenzhen,"Woan Technology (Shenzhen) Co., Ltd.",2017-10-31,2019-10-31,5,2024-10-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,0.0,0.0,0.0,3.0,3.0,1.998631074606434,730.0,2017-10-31
+glooko,"Glooko, Inc.",2010-11-30,2012-11-29,5,2017-11-29,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,4500000.0,3500000.0,2.0,2.0,1.998631074606434,304.0,2012-01-30
+extremereach,"Extreme Reach, Inc.",2010-06-23,2012-06-22,5,2017-06-22,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,9500000.0,9500000.0,3.0,3.0,1.998631074606434,730.0,2010-06-23
+entrepreneurfirstoperations,Entrepreneur First Operations Limited,2022-06-28,2024-06-27,5,2029-06-27,2026-03-11,1,first_ge_1b_event_within_horizon,1.0,1.0,158000000.0,158000000.0,4.0,4.0,1.998631074606434,730.0,2022-06-28
+ziplineinternational,Zipline International Inc.,2016-11-09,2018-11-09,5,2023-11-09,2019-05-17,1,first_ge_1b_event_within_horizon,1.0,1.0,25000000.0,25000000.0,4.0,4.0,1.998631074606434,730.0,2016-11-09
+viewtrixsehk3310,"Viewtrix Technology Co., Ltd (SEHK:3310)",2021-07-31,2023-07-31,5,2028-07-30,2024-08-31,1,first_ge_1b_event_within_horizon,1.0,0.0,0.0,0.0,0.0,0.0,1.998631074606434,730.0,2021-07-31
+pegbiosehk2565,"PegBio Co., Ltd. (SEHK:2565)",2010-08-31,2012-08-30,5,2017-08-30,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,5300000.0,3500000.0,0.0,0.0,1.998631074606434,338.0,2011-09-27
+fastlynasdaqgsfsly,"Fastly, Inc. (NasdaqGS:FSLY)",2011-03-31,2013-03-30,5,2018-03-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1200000.0,1200000.0,2.0,2.0,1.998631074606434,730.0,2011-03-31
+reltio,"Reltio, Inc.",2015-03-16,2017-03-15,5,2022-03-15,2021-11-04,1,first_ge_1b_event_within_horizon,2.0,2.0,32150000.0,21850000.0,3.0,3.0,1.998631074606434,230.0,2016-07-28
+fomo,FOMO Group Holdings,2017-08-02,2019-08-02,5,2024-08-01,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,20000.0,20000.0,2.0,2.0,1.998631074606434,730.0,2017-08-02
+astronomer,"Astronomer, Inc.",2019-09-25,2021-09-24,5,2026-09-24,2022-03-23,1,first_ge_1b_event_within_horizon,1.0,1.0,5700000.0,5700000.0,7.0,7.0,1.998631074606434,730.0,2019-09-25
+wheelsupexperiencenyseup,Wheels Up Experience Inc. (NYSE:UP),2016-02-26,2018-02-25,5,2023-02-25,2019-08-16,1,first_ge_1b_event_within_horizon,1.0,1.0,96640000.0,96640000.0,3.0,3.0,1.998631074606434,730.0,2016-02-26
+thredupnasdaqgstdup,ThredUp Inc. (NasdaqGS:TDUP),2011-05-12,2013-05-11,5,2018-05-11,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,21490000.0,14540000.0,3.0,3.0,1.998631074606434,220.0,2012-10-03
+lightmatter,"Lightmatter, Inc.",2018-02-05,2020-02-05,5,2025-02-04,2024-10-16,1,first_ge_1b_event_within_horizon,2.0,2.0,33390000.0,22290000.0,3.0,3.0,1.998631074606434,345.0,2019-02-25
+acvauctionsnyseacva,ACV Auctions Inc. (NYSE:ACVA),2016-09-19,2018-09-19,5,2023-09-19,2019-11-12,1,first_ge_1b_event_within_horizon,3.0,3.0,54700000.0,34700000.0,5.0,4.0,1.998631074606434,226.0,2018-02-05
+fervoenergynasdaqgsfrvo,Fervo Energy Company (NasdaqGS:FRVO),2021-04-30,2023-04-30,5,2028-04-29,2024-12-19,1,first_ge_1b_event_within_horizon,2.0,2.0,166630000.0,138290000.0,12.0,12.0,1.998631074606434,251.0,2022-08-22
+rokid,Rokid Corporation Ltd.,2016-10-26,2018-10-26,5,2023-10-26,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,65000000.0,65000000.0,3.0,3.0,1.998631074606434,730.0,2016-10-26
+truphone,Truphone Limited,2013-02-01,2015-02-01,5,2020-02-01,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,118050000.0,118050000.0,0.0,0.0,1.998631074606434,730.0,2013-02-01
+sifive,"SiFive, Inc.",2016-09-02,2018-09-02,5,2023-09-02,2022-03-14,1,first_ge_1b_event_within_horizon,3.0,3.0,64170000.0,50610000.0,8.0,8.0,1.998631074606434,153.0,2018-04-02
+alloytherapeutics,"Alloy Therapeutics, Inc.",2021-04-02,2023-04-02,5,2028-04-01,2026-04-15,1,first_ge_1b_event_within_horizon,1.0,1.0,75000000.0,75000000.0,8.0,8.0,1.998631074606434,730.0,2021-04-02
+everlaw,"Everlaw, Inc.",2013-01-09,2015-01-09,5,2020-01-09,2021-11-02,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,850000.0,850000.0,0.0,0.0,1.998631074606434,730.0,2013-01-09
+glossgenius,"GlossGenius, Inc.",2023-07-27,2025-07-26,5,2030-07-26,2026-07-21,1,first_ge_1b_event_within_horizon,1.0,1.0,28000000.0,28000000.0,3.0,3.0,1.998631074606434,730.0,2023-07-27
+samsaranyseiot,Samsara Inc. (NYSE:IOT),2015-05-20,2017-05-19,5,2022-05-19,2018-03-22,1,first_ge_1b_event_within_horizon,2.0,2.0,40000000.0,25000000.0,1.0,1.0,1.998631074606434,149.0,2016-12-21
+iterable,"Iterable, Inc.",2015-12-28,2017-12-27,5,2022-12-27,2021-06-15,1,first_ge_1b_event_within_horizon,2.0,2.0,30840000.0,22560000.0,3.0,3.0,1.998631074606434,379.0,2016-12-13
+catamorphic,Catamorphic Co.,2017-12-04,2019-12-04,5,2024-12-03,2021-08-10,1,first_ge_1b_event_within_horizon,2.0,2.0,65250000.0,43250000.0,5.0,5.0,1.998631074606434,266.0,2019-03-13
+memoir,"Memoir, Inc.",2021-09-21,2023-09-21,5,2028-09-20,2025-04-16,1,first_ge_1b_event_within_horizon,2.0,2.0,59000000.0,42000000.0,7.0,7.0,1.998631074606434,618.0,2022-01-11
+avaadaenergyprivate,Avaada Energy Private Limited,2019-02-08,2021-02-07,5,2026-02-07,2021-07-13,1,first_ge_1b_event_within_horizon,1.0,1.0,50530000.0,50530000.0,2.0,2.0,1.998631074606434,730.0,2019-02-08
+flockfreight,"Flock Freight, Inc.",2017-12-31,2019-12-31,5,2024-12-30,2021-10-20,1,first_ge_1b_event_within_horizon,1.0,1.0,17750000.0,17750000.0,1.0,1.0,1.998631074606434,730.0,2017-12-31
+built,"Built Technologies, Inc.",2017-11-14,2019-11-14,5,2024-11-13,2023-04-13,1,first_ge_1b_event_within_horizon,2.0,2.0,52220000.0,31000000.0,6.0,6.0,1.998631074606434,199.0,2019-04-29
+listen,"Listen, Inc.",2016-11-18,2018-11-18,5,2023-11-18,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,500000.0,500000.0,1.0,1.0,1.998631074606434,730.0,2016-11-18
+speakeasy,"Speakeasy Labs, Inc.",2017-03-21,2019-03-21,5,2024-03-20,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2017-03-21
+voxmedia,"Vox Media, LLC",2010-11-08,2012-11-07,5,2017-11-07,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,10680000.0,10680000.0,3.0,3.0,1.998631074606434,730.0,2010-11-08
+runwayai,"Runway AI, Inc.",2022-12-05,2024-12-04,5,2029-12-04,2025-04-03,1,first_ge_1b_event_within_horizon,1.0,1.0,50200000.0,50200000.0,6.0,6.0,1.998631074606434,730.0,2022-12-05
+interviewstreet,"Interviewstreet, Inc.",2014-06-12,2016-06-11,5,2021-06-11,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,9170000.0,9170000.0,2.0,2.0,1.998631074606434,730.0,2014-06-12
+zipstorm,"ZipStorm, Inc.",2019-05-14,2021-05-13,5,2026-05-13,2022-01-12,1,first_ge_1b_event_within_horizon,2.0,2.0,71400000.0,65400000.00000001,3.0,3.0,1.998631074606434,65.0,2021-03-09
+distributedcreation,Distributed Creation Inc.,2013-10-09,2015-10-09,5,2020-10-08,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2750000.0,2750000.0,6.0,6.0,1.998631074606434,730.0,2013-10-09
+gustoinvestmentservices,"Gusto Investment Services, LLC",2016-07-19,2018-07-19,5,2023-07-19,2021-04-12,1,first_ge_1b_event_within_horizon,2.0,2.0,30250000.0,17490000.0,4.0,3.0,1.998631074606434,345.0,2017-08-08
+outreach,Outreach Corporation,2015-04-20,2017-04-19,5,2022-04-19,2019-04-16,1,first_ge_1b_event_within_horizon,3.0,3.0,29280000.0,17360000.0,5.0,5.0,1.998631074606434,301.0,2016-06-22
+worldremit,WorldRemit Ltd,2015-02-18,2017-02-17,5,2022-02-17,2021-08-23,1,first_ge_1b_event_within_horizon,1.0,1.0,100000000.0,100000000.0,2.0,2.0,1.998631074606434,730.0,2015-02-18
+bytedance,Bytedance Ltd,2013-09-01,2015-09-01,5,2020-08-31,2016-12-30,1,first_ge_1b_event_within_horizon,2.0,2.0,110000000.0,100000000.0,7.0,4.0,1.998631074606434,457.0,2014-06-01
+appdynamics,AppDynamics LLC,2013-01-23,2015-01-23,5,2020-01-23,2015-11-30,1,first_ge_1b_event_within_horizon,1.0,1.0,50000000.0,50000000.0,4.0,4.0,1.998631074606434,730.0,2013-01-23
+smartshiftlogisticssolutionspvt,SmartShift Logistics Solutions Pvt. Ltd.,2021-10-25,2023-10-25,5,2028-10-24,2025-05-08,1,first_ge_1b_event_within_horizon,1.0,1.0,99950000.0,99950000.0,4.0,4.0,1.998631074606434,730.0,2021-10-25
+wedoctor,We Doctor Holdings Limited,2012-01-12,2014-01-11,5,2019-01-11,2016-06-30,1,first_ge_1b_event_within_horizon,1.0,1.0,11000000.0,11000000.0,0.0,0.0,1.998631074606434,730.0,2012-01-12
+yundingnetworkbeijing,"Yunding Network Technology (Beijing)Co.,LTD.",2014-07-31,2016-07-30,5,2021-07-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,432000.0,432000.0,1.0,1.0,1.998631074606434,730.0,2014-07-31
+virtahealth,Virta Health Corp,2018-04-04,2020-04-03,5,2025-04-03,2020-12-02,1,first_ge_1b_event_within_horizon,2.0,2.0,138190000.0,93190000.0,7.0,7.0,1.998631074606434,84.0,2020-01-10
+premierlacrosseleague,"Premier Lacrosse League, Inc.",2019-02-12,2021-02-11,5,2026-02-11,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,25000000.0,25000000.0,1.0,1.0,1.998631074606434,730.0,2019-02-12
+freshworksnasdaqgsfrsh,Freshworks Inc. (NasdaqGS:FRSH),2012-04-26,2014-04-26,5,2019-04-26,2018-07-31,1,first_ge_1b_event_within_horizon,2.0,2.0,12000000.0,7000000.0,2.0,2.0,1.998631074606434,156.0,2013-11-21
+warbyparkernysewrby,Warby Parker Inc. (NYSE:WRBY),2011-09-22,2013-09-21,5,2018-09-21,2015-04-30,1,first_ge_1b_event_within_horizon,2.0,2.0,54160000.0,41610000.0,8.0,7.0,1.998631074606434,233.0,2013-01-31
+stackexchange,Stack Exchange Inc.,2010-11-24,2012-11-23,5,2017-11-23,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,18320000.0,12270000.0,3.0,3.0,1.998631074606434,625.0,2011-03-09
+ironclad,"Ironclad, Inc.",2015-08-19,2017-08-18,5,2022-08-18,2021-01-14,1,first_ge_1b_event_within_horizon,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2015-08-19
+sweetgreennysesg,"Sweetgreen, Inc. (NYSE:SG)",2013-12-03,2015-12-03,5,2020-12-02,2019-09-20,1,first_ge_1b_event_within_horizon,3.0,3.0,78500000.0,36800000.0,2.0,2.0,1.998631074606434,155.0,2015-07-01
+beijingyijiupiecommerce,"Beijing Yijiupi E-Commerce Co., Ltd.",2016-03-21,2018-03-21,5,2023-03-21,2018-09-20,1,first_ge_1b_event_within_horizon,1.0,1.0,61710000.0,61710000.0,5.0,5.0,1.998631074606434,730.0,2016-03-21
+mohallatechprivate,Mohalla Tech Private Limited,2018-09-19,2020-09-18,5,2025-09-18,2021-07-27,1,first_ge_1b_event_within_horizon,1.0,1.0,99860000.0,99860000.0,7.0,7.0,1.998631074606434,730.0,2018-09-19
+blacksesameinternationalholdingsehk2533,Black Sesame International Holding Limited (SEHK:2533),2017-12-12,2019-12-12,5,2024-12-11,2022-07-05,1,first_ge_1b_event_within_horizon,4.0,4.0,79700000.0,40000000.0,1.0,1.0,1.998631074606434,49.0,2019-10-24
+beijinghaizhisehk2706,"Beijing Haizhi Technology Group Co., Ltd. (SEHK:2706)",2016-03-02,2018-03-02,5,2023-03-02,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,30000000.0,30000000.0,4.0,4.0,1.998631074606434,730.0,2016-03-02
+workos,"WorkOS, Inc.",2022-12-01,2024-11-30,5,2029-11-30,2026-03-02,1,first_ge_1b_event_within_horizon,1.0,1.0,81660000.0,81660000.0,3.0,3.0,1.998631074606434,730.0,2022-12-01
+tive,"Tive, Inc.",2017-05-03,2019-05-03,5,2024-05-02,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,2050000.0,1930000.0,1.0,1.0,1.998631074606434,389.0,2018-04-09
+hqo,"Hqo, Inc.",2015-08-31,2017-08-30,5,2022-08-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2040000.0,2040000.0,3.0,3.0,1.998631074606434,730.0,2015-08-31
+transcarent,"Transcarent, Inc.",2021-06-10,2023-06-10,5,2028-06-09,2024-05-02,1,first_ge_1b_event_within_horizon,1.0,1.0,65379999.99999999,65379999.99999999,9.0,9.0,1.998631074606434,730.0,2021-06-10
+toastnysetost,"Toast, Inc. (NYSE:TOST)",2016-01-05,2018-01-04,5,2023-01-04,2018-07-10,1,first_ge_1b_event_within_horizon,2.0,2.0,84040000.0,54130000.0,4.0,3.0,1.998631074606434,163.0,2017-07-25
+beijingchehejia,Beijing Chehejia Technology Ltd.,2016-06-27,2018-06-27,5,2023-06-27,2019-08-19,1,first_ge_1b_event_within_horizon,1.0,1.0,109760000.0,109760000.0,5.0,5.0,1.998631074606434,730.0,2016-06-27
+oliveai,"Olive AI, Inc.",2013-08-07,2015-08-07,5,2020-08-06,2020-12-01,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,15100000.0,10100000.0,2.0,2.0,1.998631074606434,116.0,2015-04-13
+wuxiautolinkintelligencetech,"Wuxi Autolink Intelligence Tech Co., Ltd.",2016-03-10,2018-03-10,5,2023-03-10,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,12920000.0,7540000.0,3.0,2.0,1.998631074606434,570.0,2016-08-17
+nanjingguijizhineng,"Nanjing Guiji Zhineng Technology Co., Ltd.",2017-12-31,2019-12-31,5,2024-12-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,0.0,0.0,0.0,0.0,0.0,1.998631074606434,730.0,2017-12-31
+taxbit,"TaxBit, Inc.",2019-01-09,2021-01-08,5,2026-01-08,2024-04-25,1,first_ge_1b_event_within_horizon,2.0,2.0,5750000.0,5000000.0,7.0,7.0,1.998631074606434,368.0,2020-01-06
+forwardnetworks,"Forward Networks, Inc.",2014-11-26,2016-11-25,5,2021-11-25,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,11975000.0,11150000.0,1.0,1.0,1.998631074606434,730.0,2014-11-26
+brewdog,BrewDog PLC,2013-12-31,2015-12-31,5,2020-12-30,2018-10-16,1,first_ge_1b_event_within_horizon,1.0,1.0,7040000.0,7040000.0,0.0,0.0,1.998631074606434,730.0,2013-12-31
+statsig,"Statsig, Inc.",2021-08-05,2023-08-05,5,2028-08-04,2025-05-06,1,first_ge_1b_event_within_horizon,2.0,2.0,53460000.0,43000000.0,2.0,2.0,1.998631074606434,472.0,2022-04-20
+expel,"Expel, Inc.",2018-04-10,2020-04-09,5,2025-04-09,2022-11-07,1,first_ge_1b_event_within_horizon,2.0,2.0,60000000.0,40000000.0,8.0,7.0,1.998631074606434,295.0,2019-06-19
+eruditusexecutiveeducationpvt,Eruditus Executive Education Pvt. Ltd.,2019-01-10,2021-01-09,5,2026-01-09,2021-08-11,1,first_ge_1b_event_within_horizon,1.0,1.0,40030000.0,40030000.0,2.0,2.0,1.998631074606434,730.0,2019-01-10
+sprinklrnysecxm,"Sprinklr, Inc. (NYSE:CXM)",2011-08-31,2013-08-30,5,2018-08-30,2015-03-31,1,first_ge_1b_event_within_horizon,2.0,2.0,20200000.0,15000000.0,2.0,2.0,1.998631074606434,206.0,2013-02-05
+callminer,"CallMiner, Inc.",2010-09-30,2012-09-29,5,2017-09-29,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,7000000.0,7000000.0,6.0,6.0,1.998631074606434,730.0,2010-09-30
+qventus,"Qventus, Inc.",2016-11-16,2018-11-16,5,2023-11-16,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,13380000.0,13380000.0,5.0,5.0,1.998631074606434,730.0,2016-11-16
+ntextransportationservicespvt,NTEx Transportation Services Pvt Ltd,2018-12-19,2020-12-18,5,2025-12-18,2022-02-07,1,first_ge_1b_event_within_horizon,1.0,1.0,8540000.0,8540000.0,2.0,2.0,1.998631074606434,730.0,2018-12-19
+degree,"Degree, Inc.",2016-03-23,2018-03-23,5,2023-03-23,2022-01-19,1,first_ge_1b_event_within_horizon,2.0,2.0,3820000.0,3700000.0,6.0,5.0,1.998631074606434,686.0,2016-05-06
+divvyhomes,"Divvy Homes, Inc.",2018-10-09,2020-10-08,5,2025-10-08,2021-08-13,1,first_ge_1b_event_within_horizon,1.0,1.0,10620000.0,10620000.0,5.0,5.0,1.998631074606434,730.0,2018-10-09
+supermarketgrocerysuppliesprivate,Supermarket Grocery Supplies Private Limited,2014-09-12,2016-09-11,5,2021-09-11,2019-03-28,1,first_ge_1b_event_within_horizon,2.0,2.0,83030000.0,50060000.0,6.0,5.0,1.998631074606434,396.0,2015-08-12
+lendio,"Lendio, Inc.",2011-02-17,2013-02-16,5,2018-02-16,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,6090000.0,6090000.0,2.0,2.0,1.998631074606434,730.0,2011-02-17
+brainauroramedicalsehk6681,BrainAurora Medical Technology Limited (SEHK:6681),2015-03-31,2017-03-30,5,2022-03-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,826000.0,826000.0,0.0,0.0,1.998631074606434,730.0,2015-03-31
+g2com,"G2.com, Inc.",2015-07-29,2017-07-28,5,2022-07-28,2021-06-22,1,first_ge_1b_event_within_horizon,3.0,3.0,41090000.0,30000000.0,5.0,3.0,1.998631074606434,65.0,2017-05-24
+monzobankholding,Monzo Bank Holding Group Limited,2016-03-03,2018-03-03,5,2023-03-03,2018-10-30,1,first_ge_1b_event_within_horizon,4.0,4.0,128900000.0,97150000.0,6.0,6.0,1.998631074606434,62.0,2017-12-31
+shieldai,Shield AI Inc.,2017-03-28,2019-03-28,5,2024-03-27,2022-06-16,1,first_ge_1b_event_within_horizon,2.0,2.0,20500000.0,10500000.0,5.0,4.0,1.998631074606434,87.0,2018-12-31
+redditnyserddt,"Reddit, Inc. (NYSE:RDDT)",2012-12-31,2014-12-31,5,2019-12-31,2017-07-31,1,first_ge_1b_event_within_horizon,1.0,1.0,20000000.0,20000000.0,1.0,1.0,1.998631074606434,730.0,2012-12-31
+aledade,"Aledade, Inc.",2019-01-18,2021-01-17,5,2026-01-17,2021-01-19,1,first_ge_1b_event_within_horizon,1.0,1.0,56150000.0,56150000.0,3.0,3.0,1.998631074606434,730.0,2019-01-18
+loftbrasiltecnologialtda,Loft Brasil Tecnologia LTDA.,2019-03-15,2021-03-14,5,2026-03-14,2021-03-23,1,first_ge_1b_event_within_horizon,1.0,1.0,70000000.0,70000000.0,2.0,2.0,1.998631074606434,730.0,2019-03-15
+icertis,"Icertis, Inc.",2016-03-10,2018-03-10,5,2023-03-10,2021-03-11,1,first_ge_1b_event_within_horizon,3.0,3.0,89500000.0,50040000.0,8.0,7.0,1.998631074606434,30.0,2018-02-08
+hunanmabgeekbiotechnology,"Hunan Mabgeek Biotechnology Co., Ltd.",2017-01-31,2019-01-31,5,2024-01-31,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1160000.0,1160000.0,1.0,1.0,1.998631074606434,730.0,2017-01-31
+mdaqpte,M-DAQ Pte. Ltd.,2010-04-30,2012-04-29,5,2017-04-29,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,365000.0,365000.0,0.0,0.0,1.998631074606434,730.0,2010-04-30
+beijingyuanlieducation,"Beijing Yuanli Education Technology Co., Ltd.",2014-07-22,2016-07-21,5,2021-07-21,2017-05-31,1,first_ge_1b_event_within_horizon,2.0,2.0,75000000.0,60000000.0,4.0,4.0,1.998631074606434,479.0,2015-03-30
+compassnysecomp,"Compass, Inc. (NYSE:COMP)",2013-10-10,2015-10-10,5,2020-10-09,2017-12-07,1,first_ge_1b_event_within_horizon,2.0,2.0,68240000.0,40000000.0,5.0,5.0,1.998631074606434,446.0,2014-07-21
+virtuoussoftware,"Virtuous Software, Inc.",2015-06-10,2017-06-09,5,2022-06-09,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,700000.0,700000.0,1.0,1.0,1.998631074606434,730.0,2015-06-10
+singlifefinancialpte,Singlife Financial Pte. Ltd.,2019-07-01,2021-06-30,5,2026-06-30,2023-11-07,1,first_ge_1b_event_within_horizon,1.0,1.0,90000000.0,90000000.0,1.0,1.0,1.998631074606434,730.0,2019-07-01
+jiangsuprotelightpharmaceuticalbiotechnology,"Jiangsu ProteLight Pharmaceutical & Biotechnology Co., Ltd.",2016-03-02,2018-03-02,5,2023-03-02,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,18320000.0,15270000.0,3.0,2.0,1.998631074606434,30.0,2018-01-31
+relativityspace,"Relativity Space, Inc.",2018-03-27,2020-03-26,5,2025-03-26,2020-11-23,1,first_ge_1b_event_within_horizon,2.0,2.0,175000000.0,140000000.0,7.0,7.0,1.998631074606434,177.0,2019-10-01
+papa,"PAPA, INC.",2018-08-21,2020-08-20,5,2025-08-20,2021-11-04,1,first_ge_1b_event_within_horizon,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2018-08-21
+viaseparations,"Via Separations, Inc.",2019-03-14,2021-03-13,5,2026-03-13,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,4800000.0,4800000.0,5.0,5.0,1.998631074606434,730.0,2019-03-14
+xad,"xAd, Inc.",2010-10-13,2012-10-12,5,2017-10-12,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,4280000.0,4280000.0,2.0,2.0,1.998631074606434,730.0,2010-10-13
+chronosphere,"Chronosphere, Inc.",2019-11-05,2021-11-04,5,2026-11-04,2023-01-10,1,first_ge_1b_event_within_horizon,2.0,2.0,54470000.0,43400000.0,3.0,3.0,1.998631074606434,303.0,2021-01-05
+onesourcespecialtypharmanseionesource,OneSource Specialty Pharma Limited (NSEI:ONESOURCE),2021-03-19,2023-03-19,5,2028-03-18,2025-01-10,1,first_ge_1b_event_within_horizon,2.0,2.0,155060000.0,85060000.0,4.0,3.0,1.998631074606434,730.0,2021-03-19
+bilt,BILT Incorporated,2021-07-29,2023-07-29,5,2028-07-28,2025-07-10,1,first_ge_1b_event_within_horizon,2.0,2.0,69000000.0,60000000.0,16.0,15.0,1.998631074606434,676.0,2021-09-21
+loom,"Loom, Inc.",2018-06-26,2020-06-25,5,2025-06-25,2021-05-20,1,first_ge_1b_event_within_horizon,3.0,3.0,42580000.0,28750000.0,10.0,4.0,1.998631074606434,28.0,2020-05-28
+aras,Aras Corporation,2010-07-07,2012-07-06,5,2017-07-06,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2670000.0,2670000.0,0.0,0.0,1.998631074606434,730.0,2010-07-07
+mammothbrands,Mammoth Brands,2014-05-22,2016-05-21,5,2021-05-21,2021-03-31,1,first_ge_1b_event_within_horizon,1.0,1.0,75000000.0,75000000.0,6.0,6.0,1.998631074606434,730.0,2014-05-22
+tealium,Tealium Inc.,2012-07-16,2014-07-16,5,2019-07-16,2019-05-15,1,first_ge_1b_event_within_horizon,2.0,2.0,26100000.0,15600000.0,3.0,3.0,1.998631074606434,469.0,2013-04-03
+glovoapp23sl,"Glovoapp23, S.L.",2017-09-29,2019-09-29,5,2024-09-28,2019-12-18,1,first_ge_1b_event_within_horizon,2.0,2.0,169350000.0,133889999.99999999,11.0,7.0,1.998631074606434,438.0,2018-07-18
+kyruus,"Kyruus, Inc.",2011-06-21,2013-06-20,5,2018-06-20,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,5500000.0,5500000.0,3.0,3.0,1.998631074606434,730.0,2011-06-21
+planetnysepl,Planet Labs PBC (NYSE:PL),2013-12-18,2015-12-18,5,2020-12-17,2019-07-04,1,first_ge_1b_event_within_horizon,1.0,1.0,51880000.0,51880000.0,11.0,11.0,1.998631074606434,730.0,2013-12-18
+sofinasdaqgssofi,"SoFi Technologies, Inc. (NasdaqGS:SOFI)",2012-09-11,2014-09-11,5,2019-09-11,2015-02-13,1,first_ge_1b_event_within_horizon,2.0,2.0,157200000.0,80000000.0,6.0,6.0,1.998631074606434,163.0,2014-04-01
+convoy,"Convoy, Inc.",2016-03-22,2018-03-22,5,2023-03-22,2019-11-13,1,first_ge_1b_event_within_horizon,3.0,3.0,78620000.0,62500000.0,5.0,5.0,1.998631074606434,240.0,2017-07-25
+canva,"Canva, Inc.",2015-10-09,2017-10-08,5,2022-10-08,2019-05-20,1,first_ge_1b_event_within_horizon,2.0,2.0,42340000.0,27620000.0,5.0,4.0,1.998631074606434,389.0,2016-09-14
+anaconda,"Anaconda, Inc.",2021-06-10,2023-06-10,5,2028-06-09,2025-07-31,1,first_ge_1b_event_within_horizon,1.0,1.0,2600000.0,2600000.0,0.0,0.0,1.998631074606434,730.0,2021-06-10
+preply,"Preply, Inc.",2015-09-10,2017-09-09,5,2022-09-09,2026-01-21,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,1770000.0,1650000.0,7.0,7.0,1.998631074606434,276.0,2016-12-07
+hingehealthnysehnge,"Hinge Health, Inc. (NYSE:HNGE)",2016-06-20,2018-06-20,5,2023-06-20,2021-10-28,1,first_ge_1b_event_within_horizon,2.0,2.0,9330000.0,8000000.0,3.0,3.0,1.998631074606434,331.0,2017-07-24
+phenompeople,"Phenom People, Inc.",2016-03-03,2018-03-03,5,2023-03-03,2021-04-07,1,first_ge_1b_event_within_horizon,1.0,1.0,11410000.0,11410000.0,2.0,2.0,1.998631074606434,730.0,2016-03-03
+dedrone,"Dedrone Holdings, Inc.",2015-04-28,2017-04-27,5,2022-04-27,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,17650000.0,14940000.0,3.0,3.0,1.998631074606434,73.0,2017-02-13
+chainguard,"Chainguard, Inc.",2021-12-08,2023-12-08,5,2028-12-07,2024-07-25,1,first_ge_1b_event_within_horizon,2.0,2.0,66000000.0,61000000.0,5.0,5.0,1.998631074606434,37.0,2023-11-01
+nasuni,Nasuni Corporation,2010-12-20,2012-12-19,5,2017-12-19,2024-07-09,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,15000000.0,15000000.0,3.0,3.0,1.998631074606434,730.0,2010-12-20
+shanghairefiresehk2570,Shanghai REFIRE Group Limited (SEHK:2570),2017-07-27,2019-07-27,5,2024-07-26,2022-03-30,1,first_ge_1b_event_within_horizon,1.0,1.0,2970000.0,2970000.0,1.0,1.0,1.998631074606434,730.0,2017-07-27
+chromeholding,Chrome Holding Co.,2011-01-07,2013-01-06,5,2018-01-06,2015-10-14,1,first_ge_1b_event_within_horizon,2.0,2.0,89170000.0,57950000.0,4.0,4.0,1.998631074606434,16.0,2012-12-21
+circleinternetservices,"Circle Internet Services, Inc.",2012-02-29,2014-02-28,5,2019-02-28,2021-05-11,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,7500000.0,6000000.0,5.0,4.0,1.998631074606434,22.0,2014-02-06
+flosports,"FloSports, Inc.",2016-08-15,2018-08-15,5,2023-08-15,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,18720000.0,18720000.0,5.0,5.0,1.998631074606434,730.0,2016-08-15
+promedior,"Promedior, Inc.",2010-03-16,2012-03-15,5,2017-03-15,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,12000000.0,12000000.0,5.0,5.0,1.998631074606434,730.0,2010-03-16
+smartnews,"SmartNews, Inc.",2015-03-30,2017-03-29,5,2022-03-29,2019-12-31,1,first_ge_1b_event_within_horizon,1.0,1.0,10000000.0,10000000.0,4.0,4.0,1.998631074606434,730.0,2015-03-30
+morsemicropty,Morse Micro PTY. LTD.,2017-06-30,2019-06-30,5,2024-06-29,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,75000.0,75000.0,1.0,1.0,1.998631074606434,730.0,2017-06-30
+gooddata,GoodData Corporation,2011-08-18,2013-08-17,5,2018-08-17,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,37270000.0,22090000.0,7.0,5.0,1.998631074606434,66.0,2013-06-12
+ubiquityglobalservices,"Ubiquity Global Services, Inc.",2012-10-05,2014-10-05,5,2019-10-05,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,4000000.0,4000000.0,1.0,1.0,1.998631074606434,730.0,2012-10-05
+houzz,Houzz Inc.,2010-11-11,2012-11-10,5,2017-11-10,2017-06-23,1,first_ge_1b_event_within_horizon,2.0,2.0,13600000.0,11600000.0,1.0,1.0,1.998631074606434,327.0,2011-12-19
+circleinternetfinancial,"Circle Internet Financial, LLC",2013-08-22,2015-08-22,5,2020-08-21,2018-05-14,1,first_ge_1b_event_within_horizon,3.0,3.0,76050000.0,50050000.0,9.0,9.0,1.998631074606434,115.0,2015-04-29
+aryacollateralwarehousingservicesprivate,Arya Collateral Warehousing Services Private Limited,2016-12-13,2018-12-13,5,2023-12-13,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1930000.0,1930000.0,1.0,1.0,1.998631074606434,730.0,2016-12-13
+maximobilityspainsl,"Maxi Mobility Spain, S.L.",2015-10-12,2017-10-11,5,2022-10-11,2018-01-22,1,first_ge_1b_event_within_horizon,2.0,2.0,132000000.0,120000000.0,3.0,3.0,1.998631074606434,539.0,2016-04-20
+glossier,"Glossier, Inc.",2014-11-17,2016-11-16,5,2021-11-16,2019-03-19,1,first_ge_1b_event_within_horizon,1.0,1.0,8390000.0,8390000.0,8.0,8.0,1.998631074606434,730.0,2014-11-17
+tackleio,"Tackle.io, Inc.",2018-03-28,2020-03-27,5,2025-03-27,2021-12-21,1,first_ge_1b_event_within_horizon,1.0,1.0,697000.0,697000.0,0.0,0.0,1.998631074606434,730.0,2018-03-28
+outschool,"Outschool, Inc.",2016-03-22,2018-03-22,5,2023-03-22,2021-04-14,1,first_ge_1b_event_within_horizon,1.0,1.0,120000.0,120000.0,0.0,0.0,1.998631074606434,730.0,2016-03-22
+liuliumeisehk6658,"Liuliumei Co., Ltd. (SEHK:6658)",2015-06-22,2017-06-21,5,2022-06-21,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,21740000.0,21740000.0,2.0,2.0,1.998631074606434,730.0,2015-06-22
+equipmentsharecomnasdaqgseqpt,EquipmentShare.com Inc. (NasdaqGS:EQPT),2015-03-25,2017-03-24,5,2022-03-24,2021-04-14,1,first_ge_1b_event_within_horizon,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2015-03-25
+sanghvibeautypvt,Sanghvi Beauty & Technologies Pvt Ltd,2019-06-27,2021-06-26,5,2026-06-26,2021-11-09,1,first_ge_1b_event_within_horizon,1.0,1.0,14490000.0,14490000.0,2.0,2.0,1.998631074606434,730.0,2019-06-27
+one97communicationsnseipaytm,One97 Communications Limited (NSEI:PAYTM),2011-10-10,2013-10-09,5,2018-10-09,2017-05-18,1,first_ge_1b_event_within_horizon,1.0,1.0,10020000.0,10020000.0,1.0,1.0,1.998631074606434,730.0,2011-10-10
+rigup,"Rigup, Inc.",2014-05-29,2016-05-28,5,2021-05-28,2019-10-10,1,first_ge_1b_event_within_horizon,2.0,2.0,17730000.0,14730000.0,7.0,6.0,1.998631074606434,44.0,2016-04-14
+aadukaanfinancialservicesprivate,A & A Dukaan Financial Services Private Limited,2017-10-17,2019-10-17,5,2024-10-16,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,30000000.0,30000000.0,1.0,1.0,1.998631074606434,730.0,2017-10-17
+ubtechroboticssehk9880,Ubtech Robotics Corp Ltd (SEHK:9880),2015-03-01,2017-02-28,5,2022-02-28,2018-05-03,1,first_ge_1b_event_within_horizon,2.0,2.0,29000000.0,20000000.0,2.0,2.0,1.998631074606434,577.0,2015-08-01
+hicuityhealth,"Hicuity Health, Inc.",2011-10-14,2013-10-13,5,2018-10-13,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,8000000.0,8000000.0,4.0,4.0,1.998631074606434,730.0,2011-10-14
+gtmedical,"GT Medical Technologies, Inc.",2018-01-31,2020-01-31,5,2025-01-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,3070000.0,3070000.0,1.0,1.0,1.998631074606434,730.0,2018-01-31
+noom,"Noom, Inc.",2018-03-31,2020-03-30,5,2025-03-30,2021-05-20,1,first_ge_1b_event_within_horizon,2.0,2.0,71720000.0,55710000.0,3.0,3.0,1.998631074606434,329.0,2019-05-06
+fictiv,Fictiv Inc.,2014-03-31,2016-03-30,5,2021-03-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,10980000.0,10980000.0,1.0,1.0,1.998631074606434,730.0,2014-03-31
+starburstdata,"Starburst Data, Inc.",2019-11-20,2021-11-19,5,2026-11-19,2022-02-09,1,first_ge_1b_event_within_horizon,2.0,2.0,63330000.0,41500000.0,2.0,2.0,1.998631074606434,521.0,2020-06-16
+ethosnasdaqgslife,Ethos Technologies Inc. (NasdaqGS:LIFE),2018-10-30,2020-10-29,5,2025-10-29,2021-05-11,1,first_ge_1b_event_within_horizon,2.0,2.0,89820000.0,60000000.0,6.0,5.0,1.998631074606434,429.0,2019-08-27
+strategicpharmaceuticalsolutions,Strategic Pharmaceutical Solutions Inc.,2010-04-20,2012-04-19,5,2017-04-19,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,18430000.0,18430000.0,1.0,1.0,1.998631074606434,730.0,2010-04-20
+wefunder,"Wefunder, Inc.",2015-05-27,2017-05-26,5,2022-05-26,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,6810000.0,6810000.0,0.0,0.0,1.998631074606434,730.0,2015-05-27
+rewardstyle,"rewardStyle, Inc.",2015-07-31,2017-07-30,5,2022-07-30,2021-11-22,1,first_ge_1b_event_within_horizon,1.0,1.0,15000000.0,15000000.0,1.0,1.0,1.998631074606434,730.0,2015-07-31
+billiontoonenasdaqgsblln,"BillionToOne, Inc. (NasdaqGS:BLLN)",2019-03-28,2021-03-27,5,2026-03-27,2024-06-21,1,first_ge_1b_event_within_horizon,1.0,1.0,15000000.0,15000000.0,7.0,7.0,1.998631074606434,730.0,2019-03-28
+andurilindustries,"Anduril Industries, Inc.",2017-08-31,2019-08-31,5,2024-08-30,2019-09-11,1,first_ge_1b_event_within_horizon,2.0,2.0,58620000.0,41000000.0,3.0,3.0,1.998631074606434,457.0,2018-05-31
+socure,Socure Inc.,2019-02-28,2021-02-27,5,2026-02-27,2021-03-16,1,first_ge_1b_event_within_horizon,2.0,2.0,65000000.0,35000000.0,10.0,7.0,1.998631074606434,186.0,2020-08-25
+recroom,Rec Room Inc.,2017-02-02,2019-02-02,5,2024-02-02,2021-03-23,1,first_ge_1b_event_within_horizon,1.0,1.0,5040000.0,5040000.0,8.0,8.0,1.998631074606434,730.0,2017-02-02
+yugabytedb,Yugabytedb Inc.,2017-11-02,2019-11-02,5,2024-11-01,2021-10-28,1,first_ge_1b_event_within_horizon,1.0,1.0,8000000.0,8000000.0,1.0,1.0,1.998631074606434,730.0,2017-11-02
+moderntreasury,Modern Treasury Corp.,2018-08-21,2020-08-20,5,2025-08-20,2022-03-30,1,first_ge_1b_event_within_horizon,2.0,2.0,10450000.0,10330000.0,2.0,1.0,1.998631074606434,245.0,2019-12-19
+cheetah,"Cheetah Technologies, Inc.",2015-12-31,2017-12-30,5,2022-12-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,3000000.0,3000000.0,1.0,1.0,1.998631074606434,730.0,2015-12-31
+tennortherapeuticssuzhousehk6872,TenNor Therapeutics (Suzhou) Limited (SEHK:6872),2022-12-21,2024-12-20,5,2029-12-20,2025-08-01,1,first_ge_1b_event_within_horizon,1.0,1.0,9110000.0,9110000.0,3.0,3.0,1.998631074606434,730.0,2022-12-21
+cityblockhealth,"Cityblock Health, Inc.",2018-01-04,2020-01-04,5,2025-01-03,2021-09-03,1,first_ge_1b_event_within_horizon,2.0,2.0,85880000.0,65090000.0,9.0,9.0,1.998631074606434,268.0,2019-04-11
+calmcom,"Calm.com, Inc.",2017-11-07,2019-11-07,5,2024-11-06,2020-12-08,1,first_ge_1b_event_within_horizon,2.0,2.0,9841000.0,9360000.0,2.0,2.0,1.998631074606434,505.0,2018-06-20
+modaoperandi,"Moda Operandi, Inc.",2013-12-31,2015-12-31,5,2020-12-30,2020-01-31,1,first_ge_1b_event_within_horizon,2.0,2.0,83010000.0,60250000.0,8.0,6.0,1.998631074606434,321.0,2015-02-13
+smiledirectclubotcpksdccq,"SmileDirectClub, Inc. (OTCPK:SDCC.Q)",2016-07-25,2018-07-25,5,2023-07-25,2018-10-10,1,first_ge_1b_event_within_horizon,1.0,1.0,46750000.0,46750000.0,1.0,1.0,1.998631074606434,730.0,2016-07-25
+robinpowered,"Robin Powered, Inc.",2014-12-16,2016-12-15,5,2021-12-15,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,9690000.0,7000000.0,10.0,6.0,1.998631074606434,198.0,2016-05-31
+1661,"1661, Inc.",2016-08-29,2018-08-29,5,2023-08-29,2021-06-24,1,first_ge_1b_event_within_horizon,3.0,3.0,89740000.0,59990000.0,5.0,5.0,1.998631074606434,202.0,2018-02-08
+lenskartsolutionsnseilenskart,Lenskart Solutions Limited (NSEI:LENSKART),2014-11-30,2016-11-29,5,2021-11-29,2021-07-19,1,first_ge_1b_event_within_horizon,2.0,2.0,31470000.0,21700000.0,4.0,3.0,1.998631074606434,84.0,2016-09-06
+videoamp,"VideoAmp, Inc.",2014-12-11,2016-12-10,5,2021-12-10,2021-10-21,1,first_ge_1b_event_within_horizon,2.0,2.0,15520000.0,13310000.0,7.0,7.0,1.998631074606434,395.0,2015-11-11
+thoughtspot,"ThoughtSpot, Inc.",2012-12-31,2014-12-31,5,2019-12-31,2019-08-28,1,first_ge_1b_event_within_horizon,2.0,2.0,40310000.0,30150000.0,2.0,2.0,1.998631074606434,196.0,2014-06-18
+vinteduab,Vinted UAB,2014-01-31,2016-01-31,5,2021-01-30,2019-11-27,1,first_ge_1b_event_within_horizon,1.0,1.0,27000000.0,27000000.0,2.0,2.0,1.998631074606434,730.0,2014-01-31
+daybreakai,"Daybreak AI, Inc.",2018-06-26,2020-06-25,5,2025-06-25,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,1.0,35000000.0,35000000.0,4.0,4.0,1.998631074606434,105.0,2020-03-12
+institutionalcapitalnetwork,"Institutional Capital Network, Inc.",2018-11-08,2020-11-07,5,2025-11-07,2021-12-23,1,first_ge_1b_event_within_horizon,1.0,1.0,25000000.0,25000000.0,6.0,6.0,1.998631074606434,730.0,2018-11-08
+splashfinancial,"Splash Financial, Inc.",2014-11-14,2016-11-13,5,2021-11-13,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,30000.0,30000.0,1.0,1.0,1.998631074606434,730.0,2014-11-14
+carbon,"Carbon, Inc.",2013-12-31,2015-12-31,5,2020-12-30,2016-09-15,1,first_ge_1b_event_within_horizon,2.0,2.0,42030000.0,31030000.0,6.0,4.0,1.998631074606434,365.0,2014-12-31
+salesloft,"Salesloft, Inc.",2015-04-01,2017-03-31,5,2022-03-31,2021-01-06,1,first_ge_1b_event_within_horizon,2.0,2.0,25670000.0,15520000.0,3.0,2.0,1.998631074606434,29.0,2017-03-02
+figmanysefig,"Figma, Inc. (NYSE:FIG)",2013-12-31,2015-12-31,5,2020-12-30,2020-04-30,1,first_ge_1b_event_within_horizon,2.0,2.0,18000000.0,14000000.0,4.0,4.0,1.998631074606434,28.0,2015-12-03
+pax,"PAX Labs, Inc.",2015-06-04,2017-06-03,5,2022-06-03,2019-04-29,1,first_ge_1b_event_within_horizon,2.0,2.0,90960000.0,46690000.0,4.0,4.0,1.998631074606434,78.0,2017-03-17
+tamr,"TAMR, Inc.",2014-05-19,2016-05-18,5,2021-05-18,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,14250000.0,14250000.0,2.0,2.0,1.998631074606434,730.0,2014-05-19
+snorkelai,"Snorkel AI, Inc.",2021-04-07,2023-04-07,5,2028-04-06,2025-05-29,1,first_ge_1b_event_within_horizon,1.0,1.0,35000000.0,35000000.0,6.0,6.0,1.998631074606434,730.0,2021-04-07
+onebrief,"Onebrief, Inc.",2022-10-12,2024-10-11,5,2029-10-11,2025-06-16,1,first_ge_1b_event_within_horizon,2.0,2.0,22130000.0,16000000.0,3.0,3.0,1.998631074606434,51.0,2024-08-21
+axonius,"Axonius, Inc.",2017-09-06,2019-09-06,5,2024-09-05,2021-02-28,1,first_ge_1b_event_within_horizon,3.0,3.0,36600000.0,20000000.0,6.0,6.0,1.998631074606434,10.0,2019-08-27
+superhumanplatform,Superhuman Platform Inc.,2017-05-08,2019-05-08,5,2024-05-07,2021-11-17,1,first_ge_1b_event_within_horizon,1.0,1.0,109720000.0,109720000.0,5.0,5.0,1.998631074606434,730.0,2017-05-08
+cerebrassystemsnasdaqgscbrs,Cerebras Systems Inc. (NasdaqGS:CBRS),2016-05-31,2018-05-31,5,2023-05-31,2018-11-30,1,first_ge_1b_event_within_horizon,2.0,2.0,52250000.0,27250000.0,4.0,3.0,1.998631074606434,516.0,2016-12-31
+schvey,"Schvey, Inc.",2014-07-02,2016-07-01,5,2021-07-01,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2630000.0,2630000.0,6.0,6.0,1.998631074606434,730.0,2014-07-02
+dandelionenergy,"Dandelion Energy, Inc.",2017-05-24,2019-05-24,5,2024-05-23,,0,no_known_event_plus_later_sub_1b_round_proxy,4.0,4.0,22965000.0,16079999.999999998,9.0,7.0,1.998631074606434,101.0,2019-02-12
+notableotcpkntblq,"Notable Labs, Ltd. (OTCPK:NTBL.Q)",2015-03-25,2017-03-24,5,2022-03-24,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2015-03-25
+elementbiosciences,"Element Biosciences, Inc.",2019-06-18,2021-06-17,5,2026-06-17,2024-07-11,1,first_ge_1b_event_within_horizon,2.0,2.0,125300000.0,110300000.0,4.0,4.0,1.998631074606434,525.0,2020-01-09
+carbonhealth,"Carbon Health Technologies, Inc.",2020-05-11,2022-05-11,5,2027-05-11,2023-01-09,1,first_ge_1b_event_within_horizon,1.0,1.0,25120000.0,25120000.0,1.0,1.0,1.998631074606434,730.0,2020-05-11
+brytercx,"BryterCX, Inc.",2010-11-29,2012-11-28,5,2017-11-28,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,19050000.0,19050000.0,1.0,1.0,1.998631074606434,730.0,2010-11-29
+nanjingxiyinecommerce,Nanjing Xiyin E-Commerce Co. Ltd.,2015-12-31,2017-12-30,5,2022-12-30,2018-12-31,1,first_ge_1b_event_within_horizon,1.0,1.0,46210000.0,46210000.0,2.0,2.0,1.998631074606434,730.0,2015-12-31
+firstmile,"First Mile Group, Inc.",2017-10-18,2019-10-18,5,2024-10-17,2021-09-30,1,first_ge_1b_event_within_horizon,2.0,2.0,16590000.0,12000000.0,3.0,3.0,1.998631074606434,31.0,2019-09-17
+execonline,"ExecOnline, Inc.",2012-10-26,2014-10-26,5,2019-10-26,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,5748000.0,4950000.0,5.0,4.0,1.998631074606434,37.0,2014-09-19
+uniphore,Uniphore Technologies Inc.,2015-05-07,2017-05-06,5,2022-05-06,2022-02-16,1,first_ge_1b_event_within_horizon,2.0,2.0,5530000.0,3440000.0,4.0,3.0,1.998631074606434,215.0,2016-10-03
+floqast,"FloQast, Inc.",2017-06-21,2019-06-21,5,2024-06-20,2021-07-21,1,first_ge_1b_event_within_horizon,1.0,1.0,25000000.0,25000000.0,3.0,3.0,1.998631074606434,730.0,2017-06-21
+imbriapharmaceuticals,"Imbria Pharmaceuticals, Inc.",2018-07-09,2020-07-08,5,2025-07-08,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,40250000.0,40250000.0,0.0,0.0,1.998631074606434,730.0,2018-07-09
+leveltenenergy,"LevelTen Energy, Inc.",2017-04-19,2019-04-19,5,2024-04-18,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,6400000.0,6280000.0,8.0,6.0,1.998631074606434,554.0,2017-10-12
+traxsolutionspte,Trax Technology Solutions Pte Ltd.,2016-06-08,2018-06-08,5,2023-06-08,2019-07-22,1,first_ge_1b_event_within_horizon,1.0,1.0,40000000.0,40000000.0,0.0,0.0,1.998631074606434,730.0,2016-06-08
+medallia,"Medallia, Inc.",2012-09-26,2014-09-26,5,2019-09-26,2019-02-25,1,first_ge_1b_event_within_horizon,1.0,1.0,35000000.0,35000000.0,1.0,1.0,1.998631074606434,730.0,2012-09-26
+ezcater,"ezCater, Inc.",2014-04-15,2016-04-14,5,2021-04-14,2019-04-01,1,first_ge_1b_event_within_horizon,2.0,2.0,13930000.0,12930000.0,3.0,3.0,1.998631074606434,191.0,2015-10-06
+2080media,"2080 Media, Inc.",2010-08-02,2012-08-01,5,2017-08-01,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,3200000.0,3200000.0,3.0,3.0,1.998631074606434,730.0,2010-08-02
+yourbiohealth,"YourBio Health, Inc.",2014-08-13,2016-08-12,5,2021-08-12,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,15260000.0,15260000.0,5.0,5.0,1.998631074606434,730.0,2014-08-13
+ambri,Ambri Incorporated,2011-05-20,2013-05-19,5,2018-05-19,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,4970000.0,2690000.0,3.0,3.0,1.998631074606434,361.0,2012-05-23
+kasisto,"Kasisto, Inc.",2014-08-20,2016-08-19,5,2021-08-19,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2250000.0,2250000.0,7.0,7.0,1.998631074606434,730.0,2014-08-20
+nupulsecv,"NuPulseCV, Inc.",2011-05-17,2013-05-16,5,2018-05-16,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,550000.0,550000.0,1.0,1.0,1.998631074606434,730.0,2011-05-17
+boosterfuels,"Booster Fuels, Inc.",2016-02-12,2018-02-11,5,2023-02-11,2022-05-25,1,first_ge_1b_event_within_horizon,2.0,2.0,29650000.0,20060000.0,9.0,9.0,1.998631074606434,195.0,2017-07-31
+route92medical,"Route 92 Medical, Inc.",2016-05-26,2018-05-26,5,2023-05-26,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,5900000.0,5900000.0,0.0,0.0,1.998631074606434,730.0,2016-05-26
+swiggynseiswiggy,Swiggy Limited (NSEI:SWIGGY),2016-01-18,2018-01-17,5,2023-01-17,2018-06-20,1,first_ge_1b_event_within_horizon,3.0,3.0,55980000.0,34010000.0,7.0,5.0,1.998631074606434,535.0,2016-07-31
+vaporio,"Vapor IO, Inc.",2015-12-03,2017-12-02,5,2022-12-02,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,15160000.0,10530000.0,3.0,2.0,1.998631074606434,164.0,2017-06-21
+viscardia,"Viscardia, Inc.",2017-11-13,2019-11-13,5,2024-11-12,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1150000.0,1150000.0,1.0,1.0,1.998631074606434,730.0,2017-11-13
+alianza,"Alianza, Inc.",2013-11-01,2015-11-01,5,2020-10-31,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,3500000.0,3500000.0,1.0,1.0,1.998631074606434,730.0,2013-11-01
+babylonotcpkbblnf,Babylon Holdings Limited (OTCPK:BBLN.F),2016-01-14,2018-01-13,5,2023-01-13,2019-08-02,1,first_ge_1b_event_within_horizon,2.0,2.0,85130000.0,60130000.0,4.0,4.0,1.998631074606434,263.0,2017-04-25
+1mgprivate,1MG Technologies Private Limited,2019-06-28,2021-06-27,5,2026-06-27,2022-09-06,1,first_ge_1b_event_within_horizon,1.0,1.0,70080000.0,70080000.0,7.0,7.0,1.998631074606434,730.0,2019-06-28
+venturecatalystsprivate,Venture Catalysts Private Limited,2016-06-30,2018-06-30,5,2023-06-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,503000.0,503000.0,1.0,1.0,1.998631074606434,730.0,2016-06-30
+langchain,"LangChain, Inc.",2023-03-31,2025-03-30,5,2030-03-30,2025-10-20,1,first_ge_1b_event_within_horizon,2.0,2.0,35000000.0,25000000.0,2.0,1.0,1.998631074606434,412.0,2024-02-12
+sgrouples,Sgrouples Inc.,2014-09-03,2016-09-02,5,2021-09-02,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,4200000.0,3000000.0,0.0,0.0,1.998631074606434,177.0,2016-03-09
+olipop,"Olipop, Inc.",2019-01-11,2021-01-10,5,2026-01-10,2025-03-03,1,first_ge_1b_event_within_horizon,2.0,2.0,15540000.0,13040000.0,5.0,5.0,1.998631074606434,350.0,2020-01-26
+lukka,"Lukka, Inc.",2018-02-26,2020-02-26,5,2025-02-25,2022-01-14,1,first_ge_1b_event_within_horizon,1.0,1.0,9990000.0,9990000.0,4.0,4.0,1.998631074606434,730.0,2018-02-26
+envoy,"Envoy, Inc.",2018-10-22,2020-10-21,5,2025-10-21,2021-12-30,1,first_ge_1b_event_within_horizon,1.0,1.0,43000000.0,43000000.0,3.0,3.0,1.998631074606434,730.0,2018-10-22
+upsideservices,"Upside Services, Inc.",2017-01-16,2019-01-16,5,2024-01-16,2022-04-26,1,first_ge_1b_event_within_horizon,1.0,1.0,50000000.0,50000000.0,2.0,2.0,1.998631074606434,730.0,2017-01-16
+zigbang,"Zigbang Co., Ltd.",2015-12-15,2017-12-14,5,2022-12-14,2022-06-30,1,first_ge_1b_event_within_horizon,1.0,1.0,33000000.0,33000000.0,1.0,1.0,1.998631074606434,730.0,2015-12-15
+mogunysemogu,MOGU Inc. (NYSE:MOGU),2012-10-31,2014-10-31,5,2019-10-31,2016-02-11,1,first_ge_1b_event_within_horizon,1.0,0.0,0.0,0.0,3.0,3.0,1.998631074606434,730.0,2012-10-31
+angad,Angad Corp.,2017-08-23,2019-08-23,5,2024-08-22,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,9030000.0,9030000.0,1.0,1.0,1.998631074606434,730.0,2017-08-23
+solerahealth,"Solera Health, Inc.",2015-11-03,2017-11-02,5,2022-11-02,,0,no_known_event_plus_later_sub_1b_round_proxy,3.0,3.0,30450000.0,18330000.0,4.0,4.0,1.998631074606434,118.0,2017-07-07
+opengov,"OpenGov, Inc.",2012-07-01,2014-07-01,5,2019-07-01,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,18000000.0,15000000.0,7.0,4.0,1.998631074606434,47.0,2014-05-15
+polypidnasdaqcmpypd,PolyPid Ltd. (NasdaqCM:PYPD),2010-10-20,2012-10-19,5,2017-10-19,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,3400000.0,2000000.0,1.0,1.0,1.998631074606434,270.0,2012-01-23
+calahealth,"Cala Health, Inc.",2016-02-16,2018-02-15,5,2023-02-15,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,3280000.0,3280000.0,3.0,3.0,1.998631074606434,730.0,2016-02-16
+clevelanddiagnostics,"Cleveland Diagnostics, Inc.",2015-03-20,2017-03-19,5,2022-03-19,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,3230000.0,1980000.0,0.0,0.0,1.998631074606434,307.0,2016-05-16
+pager,"Pager, Inc.",2015-03-10,2017-03-09,5,2022-03-09,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,15530000.0,9940000.0,4.0,4.0,1.998631074606434,157.0,2016-10-03
+ripple,Ripple Labs Inc.,2016-09-13,2018-09-13,5,2023-09-13,2019-12-20,1,first_ge_1b_event_within_horizon,1.0,1.0,52460000.0,52460000.0,8.0,8.0,1.998631074606434,730.0,2016-09-13
+nanosys,"Nanosys, Inc.",2012-11-26,2014-11-26,5,2019-11-26,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,15000000.0,15000000.0,0.0,0.0,1.998631074606434,730.0,2012-11-26
+ridi,Ridi Corporation,2016-12-28,2018-12-28,5,2023-12-28,2022-02-28,1,first_ge_1b_event_within_horizon,1.0,1.0,16489999.999999998,16489999.999999998,4.0,4.0,1.998631074606434,730.0,2016-12-28
+glycomine,"Glycomine, Inc.",2016-11-16,2018-11-16,5,2023-11-16,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,12000000.0,12000000.0,2.0,2.0,1.998631074606434,730.0,2016-11-16
+plaid,Plaid Inc.,2014-12-31,2016-12-30,5,2021-12-30,2021-08-17,1,first_ge_1b_event_within_horizon,2.0,2.0,58830000.0,44130000.0,5.0,5.0,1.998631074606434,194.0,2016-06-19
+vuori,"Vuori, Inc.",2019-08-15,2021-08-14,5,2026-08-14,2021-10-13,1,first_ge_1b_event_within_horizon,1.0,1.0,45000000.0,45000000.0,1.0,1.0,1.998631074606434,730.0,2019-08-15
+icon,"ICON Technology, Inc.",2018-10-17,2020-10-16,5,2025-10-16,2022-02-18,1,first_ge_1b_event_within_horizon,2.0,2.0,43950000.0,34950000.0,21.0,13.0,1.998631074606434,58.0,2020-08-19
+wealth,Wealth Inc.,2016-05-18,2018-05-18,5,2023-05-18,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,20000.0,20000.0,1.0,1.0,1.998631074606434,730.0,2016-05-18
+mobiamedicalnasdaqgsmobi,"Mobia Medical, Inc. (NasdaqGS:MOBI)",2015-12-10,2017-12-09,5,2022-12-09,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,5500000.0,5500000.0,2.0,2.0,1.998631074606434,730.0,2015-12-10
+peopleai,"People.ai, Inc.",2016-08-23,2018-08-23,5,2023-08-23,2021-08-11,1,first_ge_1b_event_within_horizon,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2016-08-23
+ingomoney,"Ingo Money, Inc.",2013-10-07,2015-10-07,5,2020-10-06,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,8400000.0,8400000.0,1.0,1.0,1.998631074606434,730.0,2013-10-07
+carecloud,CareCloud Corporation,2011-09-27,2013-09-26,5,2018-09-26,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,49110000.0,29000000.0,4.0,4.0,1.998631074606434,42.0,2013-08-15
+virtualincision,Virtual Incision Corporation,2010-10-29,2012-10-28,5,2017-10-28,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,6850000.0,6850000.0,2.0,2.0,1.998631074606434,730.0,2010-10-29
+trisaluslifesciencesnasdaqgmtlsi,"TriSalus Life Sciences, Inc. (NasdaqGM:TLSI)",2011-07-06,2013-07-05,5,2018-07-05,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,6530000.0,6530000.0,2.0,2.0,1.998631074606434,730.0,2011-07-06
+inventables,"Inventables, Inc.",2013-06-16,2015-06-16,5,2020-06-15,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,3240000.0,3240000.0,3.0,3.0,1.998631074606434,730.0,2013-06-16
+tekion,Tekion Corp.,2016-03-31,2018-03-31,5,2023-03-31,2021-10-05,1,first_ge_1b_event_within_horizon,3.0,3.0,35060000.0,22000000.0,8.0,7.0,1.998631074606434,59.0,2018-01-31
+honor,"Honor Technology, Inc.",2016-08-05,2018-08-05,5,2023-08-05,2021-10-05,1,first_ge_1b_event_within_horizon,1.0,1.0,45020000.0,45020000.0,4.0,4.0,1.998631074606434,730.0,2016-08-05
+resurety,"REsurety, Inc.",2017-03-17,2019-03-17,5,2024-03-16,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2180000.0,2180000.0,0.0,0.0,1.998631074606434,730.0,2017-03-17
+wrognprivate,Wrogn Private Limited,2015-07-07,2017-07-06,5,2022-07-06,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,7240000.0,7240000.0,1.0,1.0,1.998631074606434,730.0,2015-07-07
+ubernyseuber,"Uber Technologies, Inc. (NYSE:UBER)",2010-10-15,2012-10-14,5,2017-10-14,2014-06-06,1,first_ge_1b_event_within_horizon,2.0,2.0,15560000.0,14060000.0,4.0,4.0,1.998631074606434,608.0,2011-02-14
+upgrade,"Upgrade, Inc.",2017-03-31,2019-03-31,5,2024-03-30,2021-08-11,1,first_ge_1b_event_within_horizon,1.0,1.0,48050000.0,48050000.0,8.0,8.0,1.998631074606434,730.0,2017-03-31
+stockx,StockX LLC,2017-02-15,2019-02-15,5,2024-02-15,2020-12-16,1,first_ge_1b_event_within_horizon,2.0,2.0,49510000.0,44000000.0,5.0,4.0,1.998631074606434,156.0,2018-09-12
+homee,"Homee, Inc.",2017-06-21,2019-06-21,5,2024-06-20,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,11660000.0,8970000.0,6.0,6.0,1.998631074606434,360.0,2018-06-26
+zhejianglaifualdrivesehk3952,"Zhejiang Laifual Drive Co., Ltd. (SEHK:3952)",2017-08-17,2019-08-17,5,2024-08-16,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,1.0,1500000.0,1500000.0,2.0,2.0,1.998631074606434,516.0,2018-03-19
+rappisas,Rappi S.A.S.,2016-03-22,2018-03-22,5,2023-03-22,2018-08-31,1,first_ge_1b_event_within_horizon,2.0,2.0,56620000.0,56500000.0,2.0,1.0,1.998631074606434,356.0,2017-03-31
+zerocater,"ZeroCater, Inc.",2011-03-22,2013-03-21,5,2018-03-21,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1720000.0,1720000.0,1.0,1.0,1.998631074606434,730.0,2011-03-22
+inariagriculture,"Inari Agriculture, Inc.",2016-12-31,2018-12-31,5,2023-12-31,2021-05-12,1,first_ge_1b_event_within_horizon,2.0,2.0,55190000.0,40130000.0,3.0,3.0,1.998631074606434,144.0,2018-08-09
+colossalbiosciences,Colossal Biosciences Inc.,2021-09-13,2023-09-13,5,2028-09-12,2025-09-17,1,first_ge_1b_event_within_horizon,2.0,2.0,83470000.0,65430000.00000001,17.0,12.0,1.998631074606434,369.0,2022-09-09
+karat,"Karat, Inc.",2019-05-15,2021-05-14,5,2026-05-14,2021-10-13,1,first_ge_1b_event_within_horizon,1.0,1.0,28000000.0,28000000.0,3.0,3.0,1.998631074606434,730.0,2019-05-15
+hatgsc,"HAT GSC, Inc.",2011-08-04,2013-08-03,5,2018-08-03,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2810000.0,2810000.0,1.0,1.0,1.998631074606434,730.0,2011-08-04
+metabolon,"Metabolon, Inc",2011-08-25,2013-08-24,5,2018-08-24,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,13310000.0,13310000.0,7.0,7.0,1.998631074606434,730.0,2011-08-25
+strongdm,"strongDM, Inc.",2015-05-11,2017-05-10,5,2022-05-10,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,3520000.0,2740000.0,5.0,4.0,1.998631074606434,306.0,2016-07-08
+vidahealth,"Vida Health, Inc.",2014-10-28,2016-10-27,5,2021-10-27,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,5000000.0,5000000.0,4.0,4.0,1.998631074606434,730.0,2014-10-28
+nextinsurance,"Next Insurance, Inc.",2016-03-15,2018-03-15,5,2023-03-15,2020-03-24,1,first_ge_1b_event_within_horizon,2.0,2.0,48000000.0,35000000.0,7.0,4.0,1.998631074606434,275.0,2017-06-13
+abnormalsecurity,Abnormal Security Corporation,2019-11-19,2021-11-18,5,2026-11-18,2024-08-06,1,first_ge_1b_event_within_horizon,1.0,1.0,24000000.0,24000000.0,1.0,1.0,1.998631074606434,730.0,2019-11-19
+reifyhealth,"Reify Health, Inc.",2018-12-31,2020-12-30,5,2025-12-30,2021-08-10,1,first_ge_1b_event_within_horizon,2.0,2.0,37400000.0,30000000.0,3.0,3.0,1.998631074606434,140.0,2020-08-12
+funnelleasing,"Funnel Leasing, Inc.",2011-07-06,2013-07-05,5,2018-07-05,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,750000.0,750000.0,2.0,2.0,1.998631074606434,730.0,2011-07-06
+ndphoenix,"ND Phoenix, Inc.",2011-05-06,2013-05-05,5,2018-05-05,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,20010000.0,20010000.0,5.0,5.0,1.998631074606434,730.0,2011-05-06
+blockfi,BlockFi Inc.,2018-02-13,2020-02-13,5,2025-02-12,2022-01-10,1,first_ge_1b_event_within_horizon,3.0,3.0,24080000.0,20200000.0,14.0,10.0,1.998631074606434,191.0,2019-08-06
+locicontrols,"Loci Controls, Inc.",2014-03-13,2016-03-12,5,2021-03-12,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,1780000.0,1010000.0,1.0,1.0,1.998631074606434,186.0,2015-09-08
+ingeneron,"InGeneron, Inc.",2016-07-07,2018-07-07,5,2023-07-07,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,4500000.0,4500000.0,0.0,0.0,1.998631074606434,730.0,2016-07-07
+raptormaps,"Raptor Maps, Inc.",2016-08-22,2018-08-22,5,2023-08-22,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2016-08-22
+replit,"Replit, Inc.",2021-02-18,2023-02-18,5,2028-02-18,2025-09-10,1,first_ge_1b_event_within_horizon,1.0,1.0,20830000.0,20830000.0,5.0,5.0,1.998631074606434,730.0,2021-02-18
+csamedical,"CSA Medical, Inc.",2011-01-25,2013-01-24,5,2018-01-24,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,10000000.0,10000000.0,1.0,1.0,1.998631074606434,730.0,2011-01-25
+appcues,"Appcues, Inc.",2014-12-23,2016-12-22,5,2021-12-22,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,3990000.0,3990000.0,1.0,1.0,1.998631074606434,730.0,2014-12-23
+octavebioscience,"Octave Bioscience, Inc.",2017-09-13,2019-09-13,5,2024-09-12,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2500000.0,2500000.0,0.0,0.0,1.998631074606434,730.0,2017-09-13
+bioconsortia,"BioConsortia, Inc.",2016-10-27,2018-10-27,5,2023-10-27,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,18000000.0,10000000.0,2.0,2.0,1.998631074606434,228.0,2018-03-13
+viatransportationnysevia,"Via Transportation, Inc. (NYSE:VIA)",2015-04-02,2017-04-01,5,2022-04-01,2017-09-04,1,first_ge_1b_event_within_horizon,1.0,1.0,26810000.0,26810000.0,4.0,4.0,1.998631074606434,730.0,2015-04-02
+guildeducation,"Guild Education, Inc.",2015-12-31,2017-12-30,5,2022-12-30,2022-06-02,1,first_ge_1b_event_within_horizon,3.0,3.0,31500000.0,21000000.0,7.0,6.0,1.998631074606434,115.0,2017-09-06
+globaluprising,"Global Uprising, PBC",2014-04-11,2016-04-10,5,2021-04-10,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,7100000.0,4099999.9999999995,5.0,4.0,1.998631074606434,383.0,2015-03-24
+clarifyhealthsolutions,"Clarify Health Solutions, Inc.",2019-10-15,2021-10-14,5,2026-10-14,2022-04-15,1,first_ge_1b_event_within_horizon,1.0,1.0,82280000.0,82280000.0,1.0,1.0,1.998631074606434,730.0,2019-10-15
+mammothbiosciences,"Mammoth Biosciences, Inc.",2017-09-13,2019-09-13,5,2024-09-12,2024-04-25,1,first_ge_1b_event_within_horizon,2.0,2.0,7530000.0,7410000.0,1.0,1.0,1.998631074606434,386.0,2018-08-23
+mihupcommunicationsprivate,Mihup Communications Private Limited,2016-08-31,2018-08-31,5,2023-08-31,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,6720000.0,6720000.0,1.0,1.0,1.998631074606434,730.0,2016-08-31
+h2scan,H2scan Corporation,2012-11-08,2014-11-08,5,2019-11-08,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,4600000.0,4600000.0,1.0,1.0,1.998631074606434,730.0,2012-11-08
+raisefintechventuresprivate,Raise Fintech Ventures Private Limited,2022-01-25,2024-01-25,5,2029-01-24,2025-10-06,1,first_ge_1b_event_within_horizon,1.0,1.0,21990000.0,21990000.0,4.0,4.0,1.998631074606434,730.0,2022-01-25
+ursaspacesystems,Ursa Space Systems Inc.,2018-07-19,2020-07-18,5,2025-07-18,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,5700000.0,5700000.0,3.0,3.0,1.998631074606434,730.0,2018-07-19
+guerrillainfrasolutionspvt,Guerrilla Infra Solutions Pvt. Ltd.,2016-08-23,2018-08-23,5,2023-08-23,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2016-08-23
+terrestrialbio,"Terrestrial Bio, Inc.",2013-05-24,2015-05-24,5,2020-05-23,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1250000.0,1250000.0,1.0,1.0,1.998631074606434,730.0,2013-05-24
+watermelonexpress,"Watermelon Express, Inc.",2010-12-07,2012-12-06,5,2017-12-06,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,8090000.0,6000000.0,3.0,2.0,1.998631074606434,160.0,2012-06-29
+secret,"Secret, Inc.",2014-03-09,2016-03-08,5,2021-03-08,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,33600000.0,25000000.0,10.0,6.0,1.998631074606434,603.0,2014-07-14
+rinse,"Rinse, Inc.",2015-06-09,2017-06-08,5,2022-06-08,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,9840000.0,6030000.0,13.0,11.0,1.998631074606434,415.0,2016-04-19
+multiversecomputing,Multiverse Computing,2024-03-05,2026-03-05,5,2031-03-05,2026-07-27,1,first_ge_1b_event_within_horizon,1.0,1.0,27170000.0,27170000.0,6.0,6.0,1.998631074606434,730.0,2024-03-05
+onehope,"ONEHOPE, Inc.",2013-03-23,2015-03-23,5,2020-03-22,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,5990000.0,5990000.0,0.0,0.0,1.998631074606434,730.0,2013-03-23
+wasabi,Wasabi Technologies LLC,2016-05-16,2018-05-16,5,2023-05-16,2022-12-07,1,first_ge_1b_event_within_horizon,1.0,1.0,1940000.0,1940000.0,0.0,0.0,1.998631074606434,730.0,2016-05-16
+manifold,"Manifold Technology, Inc.",2017-10-24,2019-10-24,5,2024-10-23,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,6670000.0,6670000.0,0.0,0.0,1.998631074606434,730.0,2017-10-24
+instabase,"Instabase, Inc.",2015-08-31,2017-08-30,5,2022-08-30,2019-10-21,1,first_ge_1b_event_within_horizon,2.0,2.0,26940000.0,23170000.0,2.0,2.0,1.998631074606434,98.0,2017-05-24
+asteranasdaqgsalab,"Astera Labs, Inc. (NasdaqGS:ALAB)",2020-08-12,2022-08-12,5,2027-08-12,2022-11-17,1,first_ge_1b_event_within_horizon,1.0,1.0,26000000.0,26000000.0,2.0,2.0,1.998631074606434,730.0,2020-08-12
+completesolar,"Complete Solar, Inc.",2011-07-26,2013-07-25,5,2018-07-25,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,1.0,510000.0,510000.0,1.0,1.0,1.998631074606434,252.0,2012-11-15
+beijingzhishiyinxiang,"Beijing Zhishi Yinxiang Co., Ltd.",2016-10-31,2018-10-31,5,2023-10-31,2019-05-30,1,first_ge_1b_event_within_horizon,1.0,1.0,14750000.0,14750000.0,2.0,2.0,1.998631074606434,730.0,2016-10-31
+skygatehospitalitypvt,Sky Gate Hospitality Pvt. Ltd.,2017-02-18,2019-02-18,5,2024-02-18,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,373000.0,373000.0,0.0,0.0,1.998631074606434,730.0,2017-02-18
+create,"Create, Inc.",2016-09-30,2018-09-30,5,2023-09-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,120000.0,120000.0,2.0,2.0,1.998631074606434,730.0,2016-09-30
+luminance,Luminance Technologies Ltd.,2016-12-15,2018-12-15,5,2023-12-15,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,1.0,10000000.0,10000000.0,3.0,3.0,1.998631074606434,381.0,2017-11-29
+whop,"Whop, Inc.",2023-07-20,2025-07-19,5,2030-07-19,2026-02-25,1,first_ge_1b_event_within_horizon,1.0,1.0,17040000.0,17040000.0,3.0,3.0,1.998631074606434,730.0,2023-07-20
+venminder,"Venminder, Inc.",2013-04-17,2015-04-17,5,2020-04-16,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,3340000.0,3340000.0,1.0,1.0,1.998631074606434,730.0,2013-04-17
+olistservicosdigitaisltda,Olist Serviços Digitais Ltda,2019-10-22,2021-10-21,5,2026-10-21,2021-12-15,1,first_ge_1b_event_within_horizon,1.0,1.0,46650000.0,46650000.0,3.0,3.0,1.998631074606434,730.0,2019-10-22
+servicetitannasdaqgsttan,"ServiceTitan, Inc. (NasdaqGS:TTAN)",2015-06-16,2017-06-15,5,2022-06-15,2018-11-14,1,first_ge_1b_event_within_horizon,1.0,1.0,18960000.0,18960000.0,4.0,4.0,1.998631074606434,730.0,2015-06-16
+beijingkuangshi,"Beijing Kuangshi Technology Co., Ltd.",2015-05-14,2017-05-13,5,2022-05-13,2019-05-08,1,first_ge_1b_event_within_horizon,1.0,1.0,47000000.0,47000000.0,3.0,3.0,1.998631074606434,730.0,2015-05-14
+mindmazesa,MindMaze SA,2012-06-30,2014-06-30,5,2019-06-30,2016-02-17,1,first_ge_1b_event_within_horizon,1.0,1.0,10000000.0,10000000.0,1.0,1.0,1.998631074606434,730.0,2012-06-30
+urbannseiurbanco,Urban Company Limited (NSEI:URBANCO),2015-11-19,2017-11-18,5,2022-11-18,2021-04-27,1,first_ge_1b_event_within_horizon,1.0,1.0,24910000.0,24910000.0,3.0,3.0,1.998631074606434,730.0,2015-11-19
+sourceglobal,"Source Global, PBC",2016-04-01,2018-04-01,5,2023-04-01,2022-03-28,1,first_ge_1b_event_within_horizon,2.0,2.0,27810000.0,22150000.0,0.0,0.0,1.998631074606434,11.0,2018-03-21
+bluebearprivate,Bluebear Technologies Private Limited,2017-06-01,2019-06-01,5,2024-05-31,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,16000.0,16000.0,1.0,1.0,1.998631074606434,730.0,2017-06-01
+lyrahealth,"Lyra Health, Inc.",2015-06-04,2017-06-03,5,2022-06-03,2021-01-28,1,first_ge_1b_event_within_horizon,2.0,2.0,36000000.0,35000000.0,6.0,6.0,1.998631074606434,598.0,2015-10-14
+nextfoods,"NextFoods, Inc.",2013-06-11,2015-06-11,5,2020-06-10,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,8250000.0,8250000.0,2.0,2.0,1.998631074606434,730.0,2013-06-11
+scaleai,"Scale AI, Inc.",2016-08-22,2018-08-22,5,2023-08-22,2020-12-01,1,first_ge_1b_event_within_horizon,3.0,3.0,22620000.0,18000000.0,4.0,3.0,1.998631074606434,15.0,2018-08-07
+workato,"Workato, Inc.",2017-07-18,2019-07-18,5,2024-07-17,2021-01-12,1,first_ge_1b_event_within_horizon,2.0,2.0,35020000.0,25000000.0,5.0,4.0,1.998631074606434,225.0,2018-12-05
+cartcom,"Cart.com, Inc.",2021-04-15,2023-04-15,5,2028-04-14,2024-07-17,1,first_ge_1b_event_within_horizon,1.0,1.0,25330000.0,25330000.0,4.0,4.0,1.998631074606434,730.0,2021-04-15
+dataminr,"Dataminr, Inc.",2012-09-24,2014-09-24,5,2019-09-24,2018-06-29,1,first_ge_1b_event_within_horizon,1.0,1.0,13250000.0,13250000.0,5.0,5.0,1.998631074606434,730.0,2012-09-24
+oomnitza,Oomnitza Inc.,2015-03-25,2017-03-24,5,2022-03-24,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2360000.0,2360000.0,0.0,0.0,1.998631074606434,730.0,2015-03-25
+swiftbiosciences,Swift Biosciences Inc.,2010-08-11,2012-08-10,5,2017-08-10,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,3430000.0,3430000.0,2.0,2.0,1.998631074606434,730.0,2010-08-11
+ponyai,"Pony.ai, Inc.",2016-12-31,2018-12-31,5,2023-12-31,2020-02-26,1,first_ge_1b_event_within_horizon,1.0,0.0,0.0,0.0,2.0,2.0,1.998631074606434,730.0,2016-12-31
+citrineinformatics,"Citrine Informatics, Inc.",2016-05-24,2018-05-24,5,2023-05-24,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,8760000.0,8760000.0,0.0,0.0,1.998631074606434,730.0,2016-05-24
+mega,Mega Limited,2015-10-29,2017-10-28,5,2022-10-28,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2980000.0,2980000.0,1.0,1.0,1.998631074606434,730.0,2015-10-29
+lendkey,"LendKey Technologies, Inc.",2012-10-05,2014-10-05,5,2019-10-05,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,24440000.0,12500000.0,7.0,5.0,1.998631074606434,424.0,2013-08-07
+valon,"Valon Technologies, Inc.",2020-07-28,2022-07-28,5,2027-07-28,2022-08-02,1,first_ge_1b_event_within_horizon,1.0,1.0,8490000.0,8490000.0,0.0,0.0,1.998631074606434,730.0,2020-07-28
+bigleafnetworks,"Bigleaf Networks, Inc.",2015-04-01,2017-03-31,5,2022-03-31,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1530000.0,1530000.0,3.0,3.0,1.998631074606434,730.0,2015-04-01
+lyten,"Lyten, Inc.",2016-03-04,2018-03-04,5,2023-03-04,2021-03-31,1,first_ge_1b_event_within_horizon,1.0,1.0,8000000.0,8000000.0,0.0,0.0,1.998631074606434,730.0,2016-03-04
+oviahealth,Ovia Health Inc.,2013-01-07,2015-01-07,5,2020-01-07,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1500000.0,1500000.0,3.0,3.0,1.998631074606434,730.0,2013-01-07
+quanergysystems,"Quanergy Systems, Inc.",2014-03-12,2016-03-11,5,2021-03-11,2016-08-22,1,first_ge_1b_event_within_horizon,1.0,1.0,3500000.0,3500000.0,3.0,3.0,1.998631074606434,730.0,2014-03-12
+rentberry,"Rentberry, Inc.",2015-12-31,2017-12-30,5,2022-12-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,845000.0,845000.0,0.0,0.0,1.998631074606434,730.0,2015-12-31
+encored,"Encored, Inc.",2014-10-27,2016-10-26,5,2021-10-26,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,6340000.0,6340000.0,0.0,0.0,1.998631074606434,730.0,2014-10-27
+oxipitalai,Oxipital AI Inc.,2015-12-17,2017-12-16,5,2022-12-16,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,9190000.0,9190000.0,2.0,2.0,1.998631074606434,730.0,2015-12-17
+phizzle,"Phizzle, Inc.",2011-07-27,2013-07-26,5,2018-07-26,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,3020000.0,3020000.0,1.0,1.0,1.998631074606434,730.0,2011-07-27
+magicleap,"Magic Leap, Inc.",2014-02-05,2016-02-05,5,2021-02-04,2020-07-07,1,first_ge_1b_event_within_horizon,1.0,1.0,31300000.0,31300000.0,0.0,0.0,1.998631074606434,730.0,2014-02-05
+squarerobot,"Square Robot, Inc.",2017-10-19,2019-10-19,5,2024-10-18,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,3000000.0,3000000.0,0.0,0.0,1.998631074606434,730.0,2017-10-19
+roofstock,"Roofstock, Inc.",2015-12-29,2017-12-28,5,2022-12-28,2022-03-10,1,first_ge_1b_event_within_horizon,2.0,2.0,27000000.0,20000000.0,6.0,6.0,1.998631074606434,409.0,2016-11-14
+verterotherapeutics,"Vertero Therapeutics, Inc.",2016-11-30,2018-11-30,5,2023-11-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,19150000.0,19150000.0,4.0,4.0,1.998631074606434,730.0,2016-11-30
+klaviyonysekvyo,"Klaviyo, Inc. (NYSE:KVYO)",2016-03-31,2018-03-31,5,2023-03-31,2020-11-17,1,first_ge_1b_event_within_horizon,1.0,1.0,7000000.0,7000000.0,1.0,1.0,1.998631074606434,730.0,2016-03-31
+techm3,"TECH M3, INC.",2011-04-22,2013-04-21,5,2018-04-21,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1120000.0,1120000.0,0.0,0.0,1.998631074606434,730.0,2011-04-22
+iyunoasiapte,I-YUNO Asia Pte. Ltd.,2018-04-10,2020-04-09,5,2025-04-09,2022-01-27,1,first_ge_1b_event_within_horizon,1.0,1.0,23500000.0,23500000.0,1.0,1.0,1.998631074606434,730.0,2018-04-10
+presencelearning,"PresenceLearning, Inc.",2013-04-25,2015-04-25,5,2020-04-24,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,8130000.000000001,8130000.000000001,6.0,6.0,1.998631074606434,730.0,2013-04-25
+temporal,Temporal Technologies Inc.,2019-10-31,2021-10-30,5,2026-10-30,2025-03-31,1,first_ge_1b_event_within_horizon,2.0,2.0,25430000.0,18680000.0,4.0,4.0,1.998631074606434,380.0,2020-10-15
+chroma,Chroma Inc.,2013-06-15,2015-06-15,5,2020-06-14,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,20000.0,20000.0,1.0,1.0,1.998631074606434,730.0,2013-06-15
+2020biolabsnasdaqcmaidx,"20/20 Biolabs, Inc. (NasdaqCM:AIDX)",2016-02-04,2018-02-03,5,2023-02-03,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,3070000.0,2000000.0,0.0,0.0,1.998631074606434,8.0,2018-01-26
+metaxintegratedcircuitsshanghaishse688802,"MetaX Integrated Circuits (Shanghai) Co., Ltd. (SHSE:688802)",2020-12-31,2022-12-31,5,2027-12-31,2025-02-28,1,first_ge_1b_event_within_horizon,1.0,1.0,10720000.0,10720000.0,3.0,3.0,1.998631074606434,730.0,2020-12-31
+elementalmachines,"Elemental Machines, Inc.",2016-02-03,2018-02-02,5,2023-02-02,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2500000.0,2500000.0,4.0,4.0,1.998631074606434,730.0,2016-02-03
+oneskin,OneSkin Inc.,2016-07-14,2018-07-14,5,2023-07-14,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,250000.0,250000.0,1.0,1.0,1.998631074606434,730.0,2016-07-14
+foldax,"Foldax, Inc.",2015-08-31,2017-08-30,5,2022-08-30,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,5580000.0,3080000.0,1.0,1.0,1.998631074606434,400.0,2016-07-26
+seismicsoftware,"Seismic Software, Inc.",2013-08-15,2015-08-15,5,2020-08-14,2018-12-18,1,first_ge_1b_event_within_horizon,2.0,2.0,24520000.0,20000000.0,2.0,2.0,1.998631074606434,219.0,2015-01-08
+go1pty,GO1 Pty Limited,2015-08-18,2017-08-17,5,2022-08-17,2022-05-31,1,first_ge_1b_event_within_horizon,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2015-08-18
+o9solutions,"o9 Solutions, Inc.",2015-06-01,2017-05-31,5,2022-05-31,2022-01-26,1,first_ge_1b_event_within_horizon,1.0,1.0,9000000.0,9000000.0,0.0,0.0,1.998631074606434,730.0,2015-06-01
+lumithera,"LumiThera, Inc.",2017-10-31,2019-10-31,5,2024-10-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,5540000.0,5540000.0,0.0,0.0,1.998631074606434,730.0,2017-10-31
+pacificintegratedenergy,"Pacific Integrated Energy, Inc.",2010-09-14,2012-09-13,5,2017-09-13,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,4000000.0,4000000.0,0.0,0.0,1.998631074606434,730.0,2010-09-14
+napajenpharma,"NapaJen Pharma, Inc.",2014-02-13,2016-02-13,5,2021-02-12,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,9000000.0,9000000.0,2.0,2.0,1.998631074606434,730.0,2014-02-13
+templum,"Templum, Inc.",2017-10-26,2019-10-26,5,2024-10-25,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,12700000.0,10000000.0,5.0,4.0,1.998631074606434,551.0,2018-04-23
+orthalign,"OrthAlign, Inc.",2010-12-08,2012-12-07,5,2017-12-07,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,3970000.0,3970000.0,0.0,0.0,1.998631074606434,730.0,2010-12-08
+legionmentertainment,"Legion M Entertainment, Inc.",2016-08-15,2018-08-15,5,2023-08-15,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1000000.0,1000000.0,0.0,0.0,1.998631074606434,730.0,2016-08-15
+sciaps,"SciAps, Inc.",2014-05-18,2016-05-17,5,2021-05-17,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,13110000.0,8810000.0,6.0,5.0,1.998631074606434,263.0,2015-08-28
+dcfrontierspte,DC Frontiers Pte. Ltd.,2015-03-16,2017-03-15,5,2022-03-15,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1440000.0,1440000.0,1.0,1.0,1.998631074606434,730.0,2015-03-16
+tonalsystems,"Tonal Systems, Inc.",2017-12-31,2019-12-31,5,2024-12-30,2021-03-19,1,first_ge_1b_event_within_horizon,1.0,1.0,10470000.0,10470000.0,1.0,1.0,1.998631074606434,730.0,2017-12-31
+incrediblehealth,"Incredible Health, Inc.",2017-07-12,2019-07-12,5,2024-07-11,2022-08-17,1,first_ge_1b_event_within_horizon,1.0,1.0,2000000.0,2000000.0,3.0,3.0,1.998631074606434,730.0,2017-07-12
+valencell,"Valencell, Inc.",2011-06-20,2013-06-19,5,2018-06-19,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,5520000.0,5520000.0,3.0,3.0,1.998631074606434,730.0,2011-06-20
+hectareagritech,Hectare Agritech Limited,2015-11-20,2017-11-19,5,2022-11-19,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,319000.0,319000.0,0.0,0.0,1.998631074606434,730.0,2015-11-20
+pulsivsolar,PulsiV Solar Limited,2015-10-27,2017-10-26,5,2022-10-26,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,765000.0,765000.0,1.0,1.0,1.998631074606434,730.0,2015-10-27
+aurishealth,"Auris Health, Inc.",2014-03-31,2016-03-30,5,2021-03-30,2017-08-04,1,first_ge_1b_event_within_horizon,1.0,1.0,33000000.0,33000000.0,4.0,4.0,1.998631074606434,730.0,2014-03-31
+clinicient,"Clinicient, Inc.",2010-11-19,2012-11-18,5,2017-11-18,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2800000.0,2800000.0,1.0,1.0,1.998631074606434,730.0,2010-11-19
+chartbeat,"Chartbeat, Inc.",2010-08-31,2012-08-30,5,2017-08-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,3000000.0,3000000.0,9.0,9.0,1.998631074606434,730.0,2010-08-31
+netlify,"Netlify, Inc.",2016-08-16,2018-08-16,5,2023-08-16,2021-11-17,1,first_ge_1b_event_within_horizon,2.0,2.0,14550000.0,12000000.0,4.0,4.0,1.998631074606434,372.0,2017-08-09
+helionenergy,"Helion Energy, Inc.",2014-08-12,2016-08-11,5,2021-08-11,2020-09-22,1,first_ge_1b_event_within_horizon,1.0,1.0,1500000.0,1500000.0,2.0,2.0,1.998631074606434,730.0,2014-08-12
+seqwell,"seqWell, Inc.",2016-07-15,2018-07-15,5,2023-07-15,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,2060000.0,1320000.0,0.0,0.0,1.998631074606434,437.0,2017-05-04
+auxmoneygmbh,auxmoney GmbH,2013-03-12,2015-03-12,5,2020-03-11,2016-02-29,1,first_ge_1b_event_within_horizon,1.0,1.0,12000000.0,12000000.0,2.0,2.0,1.998631074606434,730.0,2013-03-12
+stord,"Stord, Inc.",2018-04-18,2020-04-17,5,2025-04-17,2022-05-10,1,first_ge_1b_event_within_horizon,2.0,2.0,15040000.0,12410000.0,4.0,4.0,1.998631074606434,378.0,2019-04-05
+knock,"Knock, Inc.",2015-04-03,2017-04-02,5,2022-04-02,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,2840000.0,1650000.0,0.0,0.0,1.998631074606434,219.0,2016-08-26
+jobsandtalentsl,Jobs and Talent S.L.,2015-05-27,2017-05-26,5,2022-05-26,2021-12-01,1,first_ge_1b_event_within_horizon,1.0,1.0,35880000.0,35880000.0,4.0,4.0,1.998631074606434,730.0,2015-05-27
+cirkul,"Cirkul, Inc.",2019-03-27,2021-03-26,5,2026-03-26,2022-06-13,1,first_ge_1b_event_within_horizon,1.0,1.0,4870000.0,4870000.0,0.0,0.0,1.998631074606434,730.0,2019-03-27
+wisealpha,WiseAlpha Technologies Limited,2016-05-24,2018-05-24,5,2023-05-24,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,2490000.0,1620000.0,0.0,0.0,1.998631074606434,374.0,2017-05-15
+fairewholesale,"Faire Wholesale, Inc.",2017-03-21,2019-03-21,5,2024-03-20,2022-05-10,1,first_ge_1b_event_within_horizon,2.0,2.0,12190000.0,12070000.0,4.0,3.0,1.998631074606434,392.0,2018-02-22
+beautylish,"Beautylish, Inc.",2010-07-31,2012-07-30,5,2017-07-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1100000.0,1100000.0,1.0,1.0,1.998631074606434,730.0,2010-07-31
+bitvore,Bitvore Corporation,2014-03-18,2016-03-17,5,2021-03-17,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,7770000.0,7770000.0,2.0,2.0,1.998631074606434,730.0,2014-03-18
+dwolla,"Dwolla, Inc.",2010-11-17,2012-11-16,5,2017-11-16,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,6000000.0,5000000.0,7.0,5.0,1.998631074606434,283.0,2012-02-07
+stratifyd,"Stratifyd, Inc.",2015-02-28,2017-02-27,5,2022-02-27,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1000000.0,1000000.0,4.0,4.0,1.998631074606434,730.0,2015-02-28
+tactus,"Tactus Technology, Inc.",2018-01-24,2020-01-24,5,2025-01-23,2021-08-18,1,first_ge_1b_event_within_horizon,1.0,1.0,6220000.0,6220000.0,0.0,0.0,1.998631074606434,730.0,2018-01-24
+catalystorthoscience,Catalyst OrthoScience Inc.,2016-09-06,2018-09-06,5,2023-09-06,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,6900000.0,3600000.0,1.0,1.0,1.998631074606434,281.0,2017-11-29
+bostongene,BostonGene Corporation,2019-04-24,2021-04-23,5,2026-04-23,2022-04-06,1,first_ge_1b_event_within_horizon,1.0,1.0,50000000.0,50000000.0,1.0,1.0,1.998631074606434,730.0,2019-04-24
+410medical,"410 Medical, Inc.",2015-01-13,2017-01-12,5,2022-01-12,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1200000.0,1200000.0,0.0,0.0,1.998631074606434,730.0,2015-01-13
+cedarcares,"Cedar Cares, Inc.",2017-12-06,2019-12-06,5,2024-12-05,2021-03-09,1,first_ge_1b_event_within_horizon,1.0,1.0,13000000.0,13000000.0,4.0,4.0,1.998631074606434,730.0,2017-12-06
+lionsemiconductor,Lion Semiconductor Inc.,2013-10-15,2015-10-15,5,2020-10-14,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2000000.0,2000000.0,0.0,0.0,1.998631074606434,730.0,2013-10-15
+poseidonmedical,"Poseidon Medical, Inc.",2010-09-14,2012-09-13,5,2017-09-13,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,22950000.0,22950000.0,4.0,4.0,1.998631074606434,730.0,2010-09-14
+glean,"Glean Technologies, Inc.",2019-12-31,2021-12-30,5,2026-12-30,2024-09-10,1,first_ge_1b_event_within_horizon,1.0,1.0,15300000.0,15300000.0,3.0,3.0,1.998631074606434,730.0,2019-12-31
+caringo,"Caringo, Inc.",2010-07-26,2012-07-25,5,2017-07-25,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,4470000.0,4470000.0,0.0,0.0,1.998631074606434,730.0,2010-07-26
+pharmajet,"PharmaJet, Inc.",2010-03-30,2012-03-29,5,2017-03-29,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,9140000.0,9140000.0,0.0,0.0,1.998631074606434,730.0,2010-03-30
+garnerhealth,"Garner Health Technology, Inc.",2021-02-03,2023-02-03,5,2028-02-03,2026-02-10,1,first_ge_1b_event_within_horizon,1.0,1.0,12500000.0,12500000.0,3.0,3.0,1.998631074606434,730.0,2021-02-03
+t3dtherapeutics,"T3D Therapeutics, Inc.",2013-08-05,2015-08-05,5,2020-08-04,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,1160000.0,723000.0,0.0,0.0,1.998631074606434,509.0,2014-03-14
+auth0,"Auth0, Inc.",2016-08-24,2018-08-24,5,2023-08-24,2020-07-14,1,first_ge_1b_event_within_horizon,1.0,1.0,14570000.0,14570000.0,4.0,4.0,1.998631074606434,730.0,2016-08-24
+meacor,MeaCor Inc.,2015-12-09,2017-12-08,5,2022-12-08,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,806000.0,806000.0,3.0,3.0,1.998631074606434,730.0,2015-12-09
+feedmedia,Feed Media Inc.,2014-09-03,2016-09-02,5,2021-09-02,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1200000.0,1200000.0,5.0,5.0,1.998631074606434,730.0,2014-09-03
+farmshelf,Farmshelf Corporation,2016-06-07,2018-06-07,5,2023-06-07,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,60000.0,60000.0,1.0,1.0,1.998631074606434,730.0,2016-06-07
+earthrenewable,"Earth Renewable Technologies, Inc.",2012-08-28,2014-08-28,5,2019-08-28,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,388000.0,388000.0,0.0,0.0,1.998631074606434,730.0,2012-08-28
+fuze,"Fuze, Inc.",2012-10-03,2014-10-03,5,2019-10-03,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,26500000.0,16500000.0,2.0,2.0,1.998631074606434,353.0,2013-10-15
+lightbend,"Lightbend, Inc.",2016-05-26,2018-05-26,5,2023-05-26,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,20000000.0,20000000.0,4.0,4.0,1.998631074606434,730.0,2016-05-26
+brainyak,"Brainyak, Inc.",2010-10-12,2012-10-11,5,2017-10-11,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2049999.9999999998,2049999.9999999998,4.0,4.0,1.998631074606434,730.0,2010-10-12
+placer,"Placer Labs, Inc.",2020-01-13,2022-01-12,5,2027-01-12,2024-08-05,1,first_ge_1b_event_within_horizon,1.0,1.0,12200000.0,12200000.0,4.0,4.0,1.998631074606434,730.0,2020-01-13
+corvium,"Corvium, Inc.",2014-11-13,2016-11-12,5,2021-11-12,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,12020000.0,12020000.0,4.0,4.0,1.998631074606434,730.0,2014-11-13
+flock,"Flock Group, Inc.",2017-08-21,2019-08-21,5,2024-08-20,2022-02-15,1,first_ge_1b_event_within_horizon,2.0,2.0,9710000.0,9590000.0,1.0,1.0,1.998631074606434,357.0,2018-08-29
+public,"Public Holdings, Inc.",2018-09-18,2020-09-17,5,2025-09-17,2021-02-17,1,first_ge_1b_event_within_horizon,2.0,2.0,16200000.0,15000000.0,4.0,4.0,1.998631074606434,202.0,2020-02-28
+thumbtack,"Thumbtack, Inc.",2010-06-09,2012-06-08,5,2017-06-08,2015-09-28,1,first_ge_1b_event_within_horizon,2.0,2.0,5700000.0,4500000.0,2.0,2.0,1.998631074606434,151.0,2012-01-09
+tongal,"Tongal, Inc.",2013-01-10,2015-01-10,5,2020-01-10,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,13950000.0,13950000.0,2.0,2.0,1.998631074606434,730.0,2013-01-10
+airbnbnasdaqgsabnb,"Airbnb, Inc. (NasdaqGS:ABNB)",2010-11-10,2012-11-09,5,2017-11-09,2014-04-18,1,first_ge_1b_event_within_horizon,1.0,1.0,7200000.0,7200000.0,4.0,4.0,1.998631074606434,730.0,2010-11-10
+exabeam,"Exabeam, LLC",2014-06-10,2016-06-09,5,2021-06-09,2021-06-01,1,first_ge_1b_event_within_horizon,1.0,1.0,10000000.0,10000000.0,2.0,2.0,1.998631074606434,730.0,2014-06-10
+loverly,"Loverly, Inc.",2014-04-28,2016-04-27,5,2021-04-27,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2500000.0,2500000.0,0.0,0.0,1.998631074606434,730.0,2014-04-28
+hashicorp,"HashiCorp, Inc.",2014-12-09,2016-12-08,5,2021-12-08,2018-11-01,1,first_ge_1b_event_within_horizon,1.0,1.0,10200000.0,10200000.0,3.0,3.0,1.998631074606434,730.0,2014-12-09
+perpetuapowersource,"Perpetua Power Source Technologies, Inc.",2011-05-10,2013-05-09,5,2018-05-09,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2610000.0,2610000.0,1.0,1.0,1.998631074606434,730.0,2011-05-10
+pincsolutions,PINC Solutions Corp.,2010-05-26,2012-05-25,5,2017-05-25,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,5800000.0,5800000.0,2.0,2.0,1.998631074606434,730.0,2010-05-26
+barnana,"Barnana, PBC",2014-03-05,2016-03-04,5,2021-03-04,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,1975000.0,1000000.0,1.0,1.0,1.998631074606434,472.0,2014-11-18
+gamesalad,GameSalad Inc.,2011-03-31,2013-03-30,5,2018-03-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,6130000.0,6130000.0,5.0,5.0,1.998631074606434,730.0,2011-03-31
+presagebiosciences,"Presage Biosciences, Inc.",2010-06-23,2012-06-22,5,2017-06-22,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,4000000.0,4000000.0,0.0,0.0,1.998631074606434,730.0,2010-06-23
+plink,"Plink, Inc.",2012-04-02,2014-04-02,5,2019-04-02,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,630000.0,630000.0,2.0,2.0,1.998631074606434,730.0,2012-04-02
+healionics,Healionics Corporation,2011-05-06,2013-05-05,5,2018-05-05,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,146000.0,146000.0,0.0,0.0,1.998631074606434,730.0,2011-05-06
+talkspacenasdaqcmtalk,"Talkspace, Inc. (NasdaqCM:TALK)",2014-12-16,2016-12-15,5,2021-12-15,2021-06-22,1,first_ge_1b_event_within_horizon,2.0,2.0,14060000.0,9360000.0,4.0,4.0,1.998631074606434,583.0,2015-05-12
+serendipity,"Serendipity Labs, Inc.",2012-08-23,2014-08-23,5,2019-08-23,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,5250000.0,5250000.0,1.0,1.0,1.998631074606434,730.0,2012-08-23
+adaptivesurface,"Adaptive Surface Technologies, Inc.",2014-10-29,2016-10-28,5,2021-10-28,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,3000000.0,3000000.0,1.0,1.0,1.998631074606434,730.0,2014-10-29
+contentraven,"Content Raven, Inc.",2013-07-24,2015-07-24,5,2020-07-23,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2110000.0,2110000.0,3.0,3.0,1.998631074606434,730.0,2013-07-24
+obviyo,"Obviyo, Inc.",2010-12-03,2012-12-02,5,2017-12-02,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,3150000.0,1760000.0,1.0,1.0,1.998631074606434,118.0,2012-08-06
+medmindersystems,"MedMinder Systems, Inc.",2010-04-08,2012-04-07,5,2017-04-07,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1270000.0,1270000.0,0.0,0.0,1.998631074606434,730.0,2010-04-08
+ekotrope,"Ekotrope, Inc.",2013-08-05,2015-08-05,5,2020-08-04,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1700000.0,1700000.0,1.0,1.0,1.998631074606434,730.0,2013-08-05
+smartlunches,"Smart Lunches, Inc.",2012-08-23,2014-08-23,5,2019-08-23,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1120000.0,1120000.0,1.0,1.0,1.998631074606434,730.0,2012-08-23
+naehas,"Naehas, Inc.",2010-02-05,2012-02-05,5,2017-02-04,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,1165000.0,821000.0,0.0,0.0,1.998631074606434,539.0,2010-08-15
+lainahealth,LainaHealth Inc,2013-11-06,2015-11-06,5,2020-11-05,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1290000.0,1290000.0,0.0,0.0,1.998631074606434,730.0,2013-11-06
+lucata,Lucata Corporation,2014-04-10,2016-04-09,5,2021-04-09,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2500000.0,2500000.0,0.0,0.0,1.998631074606434,730.0,2014-04-10
+adar,"Adar, Inc.",2014-02-04,2016-02-04,5,2021-02-03,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2400000.0,2400000.0,1.0,1.0,1.998631074606434,730.0,2014-02-04
+powerlytics,"Powerlytics, Inc.",2014-05-27,2016-05-26,5,2021-05-26,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1700000.0,1700000.0,0.0,0.0,1.998631074606434,730.0,2014-05-27
+liquidxprintedmetals,"Liquid X Printed Metals, Inc.",2013-07-03,2015-07-03,5,2020-07-02,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1820000.0,1820000.0,2.0,2.0,1.998631074606434,730.0,2013-07-03
+invisionapp,InVisionApp Inc.,2011-12-27,2013-12-26,5,2018-12-26,2018-12-11,1,first_ge_1b_event_within_horizon,1.0,1.0,1500000.0,1500000.0,1.0,1.0,1.998631074606434,730.0,2011-12-27
+mindclick,"MindClick Group, Inc.",2013-12-19,2015-12-19,5,2020-12-18,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,800000.0,800000.0,0.0,0.0,1.998631074606434,730.0,2013-12-19
+dormify,"Dormify, Inc.",2013-07-02,2015-07-02,5,2020-07-01,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1130000.0,1130000.0,0.0,0.0,1.998631074606434,730.0,2013-07-02
+proximdiagnostics,Proxim Diagnostics Corp.,2010-11-12,2012-11-11,5,2017-11-11,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,923000.0,923000.0,0.0,0.0,1.998631074606434,730.0,2010-11-12
+nav,"Nav Technologies, Inc.",2013-06-21,2015-06-21,5,2020-06-20,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,800000.0,800000.0,1.0,1.0,1.998631074606434,730.0,2013-06-21
+larky,"Larky, Inc.",2012-07-09,2014-07-09,5,2019-07-09,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,700000.0,700000.0,3.0,3.0,1.998631074606434,730.0,2012-07-09
+covey,Covey LLC,2014-11-30,2016-11-29,5,2021-11-29,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,25000.0,25000.0,1.0,1.0,1.998631074606434,730.0,2014-11-30
+alliedpaymentnetwork,Allied Payment Network Inc.,2013-02-11,2015-02-11,5,2020-02-11,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,500000.0,500000.0,0.0,0.0,1.998631074606434,730.0,2013-02-11
+sendbird,"SendBird, Inc.",2014-06-20,2016-06-19,5,2021-06-19,2021-04-06,1,first_ge_1b_event_within_horizon,2.0,2.0,140000.0,120000.0,2.0,1.0,1.998631074606434,88.0,2016-03-23
+chromaprotocol,Chroma Protocol Corporation,2013-03-18,2015-03-18,5,2020-03-17,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,20000.0,20000.0,1.0,1.0,1.998631074606434,730.0,2013-03-18
+genecentrictherapeutics,"GeneCentric Therapeutics, Inc.",2011-09-16,2013-09-15,5,2018-09-15,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,250000.0,250000.0,0.0,0.0,1.998631074606434,730.0,2011-09-16
+benchling,"Benchling, Inc.",2015-04-15,2017-04-14,5,2022-04-14,2021-04-14,1,first_ge_1b_event_within_horizon,2.0,2.0,13140000.0,7000000.0,2.0,2.0,1.998631074606434,193.0,2016-10-03
+beijinggeekplussehk2590,"Beijing Geekplus Technology Co., Ltd. (SEHK:2590)",2016-05-31,2018-05-31,5,2023-05-31,2022-08-08,1,first_ge_1b_event_within_horizon,1.0,1.0,7600000.0,7600000.0,2.0,2.0,1.998631074606434,730.0,2016-05-31
+betterup,"BetterUp, Inc.",2016-11-16,2018-11-16,5,2023-11-16,2021-10-08,1,first_ge_1b_event_within_horizon,1.0,1.0,13250000.0,13250000.0,6.0,6.0,1.998631074606434,730.0,2016-11-16
+functionalsoftware,"Functional Software, Inc.",2016-06-23,2018-06-23,5,2023-06-23,2022-05-04,1,first_ge_1b_event_within_horizon,1.0,1.0,9000000.0,9000000.0,2.0,2.0,1.998631074606434,730.0,2016-06-23
+bitsosapidecv,Bitso SAPI de CV,2016-09-23,2018-09-23,5,2023-09-23,2021-05-05,1,first_ge_1b_event_within_horizon,1.0,1.0,2500000.0,2500000.0,6.0,6.0,1.998631074606434,730.0,2016-09-23
+idealinsurancebrokerspvt,Ideal Insurance Brokers PVT Ltd,2016-11-25,2018-11-25,5,2023-11-25,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,0.0,0.0,0.0,1.0,1.0,1.998631074606434,730.0,2016-11-25
+formagrid,"Formagrid, Inc.",2015-06-29,2017-06-28,5,2022-06-28,2018-10-31,1,first_ge_1b_event_within_horizon,1.0,1.0,7640000.0,7640000.0,6.0,6.0,1.998631074606434,730.0,2015-06-29
+gobiquity,"Gobiquity, Inc.",2015-06-29,2017-06-28,5,2022-06-28,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,8740000.0,8740000.0,1.0,1.0,1.998631074606434,730.0,2015-06-29
+smartbirdnasdaqgsbird,"Smartbird, Inc (NasdaqGS:BIRD)",2016-03-01,2018-03-01,5,2023-03-01,2018-10-11,1,first_ge_1b_event_within_horizon,1.0,1.0,2320000.0,2320000.0,3.0,3.0,1.998631074606434,730.0,2016-03-01
+gitlabnasdaqgsgtlb,GitLab Inc. (NasdaqGS:GTLB),2015-03-23,2017-03-22,5,2022-03-22,2018-12-04,1,first_ge_1b_event_within_horizon,2.0,2.0,4620000.0,4500000.0,2.0,1.0,1.998631074606434,545.0,2015-09-24
+postman,"Postman, Inc.",2016-10-13,2018-10-13,5,2023-10-13,2020-06-11,1,first_ge_1b_event_within_horizon,1.0,1.0,7000000.0,7000000.0,1.0,1.0,1.998631074606434,730.0,2016-10-13
+joylux,"Joylux, Inc.",2015-09-22,2017-09-21,5,2022-09-21,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,4510000.0,4510000.0,0.0,0.0,1.998631074606434,730.0,2015-09-22
+eightfoldai,Eightfold AI Inc.,2016-12-31,2018-12-31,5,2023-12-31,2021-06-10,1,first_ge_1b_event_within_horizon,1.0,1.0,5720000.0,5720000.0,1.0,1.0,1.998631074606434,730.0,2016-12-31
+3clogic,3CLogic Inc.,2016-03-04,2018-03-04,5,2023-03-04,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1210000.0,1210000.0,0.0,0.0,1.998631074606434,730.0,2016-03-04
+pattern,"Pattern Technologies, Inc.",2016-05-24,2018-05-24,5,2023-05-24,2021-10-06,1,first_ge_1b_event_within_horizon,1.0,1.0,2500000.0,2500000.0,3.0,3.0,1.998631074606434,730.0,2016-05-24
+tearsolutions,"TearSolutions, Inc.",2015-10-24,2017-10-23,5,2022-10-23,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,3210000.0,3210000.0,3.0,3.0,1.998631074606434,730.0,2015-10-24
+moveworks,"Moveworks, Inc.",2016-12-31,2018-12-31,5,2023-12-31,2021-06-30,1,first_ge_1b_event_within_horizon,1.0,1.0,3160000.0,3160000.0,1.0,1.0,1.998631074606434,730.0,2016-12-31
+frenchfounders,FrenchFounders Inc.,2016-09-30,2018-09-30,5,2023-09-30,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,1220000.0,1220000.0,0.0,0.0,1.998631074606434,730.0,2016-09-30
+implydata,"Imply Data, Inc.",2015-10-19,2017-10-18,5,2022-10-18,2022-05-17,1,first_ge_1b_event_within_horizon,1.0,1.0,2029999.9999999998,2029999.9999999998,1.0,1.0,1.998631074606434,730.0,2015-10-19
+grubblyfarms,Grubbly Farms Inc.,2016-09-29,2018-09-29,5,2023-09-29,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2016-09-29
+matcherino,"Matcherino, Inc.",2015-10-27,2017-10-26,5,2022-10-26,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2015-10-27
+meeshonseimeesho,Meesho Limited (NSEI:MEESHO),2016-08-23,2018-08-23,5,2023-08-23,2021-04-04,1,first_ge_1b_event_within_horizon,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2016-08-23
+birdbv,Bird B.V.,2016-08-22,2018-08-22,5,2023-08-22,2021-04-28,1,first_ge_1b_event_within_horizon,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2016-08-22
+elemenohealth,"Elemeno Health, Inc.",2016-08-23,2018-08-23,5,2023-08-23,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,1420000.0,1300000.0,2.0,1.0,1.998631074606434,327.0,2017-09-30
+athelas,Athelas Inc.,2016-08-22,2018-08-22,5,2023-08-22,2022-01-31,1,first_ge_1b_event_within_horizon,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2016-08-22
+200,"200 Labs, Inc",2016-03-22,2018-03-22,5,2023-03-22,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2016-03-22
+nova,"Nova Labs, Inc.",2016-03-23,2018-03-23,5,2023-03-23,2022-02-18,1,first_ge_1b_event_within_horizon,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2016-03-23
+podium,"Podium, Inc.",2016-03-23,2018-03-23,5,2023-03-23,2020-04-07,1,first_ge_1b_event_within_horizon,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2016-03-23
+isonohealth,"iSono Health, Inc.",2016-03-23,2018-03-23,5,2023-03-23,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2016-03-23
+soundboks,"SOUNDBOKS, Inc.",2016-03-22,2018-03-22,5,2023-03-22,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2016-03-22
+cofactorgenomics,"Cofactor Genomics, Inc.",2015-08-18,2017-08-17,5,2022-08-17,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2015-08-18
+gravitational,"Gravitational, Inc.",2015-08-19,2017-08-18,5,2022-08-18,2022-05-03,1,first_ge_1b_event_within_horizon,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2015-08-19
+razorpaysoftware,Razorpay Software Limited,2015-03-25,2017-03-24,5,2022-03-24,2021-04-18,1,first_ge_1b_event_within_horizon,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2015-03-25
+industrialmicrobes,"Industrial Microbes, Inc.",2015-03-23,2017-03-22,5,2022-03-22,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2015-03-23
+sowntogrow,"Sown to Grow, Inc.",2016-01-17,2018-01-16,5,2023-01-16,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,100000.0,100000.0,1.0,1.0,1.998631074606434,730.0,2016-01-17
+zoomph,"Zoomph, Inc.",2016-02-22,2018-02-21,5,2023-02-21,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,233000.0,233000.0,0.0,0.0,1.998631074606434,730.0,2016-02-22
+hive,"Hive Technology, Inc.",2016-03-24,2018-03-24,5,2023-03-24,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,5370000.0,4000000.0,3.0,3.0,1.998631074606434,165.0,2017-10-10
+learnlux,LearnLux Inc.,2016-05-07,2018-05-07,5,2023-05-07,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,2100000.0,2000000.0,3.0,2.0,1.998631074606434,37.0,2018-03-31
+visiblevc,"Visible.vc, Inc.",2016-02-09,2018-02-08,5,2023-02-08,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,360000.0,360000.0,0.0,0.0,1.998631074606434,730.0,2016-02-09
+grabr,"Grabr, Inc.",2016-08-25,2018-08-25,5,2023-08-25,,0,no_known_event_plus_later_sub_1b_round_proxy,3.0,3.0,12600000.0,8000000.0,1.0,1.0,1.998631074606434,172.0,2018-03-06
+campusknot,"Campusknot, Inc.",2015-07-27,2017-07-26,5,2022-07-26,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,100000.0,100000.0,0.0,0.0,1.998631074606434,730.0,2015-07-27
+sitesaver,"Site Saver, Inc.",2015-08-13,2017-08-12,5,2022-08-12,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,1038000.0,988000.0,3.0,3.0,1.998631074606434,606.0,2015-12-15
+swivel,"Swivel, Inc.",2016-11-23,2018-11-23,5,2023-11-23,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,1850000.0,1000000.0,0.0,0.0,1.998631074606434,539.0,2017-06-02
+synthex,"SyntheX, Inc.",2016-07-14,2018-07-14,5,2023-07-14,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,4990000.0,4940000.0,1.0,1.0,1.998631074606434,500.0,2017-03-01
+foodmaven,FoodMaven Corporation,2016-01-12,2018-01-11,5,2023-01-11,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,10460000.0,9960000.0,0.0,0.0,1.998631074606434,11.0,2017-12-31
+forecastr,Forecastr,2015-04-20,2017-04-19,5,2022-04-19,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,30000.0,30000.0,1.0,1.0,1.998631074606434,730.0,2015-04-20
+backflip,"Backflip Technologies, Inc.",2015-11-03,2017-11-02,5,2022-11-02,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,20000.0,20000.0,1.0,1.0,1.998631074606434,730.0,2015-11-03
+hidratesmart,HidrateSmart LLC,2015-06-04,2017-06-03,5,2022-06-03,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,20000.0,20000.0,1.0,1.0,1.998631074606434,730.0,2015-06-04
+patientdiscoverysolutions,"Patient Discovery Solutions, Inc.",2017-12-22,2019-12-22,5,2024-12-21,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,2590000.0,2590000.0,0.0,0.0,1.998631074606434,730.0,2017-12-22
+vestwell,Vestwell Holdings Inc.,2017-10-02,2019-10-02,5,2024-10-01,2023-12-21,1,first_ge_1b_event_within_horizon,1.0,1.0,8050000.000000001,8050000.000000001,4.0,4.0,1.998631074606434,730.0,2017-10-02
+mavenclinic,Maven Clinic Co.,2017-06-13,2019-06-13,5,2024-06-12,2021-08-17,1,first_ge_1b_event_within_horizon,1.0,1.0,9870000.0,9870000.0,7.0,7.0,1.998631074606434,730.0,2017-06-13
+shanghaiyinheindustrial,"Shanghai Yinhe Industrial Co., Ltd.",2018-10-19,2020-10-18,5,2025-10-18,2020-12-24,1,first_ge_1b_event_within_horizon,1.0,1.0,11550000.0,11550000.0,1.0,1.0,1.998631074606434,730.0,2018-10-19
+zumservices,"Zum Services, Inc.",2017-08-29,2019-08-29,5,2024-08-28,2024-01-31,1,first_ge_1b_event_within_horizon,1.0,1.0,5510000.0,5510000.0,1.0,1.0,1.998631074606434,730.0,2017-08-29
+fetchrewards,"Fetch Rewards, LLC",2018-11-30,2020-11-29,5,2025-11-29,2022-04-07,1,first_ge_1b_event_within_horizon,1.0,1.0,8000000.0,8000000.0,0.0,0.0,1.998631074606434,730.0,2018-11-30
+asimov,"Asimov, Inc.",2017-05-26,2019-05-26,5,2024-05-25,2023-01-05,1,first_ge_1b_event_within_horizon,1.0,1.0,4700000.0,4700000.0,4.0,4.0,1.998631074606434,730.0,2017-05-26
+rothys,"Rothy's, Inc.",2017-06-06,2019-06-06,5,2024-06-05,2022-07-28,1,first_ge_1b_event_within_horizon,1.0,1.0,5090000.0,5090000.0,1.0,1.0,1.998631074606434,730.0,2017-06-06
+scroll,Scroll Labs Inc.,2018-10-25,2020-10-24,5,2025-10-24,2023-03-06,1,first_ge_1b_event_within_horizon,1.0,1.0,7000000.0,7000000.0,9.0,9.0,1.998631074606434,730.0,2018-10-25
+flow,"Flow, Inc.",2018-10-11,2020-10-10,5,2025-10-10,2025-04-24,1,first_ge_1b_event_within_horizon,1.0,1.0,5000000.0,5000000.0,4.0,4.0,1.998631074606434,730.0,2018-10-11
+appliedintuition,"Applied Intuition, Inc.",2018-09-13,2020-09-12,5,2025-09-12,2024-03-12,1,first_ge_1b_event_within_horizon,1.0,1.0,11500000.0,11500000.0,5.0,5.0,1.998631074606434,730.0,2018-09-13
+springcare,"Spring Care, Inc.",2018-09-07,2020-09-06,5,2025-09-06,2021-09-16,1,first_ge_1b_event_within_horizon,1.0,1.0,6220000.0,6220000.0,6.0,6.0,1.998631074606434,730.0,2018-09-07
+lendable,"Lendable, Inc.",2017-09-29,2019-09-29,5,2024-09-28,2022-03-10,1,first_ge_1b_event_within_horizon,1.0,1.0,6500000.0,6500000.0,3.0,3.0,1.998631074606434,730.0,2017-09-29
+commure,"Commure, Inc.",2017-09-28,2019-09-28,5,2024-09-27,2021-09-16,1,first_ge_1b_event_within_horizon,1.0,1.0,2000000.0,2000000.0,0.0,0.0,1.998631074606434,730.0,2017-09-28
+deliverr,"Deliverr, Inc.",2018-10-05,2020-10-04,5,2025-10-04,2021-11-22,1,first_ge_1b_event_within_horizon,1.0,1.0,7500000.0,7500000.0,1.0,1.0,1.998631074606434,730.0,2018-10-05
+mercury,"Mercury Technologies, Inc.",2017-10-18,2019-10-18,5,2024-10-17,2021-07-29,1,first_ge_1b_event_within_horizon,1.0,1.0,4930000.0,4930000.0,0.0,0.0,1.998631074606434,730.0,2017-10-18
+lorisystems,Lori Systems Corp.,2018-01-19,2020-01-19,5,2025-01-18,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,6170000.0,6170000.0,1.0,1.0,1.998631074606434,730.0,2018-01-19
+ketonaturalpetfoods,"KetoNatural Pet Foods, Inc.",2018-09-03,2020-09-02,5,2025-09-02,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,72000.0,72000.0,0.0,0.0,1.998631074606434,730.0,2018-09-03
+zenbusiness,"ZenBusiness, Inc.",2018-02-28,2020-02-28,5,2025-02-27,2021-11-09,1,first_ge_1b_event_within_horizon,2.0,2.0,17060000.0,15000000.0,6.0,6.0,1.998631074606434,156.0,2019-09-25
+gostudentgmbh,GoStudent GmbH,2018-07-11,2020-07-10,5,2025-07-10,2021-06-21,1,first_ge_1b_event_within_horizon,1.0,1.0,1760000.0,1760000.0,1.0,1.0,1.998631074606434,730.0,2018-07-11
+redwoodmaterials,"Redwood Materials, Inc.",2017-05-01,2019-05-01,5,2024-04-30,2021-09-23,1,first_ge_1b_event_within_horizon,1.0,1.0,2000000.0,2000000.0,0.0,0.0,1.998631074606434,730.0,2017-05-01
+ezraai,"Ezra AI, Inc.",2018-11-15,2020-11-14,5,2025-11-14,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,3990000.0,3990000.0,5.0,5.0,1.998631074606434,730.0,2018-11-15
+notco,NotCo Ltd,2017-09-14,2019-09-14,5,2024-09-13,2021-07-26,1,first_ge_1b_event_within_horizon,1.0,1.0,250000.0,250000.0,1.0,1.0,1.998631074606434,730.0,2017-09-14
+freefallaerospace,"Freefall Aerospace, Inc.",2018-12-03,2020-12-02,5,2025-12-02,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,0.0,0.0,0.0,1.0,1.0,1.998631074606434,730.0,2018-12-03
+realtimeboard,"RealtimeBoard, Inc.",2018-02-28,2020-02-28,5,2025-02-27,2022-01-05,1,first_ge_1b_event_within_horizon,1.0,1.0,1930000.0,1930000.0,1.0,1.0,1.998631074606434,730.0,2018-02-28
+courierplus,Courier Plus Inc.,2018-09-24,2020-09-23,5,2025-09-23,2021-10-14,1,first_ge_1b_event_within_horizon,2.0,2.0,18000000.0,16000000.0,5.0,4.0,1.998631074606434,379.0,2019-09-10
+skipperpets,"Skipper Pets, Inc.",2018-04-20,2020-04-19,5,2025-04-19,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2018-04-20
+valid8financial,"Valid8 Financial, Inc.",2017-04-19,2019-04-19,5,2024-04-18,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2017-04-19
+solugen,"Solugen, Inc.",2017-03-20,2019-03-20,5,2024-03-19,2022-10-31,1,first_ge_1b_event_within_horizon,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2017-03-20
+peoplecenter,"People Center, Inc.",2017-03-20,2019-03-20,5,2024-03-19,2023-03-17,1,first_ge_1b_event_within_horizon,1.0,1.0,120000.0,120000.0,1.0,1.0,1.998631074606434,730.0,2017-03-20
+agrospheres,"AgroSpheres, Inc.",2017-08-21,2019-08-21,5,2024-08-20,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,750000.0,750000.0,0.0,0.0,1.998631074606434,730.0,2017-08-21
+knack,"Knack, Inc.",2018-10-02,2020-10-01,5,2025-10-01,,0,no_known_event_plus_later_sub_1b_round_proxy,2.0,2.0,903000.0,653000.0,0.0,0.0,1.998631074606434,392.0,2019-09-05
+rarestep,"Rarestep, Inc.",2019-03-22,2021-03-21,5,2026-03-21,2025-04-14,1,first_ge_1b_event_within_horizon,1.0,1.0,3500000.0,3500000.0,0.0,0.0,1.998631074606434,730.0,2019-03-22
+maintainx,"MaintainX, Inc.",2019-03-26,2021-03-25,5,2026-03-25,2025-07-09,1,first_ge_1b_event_within_horizon,2.0,2.0,14770000.0,11000000.0,4.0,3.0,1.998631074606434,450.0,2019-12-31
+artistswritersartisans,"Artists Writers & Artisans, Inc.",2019-04-19,2021-04-18,5,2026-04-18,,0,no_known_event_plus_later_sub_1b_round_proxy,1.0,1.0,12500000.0,12500000.0,0.0,0.0,1.998631074606434,730.0,2019-04-19
+rightwayhealthcare,"Rightway Healthcare, Inc.",2019-02-27,2021-02-26,5,2026-02-26,2021-03-30,1,first_ge_1b_event_within_horizon,1.0,1.0,8000000.0,8000000.0,0.0,0.0,1.998631074606434,730.0,2019-02-27
+crusoe,Crusoe Technologies LLC,2019-03-15,2021-03-14,5,2026-03-14,2022-04-21,1,first_ge_1b_event_within_horizon,1.0,1.0,4500000.0,4500000.0,5.0,5.0,1.998631074606434,730.0,2019-03-15
+ava,"Ava Labs, Inc.",2019-02-28,2021-02-27,5,2026-02-27,2022-04-14,1,first_ge_1b_event_within_horizon,1.0,1.0,6000000.0,6000000.0,4.0,4.0,1.998631074606434,730.0,2019-02-28
+humans,"Humans, Inc.",2019-10-23,2021-10-22,5,2026-10-22,2024-04-02,1,first_ge_1b_event_within_horizon,1.0,1.0,3770000.0,3770000.0,2.0,2.0,1.998631074606434,730.0,2019-10-23
+eliseai,Elise A.I. Technologies Corp.,2019-03-22,2021-03-21,5,2026-03-21,2025-08-20,1,first_ge_1b_event_within_horizon,2.0,2.0,8460000.0,6530000.0,7.0,7.0,1.998631074606434,325.0,2020-04-30
+routeapp,"Route App, Inc.",2019-02-26,2021-02-25,5,2026-02-25,2024-06-25,1,first_ge_1b_event_within_horizon,1.0,1.0,1530000.0,1530000.0,0.0,0.0,1.998631074606434,730.0,2019-02-26
+companycam,"CompanyCam, Inc.",2020-06-29,2022-06-29,5,2027-06-29,2025-08-21,1,first_ge_1b_event_within_horizon,1.0,1.0,6000000.0,6000000.0,1.0,1.0,1.998631074606434,730.0,2020-06-29
+lessen,"Lessen, LLC",2020-12-31,2022-12-31,5,2027-12-31,2023-01-12,1,first_ge_1b_event_within_horizon,1.0,1.0,5300000.0,5300000.0,3.0,3.0,1.998631074606434,730.0,2020-12-31
+alpacadb,"AlpacaDB, Inc.",2020-10-15,2022-10-15,5,2027-10-15,2026-01-14,1,first_ge_1b_event_within_horizon,1.0,1.0,10000000.0,10000000.0,5.0,5.0,1.998631074606434,730.0,2020-10-15
+kalshi,Kalshi Inc.,2020-03-19,2022-03-19,5,2027-03-19,2025-06-25,1,first_ge_1b_event_within_horizon,1.0,1.0,6090000.0,6090000.0,0.0,0.0,1.998631074606434,730.0,2020-03-19
+celestialai,Celestial AI Inc.,2020-08-26,2022-08-26,5,2027-08-26,2025-08-13,1,first_ge_1b_event_within_horizon,2.0,2.0,7870000.0,5000000.0,0.0,0.0,1.998631074606434,598.0,2021-01-05
+monad,"Monad, Inc.",2020-06-04,2022-06-04,5,2027-06-04,2024-04-09,1,first_ge_1b_event_within_horizon,1.0,1.0,2000000.0,2000000.0,0.0,0.0,1.998631074606434,730.0,2020-06-04
+lambda,"Lambda, Inc.",2021-07-14,2023-07-14,5,2028-07-13,2024-02-15,1,first_ge_1b_event_within_horizon,1.0,1.0,15000000.0,15000000.0,4.0,4.0,1.998631074606434,730.0,2021-07-14
+nscaleglobal,NScale Global Holdings Limited,2021-03-31,2023-03-31,5,2028-03-30,2026-03-09,1,first_ge_1b_event_within_horizon,1.0,1.0,4410000.0,4410000.0,2.0,2.0,1.998631074606434,730.0,2021-03-31
+pomelocare,"Pomelo Care, Inc.",2021-08-25,2023-08-25,5,2028-08-24,2026-01-08,1,first_ge_1b_event_within_horizon,1.0,1.0,7960000.0,7960000.0,2.0,2.0,1.998631074606434,730.0,2021-08-25
+baseten,"BaseTen Labs, Inc.",2022-04-26,2024-04-25,5,2029-04-25,2025-09-05,1,first_ge_1b_event_within_horizon,2.0,2.0,20830000.0,12000000.0,4.0,3.0,1.998631074606434,730.0,2022-04-26
+spreeai,SpreeAI Corporation,2022-11-22,2024-11-21,5,2029-11-21,2025-05-07,1,first_ge_1b_event_within_horizon,1.0,1.0,7000000.0,7000000.0,0.0,0.0,1.998631074606434,730.0,2022-11-22
+modal,"Modal Labs, Inc.",2022-01-01,2024-01-01,5,2028-12-31,2026-05-21,1,first_ge_1b_event_within_horizon,1.0,1.0,7200000.0,7200000.0,2.0,2.0,1.998631074606434,730.0,2022-01-01
+apex,"Apex Technology, Inc.",2022-10-24,2024-10-23,5,2029-10-23,2026-06-05,1,first_ge_1b_event_within_horizon,1.0,1.0,7810000.0,7810000.0,6.0,6.0,1.998631074606434,730.0,2022-10-24
+redotech,"Redo Tech, Inc.",2022-07-20,2024-07-19,5,2029-07-19,2026-06-23,1,first_ge_1b_event_within_horizon,1.0,1.0,2000000.0,2000000.0,0.0,0.0,1.998631074606434,730.0,2022-07-20
+nourish,"Nourish, Inc.",2023-01-21,2025-01-20,5,2030-01-20,2025-04-23,1,first_ge_1b_event_within_horizon,1.0,1.0,8000000.0,8000000.0,5.0,5.0,1.998631074606434,730.0,2023-01-21
+etchedai,"Etched.ai, Inc.",2023-05-16,2025-05-15,5,2030-05-15,2026-01-13,1,first_ge_1b_event_within_horizon,1.0,1.0,5360000.0,5360000.0,1.0,1.0,1.998631074606434,730.0,2023-05-16
+beijingyanyu,"Beijing Yanyu Technology Co., Ltd.",2023-07-23,2025-07-22,5,2030-07-22,2026-06-18,1,first_ge_1b_event_within_horizon,1.0,1.0,3500000.0,3500000.0,4.0,4.0,1.998631074606434,730.0,2023-07-23
+allencontrolsystems,Allen Control Systems Inc.,2024-04-18,2026-04-18,5,2031-04-18,2026-06-05,1,first_ge_1b_event_within_horizon,1.0,1.0,12000000.0,12000000.0,3.0,3.0,1.998631074606434,730.0,2024-04-18

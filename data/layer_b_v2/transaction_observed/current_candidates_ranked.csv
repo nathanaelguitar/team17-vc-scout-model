@@ -1,0 +1,1016 @@
+company,company_key,prediction_date,horizon_end,ranking_score,label_state
+"Changzhou Liyuan New Energy Technology Co., Ltd.",changzhouliyuannewenergy,2026-05-13,2029-05-13,0.9283912950071384,insufficient_followup
+Coro Cyber Security Ltd.,corocybersecurity,2024-03-28,2027-03-28,0.9255426832898186,insufficient_followup
+Snabbit,snabbit,2026-04-28,2029-04-28,0.9250407669229624,insufficient_followup
+"Mellis, Inc.",mellis,2024-06-05,2027-06-05,0.916879250843872,insufficient_followup
+"Augment Computing, Inc.",augmentcomputing,2024-04-24,2027-04-24,0.9030494511217365,insufficient_followup
+Sana Labs AB,sanaab,2024-10-30,2027-10-30,0.8974910199915015,insufficient_followup
+"Korsana Biosciences, Inc.",korsanabiosciences,2025-09-30,2028-09-30,0.8940782326659336,insufficient_followup
+Doppel Inc.,doppel,2025-11-19,2028-11-19,0.8940443290337011,insufficient_followup
+Nesse Technologies Inc,nesse,2025-05-31,2028-05-31,0.8905422593194073,insufficient_followup
+Stellaromics Inc.,stellaromics,2025-02-11,2028-02-11,0.8841150616121469,insufficient_followup
+"Ledgebrook Insurance, LLC.",ledgebrookinsurance,2025-06-20,2028-06-20,0.8823529954056857,insufficient_followup
+"Hangzhou Bangshun Pharmaceutical Co., Ltd.",hangzhoubangshunpharmaceutical,2025-12-04,2028-12-04,0.8804385270061337,insufficient_followup
+Nomu Pay,nomupay,2025-06-03,2028-06-03,0.8770250131096178,insufficient_followup
+The San Francisco AI Factory Inc.,thesanfranciscoaifactory,2025-09-25,2028-09-25,0.8745929086974856,insufficient_followup
+Girnar Insurance Brokers Private Limited,girnarinsurancebrokersprivate,2023-10-11,2026-10-11,0.8717616810107924,insufficient_followup
+"Bangjie New Energy Technology Co., Ltd.",bangjienewenergy,2023-09-14,2026-09-14,0.8700967634900927,insufficient_followup
+"HeyGen, Inc.",heygen,2024-03-23,2027-03-23,0.8657379088453857,insufficient_followup
+Adaps Photonics Inc.,adapsphotonics,2026-02-25,2029-02-25,0.8604283640853633,insufficient_followup
+"Suzhou Yimufeng Biotechnology Co., Ltd.",suzhouyimufengbiotechnology,2025-11-28,2028-11-28,0.8602486740877306,insufficient_followup
+Scapia Technology Private Limited,scapiaprivate,2026-05-20,2029-05-20,0.8586288881384593,insufficient_followup
+Elucid Bioimaging Inc.,elucidbioimaging,2023-11-09,2026-11-09,0.8574727484054265,insufficient_followup
+Atlan Pte Ltd,atlanpte,2024-05-08,2027-05-08,0.8536548322515451,insufficient_followup
+Marq Vision Inc.,marqvision,2025-09-15,2028-09-15,0.85208948491754,insufficient_followup
+Firstclub Technology Private Limited,firstclubprivate,2026-06-03,2029-06-03,0.8488330971599717,insufficient_followup
+Blu-Smart Mobility Limited,blusmartmobility,2024-07-15,2027-07-15,0.8472787498879502,insufficient_followup
+"Triveni Bio, Inc.",trivenibio,2026-06-17,2029-06-17,0.8460698275793105,insufficient_followup
+"Mariana Oncology, Inc.",marianaoncology,2023-09-07,2026-09-07,0.8439848858162418,insufficient_followup
+The Woodenstreet Furnitures Pvt. Ltd,thewoodenstreetfurniturespvt,2024-12-07,2027-12-07,0.8397507746308956,insufficient_followup
+M2 Semiconductor Ltd.,m2semiconductor,2026-06-02,2029-06-02,0.8351286903012713,insufficient_followup
+"Seurat Technologies, Inc.",seurat,2023-10-30,2026-10-30,0.8336506965996265,insufficient_followup
+Boston Electrometallurgical Corporation,bostonelectrometallurgical,2023-09-06,2026-09-06,0.8307662740109564,insufficient_followup
+CRM&BONUS,crmbonus,2024-05-14,2027-05-14,0.8288979638927554,insufficient_followup
+"Convergent Therapeutics, Inc.",convergenttherapeutics,2024-09-24,2027-09-24,0.8233421250467946,insufficient_followup
+Smartpaddle Technology Private Limited,smartpaddleprivate,2023-10-04,2026-10-04,0.822912672790587,insufficient_followup
+Analog Legalhub Tech Solutions Pvt. Ltd.,analoglegalhubtechsolutionspvt,2023-08-09,2026-08-09,0.8224520962729859,insufficient_followup
+"Ethyreal Bio, Inc.",ethyrealbio,2026-06-10,2029-06-10,0.8169828273239024,insufficient_followup
+"Shanghai Cool Core Microelectronics Co., Ltd.",shanghaicoolcoremicroelectronics,2025-12-24,2028-12-24,0.8149270332214474,insufficient_followup
+"Neuros Medical, Inc.",neurosmedical,2025-07-09,2028-07-09,0.8137239978735693,insufficient_followup
+Beejapuri Dairy Private Limited,beejapuridairyprivate,2024-01-05,2027-01-05,0.8117771070451459,insufficient_followup
+"Betr Holdings, Inc.",betr,2024-03-06,2027-03-06,0.8105099004899056,insufficient_followup
+Harbinger Motors Inc.,harbingermotors,2023-12-31,2026-12-31,0.8101949889366885,insufficient_followup
+Pryon Inc.,pryon,2023-09-19,2026-09-19,0.8100556403268533,insufficient_followup
+Panmnesia Inc.,panmnesia,2024-11-19,2027-11-19,0.8097949457852303,insufficient_followup
+"Cardurion Pharmaceuticals, Inc.",cardurionpharmaceuticals,2024-07-16,2027-07-16,0.806804814900773,insufficient_followup
+Azra Games Inc.,azragames,2024-10-15,2027-10-15,0.8050071277247899,insufficient_followup
+"Equilibrium Energy, Inc.",equilibriumenergy,2025-03-12,2028-03-12,0.8039030173096633,insufficient_followup
+"Grid.ai, Inc.",gridai,2024-11-21,2027-11-21,0.8005619240703495,insufficient_followup
+"Neuracle Technology (Shanghai) Co., Ltd.",neuracleshanghai,2025-12-31,2028-12-31,0.7960117969844508,insufficient_followup
+A & A Dukaan Financial Services Private Limited,aadukaanfinancialservicesprivate,2025-04-22,2028-04-22,0.7953742098132357,insufficient_followup
+Neo Financial Technologies Inc.,neofinancial,2024-10-11,2027-10-11,0.7948622303541671,insufficient_followup
+"Veza Technologies, Inc.",veza,2025-04-28,2028-04-28,0.7947247022136027,insufficient_followup
+"Obsidian Therapeutics, Inc.",obsidiantherapeutics,2024-04-03,2027-04-03,0.7941256078943425,insufficient_followup
+"Shenzhen Enrigin Technology Co., Ltd",shenzhenenrigin,2025-01-03,2028-01-03,0.793749906550299,insufficient_followup
+Sion Power Corporation,sionpower,2024-01-24,2027-01-24,0.7919580941334879,insufficient_followup
+"Tecovas, Inc.",tecovas,2025-07-30,2028-07-30,0.7901001266452561,insufficient_followup
+"Merida Biosciences, Inc.",meridabiosciences,2025-04-08,2028-04-08,0.7900600986442889,insufficient_followup
+"Halozyme Hypercon, Inc.",halozymehypercon,2024-10-15,2027-10-15,0.7894848572512662,insufficient_followup
+"INCEPTIVE, INC.",inceptive,2023-09-07,2026-09-07,0.7890382924259739,insufficient_followup
+"Seismic Therapeutic, Inc.",seismictherapeutic,2024-09-12,2027-09-12,0.7889489596895592,insufficient_followup
+Colendi,colendi,2024-05-22,2027-05-22,0.7882844681768792,insufficient_followup
+Vega Cyber Solutions Ltd.,vegacybersolutions,2025-08-16,2028-08-16,0.7872583147853015,insufficient_followup
+"VEIR, Inc.",veir,2025-01-28,2028-01-28,0.7870385815699107,insufficient_followup
+KOHO Financial Inc.,kohofinancial,2023-12-07,2026-12-07,0.7861203323029607,insufficient_followup
+"Muon Space, Inc.",muonspace,2024-08-05,2027-08-05,0.7793185541942355,insufficient_followup
+Sendle Pty Ltd,sendlepty,2024-07-02,2027-07-02,0.7791346255787778,insufficient_followup
+Trip Drink Ltd,tripdrink,2025-11-10,2028-11-10,0.7771914451207734,insufficient_followup
+Ingrasys Technology Mexico. S.A. de C.V.,ingrasysmexicosadecv,2026-05-21,2029-05-21,0.7762504743911987,insufficient_followup
+Whale Dynamic,whaledynamic,2024-09-20,2027-09-20,0.7757873913655933,insufficient_followup
+Infifresh Foods Limited,infifreshfoods,2024-12-26,2027-12-26,0.7741362996261681,insufficient_followup
+"Protect AI, Inc.",protectai,2024-08-15,2027-08-15,0.7727512206316434,insufficient_followup
+"Shandong Sinder Technology Co., Ltd",shandongsinder,2025-10-25,2028-10-25,0.7709404653834435,insufficient_followup
+Gnau Inc.,gnau,2025-08-06,2028-08-06,0.7704046560670457,insufficient_followup
+"Beijing Haizhi Technology Group Co., Ltd. (SEHK:2706)",beijinghaizhisehk2706,2025-05-31,2028-05-31,0.7702034802806361,insufficient_followup
+Hume AI Inc,humeai,2025-07-09,2028-07-09,0.7686704790072532,insufficient_followup
+"Reprieve Cardiovascular, Inc.",reprievecardiovascular,2025-08-13,2028-08-13,0.7685586995029597,insufficient_followup
+"Erthos, Inc.",erthos,2023-09-11,2026-09-11,0.7667433059010672,insufficient_followup
+"DeepCure, Inc.",deepcure,2024-04-11,2027-04-11,0.7643153887706412,insufficient_followup
+Sei Labs Inc.,sei,2023-11-15,2026-11-15,0.7642070766646525,insufficient_followup
+"Weimai Technology Co., Ltd.",weimai,2025-10-15,2028-10-15,0.7641002710740832,insufficient_followup
+"Crossbow Therapeutics, Inc.",crossbowtherapeutics,2026-03-18,2029-03-18,0.762455023880371,insufficient_followup
+Alsym Energy Inc.,alsymenergy,2024-04-03,2027-04-03,0.7603920595187702,insufficient_followup
+"Beijing Wehand-Bio Pharmaceutical Co., Ltd.",beijingwehandbiopharmaceutical,2025-09-30,2028-09-30,0.7580446097560595,insufficient_followup
+"Particle Industries, Inc.",particleindustries,2024-07-01,2027-07-01,0.7567469750008049,insufficient_followup
+"Smith Health, Inc.",smithhealth,2024-01-23,2027-01-23,0.7566949256006188,insufficient_followup
+"Shanghai Senyi Wisdom Information Technology Co., Ltd.",shanghaisenyiwisdominformation,2024-07-18,2027-07-18,0.7556691096306506,insufficient_followup
+"Lone Gull Holdings, Ltd.",lonegull,2026-05-22,2029-05-22,0.7535658284487351,insufficient_followup
+"FuriosaAI, Inc.",furiosaai,2025-06-05,2028-06-05,0.7455354885523944,insufficient_followup
+"Yantai Lannacheng Biotechnology Co., Ltd.",yantailannachengbiotechnology,2026-07-06,2029-07-06,0.7450736212933413,insufficient_followup
+Onyx Security Inc,onyxsecurity,2026-07-29,2029-07-29,0.7442899299543072,insufficient_followup
+"Envisics, Inc.",envisics,2023-09-04,2026-09-04,0.7412597681141095,insufficient_followup
+Digantara Industries Private Limited,digantaraindustriesprivate,2025-12-16,2028-12-16,0.7394290879619881,insufficient_followup
+"Steadily Insurance Agency, Inc.",steadilyinsuranceagency,2025-04-23,2028-04-23,0.737234237542561,insufficient_followup
+"Wuhan MEMSonics New Technology Co., Ltd.",wuhanmemsonicsnew,2025-11-19,2028-11-19,0.7346888844199095,insufficient_followup
+"Slope Tech, Inc.",slopetech,2024-07-17,2027-07-17,0.7344021801856547,insufficient_followup
+"Wuhan Silicon Integrated Co., Ltd.",wuhansiliconintegrated,2025-08-14,2028-08-14,0.7340487962792566,insufficient_followup
+Buk SpA,bukspa,2025-01-06,2028-01-06,0.7286082082092193,insufficient_followup
+Kream Corporation,kream,2024-07-30,2027-07-30,0.725963910273494,insufficient_followup
+Galy Co.,galy,2024-07-10,2027-07-10,0.7249794465921333,insufficient_followup
+PolyAI Limited,polyai,2025-12-15,2028-12-15,0.7244431992366808,insufficient_followup
+Persefoni AI Inc.,persefoniai,2026-05-01,2029-05-01,0.7202903636665685,insufficient_followup
+"eGenesis, Inc.",egenesis,2024-09-04,2027-09-04,0.720074359090394,insufficient_followup
+"RevenueCat, Inc.",revenuecat,2025-05-22,2028-05-22,0.718555987988409,insufficient_followup
+"Redbear AI Co., Ltd.",redbearai,2026-04-07,2029-04-07,0.7173132578804454,insufficient_followup
+"Nectero Medical, Inc.",necteromedical,2024-04-11,2027-04-11,0.7161911620753388,insufficient_followup
+"Klar Technologies, S.A. de C.V., S.F.P.",klarsadecvsfp,2025-07-01,2028-07-01,0.7155840763908232,insufficient_followup
+Quicko TechnoSoft Labs Private Limited,quickotechnosoftprivate,2024-09-25,2027-09-25,0.7136044373307187,insufficient_followup
+Pay.com.au Limited,paycomau,2026-05-31,2029-05-31,0.7123296552303598,insufficient_followup
+Vulcan Elements Holdings Corp.,vulcanelements,2025-08-11,2028-08-11,0.7121170194942802,insufficient_followup
+"Arbor Biotechnologies, Inc.",arborbiotechnologies,2025-03-18,2028-03-18,0.710028410285094,insufficient_followup
+Rylo Inc.,rylo,2026-06-09,2029-06-09,0.7096011001922381,insufficient_followup
+"MatrixSpace, Inc.",matrixspace,2026-03-24,2029-03-24,0.7073482487577403,insufficient_followup
+"Click Therapeutics, Inc.",clicktherapeutics,2025-03-19,2028-03-19,0.706390295259487,insufficient_followup
+"PollyEx, Inc.",pollyex,2024-09-10,2027-09-10,0.7052670436232991,insufficient_followup
+Malta Inc.,malta,2023-11-30,2026-11-30,0.7036157835078914,insufficient_followup
+"Yuen Kee Food Group Co., Ltd.",yuenkeefood,2025-12-31,2028-12-31,0.7011344744546135,insufficient_followup
+Arc Boat Company,arcboat,2023-09-27,2026-09-27,0.7002223563623293,insufficient_followup
+"Cloaked, Inc.",cloaked,2026-03-19,2029-03-19,0.6995040898777103,insufficient_followup
+Prezent Inc.,prezent,2025-10-10,2028-10-10,0.6992413427029012,insufficient_followup
+"Replicate, Inc.",replicate,2023-12-05,2026-12-05,0.6988406375916878,insufficient_followup
+"PassiveLogic, Inc.",passivelogic,2025-09-18,2028-09-18,0.6974222382756089,insufficient_followup
+"Flipside Crypto, Inc.",flipsidecrypto,2025-10-23,2028-10-23,0.6964739987673537,insufficient_followup
+Entry Inc.,entry,2025-10-02,2028-10-02,0.6950798414616461,insufficient_followup
+micro1 Inc.,micro1,2025-09-12,2028-09-12,0.69444683202681,insufficient_followup
+"RunBuggy OMI, Inc.",runbuggyomi,2023-11-17,2026-11-17,0.6939964890455195,insufficient_followup
+Hemanext Inc.,hemanext,2025-07-22,2028-07-22,0.6935217942926301,insufficient_followup
+1k Kirana Bazaar,1kkiranabazaar,2024-04-29,2027-04-29,0.6933070356222123,insufficient_followup
+Hyperdoc Inc.,hyperdoc,2025-09-04,2028-09-04,0.6879928282333404,insufficient_followup
+Elephas Biosciences Corporation,elephasbiosciences,2024-01-23,2027-01-23,0.6879745913881432,insufficient_followup
+"Kintsugi AI, Inc.",kintsugiai,2025-04-29,2028-04-29,0.6797213074402113,insufficient_followup
+"Beacon Biosignals, Inc.",beaconbiosignals,2026-04-15,2029-04-15,0.6770734784154793,insufficient_followup
+Nexxbase Marketing Private Limited,nexxbasemarketingprivate,2025-04-09,2028-04-09,0.6764815845615262,insufficient_followup
+Apna Mart Shop And Earn Private Limited,apnamartshopandearnprivate,2026-07-29,2029-07-29,0.6751674381272609,insufficient_followup
+"Jiangsu Weiheng Intelligent Technology Co., Ltd",jiangsuweihengintelligent,2023-12-31,2026-12-31,0.6716847645723626,insufficient_followup
+"TurbineOne, Inc.",turbineone,2025-05-14,2028-05-14,0.6694792798074244,insufficient_followup
+VulnCheck Inc.,vulncheck,2026-02-17,2029-02-17,0.6688856225237408,insufficient_followup
+Munchmart Technologies Private Limited,munchmartprivate,2026-03-24,2029-03-24,0.6679924541043155,insufficient_followup
+"Clear Labs, Inc.",clear,2025-01-13,2028-01-13,0.6649064339282155,insufficient_followup
+"Mantel Capture, Inc.",mantelcapture,2024-09-05,2027-09-05,0.6644328305993742,insufficient_followup
+Dash0 Inc.,dash0,2025-10-02,2028-10-02,0.6629399614462388,insufficient_followup
+"Affinia Therapeutics, Inc.",affiniatherapeutics,2025-10-07,2028-10-07,0.6626460875742033,insufficient_followup
+"ElectraSteel, Inc.",electrasteel,2025-04-24,2028-04-24,0.6622973430268254,insufficient_followup
+"Aescape, Inc.",aescape,2025-03-04,2028-03-04,0.6618125289876595,insufficient_followup
+"Sensera Systems, Inc.",senserasystems,2026-02-26,2029-02-26,0.6613937449662867,insufficient_followup
+"Third Arc Bio, Inc.",thirdarcbio,2026-02-04,2029-02-04,0.6606446504516128,insufficient_followup
+"Shanghai Yinguan Semiconductor Technology Co., Ltd.",shanghaiyinguansemiconductor,2025-03-31,2028-03-31,0.6603776771530845,insufficient_followup
+"Omnidian, Inc.",omnidian,2023-10-26,2026-10-26,0.6602854265554039,insufficient_followup
+Cashfree Payments India Private Limited,cashfreepaymentsindiaprivate,2025-02-04,2028-02-04,0.6588697509192709,insufficient_followup
+"ROME Therapeutics, Inc.",rometherapeutics,2023-09-12,2026-09-12,0.658395547390317,insufficient_followup
+"Guangzhou Zhiguang Energy Storage Technology Co., Ltd.",guangzhouzhiguangenergystorage,2024-03-29,2027-03-29,0.6583940584811924,insufficient_followup
+iCreditWorks Inc.,icreditworks,2025-04-14,2028-04-14,0.657612261804161,insufficient_followup
+"Nusano, Inc.",nusano,2024-10-01,2027-10-01,0.6554699352718156,insufficient_followup
+Kratos Studios,kratosstudios,2024-11-20,2027-11-20,0.6552804623234485,insufficient_followup
+"Imbria Pharmaceuticals, Inc.",imbriapharmaceuticals,2025-10-31,2028-10-31,0.6546761696380087,insufficient_followup
+"Accent Therapeutics, Inc.",accenttherapeutics,2024-01-23,2027-01-23,0.6544857240788419,insufficient_followup
+"Superpower Health, Inc.",superpowerhealth,2025-04-22,2028-04-22,0.6543326957643545,insufficient_followup
+Cmunity Innovations Private Limited,cmunityinnovationsprivate,2025-09-01,2028-09-01,0.6540132103595876,insufficient_followup
+All Home,allhome,2026-06-23,2029-06-23,0.6537794524061901,insufficient_followup
+"Dash Bio, Inc.",dashbio,2026-07-14,2029-07-14,0.652567141761543,insufficient_followup
+"Cleerly, Inc.",cleerly,2024-12-04,2027-12-04,0.6495772798723527,insufficient_followup
+Flare Therapeutics Inc.,flaretherapeutics,2026-06-30,2029-06-30,0.648422700342202,insufficient_followup
+"Parse Biosciences, Inc.",parsebiosciences,2023-12-14,2026-12-14,0.6466102059000809,insufficient_followup
+"Realize, Inc.",realize,2026-01-14,2029-01-14,0.640061749046671,insufficient_followup
+"Day ai, Inc.",dayai,2026-02-02,2029-02-02,0.6399092656463543,insufficient_followup
+"Raptor Maps, Inc.",raptormaps,2024-12-10,2027-12-10,0.6381358921579388,insufficient_followup
+Service Lee Technologies Private Limited,serviceleeprivate,2025-02-28,2028-02-28,0.6379519507279039,insufficient_followup
+"Proof Technology, Inc.",proof,2024-01-26,2027-01-26,0.6361595736829203,insufficient_followup
+"Aulos Bioscience, Inc.",aulosbioscience,2023-08-01,2026-08-01,0.6358260460832451,insufficient_followup
+Bugcrowd Inc.,bugcrowd,2023-09-21,2026-09-21,0.6351046350804901,insufficient_followup
+"Cleanlab, Inc.",cleanlab,2023-10-10,2026-10-10,0.6323642703156311,insufficient_followup
+"Visage Enterprise, Inc.",visageenterprise,2024-12-03,2027-12-03,0.6321702676918419,insufficient_followup
+"Liuliumei Co., Ltd. (SEHK:6658)",liuliumeisehk6658,2024-12-31,2027-12-31,0.6318805435732887,insufficient_followup
+"Snark AI, Inc.",snarkai,2024-03-26,2027-03-26,0.630481989881413,insufficient_followup
+AirGSM Pte. Ltd.,airgsmpte,2023-07-31,2026-07-31,0.6298531308058228,insufficient_followup
+Morse Micro PTY. LTD.,morsemicropty,2025-09-22,2028-09-22,0.62918519517003,insufficient_followup
+"Create, Inc.",create,2025-09-29,2028-09-29,0.6277897966376415,insufficient_followup
+"Premier Lacrosse League, Inc.",premierlacrosseleague,2025-06-25,2028-06-25,0.6265420509762749,insufficient_followup
+"InfoBionic, Inc.",infobionic,2023-10-16,2026-10-16,0.6255937180778811,insufficient_followup
+"Beijing Mingjia Semiconductor Co., Ltd.",beijingmingjiasemiconductor,2026-01-21,2029-01-21,0.6255317001001088,insufficient_followup
+Guerrilla Infra Solutions Pvt. Ltd.,guerrillainfrasolutionspvt,2025-01-28,2028-01-28,0.6254661239339695,insufficient_followup
+"Infinitus Systems, Inc.",infinitussystems,2024-10-23,2027-10-23,0.6205662643501859,insufficient_followup
+"Standard Robots Co., Ltd.",standardrobots,2024-05-31,2027-05-31,0.6195578588078638,insufficient_followup
+Coactive Systems Inc.,coactivesystems,2024-05-21,2027-05-21,0.6193527529941627,insufficient_followup
+WindBorne Systems Inc.,windbornesystems,2024-05-29,2027-05-29,0.6157850344467775,insufficient_followup
+"SpectraWAVE, Inc.",spectrawave,2024-09-11,2027-09-11,0.6147231022325353,insufficient_followup
+Secro Inc.,secro,2025-05-30,2028-05-30,0.6131524622277207,insufficient_followup
+Architect Financial Technologies Inc.,architectfinancial,2025-12-23,2028-12-23,0.6122515384684898,insufficient_followup
+"MealMe, Inc.",mealme,2024-03-14,2027-03-14,0.6115427068784383,insufficient_followup
+"Ignite Reading, PBC",ignitereading,2024-10-15,2027-10-15,0.6101763112815957,insufficient_followup
+"Industrial Microbes, Inc.",industrialmicrobes,2024-11-19,2027-11-19,0.6079693904119989,insufficient_followup
+"Allstacks, Inc.",allstacks,2024-08-20,2027-08-20,0.6069526885585583,insufficient_followup
+Greenhorn Wellness Private Limited,greenhornwellnessprivate,2023-09-20,2026-09-20,0.605956041667806,insufficient_followup
+"Foundation LLM Technologies, Inc.",foundationllm,2025-06-30,2028-06-30,0.6032616231925063,insufficient_followup
+"ClosingLock, Inc.",closinglock,2024-01-29,2027-01-29,0.6023055679128477,insufficient_followup
+"Palm Tree Crew Holdings, LLC",palmtreecrew,2025-09-09,2028-09-09,0.60042868837489,insufficient_followup
+"Tomo Networks, Inc.",tomonetworks,2025-07-14,2028-07-14,0.6003283671683249,insufficient_followup
+"Crossover Markets Group, Inc.",crossovermarkets,2026-03-04,2029-03-04,0.6002899158556516,insufficient_followup
+"Zip Security, Inc.",zipsecurity,2025-07-14,2028-07-14,0.5998596193321022,insufficient_followup
+Arkea Bio Corp.,arkeabio,2024-05-08,2027-05-08,0.5993154619235418,insufficient_followup
+"Riot Security, Inc.",riotsecurity,2025-02-03,2028-02-03,0.5983944602173681,insufficient_followup
+"Polimorphic, Inc.",polimorphic,2025-06-09,2028-06-09,0.5982285403533149,insufficient_followup
+"Front Office Sports, LLC",frontofficesports,2023-10-02,2026-10-02,0.5975376761005906,insufficient_followup
+"Cala Health, Inc.",calahealth,2024-12-09,2027-12-09,0.5974726909954483,insufficient_followup
+Puzzl Group Inc.,puzzl,2024-10-10,2027-10-10,0.597372079012698,insufficient_followup
+"Anterior, Inc.",anterior,2024-06-09,2027-06-09,0.5965384053167428,insufficient_followup
+IceMOS Technology Ltd.,icemos,2025-03-01,2028-03-01,0.5962422410921054,insufficient_followup
+"Topsort, Inc.",topsort,2024-07-16,2027-07-16,0.5952130910580726,insufficient_followup
+Vesta Healthcare,vestahealthcare,2024-03-13,2027-03-13,0.5948900240793936,insufficient_followup
+Matia Inc.,matia,2026-02-10,2029-02-10,0.5942804435440259,insufficient_followup
+"Pickle Poll, Inc.",picklepoll,2025-03-12,2028-03-12,0.5940489338871463,insufficient_followup
+Pydantic Services Inc.,pydanticservices,2024-10-01,2027-10-01,0.5939486893164875,insufficient_followup
+dappOS technology,dappos,2024-03-28,2027-03-28,0.5932763541163784,insufficient_followup
+"Quanta Financial, Inc.",quantafinancial,2025-12-04,2028-12-04,0.5929906303604263,insufficient_followup
+"Edera, Inc.",edera,2025-02-06,2028-02-06,0.592518928832452,insufficient_followup
+"Tofu Technologies, Inc.",tofu,2025-02-13,2028-02-13,0.5908602360015431,insufficient_followup
+"Adden Energy, Inc.",addenenergy,2024-09-03,2027-09-03,0.5899850354868486,insufficient_followup
+"Enveda Therapeutics, Inc.",envedatherapeutics,2025-02-26,2028-02-26,0.5877795540930625,insufficient_followup
+Bluebear Technologies Private Limited,bluebearprivate,2025-05-08,2028-05-08,0.5849199212441778,insufficient_followup
+Tractian Technologies Inc.,tractian,2024-12-09,2027-12-09,0.5839017835381488,insufficient_followup
+Euler Motors Private Limited,eulermotorsprivate,2025-05-19,2028-05-19,0.5828286132030127,insufficient_followup
+"Mobia Medical, Inc. (NasdaqGS:MOBI)",mobiamedicalnasdaqgsmobi,2025-03-12,2028-03-12,0.5822863054407813,insufficient_followup
+Wherobots Inc.,wherobots,2024-11-26,2027-11-26,0.5820770374232226,insufficient_followup
+Agnikul Cosmos Private Limited,agnikulcosmosprivate,2025-11-22,2028-11-22,0.5807724031514294,insufficient_followup
+UNIGRID Inc.,unigrid,2024-06-13,2027-06-13,0.5795561335566167,insufficient_followup
+Pickle Robot Company,picklerobot,2024-11-20,2027-11-20,0.5784249242075028,insufficient_followup
+"Realm.Security, Inc.",realmsecurity,2025-12-11,2028-12-11,0.5781026486803792,insufficient_followup
+"Mechanical Orchard, Inc.",mechanicalorchard,2024-02-07,2027-02-07,0.5748794527825279,insufficient_followup
+Tessolve Semiconductor Pvt. Ltd.,tessolvesemiconductorpvt,2025-09-01,2028-09-01,0.5744389452058923,insufficient_followup
+CoverTree Inc.,covertree,2024-05-09,2027-05-09,0.5739752395863609,insufficient_followup
+"CoParse, Inc.",coparse,2024-11-27,2027-11-27,0.5739054697391495,insufficient_followup
+Shinkei Systems Corp.,shinkeisystems,2025-06-12,2028-06-12,0.5731612252053058,insufficient_followup
+"Yunding Network Technology (Beijing)Co.,LTD.",yundingnetworkbeijing,2025-11-30,2028-11-30,0.5727669689058863,insufficient_followup
+PerfectTed,perfectted,2025-10-04,2028-10-04,0.5722172598640106,insufficient_followup
+"Skipper Pets, Inc.",skipperpets,2026-06-05,2029-06-05,0.5707515333288374,insufficient_followup
+"Vanqua Bio, Inc.",vanquabio,2024-07-05,2027-07-05,0.5705534465066082,insufficient_followup
+"OnSiteIQ, Inc.",onsiteiq,2023-10-24,2026-10-24,0.5705233267189135,insufficient_followup
+Contoro Inc.,contoro,2025-03-20,2028-03-20,0.5683697748201153,insufficient_followup
+Stable-Alpha Technologies Private Limited,stablealphaprivate,2025-05-23,2028-05-23,0.5682816951201537,insufficient_followup
+"Yardstik, Inc.",yardstik,2023-10-17,2026-10-17,0.5671044644957995,insufficient_followup
+"Turnkey Global, Inc.",turnkeyglobal,2024-04-23,2027-04-23,0.5669902589784658,insufficient_followup
+Plant Meat Limited,plantmeat,2024-06-17,2027-06-17,0.5662950209357869,insufficient_followup
+Texture Corp.,texture,2025-10-23,2028-10-23,0.5654662054667479,insufficient_followup
+"Protego Biopharma, Inc.",protegobiopharma,2025-12-01,2028-12-01,0.5645337301534693,insufficient_followup
+"Paramify, Inc.",paramify,2025-12-18,2028-12-18,0.5643013478315071,insufficient_followup
+Liberate Innovations Inc.,liberateinnovations,2025-10-15,2028-10-15,0.563981268059459,insufficient_followup
+"Octave Bioscience, Inc.",octavebioscience,2023-11-24,2026-11-24,0.5639029376658196,insufficient_followup
+Ternary Inc.,ternary,2023-10-23,2026-10-23,0.563583055278208,insufficient_followup
+"evolvedMD, LLC",evolvedmd,2025-07-14,2028-07-14,0.5634322707849629,insufficient_followup
+"Cyvl, Inc.",cyvl,2025-10-01,2028-10-01,0.5633468773517888,insufficient_followup
+"Sora Fuel, Corporation",sorafuel,2026-03-31,2029-03-31,0.5624872833939267,insufficient_followup
+Osmoses Inc.,osmoses,2023-10-03,2026-10-03,0.5623275936167856,insufficient_followup
+"SchooLinks, Inc.",schoolinks,2024-10-21,2027-10-21,0.561000908389437,insufficient_followup
+"123 See, Inc.",123see,2025-07-16,2028-07-16,0.5608884031320639,insufficient_followup
+Ecozen Solutions Pvt. Ltd.,ecozensolutionspvt,2024-05-02,2027-05-02,0.560623888227037,insufficient_followup
+Pocket FM Private Limited,pocketfmprivate,2024-03-20,2027-03-20,0.5602028889106829,insufficient_followup
+"Allora Health, Inc.",allorahealth,2023-08-31,2026-08-31,0.5597089754294337,insufficient_followup
+"Authentic Insurance Services, Inc.",authenticinsuranceservices,2024-03-26,2027-03-26,0.5595583422846048,insufficient_followup
+"Zanskar Geothermal & Minerals, Inc.",zanskargeothermalminerals,2024-05-06,2027-05-06,0.5594079006861835,insufficient_followup
+Grayquest Education Finance Private Limited,grayquesteducationfinanceprivate,2025-01-09,2028-01-09,0.5592589939333362,insufficient_followup
+Apono Inc.,apono,2024-09-30,2027-09-30,0.5590856727438202,insufficient_followup
+"Data Truck, L.L.C.",datatruckllc,2026-01-28,2029-01-28,0.5585311491144742,insufficient_followup
+"Fieldguide, Inc.",fieldguide,2026-02-02,2029-02-02,0.5582964697511885,insufficient_followup
+"BioAge Labs, Inc. (NasdaqGS:BIOA)",bioagenasdaqgsbioa,2024-02-13,2027-02-13,0.5546438225997022,insufficient_followup
+"Helix Earth Technologies, Inc.",helixearth,2026-03-26,2029-03-26,0.5540557072801332,insufficient_followup
+InDebted Holdings Pty Ltd,indebtedpty,2024-09-24,2027-09-24,0.5534641428438166,insufficient_followup
+"Allstar Gaming, Inc.",allstargaming,2023-12-12,2026-12-12,0.5532869986305474,insufficient_followup
+Brisk Labs Corp.,brisk,2025-03-25,2028-03-25,0.5527926440015887,insufficient_followup
+Orocorp Technologies Private Limited,orocorpprivate,2023-10-12,2026-10-12,0.5506708765739159,insufficient_followup
+"Vecna Robotics, Inc.",vecnarobotics,2024-06-20,2027-06-20,0.5503490358588186,insufficient_followup
+"Guangzhou Lupeng Pharmaceutical Co., Ltd.",guangzhoulupengpharmaceutical,2025-12-10,2028-12-10,0.5501339479262006,insufficient_followup
+"Hostie AI, Inc.",hostieai,2026-07-08,2029-07-08,0.5494562015309895,insufficient_followup
+CAST AI Group Inc.,castai,2025-04-30,2028-04-30,0.5489697752316194,insufficient_followup
+"Summer Health, Inc.",summerhealth,2024-04-23,2027-04-23,0.5488434915788724,insufficient_followup
+"Zolve Innovations, Inc.",zolveinnovations,2025-03-11,2028-03-11,0.548586023659534,insufficient_followup
+"Splight, Inc.",splight,2024-07-24,2027-07-24,0.5485292950027246,insufficient_followup
+"ShoulderTap Technologies, Inc.",shouldertap,2026-01-26,2029-01-26,0.5468119622568046,insufficient_followup
+"401GO, Inc.",401go,2024-04-23,2027-04-23,0.5452233195433999,insufficient_followup
+"Hydra Host, Inc.",hydrahost,2026-06-15,2029-06-15,0.5448202839020052,insufficient_followup
+Billables Incorporated,billables,2026-06-09,2029-06-09,0.5447683629716276,insufficient_followup
+"Old Well Labs, Inc.",oldwell,2026-01-20,2029-01-20,0.5441076207754082,insufficient_followup
+M2X Energy Inc.,m2xenergy,2024-06-20,2027-06-20,0.5435704398079207,insufficient_followup
+Candid Care Co.,candidcare,2023-12-31,2026-12-31,0.5433705887726628,insufficient_followup
+"Steno Agency, Inc.",stenoagency,2026-03-26,2029-03-26,0.5418302194192046,insufficient_followup
+"Career Allies, Inc.",careerallies,2024-05-17,2027-05-17,0.5404798454933689,insufficient_followup
+"Zocks Communications, INC.",zockscommunications,2025-03-06,2028-03-06,0.5398485439132158,insufficient_followup
+"Trellis Research, Inc.",trellisresearch,2023-08-23,2026-08-23,0.5397318909933955,insufficient_followup
+"Checkpoint Surgical, Inc.",checkpointsurgical,2024-06-13,2027-06-13,0.5389729668156076,insufficient_followup
+"Lumen Orbit, Inc",lumenorbit,2024-10-24,2027-10-24,0.5384522361530161,insufficient_followup
+"Ayr Energy, Inc.",ayrenergy,2026-04-15,2029-04-15,0.5384450599390207,insufficient_followup
+"Segmed, Inc.",segmed,2024-09-03,2027-09-03,0.5368494364557737,insufficient_followup
+NovoLINC Inc.,novolinc,2025-12-18,2028-12-18,0.5367366600325305,insufficient_followup
+"Metaplane, Inc.",metaplane,2024-03-05,2027-03-05,0.5360542800456559,insufficient_followup
+"Relay, Inc.",relay,2026-05-05,2029-05-05,0.5353205705561412,insufficient_followup
+"Sitration, Inc.",sitration,2024-06-05,2027-06-05,0.5345925582655278,insufficient_followup
+ClearVector Inc.,clearvector,2025-05-13,2028-05-13,0.534181151832026,insufficient_followup
+"P0 Security, Inc.",p0security,2024-09-10,2027-09-10,0.5341715806034679,insufficient_followup
+Digital Onboarding Inc.,digitalonboarding,2024-01-18,2027-01-18,0.5334288390645759,insufficient_followup
+"RISA Labs, Inc.",risa,2026-01-13,2029-01-13,0.5326953512664453,insufficient_followup
+"knownwell, inc.",knownwell,2025-10-20,2028-10-20,0.5326164134018011,insufficient_followup
+"Maven, AGI, Inc.",mavenagi,2024-05-29,2027-05-29,0.5324352476277092,insufficient_followup
+"Catena Labs, Inc.",catena,2026-05-20,2029-05-20,0.5322432412720508,insufficient_followup
+Ketryx Corporation,ketryx,2023-12-05,2026-12-05,0.5319427326352907,insufficient_followup
+"Cargado, Inc.",cargado,2025-04-07,2028-04-07,0.5318451585229093,insufficient_followup
+Nuclearn Inc.,nuclearn,2025-09-09,2028-09-09,0.5317953136870028,insufficient_followup
+"Sixfold AI, Inc.",sixfoldai,2024-06-05,2027-06-05,0.5317594321282608,insufficient_followup
+"Rally HQ, Inc.",rallyhq,2025-06-02,2028-06-02,0.5317109575792368,insufficient_followup
+Noodle Cat Games Company,noodlecatgames,2023-10-20,2026-10-20,0.5317081976333633,insufficient_followup
+"Shenzhen Jiecheng Nickel Cobalt New Energy Technology Co., Ltd.",shenzhenjiechengnickelcobaltnewenergy,2026-04-30,2029-04-30,0.5311377914471376,insufficient_followup
+"Andium, Inc.",andium,2024-10-29,2027-10-29,0.5309827817865076,insufficient_followup
+"Cinder Technologies, Inc.",cinder,2026-05-12,2029-05-12,0.5296805343257768,insufficient_followup
+"Ursa Major Technologies, Inc.",ursamajor,2025-11-18,2028-11-18,0.5285930579636535,insufficient_followup
+"Steelhead Technologies, Inc.",steelhead,2024-11-12,2027-11-12,0.5285695122170899,insufficient_followup
+"Layr Holdings, Inc.",layr,2023-10-24,2026-10-24,0.5278087405404017,insufficient_followup
+DittoLive Incorporated,dittolive,2025-03-06,2028-03-06,0.527569219062408,insufficient_followup
+"Prescient AI, Inc.",prescientai,2024-03-12,2027-03-12,0.5273208566884189,insufficient_followup
+"InStride Health, Inc.",instridehealth,2026-06-15,2029-06-15,0.5269968710685887,insufficient_followup
+Hocco Industries Private Limited,hoccoindustriesprivate,2025-09-27,2028-09-27,0.5265938052699206,insufficient_followup
+"Lyzr, Inc.",lyzr,2026-03-09,2029-03-09,0.5264601006501991,insufficient_followup
+Searchable Limited,searchable,2026-05-18,2029-05-18,0.5253153684149242,insufficient_followup
+"HighByte, Inc.",highbyte,2024-04-23,2027-04-23,0.5246267950226396,insufficient_followup
+Progressive Growth Partners Pty Ltd,progressivegrowthpartnerspty,2024-10-10,2027-10-10,0.5241208865000089,insufficient_followup
+"Podcastle, Inc.",podcastle,2024-02-01,2027-02-01,0.5229858344787289,insufficient_followup
+"Visana Health, Inc.",visanahealth,2025-08-18,2028-08-18,0.5223746888306554,insufficient_followup
+"Power Life Sciences, Inc.",powerlifesciences,2023-12-22,2026-12-22,0.5223537373140091,insufficient_followup
+Private Tech Inc.,privatetech,2025-03-19,2028-03-19,0.5209695771653083,insufficient_followup
+"Simplifyber, Inc.",simplifyber,2025-04-10,2028-04-10,0.5206229431247318,insufficient_followup
+Far Homes Inc.,farhomes,2025-12-18,2028-12-18,0.5190470260357558,insufficient_followup
+Evertune Inc.,evertune,2025-08-12,2028-08-12,0.5188665466977862,insufficient_followup
+"Qventus, Inc.",qventus,2025-01-13,2028-01-13,0.5186116953722432,insufficient_followup
+"ASMOne, Inc.",asmone,2026-04-20,2029-04-20,0.5183886039980423,insufficient_followup
+"Blockskye, Inc.",blockskye,2025-07-17,2028-07-17,0.517575462736995,insufficient_followup
+"Glycomine, Inc.",glycomine,2025-04-16,2028-04-16,0.5175257035511455,insufficient_followup
+GRANATA BIO Corp,granatabio,2025-01-15,2028-01-15,0.5175238541899363,insufficient_followup
+"Topicals RX, Inc.",topicalsrx,2024-03-14,2027-03-14,0.5173366366297667,insufficient_followup
+"OffDeal, Inc.",offdeal,2025-07-29,2028-07-29,0.517328404639331,insufficient_followup
+"Talus Bioscience, Inc.",talusbioscience,2024-08-20,2027-08-20,0.5171372757575401,insufficient_followup
+"Nanjing Guiji Zhineng Technology Co., Ltd.",nanjingguijizhineng,2025-05-31,2028-05-31,0.5166539737797873,insufficient_followup
+Liminal Insights Inc.,liminalinsights,2024-10-15,2027-10-15,0.5161261657264798,insufficient_followup
+"Phospholutions, Inc.",phospholutions,2023-08-10,2026-08-10,0.5156290996872878,insufficient_followup
+Chai Research Corp.,chairesearch,2023-09-24,2026-09-24,0.5156169572546218,insufficient_followup
+Omni Pet Limited,omnipet,2026-06-22,2029-06-22,0.5148120734456345,insufficient_followup
+"Portkey, Inc",portkey,2026-02-19,2029-02-19,0.5145116139590588,insufficient_followup
+"Shepherd Labs, Inc.",shepherd,2024-02-07,2027-02-07,0.5144345069566348,insufficient_followup
+"Ottometric, Inc",ottometric,2025-04-01,2028-04-01,0.5143683599864883,insufficient_followup
+Intus Care Inc.,intuscare,2025-01-16,2028-01-16,0.5142767100458194,insufficient_followup
+"Hangzhou Highlight Pharmaceutical Co., Ltd.",hangzhouhighlightpharmaceutical,2025-11-28,2028-11-28,0.5141865025846457,insufficient_followup
+SuperOps Inc.,superops,2023-10-10,2026-10-10,0.5128277379225572,insufficient_followup
+Workwise Solutions Inc.,workwisesolutions,2025-09-25,2028-09-25,0.5121831911565689,insufficient_followup
+Hidden Level Inc.,hiddenlevel,2025-02-03,2028-02-03,0.5120379991460607,insufficient_followup
+Clerq Inc.,clerq,2025-09-12,2028-09-12,0.5120196134127514,insufficient_followup
+"Luminary Cloud, Inc.",luminarycloud,2025-09-15,2028-09-15,0.5117107244299132,insufficient_followup
+"HYPERCRAFT, INC.",hypercraft,2025-06-04,2028-06-04,0.5116934742362753,insufficient_followup
+"UZURV Holdings, Inc.",uzurv,2024-02-14,2027-02-14,0.5112605793924323,insufficient_followup
+"EdgeRunner AI, Inc.",edgerunnerai,2025-05-01,2028-05-01,0.5109886548080635,insufficient_followup
+"FlyGuys, Inc.",flyguys,2025-06-13,2028-06-13,0.5098216250711586,insufficient_followup
+"Concourse Technologies, Inc.",concourse,2026-01-27,2029-01-27,0.5087928569261494,insufficient_followup
+"Bolster, Inc.",bolster,2024-05-22,2027-05-22,0.5082604261473209,insufficient_followup
+"Workweek Media, Inc.",workweekmedia,2024-04-19,2027-04-19,0.5065312512479379,insufficient_followup
+"Foundation Alloy Technology Explorations, Inc.",foundationalloyexplorations,2026-06-16,2029-06-16,0.5065237296677118,insufficient_followup
+"cTRL Therapeutics USA, Inc.",ctrltherapeuticsusa,2024-09-27,2027-09-27,0.5056942980272203,insufficient_followup
+"Refraction Point, Inc.",refractionpoint,2024-02-07,2027-02-07,0.5053380396332519,insufficient_followup
+PlumHQ,plumhq,2026-03-26,2029-03-26,0.5052762517261942,insufficient_followup
+Analog One Corporation,analogone,2025-01-27,2028-01-27,0.5052159239270007,insufficient_followup
+Unify AI Business Corp,unifyaibusiness,2024-10-08,2027-10-08,0.5047423154128955,insufficient_followup
+IMTC Inc.,imtc,2025-12-04,2028-12-04,0.5033451420835978,insufficient_followup
+"Saleo, Inc.",saleo,2023-10-05,2026-10-05,0.5032522800820767,insufficient_followup
+Knapsack Company,knapsack,2025-05-02,2028-05-02,0.5028213324507124,insufficient_followup
+"Aiera, Inc.",aiera,2025-06-02,2028-06-02,0.502271059885951,insufficient_followup
+"WeatherPromise, Inc.",weatherpromise,2026-01-13,2029-01-13,0.5022100050216105,insufficient_followup
+"Stacklet, Inc.",stacklet,2024-06-04,2027-06-04,0.5020339850428155,insufficient_followup
+"Alembic Technologies, Inc.",alembic,2025-03-28,2028-03-28,0.5017154058190479,insufficient_followup
+pValue Inc.,pvalue,2025-03-25,2028-03-25,0.5014080764289145,insufficient_followup
+"Arcade Software, Inc.",arcadesoftware,2024-11-17,2027-11-17,0.5008736211257074,insufficient_followup
+"ThayerMahan, Inc.",thayermahan,2024-01-09,2027-01-09,0.5008182812405948,insufficient_followup
+"Viscardia, Inc.",viscardia,2025-12-02,2028-12-02,0.5007602058870939,insufficient_followup
+Tipping Mr Pink Pvt Ltd,tippingmrpinkpvt,2026-03-18,2029-03-18,0.5004403393716693,insufficient_followup
+"Cutback Coach, Inc.",cutbackcoach,2023-11-15,2026-11-15,0.5003811108245472,insufficient_followup
+Claros Technologies Inc.,claros,2025-02-27,2028-02-27,0.4984612285477754,insufficient_followup
+"Rilian Technologies, Inc.",rilian,2026-04-23,2029-04-23,0.4984340954180459,insufficient_followup
+"Mojave Energy Systems, Inc.",mojaveenergysystems,2024-12-18,2027-12-18,0.49843363468140595,insufficient_followup
+Baton Market Inc.,batonmarket,2025-01-21,2028-01-21,0.49833410742439127,insufficient_followup
+"Winsome Truth, Inc.",winsometruth,2024-09-10,2027-09-10,0.4978872709131436,insufficient_followup
+Avextra AG,avextraag,2024-02-07,2027-02-07,0.4972041311354459,insufficient_followup
+"Figur8, Inc.",figur8,2023-08-08,2026-08-08,0.49715068287689035,insufficient_followup
+Elixir Technologies Ltd.,elixir,2024-03-12,2027-03-12,0.496915797594683,insufficient_followup
+"Allure Security Technology, Inc.",alluresecurity,2024-04-03,2027-04-03,0.4967622809413182,insufficient_followup
+"Salted, Inc.",salted,2023-10-17,2026-10-17,0.4955684976356433,insufficient_followup
+BotBuilt Inc.,botbuilt,2023-12-27,2026-12-27,0.4951069180134577,insufficient_followup
+Piston Technologies Inc.,piston,2026-06-01,2029-06-01,0.4941625499503767,insufficient_followup
+Hakimo Inc.,hakimo,2026-07-08,2029-07-08,0.4941480473660811,insufficient_followup
+"Eradivir, Inc.",eradivir,2025-10-07,2028-10-07,0.49348646287189984,insufficient_followup
+"Silent Push, Inc.",silentpush,2024-12-11,2027-12-11,0.49301487885882617,insufficient_followup
+"Carpool Logistics, Inc.",carpoollogistics,2025-03-12,2028-03-12,0.49288554202859686,insufficient_followup
+"Kyron Learning, PBC",kyronlearning,2023-11-15,2026-11-15,0.49207885333389084,insufficient_followup
+"10000, Inc.",10000,2025-09-02,2028-09-02,0.49072814799463244,insufficient_followup
+Bespoken Spirits Inc.,bespokenspirits,2025-10-20,2028-10-20,0.49066859613715136,insufficient_followup
+"CytoTronics, Inc.",cytotronics,2024-09-05,2027-09-05,0.4903804784885217,insufficient_followup
+"Labviva, Inc.",labviva,2025-01-13,2028-01-13,0.49024390442236954,insufficient_followup
+Impart Security Inc.,impartsecurity,2025-06-05,2028-06-05,0.48830705606399083,insufficient_followup
+"Rhino HealthTech, Inc.",rhinohealthtech,2023-10-04,2026-10-04,0.48818369439861187,insufficient_followup
+Enable Dental Inc.,enabledental,2024-11-05,2027-11-05,0.4880736974658681,insufficient_followup
+Swachh Saathi Private Limited,swachhsaathiprivate,2025-08-12,2028-08-12,0.48785004766380236,insufficient_followup
+"Envisagenics, Inc.",envisagenics,2024-06-04,2027-06-04,0.4868445922417411,insufficient_followup
+Rivet Work Inc.,rivetwork,2025-06-12,2028-06-12,0.485609001288276,insufficient_followup
+"Fond of You, Inc.",fondofyou,2026-02-10,2029-02-10,0.48559384176567455,insufficient_followup
+PPIO,ppio,2025-04-30,2028-04-30,0.4849670867207669,insufficient_followup
+Upward Financial Inc.,upwardfinancial,2025-11-10,2028-11-10,0.48355499338210367,insufficient_followup
+"Navigantis, Inc.",navigantis,2024-07-25,2027-07-25,0.48346965330762676,insufficient_followup
+MeaCor Inc.,meacor,2024-05-14,2027-05-14,0.4828855772773074,insufficient_followup
+Pico MES Inc.,picomes,2023-08-22,2026-08-22,0.4826195842280633,insufficient_followup
+Scitara Corporation,scitara,2026-06-18,2029-06-18,0.4825103538905551,insufficient_followup
+"Wuhan Changjin Photonics Technology Co., Ltd (SHSE:688635)",wuhanchangjinphotonicsshse688635,2025-03-26,2028-03-26,0.4822971985569345,insufficient_followup
+"Chizhou Yunzhong Electronic Science & Technology Co., Ltd.",chizhouyunzhongelectronicscience,2025-12-16,2028-12-16,0.48185592193263177,insufficient_followup
+"Exum Instruments, Inc.",exuminstruments,2024-03-22,2027-03-22,0.48099721684514685,insufficient_followup
+LiveFlow Inc.,liveflow,2024-09-24,2027-09-24,0.47992689261327376,insufficient_followup
+HeraldAPI Inc.,heraldapi,2024-10-16,2027-10-16,0.4797369340559181,insufficient_followup
+"Ventiva, Inc.",ventiva,2024-02-21,2027-02-21,0.4784831171013834,insufficient_followup
+"Dinari, Inc.",dinari,2025-05-01,2028-05-01,0.47817639036470444,insufficient_followup
+"Nirmata, Inc.",nirmata,2025-02-10,2028-02-10,0.4780227944462313,insufficient_followup
+Bioniq Health-Tech Solutions Limited,bioniqhealthtechsolutions,2024-10-22,2027-10-22,0.4777658786120587,insufficient_followup
+"RAD Security, Inc.",radsecurity,2025-02-24,2028-02-24,0.47773757579716436,insufficient_followup
+"FINDMINE, Inc.",findmine,2024-04-30,2027-04-30,0.47590161533995784,insufficient_followup
+"ABXR Labs, Inc.",abxr,2024-08-13,2027-08-13,0.4751464679600906,insufficient_followup
+SingleFile Technologies Inc.,singlefile,2025-02-19,2028-02-19,0.47389547633675,insufficient_followup
+"OPAQUE Systems, Inc.",opaquesystems,2026-02-12,2029-02-12,0.4736599239170623,insufficient_followup
+"Uplinq, Inc.",uplinq,2025-05-12,2028-05-12,0.47355389659650493,insufficient_followup
+"Mosh, PBC",mosh,2026-05-06,2029-05-06,0.47310020520845947,insufficient_followup
+AgZen Inc.,agzen,2026-02-20,2029-02-20,0.47264661467147034,insufficient_followup
+"Newton Research, Inc.",newtonresearch,2025-08-05,2028-08-05,0.4722004926724812,insufficient_followup
+"Ocean Aero, Inc.",oceanaero,2026-01-20,2029-01-20,0.47156197461782745,insufficient_followup
+"Compa Technologies, Inc.",compa,2024-05-20,2027-05-20,0.4714024128637654,insufficient_followup
+Vividly Inc.,vividly,2025-01-14,2028-01-14,0.4711158061270539,insufficient_followup
+"Upheal, Inc.",upheal,2024-11-14,2027-11-14,0.4695551351258447,insufficient_followup
+"GrailPay Holdings, Inc.",grailpay,2026-06-25,2029-06-25,0.4692029506042265,insufficient_followup
+"Squint, Inc.",squint,2023-11-29,2026-11-29,0.4690341982161175,insufficient_followup
+"SWARM Engineering, Inc.",swarmengineering,2026-06-10,2029-06-10,0.468907962801827,insufficient_followup
+Immerse Inc.,immerse,2024-01-08,2027-01-08,0.4682458177051393,insufficient_followup
+"Hangzhou Ganzhicao Technology Co., Ltd.",hangzhouganzhicao,2026-01-31,2029-01-31,0.46694097219537833,insufficient_followup
+"Multitude Insights, Inc.",multitudeinsights,2026-02-27,2029-02-27,0.4665944223368912,insufficient_followup
+"Joy Memories, Inc.",joymemories,2025-11-12,2028-11-12,0.4661049820660066,insufficient_followup
+"Nooks Communications, Inc.",nookscommunications,2024-04-24,2027-04-24,0.4656258581178857,insufficient_followup
+EMTECH Solutions Inc.,emtechsolutions,2024-09-10,2027-09-10,0.4648792901078751,insufficient_followup
+ZBiotics Company,zbiotics,2024-04-09,2027-04-09,0.46472705897611155,insufficient_followup
+Spade Data Inc.,spadedata,2023-12-05,2026-12-05,0.46375943200407616,insufficient_followup
+"Pow Genetic Solutions, Inc.",powgeneticsolutions,2023-10-04,2026-10-04,0.4635601973121485,insufficient_followup
+"CoverForce, Inc.",coverforce,2025-03-05,2028-03-05,0.46267907841663164,insufficient_followup
+Framework Computer Inc,frameworkcomputer,2024-04-23,2027-04-23,0.46266641264182684,insufficient_followup
+"Solestial, Inc.",solestial,2025-05-15,2028-05-15,0.4619069667470309,insufficient_followup
+"Trillium Renewable Chemicals, Inc.",trilliumrenewablechemicals,2026-05-05,2029-05-05,0.46080234955290644,insufficient_followup
+"Xanadu Bio, Inc.",xanadubio,2025-08-27,2028-08-27,0.460726120515723,insufficient_followup
+"Clazar, Inc.",clazar,2024-04-18,2027-04-18,0.46059397243532574,insufficient_followup
+"Anodyne Nanotech, Inc.",anodynenanotech,2026-06-11,2029-06-11,0.46052875901813256,insufficient_followup
+"Zuub, Inc.",zuub,2024-06-25,2027-06-25,0.46044289281818884,insufficient_followup
+"Roam Home, Inc.",roamhome,2025-04-02,2028-04-02,0.4601844277368633,insufficient_followup
+Branch Energy Holdings Inc.,branchenergy,2024-08-07,2027-08-07,0.46007704217971407,insufficient_followup
+"Foundation Devices, Inc.",foundationdevices,2026-01-20,2029-01-20,0.45839733212636746,insufficient_followup
+"Equipifi, Inc.",equipifi,2026-05-14,2029-05-14,0.4581126855998475,insufficient_followup
+"Shenzhen Camsense Technologies Co., Ltd.",shenzhencamsense,2025-09-25,2028-09-25,0.4578876589698115,insufficient_followup
+Heyday Health Corporation,heydayhealth,2024-06-24,2027-06-24,0.4572717395516438,insufficient_followup
+"Cheetah Technologies, Inc.",cheetah,2024-05-09,2027-05-09,0.45654475533859973,insufficient_followup
+SmartCoin Financials Private Limited,smartcoinfinancialsprivate,2026-02-09,2029-02-09,0.45629638067781797,insufficient_followup
+"Access Vascular, Inc.",accessvascular,2023-10-31,2026-10-31,0.4558324346259365,insufficient_followup
+"Transfr, Inc.",transfr,2023-09-28,2026-09-28,0.45582693147228176,insufficient_followup
+"Moon Technologies, Inc.",moon,2026-03-05,2029-03-05,0.4556996280086205,insufficient_followup
+"Monnai, Inc.",monnai,2026-01-14,2029-01-14,0.4554538502795414,insufficient_followup
+Lunar Outpost Inc,lunaroutpost,2024-11-13,2027-11-13,0.4552436333603735,insufficient_followup
+"Frostbyte Technologies, Inc",frostbyte,2024-04-24,2027-04-24,0.45417928383412653,insufficient_followup
+"farm-ng, Inc.",farmng,2024-01-18,2027-01-18,0.4536254352903635,insufficient_followup
+"10Beauty, Inc.",10beauty,2024-02-06,2027-02-06,0.4535318004461736,insufficient_followup
+"GreenSpark Software, Inc.",greensparksoftware,2024-01-19,2027-01-19,0.45328867647965887,insufficient_followup
+"StackShare, Inc.",stackshare,2024-08-01,2027-08-01,0.45288529860492355,insufficient_followup
+Pomerium Inc.,pomerium,2024-06-20,2027-06-20,0.452719118015821,insufficient_followup
+"Glimpse Engineering, Inc.",glimpseengineering,2025-03-05,2028-03-05,0.45186100201031776,insufficient_followup
+"Arpio, Inc.",arpio,2026-06-03,2029-06-03,0.4508525224300855,insufficient_followup
+"Torpago, Inc.",torpago,2024-06-06,2027-06-06,0.45066930053193077,insufficient_followup
+"Leapfrog Power, Inc.",leapfrogpower,2023-11-16,2026-11-16,0.45002946410362443,insufficient_followup
+"Opsera, Inc.",opsera,2023-10-04,2026-10-04,0.4477769691243234,insufficient_followup
+"Ovation Up, Inc.",ovationup,2024-06-20,2027-06-20,0.4475438180052491,insufficient_followup
+"Enspire DBS Therapy, Inc.",enspiredbstherapy,2026-01-13,2029-01-13,0.4473437235147208,insufficient_followup
+"Hunan KunlunMeta Artificial Intelligence Application Software Co., Ltd.",hunankunlunmetaartificialintelligenceapplicationsoftware,2026-06-07,2029-06-07,0.4471635750599588,insufficient_followup
+"Saltbox, Inc.",saltbox,2026-05-06,2029-05-06,0.447149379006685,insufficient_followup
+"LongBio Pharma (Suzhou) Co., Ltd. (SEHK:1779)",longbiopharmasuzhousehk1779,2023-12-07,2026-12-07,0.44690840823813616,insufficient_followup
+"Pair Team, PBC",pairteam,2024-06-10,2027-06-10,0.4464664719973779,insufficient_followup
+"FairPlay AI, Inc.",fairplayai,2025-02-28,2028-02-28,0.4443040127577219,insufficient_followup
+"OfferFit, Inc.",offerfit,2024-12-31,2027-12-31,0.44371888253483455,insufficient_followup
+"HazelTree Fund Services, Inc.",hazeltreefundservices,2024-12-20,2027-12-20,0.441734379754379,insufficient_followup
+"Electric Solidus, Inc.",electricsolidus,2025-10-01,2028-10-01,0.44072043648025166,insufficient_followup
+"Allermi, Inc.",allermi,2024-12-31,2027-12-31,0.44068493943958437,insufficient_followup
+"Stride Funding, Inc.",stridefunding,2024-04-26,2027-04-26,0.4404819014457359,insufficient_followup
+"Kyros Care, PBC",kyroscare,2023-08-23,2026-08-23,0.44047778523388514,insufficient_followup
+"Empirical Spine, Inc.",empiricalspine,2024-06-20,2027-06-20,0.4398698155090315,insufficient_followup
+"Iron Sheepdog Holdings, Inc.",ironsheepdog,2024-03-25,2027-03-25,0.4398541429968614,insufficient_followup
+"BeMe Health, Inc",bemehealth,2024-08-22,2027-08-22,0.43894319627382816,insufficient_followup
+"Workshop Software, Inc.",workshopsoftware,2025-03-18,2028-03-18,0.4387832892762533,insufficient_followup
+"Lumia Health, Inc.",lumiahealth,2026-04-09,2029-04-09,0.4378682181953972,insufficient_followup
+"Beamable, Inc.",beamable,2025-02-04,2028-02-04,0.43730944303691355,insufficient_followup
+"Laminar, Inc.",laminar,2025-05-15,2028-05-15,0.43604513229421127,insufficient_followup
+"DUST Identity, Inc.",dustidentity,2023-12-05,2026-12-05,0.4354720131720022,insufficient_followup
+"Overview Energy, Inc.",overviewenergy,2024-09-12,2027-09-12,0.43456785933068987,insufficient_followup
+"D-Tools, Inc.",dtools,2025-08-05,2028-08-05,0.4344602410266249,insufficient_followup
+"WorkHack, Inc.",workhack,2025-10-14,2028-10-14,0.43344339169225604,insufficient_followup
+Fleek Commerce Inc.,fleekcommerce,2024-11-12,2027-11-12,0.4329675411778249,insufficient_followup
+Connie Health Inc.,conniehealth,2026-06-18,2029-06-18,0.43280533470533683,insufficient_followup
+"Ekotrope, Inc.",ekotrope,2025-10-10,2028-10-10,0.43259207381823406,insufficient_followup
+"State Space Labs, Inc.",statespace,2026-04-14,2029-04-14,0.43245965731616276,insufficient_followup
+"Tempo Therapeutics, Inc.",tempotherapeutics,2024-03-15,2027-03-15,0.4317851735477546,insufficient_followup
+"Prospyr Medical, Inc.",prospyrmedical,2025-12-15,2028-12-15,0.4316873835576748,insufficient_followup
+"zizzl holding company, inc.",zizzlholding,2026-04-01,2029-04-01,0.4308216898818341,insufficient_followup
+"AvoMD, Inc.",avomd,2026-03-31,2029-03-31,0.4291946991316935,insufficient_followup
+"Mojo AI, Inc.",mojoai,2026-02-24,2029-02-24,0.4290280851176977,insufficient_followup
+"Olio Health, Inc.",oliohealth,2025-05-12,2028-05-12,0.4289069228772706,insufficient_followup
+CollX Inc.,collx,2025-02-13,2028-02-13,0.4276600108084842,insufficient_followup
+"Carbon Insurance, Inc.",carboninsurance,2024-03-28,2027-03-28,0.4273378077506395,insufficient_followup
+"Hunan Mabgeek Biotech Co., Ltd.",hunanmabgeekbiotech,2024-04-24,2027-04-24,0.4270434632422577,insufficient_followup
+"Sojo Industries, Inc.",sojoindustries,2024-07-23,2027-07-23,0.42644191539648457,insufficient_followup
+"Enteligent, Inc.",enteligent,2024-05-14,2027-05-14,0.42574311873491,insufficient_followup
+Tausight Inc.,tausight,2023-08-15,2026-08-15,0.42574296278919777,insufficient_followup
+PPLabs Technology Limited,pplabs,2025-04-30,2028-04-30,0.4254548692093883,insufficient_followup
+"Kryptos Biotechnologies, Inc.",kryptosbiotechnologies,2024-03-28,2027-03-28,0.42539484811748224,insufficient_followup
+"General Counsel AI, Inc.",generalcounselai,2025-05-30,2028-05-30,0.4249656699426915,insufficient_followup
+"Fanbase Social Media, Inc.",fanbasesocialmedia,2025-12-17,2028-12-17,0.4246064256391841,insufficient_followup
+Dawn Aerospace Limited,dawnaerospace,2026-06-16,2029-06-16,0.4228680539572799,insufficient_followup
+"Ubiety Technologies, Inc.",ubiety,2025-01-07,2028-01-07,0.4226671989981252,insufficient_followup
+"arqu, Inc.",arqu,2024-09-22,2027-09-22,0.4217964289942677,insufficient_followup
+Adyton PBC Inc.,adyton,2025-05-14,2028-05-14,0.42005410679958105,insufficient_followup
+CRISPRQC Inc.,crisprqc,2024-01-04,2027-01-04,0.418245808395136,insufficient_followup
+"Bigleaf Networks, Inc.",bigleafnetworks,2025-03-03,2028-03-03,0.417167525548777,insufficient_followup
+"Avesha, Inc.",avesha,2024-10-11,2027-10-11,0.41667288594267116,insufficient_followup
+HouseAmp Inc.,houseamp,2024-07-30,2027-07-30,0.4157894385708313,insufficient_followup
+Rem3dy Health Limited,rem3dyhealth,2026-06-09,2029-06-09,0.4156380479170293,insufficient_followup
+Helm Health Corp,helmhealth,2026-03-23,2029-03-23,0.4150711094446965,insufficient_followup
+"DocToMe, Inc.",doctome,2025-09-25,2028-09-25,0.41461538619005145,insufficient_followup
+"Creator Networks, Inc.",creatornetworks,2025-09-09,2028-09-09,0.41417090270644297,insufficient_followup
+"Snout, Inc.",snout,2025-08-12,2028-08-12,0.4131433529238636,insufficient_followup
+NuTiliti Inc.,nutiliti,2025-06-26,2028-06-26,0.41276221163723603,insufficient_followup
+"4D Path, Inc.",4dpath,2026-05-05,2029-05-05,0.4127401988427865,insufficient_followup
+"Uplandme, Inc.",uplandme,2023-10-20,2026-10-20,0.412286987504078,insufficient_followup
+"SimplyWise, Inc.",simplywise,2025-10-23,2028-10-23,0.41182743695693563,insufficient_followup
+"XL Batteries, Inc.",xlbatteries,2025-07-23,2028-07-23,0.41081431291376047,insufficient_followup
+Line Services Inc.,lineservices,2025-11-18,2028-11-18,0.4103302268236375,insufficient_followup
+MySimplePetLab Inc.,mysimplepetlab,2023-11-15,2026-11-15,0.40989581783482437,insufficient_followup
+Fairly Inc.,fairly,2024-07-02,2027-07-02,0.4071307753712716,insufficient_followup
+REDI Systems Engineering Inc.,redisystemsengineering,2023-09-02,2026-09-02,0.4066341723563988,insufficient_followup
+"Encellin, Inc.",encellin,2023-12-13,2026-12-13,0.40566674144266895,insufficient_followup
+"Better Health Supplies, Inc.",betterhealthsupplies,2024-06-13,2027-06-13,0.4049878193228937,insufficient_followup
+"Virtue AI, Inc.",virtueai,2025-04-15,2028-04-15,0.4048160781082522,insufficient_followup
+"STAQ Pharma, Inc.",staqpharma,2025-09-16,2028-09-16,0.4038175827100396,insufficient_followup
+"Vantis Vascular, Inc.",vantisvascular,2024-12-12,2027-12-12,0.40355005665362265,insufficient_followup
+"Pearl Diagnostics, Inc.",pearldiagnostics,2026-04-21,2029-04-21,0.4028896600582857,insufficient_followup
+"Folia Health, Inc.",foliahealth,2025-10-01,2028-10-01,0.4020006734639222,insufficient_followup
+"Livly, Inc.",livly,2024-08-13,2027-08-13,0.4015957254518522,insufficient_followup
+"Notabene, Inc.",notabene,2024-11-12,2027-11-12,0.399446163251402,insufficient_followup
+Curebay Technologies Private Limited,curebayprivate,2025-05-19,2028-05-19,0.3994332297891181,insufficient_followup
+dottxt Inc.,dottxt,2024-08-31,2027-08-31,0.3978760474203904,insufficient_followup
+"Apeiron Labs, Inc.",apeiron,2026-02-04,2029-02-04,0.3960527453620137,insufficient_followup
+Affinda IP Pty Ltd,affindaippty,2024-06-24,2027-06-24,0.3959795688457919,insufficient_followup
+"ATSG Holdings, Inc.",atsg,2024-01-03,2027-01-03,0.3944224856554738,insufficient_followup
+HILOS Inc.,hilos,2025-05-01,2028-05-01,0.3922064018002721,insufficient_followup
+"Hit Labs, Inc.",hit,2025-12-09,2028-12-09,0.3919087353721108,insufficient_followup
+"Finerpoint, Inc.",finerpoint,2025-10-15,2028-10-15,0.39007828396496874,insufficient_followup
+"Nara Organics, Inc.",naraorganics,2025-02-14,2028-02-14,0.38995813052814965,insufficient_followup
+"Learning Innovation Catalyst, Inc.",learninginnovationcatalyst,2025-08-19,2028-08-19,0.3895967955343925,insufficient_followup
+"Xano, Inc.",xano,2023-10-13,2026-10-13,0.38945883845747165,insufficient_followup
+"AgroSpheres, Inc.",agrospheres,2024-10-09,2027-10-09,0.38860209592942685,insufficient_followup
+"Woan Technology (Shenzhen) Co., Ltd.",woanshenzhen,2025-05-31,2028-05-31,0.3874025842154493,insufficient_followup
+"Engage Mobilize, Inc.",engagemobilize,2026-03-20,2029-03-20,0.3863941906278391,insufficient_followup
+"Grin Technology Services, Inc.",grinservices,2024-05-06,2027-05-06,0.3836316885106636,insufficient_followup
+"GIE Medical, Inc.",giemedical,2023-09-06,2026-09-06,0.38353269672116064,insufficient_followup
+"CircuitHub, Inc.",circuithub,2023-11-15,2026-11-15,0.3820175150898353,insufficient_followup
+carwow Ltd.,carwow,2023-12-05,2026-12-05,0.37887923354780945,insufficient_followup
+"Sylke, Inc.",sylke,2025-07-17,2028-07-17,0.37810074708940683,insufficient_followup
+"Derivita, Inc.",derivita,2024-04-04,2027-04-04,0.37439112886064196,insufficient_followup
+"Lightbend, Inc.",lightbend,2023-09-27,2026-09-27,0.37381170128793556,insufficient_followup
+Castellum.AI Corporation,castellumai,2025-07-08,2028-07-08,0.370852736035934,insufficient_followup
+"ConsumerDirect, Inc.",consumerdirect,2025-09-30,2028-09-30,0.36983835325256476,insufficient_followup
+"Rejoni, Inc.",rejoni,2023-10-18,2026-10-18,0.3698336359885522,insufficient_followup
+Brother Justus Whiskey Co.,brotherjustuswhiskey,2025-07-16,2028-07-16,0.3689497143954801,insufficient_followup
+CloudZero Inc.,cloudzero,2023-12-06,2026-12-06,0.3674776481264788,insufficient_followup
+"Chord Commerce, Inc.",chordcommerce,2025-03-27,2028-03-27,0.3673525455106988,insufficient_followup
+"TeamOhana, Inc.",teamohana,2024-08-26,2027-08-26,0.3611860917495453,insufficient_followup
+Flash Scientific Technology Inc.,flashscientific,2024-12-09,2027-12-09,0.3611310127662705,insufficient_followup
+"Cellibre, Inc.",cellibre,2024-10-09,2027-10-09,0.3590838698139725,insufficient_followup
+"Sun Genomics, Inc.",sungenomics,2023-12-19,2026-12-19,0.3569556412791739,insufficient_followup
+Hawaiian Bros Inc.,hawaiianbros,2023-08-18,2026-08-18,0.3540548855896794,insufficient_followup
+Huons Lab,huonslab,2025-04-30,2028-04-30,0.35394858236380566,insufficient_followup
+Beacon Tech Inc.,beacontech,2025-01-02,2028-01-02,0.35385896840096953,insufficient_followup
+"Eisen, Inc.",eisen,2026-05-19,2029-05-19,0.3521548017300884,insufficient_followup
+"UserEvidence, Inc.",userevidence,2025-08-27,2028-08-27,0.34989913322220534,insufficient_followup
+"Guidelight Technologies, Inc",guidelight,2026-05-26,2029-05-26,0.34982161313648624,insufficient_followup
+Aki Network,akinetwork,2023-12-15,2026-12-15,0.34912288137118336,insufficient_followup
+"Jutiso, Inc.",jutiso,2025-09-18,2028-09-18,0.3485342113023196,insufficient_followup
+"BACH APP, INC.",bachapp,2025-10-29,2028-10-29,0.34701743965988224,insufficient_followup
+Wholsum Foods Pvt. Ltd.,wholsumfoodspvt,2026-02-10,2029-02-10,0.3462148279010949,insufficient_followup
+Krowdsourced Inc.,krowdsourced,2023-08-01,2026-08-01,0.34616836161697345,insufficient_followup
+"Atomo Coffee, Inc.",atomocoffee,2025-01-10,2028-01-10,0.34610610050267476,insufficient_followup
+Centaur Labs Inc.,centaur,2024-10-08,2027-10-08,0.3446121306470186,insufficient_followup
+"Your Poppy, Inc.",yourpoppy,2024-05-14,2027-05-14,0.3438473855156985,insufficient_followup
+Circular Genomics Inc.,circulargenomics,2024-01-24,2027-01-24,0.34368728170770424,insufficient_followup
+"Kasisto, Inc.",kasisto,2024-09-17,2027-09-17,0.34250923944560757,insufficient_followup
+"Caliza Financial Technologies, Inc.",calizafinancial,2024-07-15,2027-07-15,0.3402890607549924,insufficient_followup
+"Epi One, Inc.",epione,2024-12-04,2027-12-04,0.3390455682365865,insufficient_followup
+"Feathr, Inc.",feathr,2023-11-30,2026-11-30,0.33814727531069755,insufficient_followup
+"Beijing Shumei Wanwu Technology Co., Ltd.",beijingshumeiwanwu,2025-01-14,2028-01-14,0.3364704095339465,insufficient_followup
+"Bone Health Technologies, Inc.",bonehealth,2026-04-09,2029-04-09,0.333729981681216,insufficient_followup
+Jot Labs Inc,jot,2025-07-17,2028-07-17,0.33103579530517874,insufficient_followup
+Ex Quanta Inc.,exquanta,2024-07-19,2027-07-19,0.330483232712915,insufficient_followup
+"Alkymi, Inc.",alkymi,2025-08-07,2028-08-07,0.329096573325602,insufficient_followup
+"Mindset Medical, Inc.",mindsetmedical,2025-10-07,2028-10-07,0.3280634384070031,insufficient_followup
+"CoPilot Systems, Inc.",copilotsystems,2023-10-04,2026-10-04,0.328022933428163,insufficient_followup
+"Sola Technologies, Inc.",sola,2025-08-26,2028-08-26,0.3268499553143135,insufficient_followup
+Virohan Private Limited,virohanprivate,2024-02-21,2027-02-21,0.3266652823511394,insufficient_followup
+"Conservation Labs, Inc.",conservation,2024-02-21,2027-02-21,0.3260154982874323,insufficient_followup
+CarPutty Inc.,carputty,2024-03-06,2027-03-06,0.3258695582618966,insufficient_followup
+SiteWit Corp.,sitewit,2023-08-03,2026-08-03,0.32584174341192357,insufficient_followup
+"Psyonic, Inc.",psyonic,2024-04-09,2027-04-09,0.32413256248762434,insufficient_followup
+"ProofPilot, Inc.",proofpilot,2024-07-11,2027-07-11,0.3227557700195612,insufficient_followup
+"District Cover, Inc.",districtcover,2025-11-12,2028-11-12,0.3189292799061994,insufficient_followup
+Mintos Marketplace AS,mintosmarketplaceas,2024-04-30,2027-04-30,0.31807605188561955,insufficient_followup
+Inngest Inc.,inngest,2024-02-06,2027-02-06,0.3160175013708835,insufficient_followup
+"Mulberri, Inc.",mulberri,2023-10-17,2026-10-17,0.31508413099621274,insufficient_followup
+"eVisit, Inc.",evisit,2024-06-25,2027-06-25,0.31491726596316266,insufficient_followup
+"International Battery Company, Inc.",internationalbattery,2026-06-18,2029-06-18,0.3148217422011063,insufficient_followup
+"Rubi Laboratories, Inc.",rubilaboratories,2025-12-01,2028-12-01,0.3140722006995596,insufficient_followup
+"Projitech, Inc.",projitech,2024-06-10,2027-06-10,0.31373685630155795,insufficient_followup
+"Intento, Inc.",intento,2023-11-16,2026-11-16,0.31334073301092585,insufficient_followup
+"Proper Good, Inc.",propergood,2024-12-31,2027-12-31,0.31127489384891993,insufficient_followup
+Sedibelo Resources Limited,sedibeloresources,2025-10-17,2028-10-17,0.31097883782207814,insufficient_followup
+"Incredible Tiny Homes, Inc.",incredibletinyhomes,2025-03-04,2028-03-04,0.3107388988857166,insufficient_followup
+Norma Inc.,norma,2024-08-06,2027-08-06,0.3104662547040588,insufficient_followup
+Theia Insights Inc,theiainsights,2026-03-02,2029-03-02,0.30989454239047953,insufficient_followup
+"H2U Technologies, Inc.",h2u,2024-10-23,2027-10-23,0.309615030886801,insufficient_followup
+Transverse Medical Inc.,transversemedical,2023-08-18,2026-08-18,0.3089064930949063,insufficient_followup
+"Jensen Technology, Inc.",jensen,2024-12-20,2027-12-20,0.3086658348848018,insufficient_followup
+"My TabAI, Inc",mytabai,2024-10-24,2027-10-24,0.3086498166650085,insufficient_followup
+"Aperio Systems, Inc.",aperiosystems,2023-08-24,2026-08-24,0.30654053524896735,insufficient_followup
+"Buddy Technology, Inc.",buddy,2024-01-18,2027-01-18,0.3058998206093209,insufficient_followup
+DocStation Inc.,docstation,2023-11-21,2026-11-21,0.3054058521207322,insufficient_followup
+Future Salad,futuresalad,2024-09-29,2027-09-29,0.3027253704945668,insufficient_followup
+"GTM Buddy, Inc.",gtmbuddy,2024-04-09,2027-04-09,0.3013056725585113,insufficient_followup
+"Fort Health, Inc.",forthealth,2024-11-12,2027-11-12,0.30051966558960586,insufficient_followup
+"PeakMetrics, Inc.",peakmetrics,2025-09-03,2028-09-03,0.2998076381881772,insufficient_followup
+Occuspace Inc.,occuspace,2025-03-17,2028-03-17,0.2983091390141979,insufficient_followup
+Bainbridge Growth Incorporated,bainbridgegrowth,2025-08-08,2028-08-08,0.29567968737964634,insufficient_followup
+Sendola Corp.,sendola,2024-01-04,2027-01-04,0.2949467650473659,insufficient_followup
+"Hanx Biopharmaceuticals (Wuhan) Co., Ltd. (SEHK:3378)",hanxbiopharmaceuticalswuhansehk3378,2024-06-30,2027-06-30,0.2932537003202656,insufficient_followup
+"Copernic Catalysts, Inc.",coperniccatalysts,2024-11-12,2027-11-12,0.2928750312696385,insufficient_followup
+"Artists Writers & Artisans, Inc.",artistswritersartisans,2026-05-20,2029-05-20,0.2923649090831255,insufficient_followup
+FlowFuse Inc.,flowfuse,2025-06-12,2028-06-12,0.29171602601006713,insufficient_followup
+Arvist Inc.,arvist,2025-08-13,2028-08-13,0.2916424365496714,insufficient_followup
+"Roo, LLC",roo,2023-12-14,2026-12-14,0.2905025247361839,insufficient_followup
+"Strategikon Pharma, Inc.",strategikonpharma,2024-02-06,2027-02-06,0.2897704505857678,insufficient_followup
+"iSono Health, Inc.",isonohealth,2025-12-31,2028-12-31,0.2896688926899332,insufficient_followup
+"200 Labs, Inc",200,2025-10-26,2028-10-26,0.2896688926899332,insufficient_followup
+QB Health Technologies Pvt. Ltd.,qbhealthpvt,2024-11-05,2027-11-05,0.2892389691798062,insufficient_followup
+"SS Beverages 1, Inc.",ssbeverages1,2025-08-13,2028-08-13,0.2887595360431641,insufficient_followup
+Mihup Communications Private Limited,mihupcommunicationsprivate,2024-10-29,2027-10-29,0.2882573287071695,insufficient_followup
+"Use Steward, Inc.",usesteward,2026-06-01,2029-06-01,0.2855745962150596,insufficient_followup
+Overthrow Hospitality Inc.,overthrowhospitality,2025-04-30,2028-04-30,0.28453812528879296,insufficient_followup
+"Flo Recruit, Inc.",florecruit,2025-05-22,2028-05-22,0.2842523210968443,insufficient_followup
+Cowboy SA,cowboysa,2024-09-04,2027-09-04,0.2837476871839895,insufficient_followup
+Noble Gas Systems Inc.,noblegassystems,2025-03-19,2028-03-19,0.28343523793237635,insufficient_followup
+"Amulet, PBC",amulet,2024-08-12,2027-08-12,0.2822512685764738,insufficient_followup
+"Vita Imaging, Inc.",vitaimaging,2024-06-28,2027-06-28,0.2814866649568037,insufficient_followup
+dappHero Corp.,dapphero,2025-01-28,2028-01-28,0.2793892241116968,insufficient_followup
+"ABH Holdco, Incorporated",abhholdco,2023-12-15,2026-12-15,0.27866937918567486,insufficient_followup
+"Cloudburst Technologies, Inc.",cloudburst,2025-09-22,2028-09-22,0.27838536810439535,insufficient_followup
+Honeypot Finance,honeypotfinance,2025-10-18,2028-10-18,0.27785669330689255,insufficient_followup
+Alusid Ltd,alusid,2025-12-15,2028-12-15,0.27743561079584134,insufficient_followup
+"Gravity Jack, Inc.",gravityjack,2024-09-30,2027-09-30,0.27711708218557657,insufficient_followup
+BetterTime Co.,bettertime,2023-12-06,2026-12-06,0.2749069029254951,insufficient_followup
+"Baige Online Digital Technology Co., Ltd. (SEHK:2672)",baigeonlinedigitalsehk2672,2025-01-31,2028-01-31,0.2742062999542388,insufficient_followup
+"Future Cardia, Inc.",futurecardia,2025-06-23,2028-06-23,0.2737570080997519,insufficient_followup
+"Cmax System, Inc.",cmaxsystem,2025-04-30,2028-04-30,0.2734856205440503,insufficient_followup
+"Novity, Inc.",novity,2026-05-20,2029-05-20,0.27267368447531914,insufficient_followup
+Butterfly Effect Pte. Ltd.,butterflyeffectpte,2023-12-31,2026-12-31,0.2725337492952567,insufficient_followup
+"Peregrine Health, Inc.",peregrinehealth,2024-12-19,2027-12-19,0.2724274894172285,insufficient_followup
+"Cofactor Genomics, Inc.",cofactorgenomics,2025-12-15,2028-12-15,0.27207709720752665,insufficient_followup
+"Quintar, Inc.",quintar,2024-04-08,2027-04-08,0.27135454187921565,insufficient_followup
+"Infinity Bio, Inc.",infinitybio,2025-06-18,2028-06-18,0.2708898253417611,insufficient_followup
+"ALT Sports Data, Inc.",altsportsdata,2026-06-23,2029-06-23,0.27067664280735504,insufficient_followup
+WEB3 Ventures Pty Ltd,web3venturespty,2025-08-18,2028-08-18,0.2703817002989482,insufficient_followup
+"Fujian Lemo Wulian Technology Co., Ltd.",fujianlemowulian,2024-09-30,2027-09-30,0.26996213727924184,insufficient_followup
+Control Plane Corporation,controlplane,2024-01-04,2027-01-04,0.26948913726340273,insufficient_followup
+"BabyQuip, Inc.",babyquip,2023-12-29,2026-12-29,0.26889124757101485,insufficient_followup
+MOLG Inc.,molg,2024-10-09,2027-10-09,0.2680443710351311,insufficient_followup
+"Nada Holdings, Inc.",nada,2024-06-13,2027-06-13,0.26795735272664745,insufficient_followup
+"Aarna Networks, Inc.",aarnanetworks,2024-09-25,2027-09-25,0.26794077012977724,insufficient_followup
+"IJJI, INC.",ijji,2024-05-07,2027-05-07,0.26732607820775606,insufficient_followup
+Agility Holdings Inc.,agility,2024-11-12,2027-11-12,0.26699600455648154,insufficient_followup
+CheckSig S.r.l.,checksigsrl,2026-01-19,2029-01-19,0.2663165129701846,insufficient_followup
+Symbrosia Inc.,symbrosia,2025-12-15,2028-12-15,0.26584017307142177,insufficient_followup
+"OneAdvisory, Inc.",oneadvisory,2024-01-11,2027-01-11,0.26580236170232213,insufficient_followup
+DigitalXForce Corporation,digitalxforce,2026-01-01,2029-01-01,0.26541343296820596,insufficient_followup
+Eye-Net Mobile Ltd.,eyenetmobile,2025-12-04,2028-12-04,0.2651793053263158,insufficient_followup
+"Food Rx and AI, Inc.",foodrxandai,2024-09-30,2027-09-30,0.2639083735561943,insufficient_followup
+Nickelytics Inc.,nickelytics,2024-06-24,2027-06-24,0.2616539954473918,insufficient_followup
+Kayhan Space Corp.,kayhanspace,2023-09-19,2026-09-19,0.2598355011038645,insufficient_followup
+"Accessibly, Inc.",accessibly,2025-01-22,2028-01-22,0.25964087258263546,insufficient_followup
+"Deus Robots, LLC",deusrobots,2024-12-27,2027-12-27,0.25946512012278306,insufficient_followup
+"MD Revolution, Inc.",mdrevolution,2023-08-11,2026-08-11,0.25924804936275125,insufficient_followup
+"Cordata Healthcare Innovations, Inc.",cordatahealthcareinnovations,2025-04-01,2028-04-01,0.25913139894046433,insufficient_followup
+"Lonerider Spirits, LLC",loneriderspirits,2025-04-14,2028-04-14,0.2588944292099667,insufficient_followup
+"Ndustrial.io, Inc.",ndustrialio,2025-01-09,2028-01-09,0.25876246557799354,insufficient_followup
+Mobile Tyre Shop Holdings Pty. Ltd.,mobiletyreshoppty,2025-06-26,2028-06-26,0.2582466346077031,insufficient_followup
+"Roboligent, Inc.",roboligent,2024-09-05,2027-09-05,0.2576370711777072,insufficient_followup
+"Meadowhawk Biolabs, Inc.",meadowhawkbiolabs,2024-07-16,2027-07-16,0.25702580527035523,insufficient_followup
+"Journey Meditation, Inc.",journeymeditation,2025-07-25,2028-07-25,0.25695950741047346,insufficient_followup
+"Plural Labs, Inc.",plural,2025-03-25,2028-03-25,0.25656309286158563,insufficient_followup
+MiLaboratories Inc.,milaboratories,2024-10-10,2027-10-10,0.2562049478861066,insufficient_followup
+"Darmiyan, Inc.",darmiyan,2023-10-18,2026-10-18,0.2559721740432944,insufficient_followup
+Raylu Inc.,raylu,2025-12-01,2028-12-01,0.25581323957784585,insufficient_followup
+Cytonics Corporation,cytonics,2024-05-28,2027-05-28,0.25567497086282936,insufficient_followup
+"Liminal Strategy Partners, LLC",liminalstrategypartners,2025-04-15,2028-04-15,0.2549028063932491,insufficient_followup
+"Independa, Inc.",independa,2025-06-13,2028-06-13,0.2546376971974483,insufficient_followup
+"GovPort Technologies, Inc.",govport,2024-07-17,2027-07-17,0.2544967008665398,insufficient_followup
+EarthGrid PBC,earthgrid,2024-10-15,2027-10-15,0.2538567773063206,insufficient_followup
+"Clarity Financial, Inc.",clarityfinancial,2025-02-11,2028-02-11,0.253408413145762,insufficient_followup
+HYPRLABS Inc.,hyprlabs,2026-02-04,2029-02-04,0.252893802918812,insufficient_followup
+"Parento, Inc.",parento,2025-09-09,2028-09-09,0.25274111084338724,insufficient_followup
+Hiwell Ltd,hiwell,2024-07-02,2027-07-02,0.2524442650658584,insufficient_followup
+Moonware Inc.,moonware,2024-03-21,2027-03-21,0.2504547828579465,insufficient_followup
+Myosin Therapeutics Inc.,myosintherapeutics,2025-02-26,2028-02-26,0.25044895955595853,insufficient_followup
+"Direct Commerce, Inc.",directcommerce,2023-08-03,2026-08-03,0.2502345283379072,insufficient_followup
+"Koop Technologies, Inc.",koop,2023-10-10,2026-10-10,0.2495680399162288,insufficient_followup
+"KromaTiD, Inc.",kromatid,2025-08-20,2028-08-20,0.24906123016890833,insufficient_followup
+"Casechek, Inc.",casechek,2025-09-10,2028-09-10,0.2490464934096125,insufficient_followup
+"Ad Astra Integrity Measurement Systems, Inc.",adastraintegritymeasurementsystems,2025-02-03,2028-02-03,0.24867335324197337,insufficient_followup
+"Bazooka Tango, Inc.",bazookatango,2023-11-16,2026-11-16,0.24766567525436395,insufficient_followup
+Gravity Power Inc.,gravitypower,2025-01-17,2028-01-17,0.2461546704168721,insufficient_followup
+"Valid8 Financial, Inc.",valid8financial,2025-02-27,2028-02-27,0.24609343457936006,insufficient_followup
+"Eli Electric Vehicles, Inc.",elielectricvehicles,2023-09-28,2026-09-28,0.24538439417894525,insufficient_followup
+"Connectly, Inc.",connectly,2023-10-31,2026-10-31,0.24533484931596497,insufficient_followup
+Concreit Inc.,concreit,2024-10-02,2027-10-02,0.24467070429483265,insufficient_followup
+"Just Imagine, Inc.",justimagine,2025-06-04,2028-06-04,0.24463033277317034,insufficient_followup
+"Entytle, Inc.",entytle,2024-03-19,2027-03-19,0.24460427077010594,insufficient_followup
+"Matcherino, Inc.",matcherino,2024-02-26,2027-02-26,0.24414899013491562,insufficient_followup
+Target Arm Inc.,targetarm,2024-07-12,2027-07-12,0.24414899013491562,insufficient_followup
+"StartupCentrum, Inc.",startupcentrum,2024-08-19,2027-08-19,0.24396601737847268,insufficient_followup
+"Feel the World, Inc.",feeltheworld,2025-04-24,2028-04-24,0.24367940991877315,insufficient_followup
+Darkstore at Home,darkstoreathome,2024-07-16,2027-07-16,0.24204146611168018,insufficient_followup
+"Mudstack, Inc.",mudstack,2024-08-19,2027-08-19,0.24196851457661075,insufficient_followup
+Stellaris Corporation,stellaris,2024-08-19,2027-08-19,0.24194784903199582,insufficient_followup
+Mallard Bay Outdoors Inc.,mallardbayoutdoors,2024-03-18,2027-03-18,0.24174524352962837,insufficient_followup
+"NightWare, Inc.",nightware,2026-04-16,2029-04-16,0.2413527610584858,insufficient_followup
+"Harvest Thermal, Inc.",harvestthermal,2024-12-19,2027-12-19,0.24054135692025502,insufficient_followup
+"Pull Logic, Inc.",pulllogic,2026-01-22,2029-01-22,0.24036893868808115,insufficient_followup
+"Peerlogic Technologies, Inc.",peerlogic,2024-01-10,2027-01-10,0.23984006773922256,insufficient_followup
+Clockwork Technologies Inc.,clockwork,2023-10-02,2026-10-02,0.2394754608300929,insufficient_followup
+Zenataris Renewable Energy Private Limited,zenatarisrenewableenergyprivate,2026-05-19,2029-05-19,0.23940908064117167,insufficient_followup
+Earthshot Labs PBC,earthshot,2024-06-30,2027-06-30,0.23928587385614228,insufficient_followup
+Trio Pharmaceuticals Inc,triopharmaceuticals,2024-12-03,2027-12-03,0.2387318547946239,insufficient_followup
+"Momento, Inc.",momento,2023-11-22,2026-11-22,0.23839988749938168,insufficient_followup
+"ShowdMe, Inc.",showdme,2025-07-17,2028-07-17,0.23822974215717213,insufficient_followup
+Tapline GmbH,taplinegmbh,2023-10-05,2026-10-05,0.2376991332577657,insufficient_followup
+"WiGL eNERGY, Inc.",wiglenergy,2025-02-28,2028-02-28,0.23736291824915676,insufficient_followup
+Cafeteria Inc.,cafeteria,2025-07-28,2028-07-28,0.23610132420661703,insufficient_followup
+"Bomb Enterprises, Inc.",bombenterprises,2025-02-12,2028-02-12,0.23573919200747037,insufficient_followup
+"Bean Box, Inc.",beanbox,2024-02-19,2027-02-19,0.23523964925004046,insufficient_followup
+Kabra Global Products Private Limited,kabraglobalproductsprivate,2025-06-24,2028-06-24,0.23406305325880492,insufficient_followup
+W Capital Markets Pte Ltd,wcapitalmarketspte,2024-12-31,2027-12-31,0.2338536275432988,insufficient_followup
+"Nanochon, Inc.",nanochon,2026-01-12,2029-01-12,0.2338487502481181,insufficient_followup
+Ideal Insurance Brokers PVT Ltd,idealinsurancebrokerspvt,2024-04-25,2027-04-25,0.2337642046087253,insufficient_followup
+"Ritten, Inc.",ritten,2024-05-29,2027-05-29,0.23341404801438667,insufficient_followup
+LogRock Inc.,logrock,2025-04-02,2028-04-02,0.23226616421316096,insufficient_followup
+"AMOpportunities, Inc.",amopportunities,2023-08-02,2026-08-02,0.23200141774953595,insufficient_followup
+"Freefall Aerospace, Inc.",freefallaerospace,2025-12-17,2028-12-17,0.23167616815013575,insufficient_followup
+"Vida Health, Inc.",vidahealth,2025-07-23,2028-07-23,0.2311578503965873,insufficient_followup
+"HuLoop Automation, Inc.",huloopautomation,2025-01-07,2028-01-07,0.2310327253799345,insufficient_followup
+"OneCrew Software, Inc.",onecrewsoftware,2025-05-27,2028-05-27,0.23080988580882308,insufficient_followup
+"Tellius, Inc.",tellius,2025-11-25,2028-11-25,0.22995822851057743,insufficient_followup
+Circular Board Inc.,circularboard,2024-04-04,2027-04-04,0.22981736327188315,insufficient_followup
+Kinetic Watts and Volts Limited,kineticwattsandvolts,2025-11-06,2028-11-06,0.2297753121036539,insufficient_followup
+"Frost Giant Studios, Inc.",frostgiantstudios,2024-09-09,2027-09-09,0.22958351895708204,insufficient_followup
+Conduit Software Inc.,conduitsoftware,2026-03-24,2029-03-24,0.22913811145928176,insufficient_followup
+"Campusknot, Inc.",campusknot,2025-10-23,2028-10-23,0.22785114931854203,insufficient_followup
+"GroGuru, Inc.",groguru,2023-08-03,2026-08-03,0.22778532002190569,insufficient_followup
+"Reconstruct, Inc.",reconstruct,2025-05-21,2028-05-21,0.22638679529216343,insufficient_followup
+"Third Eye Health, Inc.",thirdeyehealth,2023-09-11,2026-09-11,0.22569388954449773,insufficient_followup
+Panome Bio Inc.,panomebio,2024-11-21,2027-11-21,0.22567662753556356,insufficient_followup
+"Kara Water, Inc.",karawater,2025-10-16,2028-10-16,0.2255360337490787,insufficient_followup
+Easywin Inc.,easywin,2026-05-06,2029-05-06,0.22549164434354627,insufficient_followup
+"ReelView Fishing, Inc.",reelviewfishing,2025-04-25,2028-04-25,0.2253736169907995,insufficient_followup
+Cann-Ade Corporation,cannade,2025-02-12,2028-02-12,0.22487129621781216,insufficient_followup
+Sigo Technologies Inc.,sigo,2026-07-14,2029-07-14,0.22474883257326678,insufficient_followup
+"Tombot, Inc.",tombot,2025-06-12,2028-06-12,0.22389732733854043,insufficient_followup
+"Starling Solutions, Inc.",starlingsolutions,2023-12-04,2026-12-04,0.22386382945699726,insufficient_followup
+"RIIG Technology, Inc.",riig,2026-04-06,2029-04-06,0.22346670109341515,insufficient_followup
+"KidzToPros, Inc.",kidztopros,2023-10-26,2026-10-26,0.22325302301674846,insufficient_followup
+"InterGen Data, Inc.",intergendata,2025-03-31,2028-03-31,0.22325302301674846,insufficient_followup
+"ChalkTalk Solutions, Inc.",chalktalksolutions,2025-03-06,2028-03-06,0.22325302301674846,insufficient_followup
+"AppMail, Inc.",appmail,2023-10-27,2026-10-27,0.22124071870380518,insufficient_followup
+"NOPALERA, INC.",nopalera,2026-03-24,2029-03-24,0.22105796634827862,insufficient_followup
+"Salo App, Inc.",saloapp,2025-02-24,2028-02-24,0.22012466579656703,insufficient_followup
+"Impruvon, Inc.",impruvon,2025-01-28,2028-01-28,0.21973639435792372,insufficient_followup
+"Yourco, Inc.",yourco,2026-03-09,2029-03-09,0.21951201738434353,insufficient_followup
+"Auxa, Inc.",auxa,2024-04-22,2027-04-22,0.2191843010026612,insufficient_followup
+"Patient Discovery Solutions, Inc.",patientdiscoverysolutions,2025-04-18,2028-04-18,0.21892348043086882,insufficient_followup
+"SmartCommerce, Inc.",smartcommerce,2023-08-23,2026-08-23,0.2181730056752663,insufficient_followup
+"Phin Security, Inc.",phinsecurity,2026-04-21,2029-04-21,0.21810015447531936,insufficient_followup
+MCAL Therapeutics Inc.,mcaltherapeutics,2024-03-27,2027-03-27,0.2179282911468082,insufficient_followup
+"Paladin Power, Inc.",paladinpower,2024-10-11,2027-10-11,0.2172320963055742,insufficient_followup
+Innok Robotics GmbH,innokroboticsgmbh,2024-11-15,2027-11-15,0.2169897956542874,insufficient_followup
+Tenk Bilisim Teknolojileri Danismanlik Anonim Sirketi,tenkbilisimteknolojileridanismanlikanonimsirketi,2023-12-29,2026-12-29,0.21682236970285204,insufficient_followup
+Theo AI Inc.,theoai,2025-11-12,2028-11-12,0.2162342103114819,insufficient_followup
+"Kalogon, Inc.",kalogon,2026-06-04,2029-06-04,0.21579544986669832,insufficient_followup
+Documo Inc.,documo,2024-06-06,2027-06-06,0.21571789072083153,insufficient_followup
+"Brain Jar Games, Inc.",brainjargames,2025-10-08,2028-10-08,0.21563648629121077,insufficient_followup
+"Plei, Inc.",plei,2023-12-12,2026-12-12,0.21531361876085706,insufficient_followup
+Kami Limited,kami,2024-08-20,2027-08-20,0.21439612905541552,insufficient_followup
+Meredot SIA,meredotsia,2023-12-05,2026-12-05,0.2136494846658805,insufficient_followup
+Solitario Lab Grown Private Limited,solitariolabgrownprivate,2025-07-16,2028-07-16,0.21364756049834263,insufficient_followup
+"Amaros, Inc.",amaros,2025-06-17,2028-06-17,0.213402001693487,insufficient_followup
+"Ryca Motors, Inc.",rycamotors,2024-02-20,2027-02-20,0.21221513285587196,insufficient_followup
+DepositLink Inc.,depositlink,2025-06-17,2028-06-17,0.21200415197739986,insufficient_followup
+"Phi Therapeutics, Inc.",phitherapeutics,2024-06-26,2027-06-26,0.21184334225273055,insufficient_followup
+"Rainwalk Technology, Inc.",rainwalk,2024-04-23,2027-04-23,0.21156545950293124,insufficient_followup
+Ernest Energy Inc.,ernestenergy,2024-01-17,2027-01-17,0.21145195954294976,insufficient_followup
+Lori Systems Corp.,lorisystems,2025-04-21,2028-04-21,0.20847355768039685,insufficient_followup
+"PVpallet, Inc.",pvpallet,2025-01-21,2028-01-21,0.20777321808014662,insufficient_followup
+Power Parity Lda,powerparitylda,2025-05-05,2028-05-05,0.20728575087093895,insufficient_followup
+Redi.Health Inc.,redihealth,2025-08-15,2028-08-15,0.2063316534045978,insufficient_followup
+Pro Athlete Community Inc,proathletecommunity,2025-06-24,2028-06-24,0.20568223464568108,insufficient_followup
+"New York Shipping Exchange, Inc.",newyorkshippingexchange,2024-11-19,2027-11-19,0.20500324911881662,insufficient_followup
+"We Are Arthur, Inc.",wearearthur,2025-01-15,2028-01-15,0.20348888289377204,insufficient_followup
+MLR Auto Limited,mlrauto,2025-06-19,2028-06-19,0.20339288559754568,insufficient_followup
+"Kubiya, Inc.",kubiya,2024-08-20,2027-08-20,0.2027072824278217,insufficient_followup
+Veracity Wellness Inc.,veracitywellness,2025-06-17,2028-06-17,0.20236320650030618,insufficient_followup
+"MatchaBar, Inc.",matchabar,2024-04-23,2027-04-23,0.20198959155489302,insufficient_followup
+Cerus Fitness Inc.,cerusfitness,2024-12-02,2027-12-02,0.20035716634195688,insufficient_followup
+"Dropstat, Inc.",dropstat,2023-11-29,2026-11-29,0.20035675797323704,insufficient_followup
+PLANCKDOT,planckdot,2024-04-16,2027-04-16,0.20018265115791492,insufficient_followup
+Instant Connect Holdings Corporation,instantconnect,2024-05-01,2027-05-01,0.20000896072717458,insufficient_followup
+Sky Gate Hospitality Pvt. Ltd.,skygatehospitalitypvt,2024-11-18,2027-11-18,0.1998122840703702,insufficient_followup
+Acelab Inc.,acelab,2023-08-03,2026-08-03,0.19979842083284793,insufficient_followup
+"Unum Health USA, Inc.",unumhealthusa,2024-07-26,2027-07-26,0.1996400051985559,insufficient_followup
+OTACA,otaca,2023-12-28,2026-12-28,0.19821129552627048,insufficient_followup
+TraqCheck IT Services Private Limited,traqcheckitservicesprivate,2024-09-23,2027-09-23,0.1982053188863643,insufficient_followup
+"Sailes, Inc.",sailes,2023-09-14,2026-09-14,0.19748761566502435,insufficient_followup
+Senteon Inc.,senteon,2024-12-11,2027-12-11,0.19729344360268275,insufficient_followup
+"G Cards, Inc.",gcards,2024-11-19,2027-11-19,0.19657055455874145,insufficient_followup
+Akia Syndicate,akiasyndicate,2024-09-19,2027-09-19,0.19588629966488164,insufficient_followup
+backstitch Inc.,backstitch,2024-04-11,2027-04-11,0.19482253981578598,insufficient_followup
+Kognitive Networks Inc.,kognitivenetworks,2024-11-08,2027-11-08,0.19442636107025013,insufficient_followup
+"GarageSkins, Inc.",garageskins,2023-09-08,2026-09-08,0.19413202549168168,insufficient_followup
+Hoodie Analytics,hoodieanalytics,2024-06-27,2027-06-27,0.19356488412148043,insufficient_followup
+Daisy Genomics Inc.,daisygenomics,2025-12-08,2028-12-08,0.19325496801035885,insufficient_followup
+"Kivo, Inc.",kivo,2025-12-31,2028-12-31,0.1916241459221856,insufficient_followup
+SIMK Labels Private Limited,simklabelsprivate,2025-03-29,2028-03-29,0.19129829405530688,insufficient_followup
+Ecolution Power Company,ecolutionpower,2025-04-16,2028-04-16,0.1912588832796742,insufficient_followup
+Viksha Green Energy Private Limited,vikshagreenenergyprivate,2025-12-25,2028-12-25,0.1906668490592343,insufficient_followup
+"Tele911, Inc.",tele911,2024-10-08,2027-10-08,0.19036118550170314,insufficient_followup
+H. Mulligan Bespoke Libations Co.,hmulliganbespokelibations,2024-11-18,2027-11-18,0.1893804244103395,insufficient_followup
+"Payroll4Free.com, Inc.",payroll4freecom,2023-09-30,2026-09-30,0.1887723361229372,insufficient_followup
+SubBase Technologies Inc.,subbase,2026-06-17,2029-06-17,0.18869190287752385,insufficient_followup
+World Matcha Inc.,worldmatcha,2024-01-23,2027-01-23,0.1882915558680242,insufficient_followup
+"PayOnWard,Inc",payonward,2025-08-20,2028-08-20,0.18822314096373607,insufficient_followup
+"Ascendia Pharmaceuticals, Inc.",ascendiapharmaceuticals,2024-10-11,2027-10-11,0.18821975465499216,insufficient_followup
+"Verosint, Inc.",verosint,2023-10-03,2026-10-03,0.187566672048912,insufficient_followup
+"Citrine Informatics, Inc.",citrineinformatics,2023-09-22,2026-09-22,0.18669848818470622,insufficient_followup
+"Kodama Systems, Inc.",kodamasystems,2025-10-23,2028-10-23,0.1860308149394503,insufficient_followup
+"Tally Surgical, Inc.",tallysurgical,2024-04-29,2027-04-29,0.18488010308637537,insufficient_followup
+"Maven Pet, Inc.",mavenpet,2024-09-05,2027-09-05,0.1846787420870044,insufficient_followup
+Yamy Studio Yazilim Ve Oyun Gelistirme Anonim Sirketi,yamystudioyazilimveoyungelistirmeanonimsirketi,2023-11-17,2026-11-17,0.184457622809182,insufficient_followup
+"7Rivers, Inc",7rivers,2026-02-23,2029-02-23,0.1843268723814781,insufficient_followup
+"Vsimple, Inc.",vsimple,2025-04-28,2028-04-28,0.18413838326134252,insufficient_followup
+"Gem Specialty Health, Inc.",gemspecialtyhealth,2023-09-11,2026-09-11,0.18301224167432636,insufficient_followup
+"Pavewise, Inc.",pavewise,2025-10-22,2028-10-22,0.18291283577663672,insufficient_followup
+FlyFin AI Inc.,flyfinai,2025-02-12,2028-02-12,0.1826961993296564,insufficient_followup
+"Azimuth GRC, Inc.",azimuthgrc,2023-12-20,2026-12-20,0.1825830599886052,insufficient_followup
+"Cloneable, Inc.",cloneable,2026-02-11,2029-02-11,0.1823841914651066,insufficient_followup
+"TireTutor, Inc.",tiretutor,2024-07-01,2027-07-01,0.18215300531866893,insufficient_followup
+"Koios Medical, Inc.",koiosmedical,2025-04-30,2028-04-30,0.18177870037975832,insufficient_followup
+"Braavo Capital, Inc.",braavocapital,2024-05-28,2027-05-28,0.18124478993770562,insufficient_followup
+"Better World Collective, Inc.",betterworldcollective,2024-05-21,2027-05-21,0.18102167933697733,insufficient_followup
+"Aplos, Inc.",aplos,2025-11-19,2028-11-19,0.18089729826487852,insufficient_followup
+"Milika, Inc.",milika,2026-05-13,2029-05-13,0.1804651293780179,insufficient_followup
+Latent Knowledge Solutions Inc.,latentknowledgesolutions,2025-03-04,2028-03-04,0.180421710739227,insufficient_followup
+"Halo Energy, Inc.",haloenergy,2024-06-19,2027-06-19,0.18035885829712806,insufficient_followup
+The Clothes Doctor Limited,theclothesdoctor,2024-10-02,2027-10-02,0.18027844818436498,insufficient_followup
+Hawaiian Ola Brewing Corporation,hawaiianolabrewing,2023-10-23,2026-10-23,0.1802116229388804,insufficient_followup
+"When Insurance Agency, Inc.",wheninsuranceagency,2024-08-01,2027-08-01,0.17999409891643334,insufficient_followup
+"Skylark Travel Group, Inc.",skylarktravel,2024-10-17,2027-10-17,0.17983693123564629,insufficient_followup
+"TearSolutions, Inc.",tearsolutions,2024-11-21,2027-11-21,0.17981339726741385,insufficient_followup
+Venture Catalysts Private Limited,venturecatalystsprivate,2025-09-07,2028-09-07,0.1792741396406942,insufficient_followup
+Thurlow Veterinary Services Inc.,thurlowveterinaryservices,2025-09-08,2028-09-08,0.1792582781312696,insufficient_followup
+FormAssembly Inc.,formassembly,2024-03-14,2027-03-14,0.17842158425405538,insufficient_followup
+Algenesis Corporation,algenesis,2024-10-25,2027-10-25,0.1783655182826096,insufficient_followup
+"Kuehnle Agrosystems, Inc.",kuehnleagrosystems,2024-01-22,2027-01-22,0.17824964962407247,insufficient_followup
+"Piction Health, Inc.",pictionhealth,2024-06-26,2027-06-26,0.17804356466529916,insufficient_followup
+"BreachRx, Inc.",breachrx,2024-04-16,2027-04-16,0.17779350096698102,insufficient_followup
+"Square Robot, Inc.",squarerobot,2023-09-25,2026-09-25,0.1776595967519846,insufficient_followup
+"Modulo Bio, Inc.",modulobio,2024-11-20,2027-11-20,0.17737486394421617,insufficient_followup
+"Avadain, Inc.",avadain,2023-10-25,2026-10-25,0.17722673988949605,insufficient_followup
+"Toolpath Labs, Inc.",toolpath,2024-08-21,2027-08-21,0.17668738227854078,insufficient_followup
+Bad Stuff LLC,badstuff,2024-12-30,2027-12-30,0.17645013642005147,insufficient_followup
+"Wealthfeed, Inc.",wealthfeed,2025-09-25,2028-09-25,0.17629310474586338,insufficient_followup
+Power Hero Corp.,powerhero,2024-09-16,2027-09-16,0.1762476435397382,insufficient_followup
+"Clearbrief, Inc.",clearbrief,2024-03-19,2027-03-19,0.17596006751603396,insufficient_followup
+Renterra Inc.,renterra,2025-12-18,2028-12-18,0.17534092148605812,insufficient_followup
+"SponsorCX, Inc.",sponsorcx,2025-02-21,2028-02-21,0.17530173408437766,insufficient_followup
+"Sports Visio, Inc.",sportsvisio,2023-08-10,2026-08-10,0.17470017181748707,insufficient_followup
+DoctorApp srl,doctorappsrl,2024-11-18,2027-11-18,0.17462392722657896,insufficient_followup
+AI NUTRITION CORP.,ainutrition,2024-07-23,2027-07-23,0.17461472609787468,insufficient_followup
+"Pikkit, Inc.",pikkit,2023-12-31,2026-12-31,0.17431755379578476,insufficient_followup
+Aerovec Inc.,aerovec,2025-07-23,2028-07-23,0.17327393394724153,insufficient_followup
+"Livsn Designs, Inc.",livsndesigns,2023-12-04,2026-12-04,0.17281092503135084,insufficient_followup
+"Beaming Health, Inc.",beaminghealth,2024-12-26,2027-12-26,0.1721722299192309,insufficient_followup
+Local Locker Incorporated,locallocker,2023-11-03,2026-11-03,0.171764120628313,insufficient_followup
+"Dasseti, Inc.",dasseti,2024-06-05,2027-06-05,0.1714107227673054,insufficient_followup
+Social Station Group Limited,socialstation,2024-01-19,2027-01-19,0.1699860846918086,insufficient_followup
+Juicer Energy Inc.,juicerenergy,2024-08-12,2027-08-12,0.1695540845393094,insufficient_followup
+"Tangram Flex, Inc.",tangramflex,2023-09-14,2026-09-14,0.16955273005207655,insufficient_followup
+"Avridh Technologies, Inc.",avridh,2025-06-25,2028-06-25,0.16939634322847746,insufficient_followup
+"Fetii, Inc.",fetii,2024-04-04,2027-04-04,0.16891255197405833,insufficient_followup
+"Shanghai Junsai Biotechnology Co., Ltd.",shanghaijunsaibiotechnology,2025-11-30,2028-11-30,0.16851139954366207,insufficient_followup
+"Ostra Cybersecurity, Inc.",ostracybersecurity,2024-03-05,2027-03-05,0.16848704195800923,insufficient_followup
+"Forj Software, Inc.",forjsoftware,2026-01-29,2029-01-29,0.16828576682836507,insufficient_followup
+Braincare Limited,braincare,2024-10-21,2027-10-21,0.16752326361889566,insufficient_followup
+"Avibra, Inc.",avibra,2024-10-03,2027-10-03,0.16581868647923168,insufficient_followup
+UAB Walk15,uabwalk15,2023-11-15,2026-11-15,0.1648525362429524,insufficient_followup
+"Crown Affair, Inc.",crownaffair,2026-05-08,2029-05-08,0.16447837502963286,insufficient_followup
+Quorus Inc.,quorus,2026-03-02,2029-03-02,0.16435040476878893,insufficient_followup
+Immaculate Vegan Limited,immaculatevegan,2025-02-26,2028-02-26,0.16411820633800778,insufficient_followup
+"OneFul Health, Inc.",onefulhealth,2024-07-05,2027-07-05,0.1639662244693001,insufficient_followup
+"inKind Cards, Inc.",inkindcards,2023-12-31,2026-12-31,0.16248585960903925,insufficient_followup
+"CREtelligent, Inc.",cretelligent,2025-04-23,2028-04-23,0.16232384932632005,insufficient_followup
+"Qualiti, Inc.",qualiti,2023-12-13,2026-12-13,0.16224853471553247,insufficient_followup
+Gori Company,gori,2025-01-03,2028-01-03,0.1620362213879456,insufficient_followup
+Force Equals Inc.,forceequals,2026-02-10,2029-02-10,0.16179267355647145,insufficient_followup
+"KoKo Medical, Inc.",kokomedical,2023-12-15,2026-12-15,0.16149351268749085,insufficient_followup
+"Suitable, Inc.",suitable,2025-03-03,2028-03-03,0.16137407589565023,insufficient_followup
+"Carebot Health, Inc.",carebothealth,2024-01-25,2027-01-25,0.1613415846468973,insufficient_followup
+PS-Fertility Inc.,psfertility,2025-05-20,2028-05-20,0.1601010421523938,insufficient_followup
+"Shenzhen Youneng New Energy Technology Co., Ltd.",shenzhenyounengnewenergy,2023-09-14,2026-09-14,0.1600487322349347,insufficient_followup
+Doro Mind Inc.,doromind,2026-03-17,2029-03-17,0.1597359812737937,insufficient_followup
+Hungri Games Bilisim A.S.,hungrigamesbilisimas,2023-08-14,2026-08-14,0.15970120852423503,insufficient_followup
+"Blip Technologies, Inc.",blip,2024-07-01,2027-07-01,0.15955896072486872,insufficient_followup
+"CourtScribes, Inc.",courtscribes,2026-06-12,2029-06-12,0.15940923213369385,insufficient_followup
+Pitch Aeronautics Inc,pitchaeronautics,2023-12-05,2026-12-05,0.1592189418933609,insufficient_followup
+The NoBaked Company,thenobaked,2025-04-25,2028-04-25,0.15850323394735868,insufficient_followup
+Levanta.io Inc.,levantaio,2023-12-01,2026-12-01,0.15802687494033096,insufficient_followup
+Olyra Foods Inc.,olyrafoods,2025-04-24,2028-04-24,0.1558034806743222,insufficient_followup
+RAK fitness consumer Pvt. Ltd,rakfitnessconsumerpvt,2026-03-26,2029-03-26,0.15572111434063654,insufficient_followup
+Truliv Properties & Services Private Limited,trulivpropertiesservicesprivate,2025-06-23,2028-06-23,0.1548867192833025,insufficient_followup
+Manor Rama Care Pvt. Ltd.,manorramacarepvt,2024-09-17,2027-09-17,0.15444617915516343,insufficient_followup
+"Hedge Health, Co.",hedgehealth,2025-10-02,2028-10-02,0.15428420859074327,insufficient_followup
+"Ren Systems, Inc.",rensystems,2025-08-07,2028-08-07,0.15399030352161974,insufficient_followup
+"TAS Medical, Inc.",tasmedical,2025-08-26,2028-08-26,0.15248808257660568,insufficient_followup
+"Archive Intel, Inc.",archiveintel,2024-12-23,2027-12-23,0.15222765477930156,insufficient_followup
+Switchyards Inc.,switchyards,2024-04-17,2027-04-17,0.15195266481482192,insufficient_followup
+"Virtual Connect Technologies, Inc.",virtualconnect,2024-08-15,2027-08-15,0.1516680572650044,insufficient_followup
+"Connective Health, Inc.",connectivehealth,2024-10-10,2027-10-10,0.15115171364959304,insufficient_followup
+ClearGov Inc.,cleargov,2024-03-18,2027-03-18,0.15113759832419724,insufficient_followup
+"Wefunder, Inc.",wefunder,2023-08-24,2026-08-24,0.15100304882363969,insufficient_followup
+FenixPyre Inc.,fenixpyre,2024-08-15,2027-08-15,0.15079574888308134,insufficient_followup
+"Game of Silks, Inc.",gameofsilks,2023-10-11,2026-10-11,0.15074954751232666,insufficient_followup
+"Aervivo, Inc.",aervivo,2025-09-05,2028-09-05,0.15042891657809576,insufficient_followup
+"Shop Accelerator, Inc.",shopaccelerator,2024-09-05,2027-09-05,0.15040263626277034,insufficient_followup
+"WealthHub Solutions, Inc.",wealthhubsolutions,2024-12-20,2027-12-20,0.15033052085617063,insufficient_followup
+"Something Borrowed Blooms, Inc.",somethingborrowedblooms,2025-03-13,2028-03-13,0.14965901449949784,insufficient_followup
+CairnSurgical Inc.,cairnsurgical,2024-08-21,2027-08-21,0.14872905534918462,insufficient_followup
+"FlowMSP, Inc.",flowmsp,2023-12-05,2026-12-05,0.14823517826479604,insufficient_followup
+AJNA BioSciences PBC,ajnabiosciences,2025-04-30,2028-04-30,0.1481902680401363,insufficient_followup
+"ElastiFlow, Inc.",elastiflow,2024-02-21,2027-02-21,0.1472380434663713,insufficient_followup
+"Liine, Inc.",liine,2024-12-05,2027-12-05,0.14697091128603693,insufficient_followup
+"Delta Development Team, Inc.",deltadevelopmentteam,2023-12-19,2026-12-19,0.1464874794960359,insufficient_followup
+"Joylux, Inc.",joylux,2024-12-11,2027-12-11,0.14643299555008238,insufficient_followup
+Auto Hauler Exchange Inc.,autohaulerexchange,2025-02-04,2028-02-04,0.14600090714722558,insufficient_followup
+FrenchFounders Inc.,frenchfounders,2024-01-26,2027-01-26,0.1459318658026753,insufficient_followup
+"Myota, Inc.",myota,2026-02-04,2029-02-04,0.14425213580457108,insufficient_followup
+"InGeneron, Inc.",ingeneron,2024-03-04,2027-03-04,0.14419871165332612,insufficient_followup
+ALGO8 LLC,algo8,2026-04-16,2029-04-16,0.14176824712913977,insufficient_followup
+HelloHive Inc.,hellohive,2024-02-22,2027-02-22,0.14066876067759668,insufficient_followup
+Pathfinder Spirit Inc,pathfinderspirit,2024-03-11,2027-03-11,0.14061061673222963,insufficient_followup
+"Smart Cups, Inc.",smartcups,2024-05-03,2027-05-03,0.13940267624323824,insufficient_followup
+Fessura Italia SRL,fessuraitaliasrl,2025-04-14,2028-04-14,0.1377895874938938,insufficient_followup
+Ortharize Limited,ortharize,2023-09-22,2026-09-22,0.1370212578713599,insufficient_followup
+Vroom Solar Inc.,vroomsolar,2024-09-18,2027-09-18,0.13394231278299054,insufficient_followup
+"Confianza, Inc.",confianza,2025-12-22,2028-12-22,0.13329952482194948,insufficient_followup
+"Therm Solutions, Inc.",thermsolutions,2025-08-12,2028-08-12,0.13242002789052237,insufficient_followup
+Seven Bro7thers,sevenbro7thers,2023-08-30,2026-08-30,0.13106305539404486,insufficient_followup
+"MileUp, Inc.",mileup,2023-10-06,2026-10-06,0.1306175597956099,insufficient_followup
+"MindClick Group, Inc.",mindclick,2024-10-01,2027-10-01,0.1303372648888127,insufficient_followup
+"Prime Artificial Intelligence, Inc.",primeartificialintelligence,2024-11-20,2027-11-20,0.1303372648888127,insufficient_followup
+"Tour24, Inc.",tour24,2024-04-10,2027-04-10,0.12891015396628805,insufficient_followup
+"GreyscaleAI, Inc.",greyscaleai,2025-01-23,2028-01-23,0.12889730515491915,insufficient_followup
+"Minnesota Soccer Holdings, GBC",minnesotasoccergbc,2025-01-31,2028-01-31,0.1286449986287574,insufficient_followup
+TCC Brands Inc.,tccbrands,2025-07-30,2028-07-30,0.1280354600973294,insufficient_followup
+BoltWise Inc.,boltwise,2025-09-29,2028-09-29,0.1268593092906455,insufficient_followup
+Duh Corp,duh,2026-01-05,2029-01-05,0.1262492015081725,insufficient_followup
+"Geofy, Inc.",geofy,2024-12-23,2027-12-23,0.1258534504440936,insufficient_followup
+3CLogic Inc.,3clogic,2026-03-26,2029-03-26,0.12581211122486902,insufficient_followup
+"Forml, Inc.",forml,2026-05-07,2029-05-07,0.12534076266226943,insufficient_followup
+Grande Delta Corporation,grandedelta,2024-08-28,2027-08-28,0.12467965218087902,insufficient_followup
+"Cariina, Inc.",cariina,2025-09-02,2028-09-02,0.12457022764731443,insufficient_followup
+"Innova Vascular, Inc.",innovavascular,2025-07-29,2028-07-29,0.12385068784407727,insufficient_followup
+"Driven Software Solutions, Inc.",drivensoftwaresolutions,2025-06-10,2028-06-10,0.12345943511587419,insufficient_followup
+"WordCollections, Inc.",wordcollections,2023-08-11,2026-08-11,0.12334606535379465,insufficient_followup
+encoord Inc.,encoord,2024-11-08,2027-11-08,0.12325761358035402,insufficient_followup
+Vloggi Pty Ltd,vloggipty,2023-12-05,2026-12-05,0.12100339591858976,insufficient_followup
+"Frankie's Story, LLC",frankiesstory,2025-04-30,2028-04-30,0.1200236158660878,insufficient_followup
+"Repetix, Inc.",repetix,2024-03-20,2027-03-20,0.11920854597953286,insufficient_followup
+Vixiv Inc.,vixiv,2025-02-04,2028-02-04,0.117897190274134,insufficient_followup
+Superb Shifts Inc.,superbshifts,2024-04-03,2027-04-03,0.11669923767657459,insufficient_followup
+"Iyuda Therapeutics, Inc.",iyudatherapeutics,2025-06-06,2028-06-06,0.1155830535543243,insufficient_followup
+Tred Earth Ltd,tredearth,2023-08-25,2026-08-25,0.1117452310666237,insufficient_followup
+"Gleamery, Inc.",gleamery,2023-08-09,2026-08-09,0.10709496287267478,insufficient_followup
+"Cabin 3 Restaurant Group, Inc.",cabin3restaurant,2024-08-19,2027-08-19,0.10582535207777079,insufficient_followup
+Neuralift Inc.,neuralift,2025-03-31,2028-03-31,0.10384669982473996,insufficient_followup
+"Sironix Renewables, Inc.",sironixrenewables,2024-10-16,2027-10-16,0.10270821240616361,insufficient_followup
+"Better Life Health, Inc.",betterlifehealth,2025-11-18,2028-11-18,0.10208354644260702,insufficient_followup
+"PowrLine, Inc.",powrline,2026-02-10,2029-02-10,0.10125493238235586,insufficient_followup
+"Automation Intellect, Inc.",automationintellect,2024-04-04,2027-04-04,0.09955009957738242,insufficient_followup
+Akari Brands Inc.,akaribrands,2025-10-03,2028-10-03,0.0988784771353986,insufficient_followup
+"Ventis Medical, Inc.",ventismedical,2024-10-11,2027-10-11,0.09109147527599704,insufficient_followup
+"Govstream.Ai, Inc.",govstreamai,2025-12-02,2028-12-02,0.09048465493763336,insufficient_followup

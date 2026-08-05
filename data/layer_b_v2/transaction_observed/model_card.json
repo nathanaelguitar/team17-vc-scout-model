@@ -1,0 +1,118 @@
+{
+  "scope": "Ranks second observed financings by the chance of a subsequently observed $1B valuation/private-placement event within three years. It is not a certified unicorn probability or a verified-negative classifier.",
+  "data": {
+    "rounds": 40506,
+    "unambiguous_companies": 31343,
+    "snapshots": 5979,
+    "eligible_observed_rows": 827,
+    "observed_positive": 189,
+    "observed_non_event_with_followup": 638
+  },
+  "current_candidate_scoring": {
+    "as_of_transaction_date": "2026-07-29",
+    "candidate_prediction_start": "2023-07-29",
+    "candidate_snapshots_before_current_state_suppression": 1027,
+    "ranked_private_candidates": 1015,
+    "suppression_reasons": {
+      "currently_tickered_public_entity": 6,
+      "known_unicorn_or_former_unicorn_in_current_master": 6
+    },
+    "output": "data/layer_b_v2/transaction_observed/current_candidates_ranked.csv"
+  },
+  "label_states": {
+    "insufficient_followup": 4453,
+    "already_unicorn": 699,
+    "observed_no_future_outcome": 638,
+    "observed_positive": 189
+  },
+  "splits": {
+    "train": {
+      "rows": 606,
+      "positives": 95
+    },
+    "validation": {
+      "rows": 77,
+      "positives": 30
+    },
+    "final": {
+      "rows": 113,
+      "positives": 34
+    }
+  },
+  "validation_candidates": {
+    "logistic": {
+      "roc_auc": 0.8177304964539007,
+      "pr_auc": 0.7552178263254608,
+      "brier_observed_outcome": 0.23064929546696686
+    },
+    "random_forest": {
+      "roc_auc": 0.8524822695035461,
+      "pr_auc": 0.7669949256166317,
+      "brier_observed_outcome": 0.1744961879311081
+    }
+  },
+  "validation_feature_family_ablations": {
+    "all_eligible_features": {
+      "roc_auc": 0.8524822695035461,
+      "pr_auc": 0.7669949256166317,
+      "brier_observed_outcome": 0.1744961879311081
+    },
+    "funding_only": {
+      "roc_auc": 0.8446808510638297,
+      "pr_auc": 0.7407106643039426,
+      "brier_observed_outcome": 0.15480248584452014
+    },
+    "timing_only": {
+      "roc_auc": 0.4918439716312057,
+      "pr_auc": 0.4310981230197046,
+      "brier_observed_outcome": 0.30338940275801013
+    },
+    "single_current_round": {
+      "roc_auc": 0.8404255319148936,
+      "pr_auc": 0.7381911413076714,
+      "brier_observed_outcome": 0.16196738637425412
+    }
+  },
+  "selected_model": "random_forest",
+  "final_2021_2022": {
+    "metrics": {
+      "roc_auc": 0.8037974683544303,
+      "pr_auc": 0.6417975944553966,
+      "brier_observed_outcome": 0.24299776731847672
+    },
+    "bootstrap_95_ci": {
+      "roc_auc": [
+        0.7104796918767508,
+        0.8785540595675235
+      ],
+      "pr_auc": [
+        0.47460274140782116,
+        0.7902861997903143
+      ]
+    },
+    "decision_metrics": [
+      {
+        "top_fraction": 0.1,
+        "companies": 12,
+        "observed_positives": 9,
+        "precision": 0.75,
+        "lift_vs_observed_base_rate": 2.4926470588235294
+      },
+      {
+        "top_fraction": 0.2,
+        "companies": 23,
+        "observed_positives": 16,
+        "precision": 0.6956521739130435,
+        "lift_vs_observed_base_rate": 2.312020460358056
+      },
+      {
+        "top_fraction": 0.3,
+        "companies": 34,
+        "observed_positives": 20,
+        "precision": 0.5882352941176471,
+        "lift_vs_observed_base_rate": 1.9550173010380623
+      }
+    ]
+  },
+  "release_gate": "Do not report ranking scores as probabilities. Replace this provisional model with the coverage-aware v2 model when coverage and lifecycle histories are supplied."
+}

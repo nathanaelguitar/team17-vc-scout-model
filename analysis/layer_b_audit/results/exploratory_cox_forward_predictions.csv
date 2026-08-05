@@ -1,0 +1,244 @@
+company_key,company,landmark_date,duration_years,event,censoring_basis,cox_risk_score
+supabase,"Supabase, Inc.",2024-05-09,1.3333333333333333,1,first_ge_1b_event,1.3978425030592014
+jswoneplatforms,JSW One Platforms Limited,2025-04-09,0.49007529089664614,0,last_supplied_sub_1b_round_proxy,0.7801008808506742
+semitech,Semi-tech,2025-05-04,0.6598220396988365,1,first_ge_1b_event,2.074316178763173
+lonegull,"Lone Gull Holdings, Ltd.",2024-02-25,2.236824093086927,0,last_supplied_sub_1b_round_proxy,1.069798670592326
+beejapuridairyprivate,Beejapuri Dairy Private Limited,2024-05-24,0.1971252566735113,0,last_supplied_sub_1b_round_proxy,1.772613164415917
+hydrahost,"Hydra Host, Inc.",2024-03-22,2.2313483915126624,0,last_supplied_sub_1b_round_proxy,0.32773276342563895
+klarsadecvsfp,"Klar Technologies, S.A. de C.V., S.F.P.",2024-06-08,1.0622861054072552,0,last_supplied_sub_1b_round_proxy,1.594346661979326
+girnarinsurancebrokersprivate,Girnar Insurance Brokers Private Limited,2025-02-12,0.05475701574264202,0,last_supplied_sub_1b_round_proxy,1.7233065468080921
+neofinancial,Neo Financial Technologies Inc.,2024-05-04,0.4380561259411362,0,last_supplied_sub_1b_round_proxy,1.7641862403599904
+wuhansiliconintegrated,"Wuhan Silicon Integrated Co., Ltd.",2024-01-24,1.5550992470910336,0,last_supplied_sub_1b_round_proxy,1.1686961743194446
+atlanpte,Atlan Pte Ltd,2024-03-01,0.1861738535249829,0,last_supplied_sub_1b_round_proxy,1.1921579367627093
+ably,"ABLY Corp., Inc.",2024-02-03,0.8295687885010267,1,first_ge_1b_event,1.4167319648959142
+polyai,PolyAI Limited,2024-09-06,1.273100616016427,0,last_supplied_sub_1b_round_proxy,1.1307449950427098
+shadowfaxnseishadowfax,Shadowfax Technologies Limited (NSEI:SHADOWFAX),2024-07-10,0.648870636550308,0,last_supplied_sub_1b_round_proxy,1.5119583424121603
+beijingsiliconflow,"Beijing SiliconFlow Technology Co., Ltd.",2025-12-30,0.459958932238193,1,first_ge_1b_event,0.226136173613054
+fieldguide,"Fieldguide, Inc.",2024-03-01,1.9247091033538672,0,last_supplied_sub_1b_round_proxy,0.6838057522456085
+cloaked,"Cloaked, Inc.",2024-03-28,1.9739904175222451,0,last_supplied_sub_1b_round_proxy,0.9975402076172484
+omnianalytics,"Omni Analytics, Inc.",2024-08-15,1.6865160848733745,1,first_ge_1b_event,0.5332319935321412
+iterativescopes,"Iterative Scopes, Inc.",2024-01-19,2.2778918548939084,1,first_ge_1b_event,1.745416112613518
+finngmbh,FINN GmbH,2024-05-24,2.0424366872005475,1,first_ge_1b_event,1.8374536636895555
+cleerly,"Cleerly, Inc.",2024-03-13,0.7282683093771389,0,last_supplied_sub_1b_round_proxy,0.5699070539957389
+entrepreneurfirstoperations,Entrepreneur First Operations Limited,2024-06-27,1.702943189596167,1,first_ge_1b_event,1.6956751326486534
+glossgenius,"GlossGenius, Inc.",2025-07-26,0.9856262833675564,1,first_ge_1b_event,0.9021759351274656
+yuenkeefood,"Yuen Kee Food Group Co., Ltd.",2025-06-29,0.5065023956194388,0,last_supplied_sub_1b_round_proxy,-0.006824628810489742
+butterflyeffectpte,Butterfly Effect Pte. Ltd.,2024-07-30,0.7364818617385352,0,last_supplied_sub_1b_round_proxy,-5.284998852445459
+runwayai,"Runway AI, Inc.",2024-12-04,0.32854209445585214,1,first_ge_1b_event,1.266384714096005
+tecovas,"Tecovas, Inc.",2024-01-12,1.5468856947296372,0,last_supplied_sub_1b_round_proxy,1.241753216388406
+agnikulcosmosprivate,Agnikul Cosmos Private Limited,2024-09-11,1.1964407939767283,0,last_supplied_sub_1b_round_proxy,0.7549278291132223
+workos,"WorkOS, Inc.",2024-11-30,1.2511978097193703,1,first_ge_1b_event,1.3705903711792382
+gridai,"Grid.ai, Inc.",2024-06-15,0.4353182751540041,0,last_supplied_sub_1b_round_proxy,1.1307449950427098
+icreditworks,iCreditWorks Inc.,2024-06-12,0.837782340862423,0,last_supplied_sub_1b_round_proxy,-6.063945973877121
+cinder,"Cinder Technologies, Inc.",2024-12-04,1.434633812457221,0,last_supplied_sub_1b_round_proxy,0.522012576019806
+ascendiapharmaceuticals,"Ascendia Pharmaceuticals, Inc.",2024-07-12,0.8952772073921971,0,last_supplied_sub_1b_round_proxy,-0.26380388494556267
+shandongsinder,"Shandong Sinder Technology Co., Ltd",2024-08-30,1.1526351813826146,0,last_supplied_sub_1b_round_proxy,0.9179851958394764
+passivelogic,"PassiveLogic, Inc.",2024-01-11,1.6865160848733745,0,last_supplied_sub_1b_round_proxy,1.0954764953319769
+jiangsuweihengintelligent,"Jiangsu Weiheng Intelligent Technology Co., Ltd",2025-08-02,0.47638603696098564,0,last_supplied_sub_1b_round_proxy,1.5297694422608192
+shenzhenjiechengnickelcobaltnewenergy,"Shenzhen Jiecheng Nickel Cobalt New Energy Technology Co., Ltd.",2024-07-24,1.7659137577002053,0,last_supplied_sub_1b_round_proxy,0.8657767870782208
+chengduultrapureappliedmaterialsszse301717,"Chengdu Ultra Pure Applied Materials Co., Ltd. (SZSE:301717)",2024-06-27,0.9253935660506503,0,last_supplied_sub_1b_round_proxy,0.727448019406119
+relay,"Relay, Inc.",2025-04-25,1.0266940451745379,0,last_supplied_sub_1b_round_proxy,0.5301672839722666
+seismictherapeutic,"Seismic Therapeutic, Inc.",2024-02-09,0.5913757700205339,0,last_supplied_sub_1b_round_proxy,1.537733132780503
+cmunityinnovationsprivate,Cmunity Innovations Private Limited,2024-03-06,1.4893908281998631,0,last_supplied_sub_1b_round_proxy,1.4755675332828562
+halozymehypercon,"Halozyme Hypercon, Inc.",2024-06-12,0.34223134839151265,0,last_supplied_sub_1b_round_proxy,1.0582652194538518
+rain,RAIN Technology Inc.,2024-05-01,0.9363449691991786,0,last_supplied_sub_1b_round_proxy,0.5295402950905256
+avicedatherapeutics,"Aviceda Therapeutics, Inc.",2024-03-27,0.783025325119781,0,last_supplied_sub_1b_round_proxy,0.59892829631346
+sigo,Sigo Technologies Inc.,2024-04-06,2.269678302532512,0,last_supplied_sub_1b_round_proxy,0.3268925866495442
+yantailannachengbiotechnology,"Yantai Lannacheng Biotechnology Co., Ltd.",2026-04-24,0.1998631074606434,0,last_supplied_sub_1b_round_proxy,1.1457998627779111
+flipsidecrypto,"Flipside Crypto, Inc.",2024-04-18,1.514031485284052,0,last_supplied_sub_1b_round_proxy,1.735756253679145
+liberateinnovations,Liberate Innovations Inc.,2025-01-04,0.7775496235455168,0,last_supplied_sub_1b_round_proxy,0.22302140386439376
+thirdarcbio,"Third Arc Bio, Inc.",2024-12-30,1.0978781656399725,0,last_supplied_sub_1b_round_proxy,0.8982710610137981
+muonspace,"Muon Space, Inc.",2024-06-07,1.0130047912388775,0,last_supplied_sub_1b_round_proxy,0.9250604320283903
+tennortherapeuticssuzhousehk6872,TenNor Therapeutics (Suzhou) Limited (SEHK:6872),2024-12-20,0.6132785763175906,1,first_ge_1b_event,0.4107985378820579
+stablealphaprivate,Stable-Alpha Technologies Private Limited,2025-02-10,1.1225188227241616,0,last_supplied_sub_1b_round_proxy,0.06977778832810998
+squint,"Squint, Inc.",2025-05-31,0.1998631074606434,0,last_supplied_sub_1b_round_proxy,0.7098299426429536
+wuhanchangjinphotonicsshse688635,"Wuhan Changjin Photonics Technology Co., Ltd (SHSE:688635)",2024-08-30,0.5694729637234771,0,last_supplied_sub_1b_round_proxy,-0.1626119592902833
+garudaaerospace,Garuda Aerospace Limited,2024-12-13,0.4928131416837782,0,last_supplied_sub_1b_round_proxy,1.104275504442641
+aescape,"Aescape, Inc.",2024-08-15,0.5503080082135524,0,last_supplied_sub_1b_round_proxy,0.436835409635318
+pollyex,"PollyEx, Inc.",2024-01-26,0.6242299794661191,0,last_supplied_sub_1b_round_proxy,1.172053949176359
+onebrief,"Onebrief, Inc.",2024-10-11,0.6789869952087612,1,first_ge_1b_event,0.6402061114164687
+meridabiosciences,"Merida Biosciences, Inc.",2024-12-30,0.27104722792607805,0,last_supplied_sub_1b_round_proxy,0.9125991001465537
+virtuixnasdaqgmvtix,Virtuix Holdings Inc. (NasdaqGM:VTIX),2025-03-16,0.27104722792607805,0,last_supplied_sub_1b_round_proxy,-0.6561277715521512
+langchain,"LangChain, Inc.",2025-03-30,0.5585215605749486,1,first_ge_1b_event,0.9511910979302431
+dawnaerospace,Dawn Aerospace Limited,2024-12-05,1.5277207392197125,0,last_supplied_sub_1b_round_proxy,0.7549278291132223
+thewoodenstreetfurniturespvt,The Woodenstreet Furnitures Pvt. Ltd,2024-04-26,0.6160164271047228,0,last_supplied_sub_1b_round_proxy,0.8582814830843007
+perfectted,PerfectTed,2025-03-01,0.5941136208076659,0,last_supplied_sub_1b_round_proxy,-1.8960012630308967
+eulermotorsprivate,Euler Motors Private Limited,2024-04-16,1.0896646132785763,0,last_supplied_sub_1b_round_proxy,0.06424457981822529
+instridehealth,"InStride Health, Inc.",2024-10-02,1.700205338809035,0,last_supplied_sub_1b_round_proxy,0.8690707710982296
+crossbowtherapeutics,"Crossbow Therapeutics, Inc.",2025-07-10,0.6872005475701575,0,last_supplied_sub_1b_round_proxy,1.5065621664424886
+galy,Galy Co.,2024-03-29,0.28199863107460643,0,last_supplied_sub_1b_round_proxy,0.883181449379991
+proof,"Proof Technology, Inc.",2024-12-14,1.002053388090349,0,last_supplied_sub_1b_round_proxy,1.057764517936383
+ambatteries,"AM Batteries, Inc.",2024-01-14,0.9253935660506503,0,last_supplied_sub_1b_round_proxy,1.2435075808912832
+proofpilot,"ProofPilot, Inc.",2024-04-03,1.4757015742642026,0,last_supplied_sub_1b_round_proxy,0.5676185033270534
+runbuggyomi,"RunBuggy OMI, Inc.",2024-06-06,1.3169062286105406,0,last_supplied_sub_1b_round_proxy,0.7431942328120379
+topsort,"Topsort, Inc.",2024-02-17,0.4106776180698152,0,last_supplied_sub_1b_round_proxy,0.4089165456896871
+frameworkcomputer,Framework Computer Inc,2024-01-27,0.23819301848049282,0,last_supplied_sub_1b_round_proxy,0.7450594959865645
+equipifi,"Equipifi, Inc.",2024-05-05,2.023271731690623,0,last_supplied_sub_1b_round_proxy,0.5385032185086847
+lumiahealth,"Lumia Health, Inc.",2025-01-23,1.2073921971252566,0,last_supplied_sub_1b_round_proxy,0.12067929506786879
+evolvedmd,"evolvedMD, LLC",2025-06-12,0.08761122518822724,0,last_supplied_sub_1b_round_proxy,0.6713183250645155
+raisefintechventuresprivate,Raise Fintech Ventures Private Limited,2024-01-25,1.6974674880219027,1,first_ge_1b_event,0.8326787115549283
+smartcoinfinancialsprivate,SmartCoin Financials Private Limited,2024-02-19,1.9739904175222451,0,last_supplied_sub_1b_round_proxy,0.2936216205071995
+1kkiranabazaar,1k Kirana Bazaar,2024-04-05,0.06570841889117043,0,last_supplied_sub_1b_round_proxy,0.8525806564395323
+multiversecomputing,Multiverse Computing,2026-03-05,0.3942505133470226,1,first_ge_1b_event,0.9977270363675818
+hypercraft,"HYPERCRAFT, INC.",2025-02-20,0.28473648186173856,0,last_supplied_sub_1b_round_proxy,0.19059002855995552
+whop,"Whop, Inc.",2025-07-19,0.6050650239561944,1,first_ge_1b_event,0.6848342447021555
+crownaffair,"Crown Affair, Inc.",2024-03-24,2.1218343600273784,0,last_supplied_sub_1b_round_proxy,-0.010482161371264306
+apono,Apono Inc.,2024-03-21,1.6618754277891854,0,last_supplied_sub_1b_round_proxy,0.11201320439986222
+ketryx,Ketryx Corporation,2024-07-05,1.1663244353182751,0,last_supplied_sub_1b_round_proxy,0.6728446926222832
+oceanaero,"Ocean Aero, Inc.",2024-09-29,1.3086926762491444,0,last_supplied_sub_1b_round_proxy,-0.058119381010376836
+flashscientific,Flash Scientific Technology Inc.,2024-06-15,0.48459958932238195,0,last_supplied_sub_1b_round_proxy,-1.0701816826452903
+ubiety,"Ubiety Technologies, Inc.",2024-02-17,0.8898015058179329,0,last_supplied_sub_1b_round_proxy,0.36338813692847494
+sixfoldai,"Sixfold AI, Inc.",2025-05-23,0.6872005475701575,0,last_supplied_sub_1b_round_proxy,0.7524672898710578
+paladinpower,"Paladin Power, Inc.",2025-01-04,0.4928131416837782,0,last_supplied_sub_1b_round_proxy,0.07015888912147787
+wholsumfoodspvt,Wholsum Foods Pvt. Ltd.,2026-01-07,0.09308692676249145,0,last_supplied_sub_1b_round_proxy,0.38091657571006027
+wheelerbio,"Wheeler Bio, Inc.",2024-01-04,1.2073921971252566,0,last_supplied_sub_1b_round_proxy,1.2395286287640874
+lunaroutpost,Lunar Outpost Inc,2024-05-09,0.5147159479808351,0,last_supplied_sub_1b_round_proxy,0.6060410556369122
+silentpush,"Silent Push, Inc.",2025-06-13,0.24914442162902123,0,last_supplied_sub_1b_round_proxy,0.3855813752586876
+xlbatteries,"XL Batteries, Inc.",2025-02-22,0.49007529089664614,0,last_supplied_sub_1b_round_proxy,0.4878303375076039
+wherobots,Wherobots Inc.,2024-09-26,0.16700889801505817,0,last_supplied_sub_1b_round_proxy,0.15372315800439032
+avadain,"Avadain, Inc.",2024-08-18,0.7337440109514032,0,last_supplied_sub_1b_round_proxy,0.07653647663986475
+senserasystems,"Sensera Systems, Inc.",2025-08-14,0.5366187542778919,0,last_supplied_sub_1b_round_proxy,-6.027706086082691
+virohanprivate,Virohan Private Limited,2024-12-07,1.0321697467488022,0,last_supplied_sub_1b_round_proxy,0.48624813262780686
+hakimo,Hakimo Inc.,2025-04-24,1.2046543463381245,0,last_supplied_sub_1b_round_proxy,0.30052102630887784
+ssbeverages1,"SS Beverages 1, Inc.",2025-06-12,0.1697467488021903,0,last_supplied_sub_1b_round_proxy,-6.10018586167155
+foodrxandai,"Food Rx and AI, Inc.",2024-06-19,0.28199863107460643,0,last_supplied_sub_1b_round_proxy,0.4115292299412501
+10000,"10000, Inc.",2025-07-13,0.13963039014373715,0,last_supplied_sub_1b_round_proxy,0.41973169489414247
+internationalbattery,"International Battery Company, Inc.",2025-04-05,1.2019164955509924,0,last_supplied_sub_1b_round_proxy,0.5566847993497857
+mantelcapture,"Mantel Capture, Inc.",2024-08-22,0.038329911019849415,0,last_supplied_sub_1b_round_proxy,-0.2889768972969319
+solestial,"Solestial, Inc.",2024-10-05,0.6078028747433265,0,last_supplied_sub_1b_round_proxy,0.5728833323796503
+workweekmedia,"Workweek Media, Inc.",2024-03-31,0.05201916495550993,0,last_supplied_sub_1b_round_proxy,-0.012449010822278317
+batonmarket,Baton Market Inc.,2025-01-08,0.03559206023271732,0,last_supplied_sub_1b_round_proxy,-0.1417288475485227
+tippingmrpinkpvt,Tipping Mr Pink Pvt Ltd,2025-12-13,0.2600958247775496,0,last_supplied_sub_1b_round_proxy,-5.846506647110546
+alluresecurity,"Allure Security Technology, Inc.",2025-02-02,1.1225188227241616,0,last_supplied_sub_1b_round_proxy,0.6338529493340431
+greenberryscoffeeroasters,"Greenberry's Coffee Roasters, Inc.",2024-02-23,1.1772758384668036,0,last_supplied_sub_1b_round_proxy,-1.2304736186824097
+dtools,"D-Tools, Inc.",2024-04-28,1.270362765229295,0,last_supplied_sub_1b_round_proxy,0.34287078632988766
+hyprlabs,HYPRLABS Inc.,2024-12-30,1.0978781656399725,0,last_supplied_sub_1b_round_proxy,-6.063945973877121
+concourse,"Concourse Technologies, Inc.",2025-01-16,1.0294318959616702,0,last_supplied_sub_1b_round_proxy,0.03571210516918817
+arpio,"Arpio, Inc.",2025-08-13,0.8049281314168378,0,last_supplied_sub_1b_round_proxy,0.547541270039105
+sydecar,"Sydecar, Inc.",2024-04-04,0.6297056810403833,0,last_supplied_sub_1b_round_proxy,0.47502820515135197
+casechek,"Casechek, Inc.",2024-08-22,1.051334702258727,0,last_supplied_sub_1b_round_proxy,0.125837190951758
+zenatarisrenewableenergyprivate,Zenataris Renewable Energy Private Limited,2026-02-25,0.2272416153319644,0,last_supplied_sub_1b_round_proxy,0.07225825130852105
+visanahealth,"Visana Health, Inc.",2025-06-08,0.1943874058863792,0,last_supplied_sub_1b_round_proxy,0.7595606467923299
+hazeltreefundservices,"HazelTree Fund Services, Inc.",2024-08-22,0.32854209445585214,0,last_supplied_sub_1b_round_proxy,0.5625986616812285
+redihealth,Redi.Health Inc.,2024-08-30,0.9582477754962354,0,last_supplied_sub_1b_round_proxy,0.05272238695502619
+qbhealthpvt,QB Health Technologies Pvt. Ltd.,2025-09-17,0.731006160164271,0,last_supplied_sub_1b_round_proxy,0.857747575595065
+enabledental,Enable Dental Inc.,2024-09-19,0.12867898699520877,0,last_supplied_sub_1b_round_proxy,0.3290897360456431
+h2u,"H2U Technologies, Inc.",2024-03-01,0.6461327857631759,0,last_supplied_sub_1b_round_proxy,0.6020200706793836
+trulivpropertiesservicesprivate,Truliv Properties & Services Private Limited,2025-06-20,0.008213552361396304,0,last_supplied_sub_1b_round_proxy,-0.41487322082524575
+xanadubio,"Xanadu Bio, Inc.",2024-12-26,0.6680355920602327,0,last_supplied_sub_1b_round_proxy,0.4226589521493372
+mobiletyreshoppty,Mobile Tyre Shop Holdings Pty. Ltd.,2024-12-30,0.487337440109514,0,last_supplied_sub_1b_round_proxy,-0.2853306762850824
+baseten,"BaseTen Labs, Inc.",2024-04-25,1.3634496919917864,1,first_ge_1b_event,0.7831003069575603
+cordatahealthcareinnovations,"Cordata Healthcare Innovations, Inc.",2024-09-11,0.5530458590006845,0,last_supplied_sub_1b_round_proxy,0.07321337208854088
+loneriderspirits,"Lonerider Spirits, LLC",2024-03-30,1.0403832991101984,0,last_supplied_sub_1b_round_proxy,-1.5610185517490471
+spreeai,SpreeAI Corporation,2024-11-21,0.45722108145106094,1,first_ge_1b_event,0.18678151606996476
+depositlink,DepositLink Inc.,2024-07-25,0.8952772073921971,0,last_supplied_sub_1b_round_proxy,-0.1840157410072716
+adyton,Adyton PBC Inc.,2024-05-08,1.0157426420260096,0,last_supplied_sub_1b_round_proxy,0.5676185033270534
+bainbridgegrowth,Bainbridge Growth Incorporated,2024-09-14,0.8980150581793293,0,last_supplied_sub_1b_round_proxy,0.3314912202333792
+pvpallet,"PVpallet, Inc.",2024-01-31,0.974674880219028,0,last_supplied_sub_1b_round_proxy,-0.9850846760739849
+beamable,"Beamable, Inc.",2024-02-29,0.9336071184120466,0,last_supplied_sub_1b_round_proxy,0.06254910929761145
+addenenergy,"Adden Energy, Inc.",2024-02-25,0.5229295003422314,0,last_supplied_sub_1b_round_proxy,0.16118871213388136
+oliohealth,"Olio Health, Inc.",2024-08-25,0.7118412046543463,0,last_supplied_sub_1b_round_proxy,0.5368486859841821
+cytotronics,"CytoTronics, Inc.",2024-04-27,0.3586584531143053,0,last_supplied_sub_1b_round_proxy,0.38123277338398753
+radsecurity,"RAD Security, Inc.",2024-02-15,1.0266940451745379,0,last_supplied_sub_1b_round_proxy,0.22437910975677713
+symbrosia,Symbrosia Inc.,2024-06-22,1.4811772758384667,0,last_supplied_sub_1b_round_proxy,0.40422084283653903
+hmulliganbespokelibations,H. Mulligan Bespoke Libations Co.,2024-09-05,0.2026009582477755,0,last_supplied_sub_1b_round_proxy,-0.950126178628091
+apeiron,"Apeiron Labs, Inc.",2024-06-15,1.6399726214921286,0,last_supplied_sub_1b_round_proxy,0.039533428811004176
+cretelligent,"CREtelligent, Inc.",2024-06-13,0.8596851471594799,0,last_supplied_sub_1b_round_proxy,0.1272720227053109
+toolpath,"Toolpath Labs, Inc.",2024-08-04,0.7967145790554415,0,last_supplied_sub_1b_round_proxy,0.12222939399410851
+suitable,"Suitable, Inc.",2024-01-29,1.0924024640657084,0,last_supplied_sub_1b_round_proxy,-0.9385218708873646
+powerparitylda,Power Parity Lda,2024-07-26,0.7748117727583846,0,last_supplied_sub_1b_round_proxy,-0.4482053034113815
+houseamp,HouseAmp Inc.,2024-02-25,0.4271047227926078,0,last_supplied_sub_1b_round_proxy,0.1773019403365129
+talusbioscience,"Talus Bioscience, Inc.",2024-06-05,0.2080766598220397,0,last_supplied_sub_1b_round_proxy,0.3679809550421099
+ritten,"Ritten, Inc.",2024-01-07,0.3915126625598905,0,last_supplied_sub_1b_round_proxy,0.039533428811004176
+nopalera,"NOPALERA, INC.",2024-10-25,1.4099931553730323,0,last_supplied_sub_1b_round_proxy,-0.19388406035690262
+liine,"Liine, Inc.",2024-10-10,0.15331964407939766,0,last_supplied_sub_1b_round_proxy,-0.1477758532128426
+plural,"Plural Labs, Inc.",2024-03-14,1.0294318959616702,0,last_supplied_sub_1b_round_proxy,0.22804125072001968
+sitration,"Sitration, Inc.",2024-03-21,0.2080766598220397,0,last_supplied_sub_1b_round_proxy,-0.18610389011611878
+adaptive,"Adaptive Holdings, LLC",2024-02-27,2.3572895277207393,0,last_supplied_sub_1b_round_proxy,-1.4979426441493464
+impartsecurity,Impart Security Inc.,2024-10-25,0.6105407255304586,0,last_supplied_sub_1b_round_proxy,0.3428579660408746
+arcadesoftware,"Arcade Software, Inc.",2024-10-11,0.10130047912388775,0,last_supplied_sub_1b_round_proxy,0.0289023811073381
+modal,"Modal Labs, Inc.",2024-01-01,2.3846680355920604,1,first_ge_1b_event,0.27158952388255864
+ostracybersecurity,"Ostra Cybersecurity, Inc.",2024-09-14,0.8952772073921971,0,last_supplied_sub_1b_round_proxy,-0.025117259252753665
+flowfuse,FlowFuse Inc.,2024-11-09,0.5886379192334018,0,last_supplied_sub_1b_round_proxy,0.3578302910769709
+frostbyte,"Frostbyte Technologies, Inc",2024-03-30,0.06844626967830253,0,last_supplied_sub_1b_round_proxy,0.2131530752528979
+apex,"Apex Technology, Inc.",2024-10-23,1.6153319644079398,1,first_ge_1b_event,0.4521383256039692
+encoord,encoord Inc.,2024-01-19,0.8049281314168378,0,last_supplied_sub_1b_round_proxy,-0.0669605555268068
+quintar,"Quintar, Inc.",2024-03-29,0.02737850787132101,0,last_supplied_sub_1b_round_proxy,-0.1477758532128426
+finerpoint,"Finerpoint, Inc.",2024-04-11,1.51129363449692,0,last_supplied_sub_1b_round_proxy,0.038657305841837554
+uabwalk15,UAB Walk15,2024-01-14,0.08761122518822724,0,last_supplied_sub_1b_round_proxy,-0.9666015509849223
+simplifyber,"Simplifyber, Inc.",2024-07-05,0.7638603696098563,0,last_supplied_sub_1b_round_proxy,0.20960316745622298
+claira,"CLAIRA TECHNOLOGIES, INC.",2024-04-21,1.1745379876796715,0,last_supplied_sub_1b_round_proxy,0.16279627827058357
+gcards,"G Cards, Inc.",2024-10-11,0.10677618069815195,0,last_supplied_sub_1b_round_proxy,-0.20188039351854475
+kivo,"Kivo, Inc.",2024-12-15,1.0431211498973305,0,last_supplied_sub_1b_round_proxy,0.17462465415578435
+noblegassystems,Noble Gas Systems Inc.,2024-05-10,0.8569472963723477,0,last_supplied_sub_1b_round_proxy,-0.08031593489920942
+coverforce,"CoverForce, Inc.",2024-01-31,1.0924024640657084,0,last_supplied_sub_1b_round_proxy,0.22073286778314938
+weatherpromise,"WeatherPromise, Inc.",2024-12-30,1.0376454483230664,0,last_supplied_sub_1b_round_proxy,-0.036338501646580104
+kuehnleagrosystems,"Kuehnle Agrosystems, Inc.",2024-04-04,2.2258726899383983,0,last_supplied_sub_1b_round_proxy,-0.04634784928935945
+avridh,"Avridh Technologies, Inc.",2024-09-11,0.785763175906913,0,last_supplied_sub_1b_round_proxy,-0.1553340587912162
+pearldiagnostics,"Pearl Diagnostics, Inc.",2024-06-16,1.8453114305270362,0,last_supplied_sub_1b_round_proxy,-0.11406223623263172
+agzen,AgZen Inc.,2024-12-30,1.1416837782340863,0,last_supplied_sub_1b_round_proxy,-0.08031593489920942
+imtc,IMTC Inc.,2024-05-04,1.5852156057494866,0,last_supplied_sub_1b_round_proxy,0.02840372848407772
+wearearthur,"We Are Arthur, Inc.",2024-04-12,0.7611225188227242,0,last_supplied_sub_1b_round_proxy,-0.2889768972969319
+clearvector,ClearVector Inc.,2024-12-14,0.4106776180698152,0,last_supplied_sub_1b_round_proxy,-0.12781563432407678
+confianza,"Confianza, Inc.",2024-02-07,1.8726899383983573,0,last_supplied_sub_1b_round_proxy,-0.26380388494556267
+unumhealthusa,"Unum Health USA, Inc.",2024-04-28,0.243668720054757,0,last_supplied_sub_1b_round_proxy,-2.983374249430606
+kalogon,"Kalogon, Inc.",2024-08-22,1.782340862422998,0,last_supplied_sub_1b_round_proxy,-0.37932132235801475
+gemspecialtyhealth,"Gem Specialty Health, Inc.",2024-03-24,0.5831622176591376,0,last_supplied_sub_1b_round_proxy,-0.09453118898289295
+seedsinvestor,"Seeds Investor Holdings, Inc.",2024-11-16,0.13963039014373715,0,last_supplied_sub_1b_round_proxy,-0.14054666450845693
+autohaulerexchange,Auto Hauler Exchange Inc.,2024-12-11,0.15058179329226556,0,last_supplied_sub_1b_round_proxy,-0.26380388494556267
+milaboratories,MiLaboratories Inc.,2024-02-17,0.6461327857631759,0,last_supplied_sub_1b_round_proxy,-0.2165439452277121
+beaminghealth,"Beaming Health, Inc.",2024-12-22,0.010951403148528405,0,last_supplied_sub_1b_round_proxy,-0.25273700950250283
+farhomes,Far Homes Inc.,2024-09-12,1.264887063655031,0,last_supplied_sub_1b_round_proxy,-0.2736722010535411
+redotech,"Redo Tech, Inc.",2024-07-19,1.9274469541409993,1,first_ge_1b_event,-0.3614566728857899
+arvist,Arvist Inc.,2024-05-25,1.218343600273785,0,last_supplied_sub_1b_round_proxy,-1.55642762077104
+carpoollogistics,"Carpool Logistics, Inc.",2024-07-28,0.621492128678987,0,last_supplied_sub_1b_round_proxy,-0.32521678509136087
+thurlowveterinaryservices,Thurlow Veterinary Services Inc.,2024-02-09,1.5797399041752225,0,last_supplied_sub_1b_round_proxy,-0.6036308209792417
+repetix,"Repetix, Inc.",2024-01-07,0.1998631074606434,0,last_supplied_sub_1b_round_proxy,-0.6647938553554857
+senteon,Senteon Inc.,2024-03-14,0.7446954140999316,0,last_supplied_sub_1b_round_proxy,-0.9055192817335995
+payonward,"PayOnWard,Inc",2024-12-30,0.6379192334017796,0,last_supplied_sub_1b_round_proxy,-0.9318909312195623
+molg,MOLG Inc.,2024-05-24,0.9390828199863107,0,last_supplied_sub_1b_round_proxy,-2.340525194374142
+latentknowledgesolutions,Latent Knowledge Solutions Inc.,2024-11-29,0.2600958247775496,0,last_supplied_sub_1b_round_proxy,-1.4950154062297287
+nourish,"Nourish, Inc.",2025-01-20,0.2546201232032854,1,first_ge_1b_event,0.42641740454007165
+enspiredbstherapy,"Enspire DBS Therapy, Inc.",2025-07-31,0.4544832306639288,0,last_supplied_sub_1b_round_proxy,0.6627450741613591
+etchedai,"Etched.ai, Inc.",2025-05-15,0.6652977412731006,1,first_ge_1b_event,0.10619954018673201
+bachapp,"BACH APP, INC.",2025-03-08,0.6433949349760438,0,last_supplied_sub_1b_round_proxy,0.4417221190177583
+chordcommerce,"Chord Commerce, Inc.",2025-01-17,1.2785763175906912,0,last_supplied_sub_1b_round_proxy,0.7739909911191627
+monnai,"Monnai, Inc.",2025-03-08,0.8542094455852156,0,last_supplied_sub_1b_round_proxy,0.30199450586981763
+beijingyanyu,"Beijing Yanyu Technology Co., Ltd.",2025-07-22,0.9062286105407256,1,first_ge_1b_event,0.02840372848407772
+rubilaboratories,"Rubi Laboratories, Inc.",2025-02-28,0.75564681724846,0,last_supplied_sub_1b_round_proxy,0.6392234512790116
+jot,Jot Labs Inc,2025-01-03,0.5338809034907598,0,last_supplied_sub_1b_round_proxy,0.11932158733673255
+aplos,"Aplos, Inc.",2025-06-02,0.4654346338124572,0,last_supplied_sub_1b_round_proxy,0.11748327020996123
+rivetwork,Rivet Work Inc.,2025-01-16,0.4024640657084189,0,last_supplied_sub_1b_round_proxy,0.2703281389689691
+mosh,"Mosh, PBC",2025-08-13,0.7282683093771389,0,last_supplied_sub_1b_round_proxy,0.3006541578158289
+avomd,"AvoMD, Inc.",2025-06-25,0.7638603696098563,0,last_supplied_sub_1b_round_proxy,0.4707867516832033
+omnipet,Omni Pet Limited,2025-01-23,1.4099931553730323,0,last_supplied_sub_1b_round_proxy,-0.6579660563057534
+joymemories,"Joy Memories, Inc.",2025-05-31,0.4517453798767967,0,last_supplied_sub_1b_round_proxy,0.24903051385139688
+arcana,Arcana Technologies Ltd,2025-04-09,0.019164955509924708,0,last_supplied_sub_1b_round_proxy,-1.2352274572566726
+prospyrmedical,"Prospyr Medical, Inc.",2025-01-04,0.944558521560575,0,last_supplied_sub_1b_round_proxy,0.039533428811004176
+conduitsoftware,Conduit Software Inc.,2025-04-05,0.9664613278576317,0,last_supplied_sub_1b_round_proxy,-0.9318909312195623
+theiainsights,Theia Insights Inc,2025-12-27,0.17796030116358658,0,last_supplied_sub_1b_round_proxy,0.2630698041488136
+creatornetworks,"Creator Networks, Inc.",2025-03-15,0.487337440109514,0,last_supplied_sub_1b_round_proxy,0.16753909181295593
+nuclearn,Nuclearn Inc.,2025-08-08,0.08761122518822724,0,last_supplied_sub_1b_round_proxy,-0.1913241093567046
+ottometric,"Ottometric, Inc",2025-02-13,0.12867898699520877,0,last_supplied_sub_1b_round_proxy,0.2843714684090236
+vsimple,"Vsimple, Inc.",2025-04-25,0.008213552361396304,0,last_supplied_sub_1b_round_proxy,-0.3118614157664261
+parento,"Parento, Inc.",2025-05-09,0.33675564681724846,0,last_supplied_sub_1b_round_proxy,-0.012449010822278317
+olyrafoods,Olyra Foods Inc.,2025-03-12,0.11772758384668036,0,last_supplied_sub_1b_round_proxy,-0.021879493215947773
+onecrewsoftware,"OneCrew Software, Inc.",2025-05-09,0.049281314168377825,0,last_supplied_sub_1b_round_proxy,-0.30991208884797017
+ironsheepdog,"Iron Sheepdog Holdings, Inc.",2025-01-25,1.0787132101300478,0,last_supplied_sub_1b_round_proxy,0.5590429432146977
+yourco,"Yourco, Inc.",2025-10-23,0.3750855578370979,0,last_supplied_sub_1b_round_proxy,-0.18025723391364476
+upwardfinancial,Upward Financial Inc.,2025-02-01,0.7720739219712526,0,last_supplied_sub_1b_round_proxy,-0.10777745832478665
+cloudburst,"Cloudburst Technologies, Inc.",2025-05-04,0.3860369609856263,0,last_supplied_sub_1b_round_proxy,-0.024706601948564832
+portkey,"Portkey, Inc",2025-08-22,0.49555099247091033,0,last_supplied_sub_1b_round_proxy,-0.11153596541841355
+guidelight,"Guidelight Technologies, Inc",2025-05-08,1.0485968514715949,0,last_supplied_sub_1b_round_proxy,-1.4587755184352995
+duh,Duh Corp,2025-11-16,0.13689253935660506,0,last_supplied_sub_1b_round_proxy,-0.344292780851644
+pavewise,"Pavewise, Inc.",2025-10-03,0.05201916495550993,0,last_supplied_sub_1b_round_proxy,-0.5499772241928836
+aerovec,Aerovec Inc.,2025-04-12,0.2792607802874743,0,last_supplied_sub_1b_round_proxy,-1.4201173894454273
+quorus,Quorus Inc.,2025-03-21,0.947296372347707,0,last_supplied_sub_1b_round_proxy,-0.48735299641410385
+cloneable,"Cloneable, Inc.",2025-05-08,0.7638603696098563,0,last_supplied_sub_1b_round_proxy,-0.7906901059466992
+novity,"Novity, Inc.",2026-02-20,0.243668720054757,0,last_supplied_sub_1b_round_proxy,0.3428579660408746
+allencontrolsystems,Allen Control Systems Inc.,2026-04-18,0.13141683778234087,1,first_ge_1b_event,0.5313786155326242
+doromind,Doro Mind Inc.,2026-01-18,0.15879534565366188,0,last_supplied_sub_1b_round_proxy,-0.21892274276909074
+zizzlholding,"zizzl holding company, inc.",2026-02-28,0.08761122518822724,0,last_supplied_sub_1b_round_proxy,0.21813984670193967
+phinsecurity,"Phin Security, Inc.",2026-04-09,0.03285420944558522,0,last_supplied_sub_1b_round_proxy,0.13311433490150792
+bonehealth,"Bone Health Technologies, Inc.",2026-03-04,0.09856262833675565,0,last_supplied_sub_1b_round_proxy,0.14825309219429128
+subbase,SubBase Technologies Inc.,2026-03-29,0.2190280629705681,0,last_supplied_sub_1b_round_proxy,-0.058119381010376836

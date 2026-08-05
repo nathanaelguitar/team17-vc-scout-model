@@ -1,0 +1,4 @@
+horizon_years,status,train_rows,test_rows,test_landmark_years,sampled_positive_rows,sampled_negative_rows,roc_auc,pr_auc,precision,recall,specificity,f1,brier_score,log_loss,calibration_intercept,calibration_slope,true_negative,false_positive,false_negative,true_positive
+2,evaluated,1451.0,30.0,2024|2025|2026,194.0,1287.0,0.7515527950310559,0.9010823040746313,0.8571428571428571,0.5217391304347826,0.7142857142857143,0.6486486486486487,0.22078803427293034,0.6234424195350826,1.4180189560709815,0.801382831479011,5.0,2.0,11.0,12.0
+3,insufficient_class_variation_after_time_split,,,,,,,,,,,,,,,,,,,
+5,insufficient_class_variation_after_time_split,,,,,,,,,,,,,,,,,,,

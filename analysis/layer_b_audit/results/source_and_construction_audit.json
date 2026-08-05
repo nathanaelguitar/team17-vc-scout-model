@@ -1,0 +1,15 @@
+{
+  "historical_gold_rows": 4068,
+  "historical_positive_rows": 2034,
+  "historical_control_rows": 2034,
+  "historical_pair_groups": 2034,
+  "gold_duplicate_company_keys": 0,
+  "raw_sub_billion_round_rows": 37858,
+  "raw_sub_billion_companies": 30247,
+  "raw_ge_1b_round_rows": 3000,
+  "raw_ge_1b_companies": 2034,
+  "companies_in_both_low_round_and_event_exports": 809,
+  "latest_supplied_round_date": "2026-07-29",
+  "control_index_uses_matched_positive_outcome_date": true,
+  "note": "The low-valuation extract does not supply operating status, closure, coverage dates, or a complete valuation history; absence of a >=$1B row is not a verified non-event."
+}
