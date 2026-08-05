@@ -76,11 +76,12 @@ Mia, take them to 2021.
 STAGE: Bars extend in a wave, 2021 in gold; era panel and p-value tags fold in. One press moves on.
 
 MIA: Thanks, Kayvon. Before any modeling, look at what the market did on its own.
-Each bar is new unicorns per year. The gold one is 2021: 441 companies. A normal year runs about a hundred.
-Right panel. The median unicorn got cheaper every era: 2.3 billion, then 1.67, then 1.5. Funding fell harder, 505 million down to 231.
-Those shifts are statistically real. But time-to-unicorn didn't move. Six years, every era. So 2021 changed how much money a unicorn carries, not how fast it got there.
-That's why every model tonight treats 2021 as its own era. A crazy year can't warp a comparison.
-Now, the machine we raced on top of it.
+2021 produced 441 unicorns. For scale, 351 dated rows sit before 2021 and 607 after.
+The median unicorn got cheaper every era. 2.3 billion, then 1.67, then 1.5. Funding fell harder: 505 million, 320, 231.
+Those shifts are statistically real. Valuation, funding, and sector mix all move with p-values near zero.
+But time-to-unicorn stayed near six years. Not significant.
+Bottom line: 2021 changed the capital and valuation regime, not the speed. It's a market break, not proof that COVID caused it.
+That's why every model tonight treats 2021 as its own era. Now, the machine we raced.
 ---
 
 ## M-06 · TOURNAMENT (model & tools) — Mia · about 2 min
@@ -148,7 +149,7 @@ These are watchlists for diligence, not rankings to invest by. And you can drive
 
 ## M-11 · EXPLORER (live demo) — Om · about 2 min
 
-STAGE: FULLY LIVE. Demo: (1) drag the slider, (2) tap a sector chip, (3) hit KLARNA, (4) optionally OPENAI. State persists; just drag back.
+STAGE: FULLY LIVE. Demo: (1) drag the slider, (2) tap a sector chip, (3) hit KLARNA, (4) optionally OPENAI. State persists; just drag back. Alternate example if asked: Coro Cyber Security, ranking score 92.6%, $575M post-money, $100M current round, also insufficient follow-up.
 
 OM: This is not a screenshot.
 *(drag the slider)*
@@ -159,19 +160,19 @@ Sectors shift the estimate, and the output says when a profile clears the billio
 Real company. Klarna's expected value comes out around 10 billion. Its actual peak was 46. That's 4.6 times above benchmark, computed in front of you.
 *(optional: OPENAI)*
 And there's the crowd-pleaser.
-One more panel: the ranker's live leads. Top of 1,015 private candidates right now, Coro Cyber Security and Snabbit. Leads to research, not picks.
+The gold panel is the ranker's pick of a near-unicorn. Neo Financial, last valued at 779 million, raised 144 million before this 263 million round. The ranker scores it 79.5 percent. That's a ranking signal, not a probability. Follow-up is still open.
 Nathanael, layer two. Not how big. Who gets there.
 ---
 
 ## M-12 · CLASSIFIER (Layer B) — Nathanael · about 2 min
 
-STAGE: The 0.804 and its interval land big; the tear-down card second. Slow down on "we tore it down." One press moves on.
+STAGE: The 0.804 and its interval land big; the smoking-gun chart second. Slow down on "a perfect 1.0." One press moves on.
 
-NATHANAEL: Layer two watches a company at its second financing and asks one question. Does a billion-dollar event show up within three years?
-Our first version scored 0.997. We didn't believe it, and neither should you. A much simpler model scored nearly the same, which means it was reading our data construction, not startup quality. So we tore it down.
+NATHANAEL: Layer two uses only a company's first two financings and asks one question. Does a recorded billion-dollar event follow within three years?
+Our first version scored 0.997. We didn't believe it, and here's the proof we were right. Feed the old setup nothing but its own matching bookkeeping, and it scores a perfect 1.0. The model was reading how we built the data, not startup quality. So we tore it down.
 The rebuild: trained through 2019, tested cold on 2021 and '22. ROC-AUC 0.804, interval 0.71 to 0.88, because the final sample is small. 113 companies, 34 hits.
-Here's what matters for a scout. In the top decile, three of four flagged companies actually hit a billion-dollar event. Two and a half times better than chance.
-What drives it is funding, not timing. Round size alone gets most of the way there, and timing features score at a coin flip.
+For a scout, the useful part: in the top decile, three of four flagged companies actually hit a billion-dollar event. Two and a half times better than chance.
+What drives it is funding, not timing. Round size alone gets most of the way; timing features score at a coin flip.
 These are rankings, not probabilities. It orders 1,015 live candidates by where to look first. It doesn't pick winners.
 And we promised you verdicts. The scoreboard.
 ---

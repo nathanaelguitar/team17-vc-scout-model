@@ -1161,8 +1161,8 @@ const deck = {
               <div id="xp-vs" style="font-size:clamp(13px,1.1vw,17px);margin-top:14px;line-height:1.7"></div>
             </div>
             <div class="ledge" data-fold style="margin-top:16px;background:#F5EFD9;border-color:var(--gold-deep)">
-              <div class="k">RANKER LEADS · LIVE</div>
-              <div class="n" style="font-size:clamp(12.5px,1.05vw,16px);line-height:1.7"><b>Coro Cyber Security</b> · <b>Snabbit</b> · top of 1,015 ranked private candidates right now. Leads for diligence, not picks.</div>
+              <div class="k">RANKER LEAD · A NEAR-UNICORN</div>
+              <div class="n" style="font-size:clamp(12.5px,1.05vw,16px);line-height:1.7"><b>Neo Financial</b> · ranking score <b>79.5%</b>. Last post-money $779M, prior funding $144M, current round $263M. Follow-up still open. A ranking signal, not a probability.</div>
             </div>
           </div>
         </div>
@@ -1218,7 +1218,7 @@ const deck = {
   const node = boardSlide('m-12', canvas => {
     canvas.innerHTML += `
       <h2 data-fold>A 0.99 we didn't trust became a 0.80 we do</h2>
-      <p class="sub" data-fold>The screening ranker watches a company's second financing and asks one question: does a $1B event follow within three years?</p>
+      <p class="sub" data-fold>Using only a company's first two financings, the ranker asks one question: does a recorded $1B event follow within three years?</p>
       <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(40px,4vw,64px);margin-top:26px;align-items:start">
         <div>
           <div data-fold>
@@ -1238,9 +1238,26 @@ const deck = {
             <div class="k">WHY WE TORE DOWN THE FIRST ONE</div>
             <div class="n" style="font-size:clamp(12.5px,1.05vw,16px);line-height:1.75">Version one scored <b>0.997</b>, and a far simpler model nearly matched it. Separation that easy means the model was reading our data construction, not startup quality. So we rebuilt it and report the honest number.</div>
           </div>
+          <div data-fold style="margin-top:14px">
+            <div class="spec" style="margin-bottom:8px"><b>THE SMOKING GUN</b> · OLD MODEL'S FORWARD-TEST AUC BY FEATURE SET</div>
+            <svg viewBox="0 0 500 150" style="width:100%;max-width:600px;height:auto;display:block">
+              <g font-family="B612 Mono" font-size="10.5">
+                <text x="0" y="16" fill="#B3372B" font-weight="700">MATCHING BOOKKEEPING ONLY</text>
+                <path d="M244 6 L442 6 L436 20 L238 20 Z" fill="#B3372B"/><text x="446" y="17" fill="#B3372B" font-weight="700">1.000</text>
+                <text x="0" y="46" fill="#161511">ALL REAL FEATURES</text>
+                <path d="M244 36 L436 36 L430 50 L238 50 Z" fill="#161511"/><text x="440" y="47" fill="#4B4B47">0.966</text>
+                <text x="0" y="76" fill="#161511">ONE TIMING FEATURE</text>
+                <path d="M244 66 L424 66 L418 80 L238 80 Z" fill="#161511"/><text x="428" y="77" fill="#4B4B47">0.904</text>
+                <text x="0" y="106" fill="#161511">MISSINGNESS FLAGS ONLY</text>
+                <path d="M244 96 L406 96 L400 110 L238 110 Z" fill="#161511"/><text x="410" y="107" fill="#4B4B47">0.816</text>
+                <text x="0" y="136" fill="#161511">COMPANY TRAITS ONLY</text>
+                <path d="M244 126 L356 126 L350 140 L238 140 Z" fill="#B9B6AE"/><text x="360" y="137" fill="#4B4B47">0.569</text>
+              </g>
+            </svg>
+          </div>
           <div class="ledge" data-fold style="margin-top:12px">
-            <div class="k">WHAT DRIVES IT</div>
-            <div class="n" style="font-size:clamp(12.5px,1.05vw,16px);line-height:1.75"><b>Funding, not timing.</b> Round size alone reaches 0.84 in validation; timing-only features score 0.49, a coin flip. Scores are <b>rankings, never probabilities</b>. It orders live candidates by where to look first.</div>
+            <div class="k">WHAT DRIVES THE REBUILD</div>
+            <div class="n" style="font-size:clamp(12.5px,1.05vw,16px);line-height:1.75"><b>Funding, not timing.</b> Round size alone reaches 0.84 in validation; timing-only scores 0.49, a coin flip. Scores are <b>rankings, never probabilities</b>.</div>
           </div>
         </div>
       </div>`;
