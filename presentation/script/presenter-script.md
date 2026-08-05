@@ -54,6 +54,7 @@ STAGE: Boxes and sub-question rows fold in on their own. One press moves on.
 KAYVON: Here's the setting. 2021 minted a record cohort of unicorns, then the market repriced it. Gut-feel benchmarks broke. Scouts are drowning in deal flow, and private valuations are still opaque. The practical pain is triage: too many companies, no fair yardstick.
 So we asked a deliberately narrow question. Given only public fields, meaning funding, sector, geography, and timing: what is a fair expected valuation for a unicorn-scale company? And which segments beat that benchmark?
 Notice what the question doesn't say. It doesn't say "who will succeed." It says fair expected valuation, conditional on unicorn scale. That's the version an investment committee could actually use. Fair benchmarks first. Then residual watchlists. Then diligence priorities.
+The plain-English version is simpler: this is a ranked recommendation system for venture capital. It turns public signals into an expected valuation or a screening score, then ranks companies and segments against a fair benchmark. It helps a scout decide what deserves a closer look. It is not a crystal ball.
 We committed to six sub-questions up front, H1 through H5 plus a classifier question, and every one of them gets a verdict stamp before we're done. One of those stamps says disproven. We'll show you that one too, because we lost it fair and square.
 First, the data. An honest answer needs more than a winners-only file.
 
@@ -169,6 +170,7 @@ The slider is total disclosed funding, $10 million to $50 billion on a log scale
 Every sector changes the estimate, and the output tells you when a profile clears the billion-dollar line.
 *(hit the KLARNA preset)*
 Now a real company. Klarna. Expected valuation comes out around $10.1 billion. Its actual peak snapshot was $46 billion. That's 4.6 times above benchmark, computed in front of you.
+Here's the classifier version of the same idea. Changing Environments Inc. is a non-unicorn control in the forward test: hardware and industrials, North America, with $2.5 million in pre-round funding and an $8.77 million last recorded post-money value. The model gave it a 94.2 percent screening score, the highest-ranked non-unicorn control out of 536. That is a diligence lead, not a claim that the company will become a unicorn. The controls are defined by the absence of a recorded billion-dollar round.
 *(optional: hit OPENAI, give the room a second)*
 And if you want the crowd-pleaser, there's OpenAI.
 One caution, and the subtitle says it too: this is a scouting instrument, not a valuation tool for investing.
@@ -234,8 +236,8 @@ STAGE: Takeaway cards fold in on the left, the prediction card lands on the righ
 FINN: Three things this project taught us, and one call.
 One. When a model looks too good, suspect the data, not a breakthrough. Our headline classifier scored 0.99, and so did a much simpler model. That's a warning, not a win.
 Two. Money still moves valuations, but with diminishing returns. Doubling a company's funding buys about 40 percent more value. Efficiency beats raw check size.
-Three. The market is splitting in two. A few AI and infrastructure names hold almost all the value created since 2022, while most unicorns sit flat.
-And the call, on the gold card: based on everything we measured, we think the next unicorns come from capital-efficient fintech and enterprise software, plus a rising cluster in South Korea, Singapore, and Israel. Why? Those are the segments that keep beating our funding-adjusted benchmark. Not just the ones raising the most.
+Three. The direction is specific, but not a single “next unicorn” profile. By count, North America still leads the audited set with 584 rows, followed by Asia with 303 and Europe with 136. On the funding-adjusted residual, South Korea is the strongest watchlist at plus 0.348 across twelve companies, while the United States is close to benchmark at plus 0.013 across 561. By industry, Enterprise Software has 300 rows, AI and Data has 263, and Fintech has 213; Fintech and Enterprise Software beat benchmark, while AI and Data is slightly below it at minus 0.018.
+And two answers are deliberately negative. We don't have reliable team-size coverage, so we won't invent a company-size trend. And age did not move: the median time to unicorn stayed around six years before 2021, in 2021, and after 2021, with p equals 0.267. The defensible call is capital-efficient fintech and enterprise software, with South Korea as a watchlist, not a prediction of who wins.
 
 ---
 
@@ -258,4 +260,4 @@ NOTE: **Which cell for which question:**
 "Isn't 0.997 AUC too good to be true?" → IS THE MODEL TOO GOOD? Yes, nearly. A simple model scores almost as high; suspect the data first. Forward test: 0.9865.
 "Why is 2021 special?" → WHY IS 2021 SPECIAL? 441 unicorns, five times normal, at lower valuations and funding, with unchanged time-to-unicorn.
 "Does more money mean more value?" → DOES MONEY = VALUE? Only partly. Doubling funding buys about 41 percent more valuation. Remove funding and the model barely works.
-"Where do the next unicorns come from?" → WHERE NEXT UNICORNS? Capital-efficient fintech and enterprise software, plus South Korea, Singapore, and Israel.
+"Where do the next unicorns come from?" → WHERE NEXT UNICORNS? North America still dominates by count; South Korea is the strongest small-sample watchlist; Fintech and Enterprise Software beat the funding-adjusted benchmark; AI and Data does not. We cannot support a team-size trend, and median time-to-unicorn remains about six years.
