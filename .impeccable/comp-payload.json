@@ -1,0 +1,44 @@
+{
+  "title": "VC Scout — pick the composition to build",
+  "question": "Same Miura world, three compositions. Approve one, or use the steer box to combine (e.g. \"B for title and act breaks, C for data slides\").",
+  "options": [
+    {
+      "id": "comp-a",
+      "label": "A · The Ledger Sheet",
+      "kicker": "FLAT-ON",
+      "thesis": "An engineering drawing you read: flat sheet, giant ink title, data living inside deployed cells.",
+      "viewport": "Controlled and airy; every slide reads like a precision spec document. Motion is subtle cell-by-cell deployment in plane.",
+      "risk": "The quietest of the three — less theatrical unfold, memorability rides on typography and precision.",
+      "sketch": ".impeccable/mocks/comp-a-ledger-sheet.png"
+    },
+    {
+      "id": "comp-b",
+      "label": "B · The Unfolding Stage",
+      "kicker": "DIMENSIONAL",
+      "thesis": "The sheet itself performs: dramatic 3D deployment on every act break, titles riding the crease seams.",
+      "viewport": "Maximum spectacle — the paper visibly unfolds in perspective, then facets rotate flat when a chart needs reading.",
+      "risk": "Perspective must always hand off to flat surfaces for dense charts, or legibility suffers at the back of the room.",
+      "sketch": ".impeccable/mocks/comp-b-unfolding-stage.png"
+    },
+    {
+      "id": "comp-c",
+      "label": "C · The Split Board",
+      "kicker": "CHART-FIRST",
+      "thesis": "A folded spine holds the fold-map agenda; a big flat canvas gives every chart maximum projector scale.",
+      "viewport": "Most legible from distance; the persistent M-01…M-13 spine doubles as agenda, progress, and navigation.",
+      "risk": "The spine takes a third of every slide — hero moments get less full-bleed drama.",
+      "sketch": ".impeccable/mocks/comp-c-split-board.png"
+    },
+    {
+      "id": "comp-hybrid",
+      "label": "Hybrid · Stage + Board",
+      "kicker": "COMBINE",
+      "thesis": "B's dimensional deployment for the title and the four hero moments; C's spine-and-canvas for data slides; A's in-cell data styling throughout.",
+      "viewport": "Act breaks unfold in perspective, then the sheet settles into the split-board reading layout; the fold-map spine collapses to a thin rail during heroes.",
+      "risk": "Two layout modes must feel like one sheet — the transition between them has to be flawless or it reads as two decks."
+    }
+  ],
+  "reroll": false,
+  "canon": false,
+  "steer": true
+}

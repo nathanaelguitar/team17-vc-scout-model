@@ -1,0 +1,27 @@
+name: Sync presenter script to Notion
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "presentation/script/**"
+      - ".github/scripts/sync_script_to_notion.py"
+  workflow_dispatch: {}
+
+concurrency:
+  group: notion-script-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Push script to Notion
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_PAGE_ID: c1d1e1bfcf2e40ec9bbcf8aacd7abbbe
+        run: python .github/scripts/sync_script_to_notion.py
