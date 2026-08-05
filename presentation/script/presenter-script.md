@@ -170,15 +170,26 @@ The slider is total disclosed funding, $10 million to $50 billion on a log scale
 Every sector changes the estimate, and the output tells you when a profile clears the billion-dollar line.
 *(hit the KLARNA preset)*
 Now a real company. Klarna. Expected valuation comes out around $10.1 billion. Its actual peak snapshot was $46 billion. That's 4.6 times above benchmark, computed in front of you.
-Here's the classifier version of the same idea. Changing Environments Inc. is a non-unicorn control in the forward test: hardware and industrials, North America, with $2.5 million in pre-round funding and an $8.77 million last recorded post-money value. The model gave it a 94.2 percent screening score, the highest-ranked non-unicorn control out of 536. That is a diligence lead, not a claim that the company will become a unicorn. The controls are defined by the absence of a recorded billion-dollar round.
 *(optional: hit OPENAI, give the room a second)*
 And if you want the crowd-pleaser, there's OpenAI.
 One caution, and the subtitle says it too: this is a scouting instrument, not a valuation tool for investing.
+And here's what it looks like when the screening side actually finds something.
+
+---
+
+## M-12 · SCOUT EXAMPLE (a diligence lead) — Om · about 45 sec
+
+STAGE: Sparse slide: the 94.2% score lands huge, then the company name and four fact chips, then the gold guard tag. Let the number breathe before speaking. One press moves on.
+
+OM: One example, and I'll keep it short.
+Changing Environments. Hardware and industrials, out of North America. They've raised two and a half million dollars, last valued at just under nine million.
+The screening model gave them 94.2 percent. The highest-ranked company out of 536 that hasn't hit a billion yet.
+Read the gold tag with me: that's a lead for diligence. Not a claim they become a unicorn. It just means, of everything out there, this is where a scout should look first.
 Nathanael, layer two asks a harder question. Not how big. Who gets there.
 
 ---
 
-## M-12 · CLASSIFIER (Layer B) — Nathanael · about 2 min
+## M-13 · CLASSIFIER (Layer B) — Nathanael · about 2 min
 
 STAGE: Importance bars extend; both AUC numbers fold in large. One press moves on. Slow down on the warning card. Say the quiet part before any professor does.
 
@@ -193,7 +204,7 @@ And we promised you verdicts. The scoreboard.
 
 ---
 
-## M-13 · HYPOTHESES (learnings) — Nathanael · about 1 min
+## M-14 · HYPOTHESES (learnings) — Nathanael · about 1 min
 
 STAGE: Stamps slam in staggered with a slight rotation. Fast slide. Let the red DISPROVEN stamp do the work. One press moves on.
 
@@ -206,7 +217,7 @@ So what should a scout actually do with all this? Finn, the playbook.
 
 ---
 
-## M-14 · PLAYBOOK (recommendations) — Finn · about 1 min
+## M-15 · PLAYBOOK (recommendations) — Finn · about 1 min
 
 STAGE: Rows fold in, run-column then refuse-column. Don't soften the refuse column. Its bluntness is the persuasion. One press moves on.
 
@@ -218,7 +229,7 @@ Let's zoom out once.
 
 ---
 
-## M-15 · FRAMEWORK (deployment & next steps) — Finn · about 1 min
+## M-16 · FRAMEWORK (deployment & next steps) — Finn · about 1 min
 
 STAGE: The flow BENCHMARK → RESIDUALS → SCORING → DECISION cascades in. Read the on-the-label disclaimers slowly, on purpose. One press moves on.
 
@@ -229,7 +240,7 @@ Before we close: what this project taught us.
 
 ---
 
-## M-16 · CARRY (insights & takeaways) — Finn · about 1 min
+## M-17 · CARRY (insights & takeaways) — Finn · about 1 min
 
 STAGE: Takeaway cards fold in on the left, the prediction card lands on the right. One press moves on.
 
@@ -241,7 +252,7 @@ And two answers are deliberately negative. We don't have reliable team-size cove
 
 ---
 
-## M-17 · CLOSE — Kayvon · about 30 sec
+## M-18 · CLOSE — Kayvon · about 30 sec
 
 STAGE: Roster and the five folded Q&A cells fold in. After inviting questions, do NOT fill the silence. Let the folded cells do the work.
 

@@ -1160,10 +1160,6 @@ const deck = {
               <div id="xp-val">$-</div>
               <div id="xp-vs" style="font-size:clamp(13px,1.1vw,17px);margin-top:14px;line-height:1.7"></div>
             </div>
-            <div class="ledge" data-fold style="margin-top:16px;background:#F5EFD9;border-color:var(--gold-deep)">
-              <div class="k">CLASSIFIER EXAMPLE · A DILIGENCE LEAD</div>
-              <div class="n" style="font-size:clamp(12.5px,1.05vw,16px);line-height:1.7"><b>Changing Environments Inc.</b> · hardware and industrials, North America. $2.5M pre-round funding, $8.77M last post-money. Screening score <b>94.2%</b>, the highest-ranked non-unicorn control of 536 in the forward test. A lead for diligence, not a claim it becomes a unicorn.</div>
-            </div>
           </div>
         </div>
       </div>`;
@@ -1213,10 +1209,39 @@ const deck = {
     } });
 })();
 
-/* ================= M-10 · classifier ================= */
+/* ================= M-12 · scout example (a diligence lead) ================= */
+(function () {
+  const node = stageSlide('m-12', inner => {
+    inner.innerHTML = `
+      <div style="position:absolute;inset:0;padding:clamp(48px,6vh,80px) clamp(56px,5vw,96px);display:flex;flex-direction:column;justify-content:center">
+        <h2 data-fold style="font-size:clamp(34px,4.2vw,64px)">What a diligence lead looks like</h2>
+        <div style="display:flex;gap:clamp(40px,5vw,96px);align-items:center;margin-top:clamp(30px,5vh,56px);flex-wrap:wrap">
+          <div data-fold>
+            <div style="font-family:var(--disp);font-weight:700;font-size:clamp(64px,8.5vw,150px);line-height:.95" class="gold-t">94.2%</div>
+            <div class="spec" style="margin-top:10px">SCREENING SCORE · RANKED #1 OF 536 CONTROLS</div>
+          </div>
+          <div style="max-width:520px">
+            <div data-fold style="font-family:var(--disp);font-weight:700;font-size:clamp(26px,2.4vw,40px);line-height:1.1">CHANGING ENVIRONMENTS INC.</div>
+            <div class="xp-chips" style="margin-top:18px">
+              <span class="chip" data-fold><span>HARDWARE &amp; INDUSTRIALS</span></span>
+              <span class="chip" data-fold><span>NORTH AMERICA</span></span>
+              <span class="chip" data-fold><span>$2.5M RAISED</span></span>
+              <span class="chip" data-fold><span>$8.77M LAST VALUE</span></span>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top:clamp(30px,5vh,56px)" data-fold>
+          <span class="tag gold" style="font-size:clamp(13px,1.15vw,18px);padding:8px 18px 7px"><span>A LEAD FOR DILIGENCE. NOT A CLAIM IT BECOMES A UNICORN.</span></span>
+        </div>
+      </div>`;
+  });
+  slide({ id: 'm-12', name: 'SCOUT', mode: 'stage', node, enter() { choreograph(node); } });
+})();
+
+/* ================= M-13 · classifier ================= */
 (function () {
   let tw = [];
-  const node = boardSlide('m-12', canvas => {
+  const node = boardSlide('m-13', canvas => {
     const c = DATA.clf;
     canvas.innerHTML += `
       <h2 data-fold>Round-level data makes the first honest success classifier</h2>
@@ -1263,7 +1288,7 @@ const deck = {
       b.p.setAttribute('d', `M${x0} ${b.y} L${x0 + w + sk2} ${b.y} L${x0 + w} ${b.y + b.h} L${x0} ${b.y + b.h} Z`);
     })));
   }
-  slide({ id: 'm-12', name: 'CLASSIFIER', mode: 'board', node,
+  slide({ id: 'm-13', name: 'CLASSIFIER', mode: 'board', node,
     enter() { choreograph(node); draw0(draw, 300); },
     exit() { tw.forEach(t => t.stop()); tw = []; } });
 })();
@@ -1292,7 +1317,7 @@ const deck = {
     });
     return svg + '</svg>';
   }
-  const node = boardSlide('m-13', canvas => {
+  const node = boardSlide('m-14', canvas => {
     let rows = '', counts = { ok: 0, part: 0, no: 0, nop: 0 };
     DATA.hyp.forEach(h => {
       const raw = (h.s || '').toUpperCase();
@@ -1316,12 +1341,12 @@ const deck = {
         </div>
       </div>`;
   });
-  slide({ id: 'm-13', name: 'HYPOTHESES', mode: 'board', node, enter() { choreograph(node); } });
+  slide({ id: 'm-14', name: 'HYPOTHESES', mode: 'board', node, enter() { choreograph(node); } });
 })();
 
 /* ================= M-14 · playbook (recommendations) ================= */
 (function () {
-  const node = boardSlide('m-14', canvas => {
+  const node = boardSlide('m-15', canvas => {
     const DO = [
       ['Rank segments by benchmark residuals', 'Actual minus expected valuation, never raw valuation or unicorn counts · it controls for funding and regime, and it is explainable to an investment committee.'],
       ['Treat 2021 as its own regime', 'Report pre-2021 / 2021 / post-2021 separately; flag any benchmark influenced by an unusual funding regime.'],
@@ -1345,19 +1370,19 @@ const deck = {
         </div>
       </div>`;
   });
-  slide({ id: 'm-14', name: 'PLAYBOOK', mode: 'board', node, enter() { choreograph(node); } });
+  slide({ id: 'm-15', name: 'PLAYBOOK', mode: 'board', node, enter() { choreograph(node); } });
 })();
 
 /* slide meta for the M-15 deployment map */
 const SLIDES_META = [
   ['M-01', 'PACKET'], ['M-02', 'TEAM'], ['M-03', 'QUESTION'], ['M-04', 'UNIVERSE'], ['M-05', 'REGIME'],
   ['M-06', 'TOURNAMENT'], ['M-07', 'AUDIT'], ['M-08', 'REFOLD'], ['M-09', 'TRAJECTORIES'], ['M-10', 'RESIDUALS'],
-  ['M-11', 'EXPLORER'], ['M-12', 'CLASSIFIER'], ['M-13', 'HYPOTHESES'], ['M-14', 'PLAYBOOK'], ['M-15', 'FRAMEWORK'],
-  ['M-16', 'CARRY'], ['M-17', 'CLOSE']];
+  ['M-11', 'EXPLORER'], ['M-12', 'SCOUT'], ['M-13', 'CLASSIFIER'], ['M-14', 'HYPOTHESES'], ['M-15', 'PLAYBOOK'],
+  ['M-16', 'FRAMEWORK'], ['M-17', 'CARRY'], ['M-18', 'CLOSE']];
 
 /* ================= M-15 · full deployment + next steps ================= */
 (function () {
-  const node = stageSlide('m-15', inner => {
+  const node = stageSlide('m-16', inner => {
     inner.innerHTML = `
       <div style="position:absolute;inset:0;padding:clamp(40px,5vh,64px) clamp(48px,4vw,80px);display:flex;flex-direction:column;justify-content:center">
         <h2 data-fold style="font-size:clamp(30px,3.6vw,52px)">One framework, and where it goes next</h2>
@@ -1371,7 +1396,7 @@ const SLIDES_META = [
         </div>
       </div>`;
   });
-  slide({ id: 'm-15', name: 'FRAMEWORK', mode: 'stage', node, enter() { choreograph(node); } });
+  slide({ id: 'm-16', name: 'FRAMEWORK', mode: 'stage', node, enter() { choreograph(node); } });
 })();
 
 /* ================= M-16 · professional relevance ================= */
@@ -1380,7 +1405,7 @@ const SLIDES_META = [
     ['When a model looks too good, suspect the data, not a breakthrough.', 'Our headline classifier scored 0.99, and so did a much simpler model. That is a warning, not a win.'],
     ['Money still moves valuations, but with diminishing returns.', 'Doubling a company\'s funding buys only about 40% more value. Efficiency beats raw check size.'],
     ['The direction is specific, but it is not one profile.', 'North America leads by count (584 rows). On funding-adjusted residuals, South Korea is the top watchlist (+0.348, 12 companies) while the US sits at benchmark (+0.013, 561). Fintech and Enterprise Software beat benchmark; AI and Data sits just below it (\u22120.018).']];
-  const node = boardSlide('m-16', canvas => {
+  const node = boardSlide('m-17', canvas => {
     canvas.innerHTML += `
       <h2 data-fold>What we learned, and where the next unicorns come from</h2>
       <p class="sub" data-fold>Three things our model taught us, and one call on where the market goes next.</p>
@@ -1396,7 +1421,7 @@ const SLIDES_META = [
         </div>
       </div>`;
   });
-  slide({ id: 'm-16', name: 'CARRY', mode: 'board', node, enter() { choreograph(node); } });
+  slide({ id: 'm-17', name: 'CARRY', mode: 'board', node, enter() { choreograph(node); } });
 })();
 
 /* ================= M-17 · close + QA cells ================= */
@@ -1408,7 +1433,7 @@ const SLIDES_META = [
     'IS THE MODEL TOO GOOD?': `<h3>Is 0.99 too good to be true?</h3><p class="sub">Almost. A simple model scores nearly as high, which is a red flag. It is likely reading how companies were matched, not pure quality. We report it as screening, never a prediction of success.</p>`,
     'WHERE NEXT UNICORNS?': `<h3>Where the next unicorns come from</h3><p class="sub">North America still dominates by count (584 rows in the audited set, vs 303 in Asia and 136 in Europe). South Korea is the strongest small-sample watchlist (+0.348, 12 companies). Fintech and Enterprise Software beat the funding-adjusted benchmark; AI and Data does not (\u22120.018). Two things we won't claim: a team-size trend (no reliable coverage) and a speed trend (median time to unicorn stayed about six years, p = 0.267).</p>`
   };
-  const node = stageSlide('m-17', inner => {
+  const node = stageSlide('m-18', inner => {
     inner.innerHTML = `
       <div style="position:absolute;inset:0;padding:clamp(48px,6vh,80px) clamp(56px,5vw,96px);display:flex;flex-direction:column;justify-content:center">
         <h2 data-fold style="font-size:clamp(38px,4.8vw,72px)">Every number in this deck is one script away</h2>
@@ -1421,7 +1446,7 @@ const SLIDES_META = [
         <div class="qa-row" data-fold id="qa-row"></div>
       </div>`;
   });
-  slide({ id: 'm-17', name: 'CLOSE', mode: 'stage', node,
+  slide({ id: 'm-18', name: 'CLOSE', mode: 'stage', node,
     enter() {
       choreograph(node);
       const row = $('#qa-row'); row.innerHTML = '';
