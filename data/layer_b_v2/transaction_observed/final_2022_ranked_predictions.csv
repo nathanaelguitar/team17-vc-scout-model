@@ -1,0 +1,40 @@
+company,company_key,prediction_date,target,label_state,ranking_score
+MiniMax Group Inc. (SEHK:100),minimaxsehk100,2022-04-11,1.0,observed_positive,0.9312966501926204
+"Capital Rx, Inc.",capitalrx,2022-06-13,1.0,observed_positive,0.9100613931610767
+AI21 Labs Ltd.,ai21,2022-07-12,1.0,observed_positive,0.8961330549105065
+"NovoCodex Biopharmaceuticals Co., Ltd.",novocodexbiopharmaceuticals,2022-07-06,0.0,observed_no_future_outcome,0.8718371604965592
+"Everyday Software, S.L.",everydaysoftwaresl,2022-10-11,0.0,observed_no_future_outcome,0.8683558685056934
+"Supplying Demand, Inc.",supplyingdemand,2022-01-03,1.0,observed_positive,0.8666179226750167
+Fervo Energy Company (NasdaqGS:FRVO),fervoenergynasdaqgsfrvo,2022-08-22,1.0,observed_positive,0.8512410230467039
+"Triana Biomedicines, Inc.",trianabiomedicines,2022-04-06,0.0,observed_no_future_outcome,0.8489459028996061
+"Kula Bio, Inc.",kulabio,2022-01-27,0.0,observed_no_future_outcome,0.8163086964652392
+"Memoir, Inc.",memoir,2022-01-11,0.0,observed_no_future_outcome,0.8081777358771488
+Colossal Biosciences Inc.,colossalbiosciences,2022-09-09,0.0,observed_no_future_outcome,0.795991743529388
+Roppen Transportation Services Private Limited,roppentransportationservicesprivate,2022-04-15,0.0,observed_no_future_outcome,0.7852792494032798
+"Statsig, Inc.",statsig,2022-04-20,0.0,observed_no_future_outcome,0.7339940575479639
+"ZenLeads, Inc.",zenleads,2022-03-03,1.0,observed_positive,0.6754545834327914
+"Deepgram, Inc.",deepgram,2022-11-29,0.0,observed_no_future_outcome,0.6635190014288175
+"24M Technologies, Inc.",24m,2022-01-18,1.0,observed_positive,0.6318681114857047
+"Utilidata, Inc.",utilidata,2022-02-08,0.0,observed_no_future_outcome,0.6316363818036049
+Partly Group Limited,partly,2022-12-12,0.0,observed_no_future_outcome,0.622922915222294
+"Elemental Machines, Inc.",elementalmachines,2022-11-17,0.0,observed_no_future_outcome,0.6056915721501684
+"Guangzhou Smartmore Information Technology Co, Ltd.",guangzhousmartmoreinformation,2022-12-13,1.0,observed_positive,0.5633407696920226
+"Lendbuzz Funding, LLC",lendbuzzfunding,2022-10-20,1.0,observed_positive,0.5540632523970387
+Wisq Inc.,wisq,2022-04-25,0.0,observed_no_future_outcome,0.5512446058550482
+"BaseTen Labs, Inc.",baseten,2022-04-26,0.0,observed_no_future_outcome,0.5291347100507476
+Moneyview Limited,moneyview,2022-03-09,1.0,observed_positive,0.5259258097543739
+"Anrok, Inc.",anrok,2022-03-01,0.0,observed_no_future_outcome,0.5218087457186161
+"Tender Food, Inc.",tenderfood,2022-02-15,0.0,observed_no_future_outcome,0.5063153675856908
+Liquidity Capital M.C. Ltd,liquiditycapitalmc,2022-04-05,1.0,observed_positive,0.5046665223619514
+Ursa Space Systems Inc.,ursaspacesystems,2022-03-17,0.0,observed_no_future_outcome,0.4821919830757159
+Turaco Inc.,turaco,2022-09-15,0.0,observed_no_future_outcome,0.48134111350205305
+"Epicore Biosystems, Inc.",epicorebiosystems,2022-02-09,0.0,observed_no_future_outcome,0.47079959960156004
+"Kareo, Inc.",kareo,2022-07-18,0.0,observed_no_future_outcome,0.46665724494943917
+"Alitheon, Inc.",alitheon,2022-09-13,0.0,observed_no_future_outcome,0.4359176547541864
+"Lucid Green, Inc.",lucidgreen,2022-04-26,0.0,observed_no_future_outcome,0.4020327163343299
+"ArmorCode, Inc.",armorcode,2022-01-25,0.0,observed_no_future_outcome,0.29447163169071106
+"Walla Software, Inc.",wallasoftware,2022-07-14,0.0,observed_no_future_outcome,0.25416050760707704
+"Chronic Care Management, Inc.",chroniccaremanagement,2022-08-22,0.0,observed_no_future_outcome,0.22539567893085982
+"MontyCloud, Inc.",montycloud,2022-02-21,0.0,observed_no_future_outcome,0.2015324930643946
+"Daupler, Inc.",daupler,2022-02-09,0.0,observed_no_future_outcome,0.1482904565759233
+"CND Life Sciences, Inc.",cndlifesciences,2022-02-01,0.0,observed_no_future_outcome,0.14127675142606938

@@ -1,0 +1,114 @@
+company,company_key,prediction_date,target,label_state,ranking_score
+"Medable, Inc.",medable,2021-04-15,1.0,observed_positive,0.9442606436131245
+Megatronix Inc,megatronix,2021-07-31,0.0,observed_no_future_outcome,0.943793082989025
+Zepto Limited,zepto,2021-12-20,1.0,observed_positive,0.9409791670919979
+MiniMax Group Inc. (SEHK:100),minimaxsehk100,2022-04-11,1.0,observed_positive,0.9312966501926206
+"Pax8, Inc.",pax8,2021-01-06,1.0,observed_positive,0.9209542969881899
+"SPIC Hydrogen Energy Co., Ltd.",spichydrogenenergy,2021-12-30,1.0,observed_positive,0.9164887699045349
+"Capital Rx, Inc.",capitalrx,2022-06-13,1.0,observed_positive,0.9100613931610769
+FPL Technologies Pvt. Ltd.,fplpvt,2021-12-30,1.0,observed_positive,0.9073206944058815
+Yellow Drive Technologies Private Limited,yellowdriveprivate,2021-07-09,1.0,observed_positive,0.9045541628527247
+"Twin Health, Inc.",twinhealth,2021-12-17,0.0,observed_no_future_outcome,0.9041774632171792
+"Scorpion Therapeutics, Inc.",scorpiontherapeutics,2021-01-07,0.0,observed_no_future_outcome,0.8984262624282334
+AI21 Labs Ltd.,ai21,2022-07-12,1.0,observed_positive,0.8961330549105065
+OFB Tech Ltd,ofbtech,2021-04-08,1.0,observed_positive,0.894147573730336
+Choco Communications GmbH,chococommunicationsgmbh,2021-07-20,1.0,observed_positive,0.8920369548615185
+"Tulip Interfaces, Inc.",tulipinterfaces,2021-08-10,0.0,observed_no_future_outcome,0.8842845698301139
+SWORD Health Lda.,swordhealthlda,2021-06-30,1.0,observed_positive,0.8822955231231837
+"NovoCodex Biopharmaceuticals Co., Ltd.",novocodexbiopharmaceuticals,2022-07-06,0.0,observed_no_future_outcome,0.8718371604965593
+"Everyday Software, S.L.",everydaysoftwaresl,2022-10-11,0.0,observed_no_future_outcome,0.8683558685056932
+"Supplying Demand, Inc.",supplyingdemand,2022-01-03,1.0,observed_positive,0.8666179226750168
+"KBI Services, Inc.",kbiservices,2021-06-25,1.0,observed_positive,0.8610339770238934
+Fervo Energy Company (NasdaqGS:FRVO),fervoenergynasdaqgsfrvo,2022-08-22,1.0,observed_positive,0.8512410230467042
+"Triana Biomedicines, Inc.",trianabiomedicines,2022-04-06,0.0,observed_no_future_outcome,0.8489459028996059
+"Chronosphere, Inc.",chronosphere,2021-01-05,1.0,observed_positive,0.8480303210359266
+"Persona Identities, Inc.",personaidentities,2021-05-04,1.0,observed_positive,0.8357475503994362
+"Kula Bio, Inc.",kulabio,2022-01-27,0.0,observed_no_future_outcome,0.8163086964652393
+"Memoir, Inc.",memoir,2022-01-11,0.0,observed_no_future_outcome,0.8081777358771484
+Colossal Biosciences Inc.,colossalbiosciences,2022-09-09,0.0,observed_no_future_outcome,0.7959917435293874
+Roppen Transportation Services Private Limited,roppentransportationservicesprivate,2022-04-15,0.0,observed_no_future_outcome,0.7852792494032801
+"CloudWalk, Inc.",cloudwalk,2021-05-12,1.0,observed_positive,0.7447942881800732
+NTEx Transportation Services Pvt Ltd,ntextransportationservicespvt,2021-04-29,1.0,observed_positive,0.7428437650281786
+"Statsig, Inc.",statsig,2022-04-20,0.0,observed_no_future_outcome,0.7339940575479639
+"Saildrone, Inc.",saildrone,2021-10-18,0.0,observed_no_future_outcome,0.7197225698220949
+Sanghvi Beauty & Technologies Pvt Ltd,sanghvibeautypvt,2021-09-28,1.0,observed_positive,0.7144021431677063
+Strand Therapeutics Inc.,strandtherapeutics,2021-07-27,0.0,observed_no_future_outcome,0.7136216906133875
+"BlossomHill Therapeutics, Inc.",blossomhilltherapeutics,2021-03-01,0.0,observed_no_future_outcome,0.7017314427638839
+"BillionToOne, Inc. (NasdaqGS:BLLN)",billiontoonenasdaqgsblln,2021-06-14,0.0,observed_no_future_outcome,0.6960939789177989
+"ZipStorm, Inc.",zipstorm,2021-03-09,1.0,observed_positive,0.6941558952169866
+"Divvy Homes, Inc.",divvyhomes,2021-02-02,1.0,observed_positive,0.6936672774711143
+OneSource Specialty Pharma Limited (NSEI:ONESOURCE),onesourcespecialtypharmanseionesource,2021-03-19,0.0,observed_no_future_outcome,0.6903872894869586
+"Cohere Health, Inc.",coherehealth,2021-04-13,0.0,observed_no_future_outcome,0.6804262987407661
+"ZenLeads, Inc.",zenleads,2022-03-03,1.0,observed_positive,0.6754545834327913
+"Marketing Evolution, Inc.",marketingevolution,2021-02-03,0.0,observed_no_future_outcome,0.6732216576030668
+Employment Hero Pty Ltd,employmentheropty,2021-03-01,1.0,observed_positive,0.6671314926421249
+"Deepgram, Inc.",deepgram,2022-11-29,0.0,observed_no_future_outcome,0.6635190014288174
+Zero Hash Holdings Ltd.,zerohash,2021-09-30,0.0,observed_no_future_outcome,0.6569561880403061
+"Vizgen, Inc.",vizgen,2021-04-07,0.0,observed_no_future_outcome,0.6568854947080242
+Flutterwave Incorporated,flutterwave,2021-02-11,0.0,observed_no_future_outcome,0.6560483345262841
+"Cowbell Cyber, Inc.",cowbellcyber,2021-03-11,0.0,observed_no_future_outcome,0.6332853692424766
+"24M Technologies, Inc.",24m,2022-01-18,1.0,observed_positive,0.6318681114857045
+"Utilidata, Inc.",utilidata,2022-02-08,0.0,observed_no_future_outcome,0.6316363818036052
+Hefei Kuxin Microelectronics Limited,hefeikuxinmicroelectronics,2021-12-31,0.0,observed_no_future_outcome,0.6310160729461409
+"Airbyte, Inc.",airbyte,2021-05-25,1.0,observed_positive,0.6305547031417083
+Kytopen Corp,kytopen,2021-10-08,0.0,observed_no_future_outcome,0.6294069464458623
+Partly Group Limited,partly,2022-12-12,0.0,observed_no_future_outcome,0.6229229152222941
+"Via Separations, Inc.",viaseparations,2021-10-21,0.0,observed_no_future_outcome,0.621662631985168
+Ziglu Limited,ziglu,2021-10-31,0.0,observed_no_future_outcome,0.615493146474023
+"Biobot Analytics, Inc.",biobotanalytics,2021-10-29,0.0,observed_no_future_outcome,0.6151595476606142
+"Oyster HR, Inc.",oysterhr,2021-02-02,0.0,observed_no_future_outcome,0.6142606278482371
+"Elemental Machines, Inc.",elementalmachines,2022-11-17,0.0,observed_no_future_outcome,0.6056915721501684
+"Rarefied Atmosphere, Inc.",rarefiedatmosphere,2021-04-22,1.0,observed_positive,0.5992868575965281
+"Beijing Lezi Tiancheng Cultural Development Co., Ltd.",beijinglezitianchengculturaldevelopment,2021-12-31,0.0,observed_no_future_outcome,0.5879116166965951
+"Nocion Therapeutics, Inc.",nociontherapeutics,2021-08-31,0.0,observed_no_future_outcome,0.5847138070035007
+"Apnimed, Inc. (NasdaqGM:APMD)",apnimednasdaqgmapmd,2021-03-25,0.0,observed_no_future_outcome,0.575609151962168
+"Netradyne, Inc.",netradyne,2021-07-15,0.0,observed_no_future_outcome,0.5703773228356778
+Juspay Technologies Private Limited,juspayprivate,2021-12-15,0.0,observed_no_future_outcome,0.5686298217013518
+"Freetech (Zhejiang) Intelligent Technology Co., Ltd.",freetechzhejiangintelligent,2021-10-31,0.0,observed_no_future_outcome,0.5642197473099245
+"Guangzhou Smartmore Information Technology Co, Ltd.",guangzhousmartmoreinformation,2022-12-13,1.0,observed_positive,0.5633407696920224
+"Bloomreach, Inc.",bloomreach,2021-01-26,1.0,observed_positive,0.5586902716212576
+"Lendbuzz Funding, LLC",lendbuzzfunding,2022-10-20,1.0,observed_positive,0.5540632523970386
+Wisq Inc.,wisq,2022-04-25,0.0,observed_no_future_outcome,0.5512446058550484
+"Cyberhaven, Inc.",cyberhaven,2021-12-14,0.0,observed_no_future_outcome,0.5460840255241532
+Yugabytedb Inc.,yugabytedb,2021-03-03,1.0,observed_positive,0.5456683462257954
+"BaseTen Labs, Inc.",baseten,2022-04-26,0.0,observed_no_future_outcome,0.5291347100507473
+Moneyview Limited,moneyview,2022-03-09,1.0,observed_positive,0.5259258097543738
+"Anrok, Inc.",anrok,2022-03-01,0.0,observed_no_future_outcome,0.5218087457186162
+"Lukka, Inc.",lukka,2021-03-25,1.0,observed_positive,0.5195809728741315
+"Real Magic, Inc.",realmagic,2021-02-25,0.0,observed_no_future_outcome,0.5082321285491115
+"Tender Food, Inc.",tenderfood,2022-02-15,0.0,observed_no_future_outcome,0.5063153675856908
+Liquidity Capital M.C. Ltd,liquiditycapitalmc,2022-04-05,1.0,observed_positive,0.5046665223619513
+"Shanghai Seer Intelligent Technology Co., Ltd. (SEHK:6106)",shanghaiseerintelligentsehk6106,2021-03-31,0.0,observed_no_future_outcome,0.4991731747920415
+Ursa Space Systems Inc.,ursaspacesystems,2022-03-17,0.0,observed_no_future_outcome,0.4821919830757159
+Turaco Inc.,turaco,2022-09-15,0.0,observed_no_future_outcome,0.48134111350205305
+"Convalife Pharmaceuticals Co., Ltd.",convalifepharmaceuticals,2021-01-12,0.0,observed_no_future_outcome,0.4718375471387402
+"Epicore Biosystems, Inc.",epicorebiosystems,2022-02-09,0.0,observed_no_future_outcome,0.4707995996015601
+"Kareo, Inc.",kareo,2022-07-18,0.0,observed_no_future_outcome,0.46665724494943944
+"Via Science, Inc.",viascience,2021-05-11,0.0,observed_no_future_outcome,0.4585334800384853
+"Alitheon, Inc.",alitheon,2022-09-13,0.0,observed_no_future_outcome,0.43591765475418637
+"Suzhou Vigonvita Biopharmaceutical Co., Ltd.",suzhouvigonvitabiopharmaceutical,2021-09-29,0.0,observed_no_future_outcome,0.43285971082065555
+Cre8tech Labs Inc.,cre8tech,2021-09-13,0.0,observed_no_future_outcome,0.42672615903584377
+"Lucid Green, Inc.",lucidgreen,2022-04-26,0.0,observed_no_future_outcome,0.4020327163343298
+"Pison Technology, Inc.",pison,2021-11-05,0.0,observed_no_future_outcome,0.3373056141706628
+"MetaCX, Inc.",metacx,2021-09-27,0.0,observed_no_future_outcome,0.31570045247113726
+"ArmorCode, Inc.",armorcode,2022-01-25,0.0,observed_no_future_outcome,0.2944716316907111
+"GeneCentric Therapeutics, Inc.",genecentrictherapeutics,2021-11-08,0.0,observed_no_future_outcome,0.28331951111976356
+"Maui Imaging, Inc.",mauiimaging,2021-03-22,0.0,observed_no_future_outcome,0.2800743081770969
+"Teal Labs, Inc.",teal,2021-12-22,0.0,observed_no_future_outcome,0.27646033509852064
+"Walla Software, Inc.",wallasoftware,2022-07-14,0.0,observed_no_future_outcome,0.254160507607077
+"PowerTech Water, Inc.",powertechwater,2021-12-14,0.0,observed_no_future_outcome,0.2385634697076232
+"Pet Screening, Inc.",petscreening,2021-06-10,0.0,observed_no_future_outcome,0.23018684119739086
+"Lawrenceville Plasma Physics, Inc.",lawrencevilleplasmaphysics,2021-08-14,0.0,observed_no_future_outcome,0.2262616228422875
+"Chronic Care Management, Inc.",chroniccaremanagement,2022-08-22,0.0,observed_no_future_outcome,0.2253956789308598
+"KetoNatural Pet Foods, Inc.",ketonaturalpetfoods,2021-03-05,0.0,observed_no_future_outcome,0.21969121162620509
+"MontyCloud, Inc.",montycloud,2022-02-21,0.0,observed_no_future_outcome,0.20153249306439458
+"Quantum Simulation Technologies, Inc.",quantumsimulation,2021-04-08,0.0,observed_no_future_outcome,0.19070226774290916
+"Factal, Inc.",factal,2021-06-03,0.0,observed_no_future_outcome,0.17929884023820175
+"Mf Fire, Inc.",mffire,2021-03-12,0.0,observed_no_future_outcome,0.17056786709560334
+Celestial AI Inc.,celestialai,2021-01-05,0.0,observed_no_future_outcome,0.1612993378885569
+"Daupler, Inc.",daupler,2022-02-09,0.0,observed_no_future_outcome,0.14829045657592332
+"CND Life Sciences, Inc.",cndlifesciences,2022-02-01,0.0,observed_no_future_outcome,0.14127675142606935
+"CredibleMind, Inc.",crediblemind,2021-06-07,0.0,observed_no_future_outcome,0.10732498470117827
+Disaster Technologies Incorporated,disaster,2021-04-27,0.0,observed_no_future_outcome,0.1014330167317309
+Alkaidsemi (Shanghai) Technologies Corporation,alkaidsemishanghai,2021-01-31,0.0,observed_no_future_outcome,0.10084081600806404
+"Flower Turbines, Inc.",flowerturbines,2021-03-04,0.0,observed_no_future_outcome,0.0965401699516544

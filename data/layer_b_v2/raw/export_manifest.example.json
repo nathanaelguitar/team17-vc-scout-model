@@ -1,0 +1,23 @@
+{
+  "extract_as_of_date": "YYYY-MM-DD",
+  "vendor": "S&P Capital IQ",
+  "population_definition": "All globally covered private companies with at least two private financings; active, IPO, acquired, inactive, bankrupt, and delisted entities retained.",
+  "files": {
+    "companies.csv": {
+      "grain": "one row per immutable Capital IQ company/entity ID",
+      "required_concepts": ["company ID", "coverage start date", "coverage end date", "status", "founding date", "industry", "country"]
+    },
+    "transactions.csv": {
+      "grain": "one row per financing transaction",
+      "required_concepts": ["company ID", "CIQ Transaction ID", "announced or closed date", "transaction type", "status", "amount", "post-money valuation"]
+    },
+    "valuations.csv": {
+      "grain": "one row per dated company valuation",
+      "required_concepts": ["company ID", "valuation date", "value", "currency or USD value", "source/verification date"]
+    },
+    "lifecycle.csv": {
+      "grain": "one row per dated lifecycle or exit event",
+      "required_concepts": ["company ID", "event type", "effective date", "source/verification date"]
+    }
+  }
+}

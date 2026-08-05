@@ -1,0 +1,31 @@
+company_key,company,landmark_date,is_unicorn_within_horizon,label_basis,probability,horizon_years
+supabase,"Supabase, Inc.",2024-05-09,1,first_ge_1b_event_within_horizon,0.9018688408723261,2
+semitech,Semi-tech,2025-05-04,1,first_ge_1b_event_within_horizon,0.8440444896199601,2
+lonegull,"Lone Gull Holdings, Ltd.",2024-02-25,0,no_known_event_plus_later_sub_1b_round_proxy,0.8192650426742719,2
+hydrahost,"Hydra Host, Inc.",2024-03-22,0,no_known_event_plus_later_sub_1b_round_proxy,0.5585316828193249,2
+ably,"ABLY Corp., Inc.",2024-02-03,1,first_ge_1b_event_within_horizon,0.8879273392706613,2
+beijingsiliconflow,"Beijing SiliconFlow Technology Co., Ltd.",2025-12-30,1,first_ge_1b_event_within_horizon,0.47546307475705346,2
+omnianalytics,"Omni Analytics, Inc.",2024-08-15,1,first_ge_1b_event_within_horizon,0.4378017817617821,2
+entrepreneurfirstoperations,Entrepreneur First Operations Limited,2024-06-27,1,first_ge_1b_event_within_horizon,0.952509920743916,2
+glossgenius,"GlossGenius, Inc.",2025-07-26,1,first_ge_1b_event_within_horizon,0.7234124062330182,2
+runwayai,"Runway AI, Inc.",2024-12-04,1,first_ge_1b_event_within_horizon,0.7740910486200511,2
+workos,"WorkOS, Inc.",2024-11-30,1,first_ge_1b_event_within_horizon,0.8948003186238048,2
+sigo,Sigo Technologies Inc.,2024-04-06,0,no_known_event_plus_later_sub_1b_round_proxy,0.44604483262412453,2
+tennortherapeuticssuzhousehk6872,TenNor Therapeutics (Suzhou) Limited (SEHK:6872),2024-12-20,1,first_ge_1b_event_within_horizon,0.42947982717652605,2
+onebrief,"Onebrief, Inc.",2024-10-11,1,first_ge_1b_event_within_horizon,0.32944909567274094,2
+langchain,"LangChain, Inc.",2025-03-30,1,first_ge_1b_event_within_horizon,0.59822970051177,2
+equipifi,"Equipifi, Inc.",2024-05-05,0,no_known_event_plus_later_sub_1b_round_proxy,0.36839856425933254,2
+raisefintechventuresprivate,Raise Fintech Ventures Private Limited,2024-01-25,1,first_ge_1b_event_within_horizon,0.45571324355730986,2
+multiversecomputing,Multiverse Computing,2026-03-05,1,first_ge_1b_event_within_horizon,0.6017397394191466,2
+whop,"Whop, Inc.",2025-07-19,1,first_ge_1b_event_within_horizon,0.5980497990841648,2
+crownaffair,"Crown Affair, Inc.",2024-03-24,0,no_known_event_plus_later_sub_1b_round_proxy,0.10187335990199436,2
+baseten,"BaseTen Labs, Inc.",2024-04-25,1,first_ge_1b_event_within_horizon,0.3419792663350848,2
+spreeai,SpreeAI Corporation,2024-11-21,1,first_ge_1b_event_within_horizon,0.48467131131739966,2
+adaptive,"Adaptive Holdings, LLC",2024-02-27,0,no_known_event_plus_later_sub_1b_round_proxy,0.08130505080611003,2
+apex,"Apex Technology, Inc.",2024-10-23,1,first_ge_1b_event_within_horizon,0.5678590845416315,2
+kuehnleagrosystems,"Kuehnle Agrosystems, Inc.",2024-04-04,0,no_known_event_plus_later_sub_1b_round_proxy,0.012914427483690216,2
+redotech,"Redo Tech, Inc.",2024-07-19,1,first_ge_1b_event_within_horizon,0.4256010445949273,2
+nourish,"Nourish, Inc.",2025-01-20,1,first_ge_1b_event_within_horizon,0.5913797555708035,2
+etchedai,"Etched.ai, Inc.",2025-05-15,1,first_ge_1b_event_within_horizon,0.2966391487754643,2
+beijingyanyu,"Beijing Yanyu Technology Co., Ltd.",2025-07-22,1,first_ge_1b_event_within_horizon,0.10877968516434096,2
+allencontrolsystems,Allen Control Systems Inc.,2026-04-18,1,first_ge_1b_event_within_horizon,0.4652912173805164,2

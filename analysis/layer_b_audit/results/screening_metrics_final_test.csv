@@ -1,0 +1,5 @@
+screening_bucket,companies_screened,positives_found,precision,recall_captured,lift_over_base_rate,number_needed_to_screen,method
+0.01,11,11,1.0,0.020522388059701493,2.0,1.0,platt_2023
+0.05,54,54,1.0,0.10074626865671642,2.0,1.0,platt_2023
+0.1,108,108,1.0,0.20149253731343283,2.0,1.0,platt_2023
+0.2,215,215,1.0,0.40111940298507465,2.0,1.0,platt_2023

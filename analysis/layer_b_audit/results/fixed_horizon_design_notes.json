@@ -1,0 +1,8 @@
+{
+  "landmark": "two years after the first supplied sub-$1B private-placement record",
+  "feature_cutoff": "strictly before landmark_date",
+  "positive": "first supplied >=$1B post-money event occurs within the horizon",
+  "negative": "no supplied >=$1B event in horizon AND a supplied sub-$1B round at/after horizon end",
+  "censoring": "companies without the required later low-valuation round are excluded as unknown/censored",
+  "limitation": "later round is an observation proxy; supplied files lack Capital IQ coverage start/end and company status"
+}

@@ -1,0 +1,5 @@
+,missing_max_feature_round_date,missing_max_feature_round_date,missing_max_feature_round_date,missing_founding_date,missing_founding_date,missing_founding_date,unmatched_master_record,unmatched_master_record,unmatched_master_record,ambiguous_master_record,ambiguous_master_record,ambiguous_master_record,no_observed_pre_round,no_observed_pre_round,no_observed_pre_round,has_pre_round,has_pre_round,has_pre_round,days_since_last_pre_round,days_since_last_pre_round,days_since_last_pre_round
+,mean,sum,count,mean,sum,count,mean,sum,count,mean,sum,count,mean,sum,count,mean,sum,count,mean,sum,count
+is_unicorn,,,,,,,,,,,,,,,,,,,,,
+0,0.0,0,2034,0.7035398230088495,1431,2034,0.6170108161258604,1255,2034,0.0,0,2034,0.0,0,2034,1.0,2034,2034,692.3416912487709,1408223,2034
+1,0.6130776794493609,1247,2034,0.7910521140609637,1609,2034,0.6705998033431662,1364,2034,0.0024582104228121925,5,2034,0.6130776794493609,1247,2034,0.38692232055063913,787,2034,367.89970501474926,748308,2034
