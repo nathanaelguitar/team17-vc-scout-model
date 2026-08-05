@@ -82,29 +82,29 @@ Are those differences real? Kruskal-Wallis says yes. p equals 5.1e-12 on valuati
 But here's the twist we didn't expect. Years-to-unicorn didn't move. The median stayed around six years, p equals 0.267. Not significant. So 2021 changed how much capital and valuation a unicorn carries. It did not change how fast companies got there. It's a capital regime, not a speed regime.
 One caution before anyone writes it down: the data flags the discontinuity. It does not prove COVID caused it. That would take external rate and funding data we don't have.
 What it means downstream is simple. Every benchmark you're about to see carries an era feature, and 2021 gets reported separately, so a hot-year cohort can't distort a comparison.
-Those are the variables. Finn has the machine we raced on top of them.
+Those are the variables. Now, the machine we raced on top of them.
 
 ---
 
-## M-06 · TOURNAMENT (model & tools) — Finn · about 2 min
+## M-06 · TOURNAMENT (model & tools) — Mia · about 2 min
 
 STAGE: Strips race in sequentially, then the test diamonds drop. Pause and let the race finish before naming the winner. One press moves on.
 
-FINN: Seven models, one fair race. Same folds for everyone, same held-out test set, 99 hyperparameter combinations searched, all of it on seed 17. The tools are on the slide: Python, pandas ETL in a bronze-silver-gold structure, scikit-learn pipelines, GridSearchCV, and a bootstrap with 2,000 resamples.
+MIA: Seven models, one fair race. Same folds for everyone, same held-out test set, 99 hyperparameter combinations searched, all of it on seed 17. The tools are on the slide: Python, pandas ETL in a bronze-silver-gold structure, scikit-learn pipelines, GridSearchCV, and a bootstrap with 2,000 resamples.
 *(beat: let the strips race in and the diamonds drop)*
 The baseline scores zero, which is exactly what a baseline should do. The linear models cluster in the mid-forties. And gradient boosting takes it: 0.46 cross-validated, 0.51 on the test set.
 Three things about that race for the technical folks in the room. Every transform was fit inside the training folds, so nothing leaked. The test set got touched exactly once. And we banned funding efficiency as a feature, because it contains the target. Using it would've been cheating.
 Also look at the champion's shape. 200 trees, learning rate 0.03, depth 2, subsample 0.8. It's a third the size of the random forest, with no gap between CV and test. Regularization beat horsepower.
 In dollars: a median miss of 37 percent of valuation, versus 77 percent if you just guessed the average. Half the error, from public fields alone. The bootstrap interval runs 0.39 to 0.61.
-So, 0.51. Nice number. Don't fall in love with it. It was earned on the winners-only file. Nathanael, tell them what the expanded data looked like when it showed up.
+So, 0.51. Nice number. Don't fall in love with it. It was earned on the winners-only file. And you should see what the expanded data looked like when it showed up.
 
 ---
 
-## M-07 · AUDIT (challenges & mitigation) — Nathanael · about 2 min
+## M-07 · AUDIT (challenges & mitigation) — Mia · about 2 min
 
 STAGE: TWO BUILDS on this slide. First press: 950 cells flip red with corruption strikes. Second press: the gold refold wave sweeps through with a live counter to 950/950. Rehearse the pause between presses. This is the deck's signature moment.
 
-NATHANAEL: The expanded data arrived broken. Not subtly broken. Broken in a way you can prove.
+MIA: The expanded data arrived broken. Not subtly broken. Broken in a way you can prove.
 Here's how we caught it. 1,058 unicorn rows carried both a funding number and a valuation. That made a sanity check possible, because a company's total funding should not exceed its own valuation.
 *(FIRST PRESS: cells flip red. Pause. Let them look.)*
 Every red cell just failed that check. 950 out of 1,058. Ninety percent of the checkable rows had funding recorded one thousand times too large. Unit corruption. My favorite example is VAST Data: $263 billion of recorded funding against an $80 billion valuation. The real number is $263 million.
@@ -112,36 +112,36 @@ Every red cell just failed that check. 950 out of 1,058. Ninety percent of the c
 The fix is deliberately boring. Divide the suspect values by a thousand. Keep every raw value in the master, so the correction is reversible. Re-run the check. After correction: zero rows where funding exceeds valuation. 950 out of 950, refolded.
 One more piece of context. We pulled SEC Form D filings for Q2 2026. 238 mega-raises of $100 million or more. 156 of them are likely non-startup vehicles, and they hold 77 percent of the mega-raise dollars. We keep that as market context. It never touches training data.
 The point here isn't that upstream sources are bad. The point is process. Audit before you believe.
-Finn, show them what the audit did to our favorite number.
+Now watch what the audit did to our favorite number.
 
 ---
 
-## M-08 · REFOLD (the honest number) — Finn · about 1.5 min
+## M-08 · REFOLD (the honest number) — Mia · about 1.5 min
 
 STAGE: The 0.51 bar rises first, then visibly refolds down to 0.303; the stress bar lands tiny; the curve draws. Let the refold finish before the first line. One press moves on.
 
-FINN: *(beat: watch the bar fold down with the room)*
+MIA: *(beat: watch the bar fold down with the room)*
 It cut it almost in half. The 0.51 you liked two slides ago becomes 0.303 once we rebuild on audited funding across the unicorn-history tiers. Cross-validated 0.397. Mean absolute error, 0.48 log units. Median error, 40 percent of valuation.
 And we lead with the smaller number on purpose. The 0.51 was real, but it was earned on a winners-only file with corrupted units. The 0.303 survives diligence. We know which one our coach would put on a slide.
 Two more things here. The stress test: pull funding out of the model entirely and R² collapses to 0.045. Public fields beyond funding carry very little. That's the humility check.
 And the curve in the middle is the elasticity: 0.494 on a log-log fit. In plain English, doubling a company's capital buys about 41 percent more expected valuation. Not double. Diminishing returns, measured.
 We're not apologizing for any of this. Honest signal from public fields looks exactly like this.
-Mia, show them what the market was doing underneath the benchmark.
+Om, show them what the market was doing underneath the benchmark.
 
 ---
 
-## M-09 · TRAJECTORIES (variables & relationships II) — Mia · about 1.5 min
+## M-09 · TRAJECTORIES (variables & relationships II) — Om · about 1.5 min
 
 STAGE: ONE BUILD. The field of gray strands draws first. Press the right arrow to light the ten star companies and labels. Then physically hover one gray strand with the mouse so the room sees the live tooltip.
 
-MIA: Every gray strand on the right is one unicorn's valuation across four snapshots: 2022, 2024, 2025, and 2026. 838 companies carry all four points, and 1,313 strands have at least two.
+OM: Every gray strand on the right is one unicorn's valuation across four snapshots: 2022, 2024, 2025, and 2026. 838 companies carry all four points, and 1,313 strands have at least two.
 *(PRESS the right arrow: the ten names light up)*
 Three stories, and then I'll leave the chart alone. OpenAI: $3 billion to $840 billion across four snapshots. That's 280 times, while Anthropic reached $965 billion. Stripe is the honest middle story: $95 billion down to $70, back up to $159. Dip and recovery. And Klarna: $46 billion down to $6.7, recovering only to $14.5.
 This chart is live, by the way.
 *(hover any gray strand: tooltip shows its company and values)*
 Any strand I hover shows you its company. These are recorded snapshots, not forecasts, so we're not going to editorialize about anyone's future.
 But this is exactly why the project exists. Raw valuations swing by orders of magnitude in both directions. A raw price tag tells you almost nothing.
-Om, so what's the actual signal?
+So what's the actual signal?
 
 ---
 
@@ -189,32 +189,32 @@ We also ran a chronological forward test. Train through 2023 on 2,996 rows, then
 Top feature: days since the last pre-round, at 43 percent of importance. Momentum is real signal. It's also the feature most exposed to matching artifacts, and we flag that on the slide itself.
 Now the warning card, and this is the part I want you to remember. A plain logistic regression already reaches 0.974. A mixed-source diagnostic hits 0.993. When separation is that easy, you suspect the data before you celebrate the model.
 So we report this as historical screening. Never as a probability of success. Controls are defined by the absence of a recorded billion-dollar round, and right-censoring is real.
-Om, we promised verdicts. The scoreboard.
+And we promised you verdicts. The scoreboard.
 
 ---
 
-## M-13 · HYPOTHESES (learnings) — Om · about 1 min
+## M-13 · HYPOTHESES (learnings) — Nathanael · about 1 min
 
 STAGE: Stamps slam in staggered with a slight rotation. Fast slide. Let the red DISPROVEN stamp do the work. One press moves on.
 
-OM: We committed to five hypotheses in advance. Here come the verdicts.
+NATHANAEL: We committed to five hypotheses in advance. Here come the verdicts.
 *(beat: stamps land)*
 Supported: 2021 is its own regime. Supported: funding predicts valuation with diminishing returns. R² 0.30, stress test 0.05, elasticity about 0.49. Partial: sector and geography add real but secondary signal.
 Disproven. Look at the red ink. We built a 75,230-row universe hoping it would solve survivorship bias, and it didn't. Sources mix across time, and valuation coverage is 2.4 percent. We're saying that in ink, on a slide, in front of the graders, because a finding you can't falsify is marketing.
 Not proven: investor count alone carries roughly zero importance. Which, conveniently, tells us what to build next.
-So what should a scout actually do with all this? The playbook.
+So what should a scout actually do with all this? Finn, the playbook.
 
 ---
 
-## M-14 · PLAYBOOK (recommendations) — Om · about 1 min
+## M-14 · PLAYBOOK (recommendations) — Finn · about 1 min
 
 STAGE: Rows fold in, run-column then refuse-column. Don't soften the refuse column. Its bluntness is the persuasion. One press moves on.
 
-OM: Four things to run. Three things to refuse.
+FINN: Four things to run. Three things to refuse.
 Run this. Rank segments by benchmark residuals, never by raw valuation. Treat 2021 as its own regime. Attach a confidence flag to every ranking, every time. South Korea at twelve companies stays a watchlist entry. And add investor-network features next, because a raw count did nothing.
 Now refuse this, and the refusals matter just as much. Don't sell success probabilities. Don't train on Form D noise; 77 percent of those mega-raise dollars aren't startups. And don't reward raw capital raised. Elasticity 0.49 says the market doesn't either.
 A fund could adopt this Monday morning.
-Finn, zoom out once.
+Let's zoom out once.
 
 ---
 
@@ -229,7 +229,7 @@ Before we close: what this project taught us.
 
 ---
 
-## M-16 · CARRY (insights & takeaways) — Finn or Om · about 1 min
+## M-16 · CARRY (insights & takeaways) — Finn · about 1 min
 
 STAGE: Takeaway cards fold in on the left, the prediction card lands on the right. One press moves on.
 
